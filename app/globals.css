@@ -1,0 +1,253 @@
+:root {
+  /* Palette — carnet de laboratoire */
+  --paper: #F7F6F2;
+  --paper-line: #E4E1D8;
+  --ink: #1B2B26;
+  --ink-soft: #4A564F;
+  --sage: #5C7A63;
+  --sage-light: #E4EBE2;
+  --sage-dark: #33473A;
+  --accent: #D8572E;
+  --accent-dark: #A63F1F;
+  --accent-light: #FBE6DC;
+
+  --font-display: var(--font-display-loaded), sans-serif;
+  --font-body: var(--font-body-loaded), sans-serif;
+  --font-mono: var(--font-mono-loaded), monospace;
+
+  --radius: 6px;
+  --max-width: 780px;
+}
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  line-height: 1.15;
+  color: var(--ink);
+  margin: 0 0 0.5em;
+}
+
+h1 { font-size: 2.4rem; }
+h2 { font-size: 1.6rem; margin-top: 2.2em; }
+h3 { font-size: 1.2rem; margin-top: 1.6em; }
+
+p { margin: 0 0 1.1em; }
+
+a { color: var(--sage-dark); }
+
+.wrap {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--paper-line);
+  padding: 20px 0;
+}
+
+.site-header .wrap {
+  max-width: 960px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--ink);
+  text-decoration: none;
+  letter-spacing: -0.02em;
+}
+
+.logo span { color: var(--sage); }
+
+nav.main-nav { display: flex; gap: 20px; }
+nav.main-nav a {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: var(--ink-soft);
+}
+nav.main-nav a:hover { color: var(--sage-dark); }
+
+/* Eyebrow formule chimique — signature visuelle du site */
+.formula-eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--sage);
+  background: var(--sage-light);
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: var(--radius);
+  margin-bottom: 14px;
+}
+
+.hero {
+  padding: 64px 0 40px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  max-width: 960px;
+  margin: 0 auto 64px;
+  padding: 0 24px;
+}
+
+@media (max-width: 620px) {
+  .category-grid { grid-template-columns: 1fr; }
+}
+
+.category-card {
+  border: 1px solid var(--paper-line);
+  border-radius: var(--radius);
+  padding: 24px;
+  text-decoration: none;
+  color: var(--ink);
+  background: white;
+  transition: border-color 0.15s ease;
+}
+.category-card:hover { border-color: var(--sage); }
+
+.category-card .formula-eyebrow { margin-bottom: 10px; }
+.category-card h3 { margin-top: 0; }
+.category-card p { color: var(--ink-soft); margin-bottom: 0; font-size: 0.95rem; }
+
+.article-list {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0 24px 64px;
+}
+
+.article-row {
+  display: block;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--paper-line);
+  text-decoration: none;
+  color: var(--ink);
+}
+.article-row h3 { margin: 0 0 4px; font-size: 1.1rem; }
+.article-row p { margin: 0; color: var(--ink-soft); font-size: 0.92rem; }
+
+article.post {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 48px 24px 80px;
+}
+
+/* Bloc théorie — encart distinct du texte courant */
+.theory-block {
+  background: var(--sage-light);
+  border-left: 3px solid var(--sage);
+  border-radius: 0;
+  padding: 18px 22px;
+  margin: 24px 0;
+}
+.theory-block h4 {
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--sage-dark);
+  margin: 0 0 8px;
+}
+
+/* Tableau comparatif produits */
+table.compare {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 24px 0;
+  font-size: 0.95rem;
+}
+table.compare th, table.compare td {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--paper-line);
+}
+table.compare th {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+/* CTA affiliation — unique usage de la couleur accent sur tout le site */
+.cta-block {
+  border: 1px solid var(--accent-light);
+  background: var(--accent-light);
+  border-radius: var(--radius);
+  padding: 18px 20px;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.cta-block .cta-text strong { display: block; color: var(--ink); font-size: 1rem; }
+.cta-block .cta-text span { color: var(--ink-soft); font-size: 0.88rem; }
+
+.cta-button {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  background: var(--accent);
+  color: white;
+  padding: 10px 18px;
+  border-radius: var(--radius);
+  text-decoration: none;
+  white-space: nowrap;
+}
+.cta-button:hover { background: var(--accent-dark); }
+
+.trust-note {
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  border-top: 1px solid var(--paper-line);
+  padding-top: 12px;
+  margin-top: 40px;
+}
+
+.site-footer {
+  border-top: 1px solid var(--paper-line);
+  padding: 32px 0;
+  margin-top: 48px;
+}
+.site-footer .wrap {
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.site-footer a {
+  color: var(--ink-soft);
+  font-size: 0.85rem;
+  text-decoration: none;
+  margin-right: 16px;
+}
+
+.affiliate-disclosure {
+  font-size: 0.78rem;
+  color: var(--ink-soft);
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 24px 24px;
+}
