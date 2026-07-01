@@ -30,6 +30,8 @@ partie émergée expose le produit à l'air et donc à des moisissures de surfac
 dangereux en soi si on retire la moisissure, mais c'est un signe que le protocole n'est pas
 respecté correctement.
 
+![Chute du pH pendant la fermentation lactique](/images/lacto-fermentation-ph.svg)
+
 ## Ce qui n'est PAS un signe de danger (contrairement à une idée reçue)
 
 Le trouble du liquide, les petites bulles, l'odeur acide prononcée : ce sont des signes normaux
@@ -57,6 +59,29 @@ inhabituelle — dans ce cas, on jette sans hésiter.
 <div class="cta-text"><strong>Balance de précision</strong><span>Peser le sel précisément — pas "à l'œil"</span></div>
 <a class="cta-button" href="#" rel="sponsored noopener" target="_blank">Voir le prix →</a>
 </div>
+
+## La recette : carottes lacto-fermentées (bocal de 1 L)
+
+<table class="compare">
+<thead><tr><th>Ingrédient</th><th>Quantité</th></tr></thead>
+<tbody>
+<tr><td>Carottes (en bâtonnets ou rondelles)</td><td>500 g environ</td></tr>
+<tr><td>Eau non chlorée (filtrée ou de source)</td><td>500 ml</td></tr>
+<tr><td>Sel non iodé (gros sel ou sel fin sans additif)</td><td>15 g (soit 3 % de l'eau)</td></tr>
+<tr><td>Aromates optionnels</td><td>1 gousse d'ail, quelques grains de poivre</td></tr>
+</tbody>
+</table>
+
+**Étapes**
+
+1. Préparer la saumure : dissoudre les 15 g de sel dans les 500 ml d'eau tiède, laisser refroidir à température ambiante.
+2. Laver les carottes, les couper en bâtonnets, tasser dans le bocal avec les aromates.
+3. Verser la saumure jusqu'à immersion totale des légumes (utiliser un poids ou un petit récipient pour maintenir les carottes sous la surface si besoin).
+4. Fermer avec un couvercle à valve, ou un couvercle classique légèrement desserré (le CO₂ doit pouvoir s'échapper).
+5. Laisser fermenter 5 à 10 jours à température ambiante (18-22°C), à l'abri de la lumière directe.
+6. Goûter à partir du 5e jour : plus l'acidité est prononcée, plus la fermentation est avancée. Passer au réfrigérateur une fois le goût souhaité atteint — le froid ralentit fortement la fermentation sans l'arrêter.
+
+**Conservation** : plusieurs mois au réfrigérateur, toujours immergé sous la saumure.
 
 ## En résumé
 

@@ -30,6 +30,8 @@ résistantes — d'où un levain qui "ne lève plus".
 La fréquence de rafraîchi dépend de la température : à 20°C, un cycle de 12-24h est courant ; au
 réfrigérateur (4°C), l'activité ralentit fortement et un rafraîchi hebdomadaire suffit.
 
+![Cycle de rafraîchi du levain](/images/levain-cycle.svg)
+
 ## Suivre l'activité sans deviner
 
 Le réflexe "test du verre d'eau" (le levain flotte = il est prêt) est approximatif. Un suivi
@@ -54,6 +56,22 @@ double généralement de volume en 4 à 8h à température ambiante.
 <div class="cta-text"><strong>Balance de précision 1 g</strong><span>Respecter les ratios farine/eau à chaque rafraîchi</span></div>
 <a class="cta-button" href="#" rel="sponsored noopener" target="_blank">Voir le prix →</a>
 </div>
+
+## La recette : créer un levain à partir de rien (5-7 jours)
+
+<table class="compare">
+<thead><tr><th>Jour</th><th>Action</th></tr></thead>
+<tbody>
+<tr><td>Jour 1</td><td>Mélanger 50 g de farine de seigle ou T80 + 50 g d'eau tiède non chlorée dans un bocal. Couvrir sans fermer hermétiquement.</td></tr>
+<tr><td>Jour 2-3</td><td>De petites bulles peuvent apparaître puis disparaître (fermentation de départ, normale). Ne rien ajouter, observer.</td></tr>
+<tr><td>Jour 3-4</td><td>Premier rafraîchi : retirer la moitié du mélange, ajouter 50 g de farine + 50 g d'eau tiède. Répéter toutes les 24h.</td></tr>
+<tr><td>Jour 5-7</td><td>Le levain double de volume en moins de 8h après un rafraîchi : il est prêt à panifier.</td></tr>
+</tbody>
+</table>
+
+**Entretien une fois le levain actif** : rafraîchi 1:1:1 (poids égal de levain, farine, eau — par
+exemple 50 g + 50 g + 50 g), toutes les 24h à température ambiante ou une fois par semaine au
+réfrigérateur.
 
 ## Et pour la bière, le vin, la distillation ?
 

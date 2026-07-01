@@ -3,15 +3,24 @@ export default function MentionsLegales() {
     <main>
       <article className="post">
         <h1>Mentions légales</h1>
-        <p style={{ color: 'var(--accent-dark)', background: 'var(--accent-light)', padding: '12px 16px', borderRadius: 6 }}>
-          À compléter avant mise en ligne : identité de l&apos;éditeur (nom, statut auto-entrepreneur,
-          n° SIREN), adresse, hébergeur (nom + adresse de Vercel Inc. ou autre), directeur de
-          publication, contact.
-        </p>
+
         <h2>Éditeur du site</h2>
-        <p>[Nom / statut auto-entrepreneur / SIREN à compléter]</p>
+        <p>
+          Maxime Ruiz, entrepreneur individuel (auto-entrepreneur), immatriculé au RCS de Nîmes
+          sous le numéro SIREN 934 281 221. Activité : vente à distance.
+        </p>
+
         <h2>Hébergement</h2>
-        <p>[Nom et adresse de l&apos;hébergeur à compléter]</p>
+        <p>
+          Vercel Inc. — 340 S Lemon Ave #4133, Walnut, CA 91789, États-Unis.
+        </p>
+
+        <h2>Directeur de la publication</h2>
+        <p>Maxime Ruiz.</p>
+
+        <h2>Contact</h2>
+        <p>[Adresse email de contact à compléter]</p>
+
         <h2>Liens affiliés</h2>
         <p>
           Ce site contient des liens affiliés (notamment vers Amazon.fr dans le cadre du
@@ -23,3 +32,4 @@ export default function MentionsLegales() {
     </main>
   );
 }
+

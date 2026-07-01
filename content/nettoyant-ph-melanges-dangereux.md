@@ -26,6 +26,8 @@ dichlore gazeux (Cl₂), un gaz toxique qui attaque les voies respiratoires mêm
 concentration. Ce n'est pas une légende urbaine : c'est une réaction chimique documentée, et
 plusieurs intoxications domestiques y sont liées chaque année en France.
 
+![Échelle de pH des nettoyants et incompatibilité javel-acide](/images/ph-nettoyants.svg)
+
 **Règle simple : ne jamais mélanger l'eau de javel avec quoi que ce soit d'autre que de l'eau.**
 Pas de vinaigre, pas de détartrant, pas d'ammoniaque (autre mélange dangereux, qui produit de la
 chloramine).
@@ -56,6 +58,38 @@ utilisé séparément selon le type de salissure visé.
 <div class="cta-text"><strong>Cristaux de soude</strong><span>Dégraissant puissant, à manipuler avec gants</span></div>
 <a class="cta-button" href="#" rel="sponsored noopener" target="_blank">Voir le prix →</a>
 </div>
+
+## Les deux recettes, prêtes à l'emploi
+
+**Détartrant multi-usage (robinetterie, sanitaires, bouilloire)**
+
+<table class="compare">
+<thead><tr><th>Ingrédient</th><th>Quantité</th></tr></thead>
+<tbody>
+<tr><td>Acide citrique (poudre alimentaire)</td><td>100 g</td></tr>
+<tr><td>Eau tiède</td><td>1 L</td></tr>
+</tbody>
+</table>
+
+Dissoudre l'acide citrique dans l'eau tiède (dissolution plus rapide à chaud), verser dans un
+flacon spray. Pour le calcaire incrusté (bouilloire, pomme de douche), laisser agir 15-30 minutes
+avant de rincer. Se conserve plusieurs mois à température ambiante.
+
+**Dégraissant puissant (plaques de cuisson, hottes, four)**
+
+<table class="compare">
+<thead><tr><th>Ingrédient</th><th>Quantité</th></tr></thead>
+<tbody>
+<tr><td>Cristaux de soude</td><td>1 cuillère à soupe (environ 15 g)</td></tr>
+<tr><td>Eau chaude</td><td>1 L</td></tr>
+</tbody>
+</table>
+
+Dissoudre dans l'eau chaude, appliquer avec une éponge (gants recommandés, les cristaux de soude
+sont irritants pour la peau en contact prolongé). Rincer à l'eau claire après usage — ne jamais
+laisser sécher sur une surface alimentaire sans rinçage.
+
+<p style="font-size:0.85rem;color:var(--ink-soft)">Ces deux produits ne se mélangent pas entre eux non plus (acide + base = neutralisation, donc perte d'efficacité) — les utiliser séparément selon le type de salissure visé.</p>
 
 ## En résumé
 

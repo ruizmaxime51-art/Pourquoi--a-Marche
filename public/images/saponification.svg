@@ -1,0 +1,28 @@
+<svg viewBox="0 0 640 220" xmlns="http://www.w3.org/2000/svg" font-family="IBM Plex Mono, monospace">
+  <rect width="640" height="220" fill="#F7F6F2"/>
+  <text x="320" y="30" text-anchor="middle" font-size="13" fill="#4A564F">SAPONIFICATION</text>
+
+  <rect x="20" y="70" width="140" height="70" rx="6" fill="#E4EBE2" stroke="#5C7A63"/>
+  <text x="90" y="100" text-anchor="middle" font-size="13" fill="#1B2B26">Corps gras</text>
+  <text x="90" y="118" text-anchor="middle" font-size="12" fill="#33473A">(triglycéride)</text>
+
+  <text x="185" y="112" text-anchor="middle" font-size="20" fill="#1B2B26">+</text>
+
+  <rect x="210" y="70" width="120" height="70" rx="6" fill="#E4EBE2" stroke="#5C7A63"/>
+  <text x="270" y="100" text-anchor="middle" font-size="13" fill="#1B2B26">NaOH</text>
+  <text x="270" y="118" text-anchor="middle" font-size="12" fill="#33473A">soude</text>
+
+  <line x1="345" y1="105" x2="405" y2="105" stroke="#1B2B26" stroke-width="1.5"/>
+  <polygon points="405,105 397,100 397,110" fill="#1B2B26"/>
+
+  <rect x="415" y="70" width="120" height="70" rx="6" fill="#FBE6DC" stroke="#D8572E"/>
+  <text x="475" y="100" text-anchor="middle" font-size="13" fill="#1B2B26">Savon</text>
+  <text x="475" y="118" text-anchor="middle" font-size="12" fill="#A63F1F">(carboxylate)</text>
+
+  <text x="550" y="112" text-anchor="middle" font-size="20" fill="#1B2B26">+</text>
+
+  <rect x="565" y="70" width="60" height="70" rx="6" fill="#E4EBE2" stroke="#5C7A63"/>
+  <text x="595" y="100" text-anchor="middle" font-size="12" fill="#1B2B26">Glycérol</text>
+
+  <text x="320" y="180" text-anchor="middle" font-size="14" fill="#4A564F">R-COOH  +  NaOH  →  R-COONa  +  H₂O</text>
+</svg>

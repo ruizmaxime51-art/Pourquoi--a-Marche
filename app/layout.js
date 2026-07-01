@@ -29,6 +29,19 @@ export default function RootLayout({ children }) {
 
         {children}
 
+        <section className="trust-footer">
+          <div className="wrap">
+            <h3>Ingénieur chimiste, passionné de fabrication maison.</h3>
+            <p>
+              Diplômé d&apos;une école de chimie, je travaille en R&amp;D sur la formulation de
+              produits. Ce site est né d&apos;un constat simple : la plupart des recettes DIY qui
+              circulent donnent des proportions sans jamais expliquer le mécanisme derrière — ni
+              les limites de sécurité. Ici, chaque recette est calculée, vérifiée, et expliquée
+              avec la chimie réelle qui la rend fiable.
+            </p>
+          </div>
+        </section>
+
         <footer className="site-footer">
           <div className="wrap">
             <div>

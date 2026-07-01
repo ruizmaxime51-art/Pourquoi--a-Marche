@@ -1,7 +1,7 @@
 ---
 title: "Savon surgras maison : comprendre la saponification (et ne pas se rater)"
 category: "cosmetique"
-excerpt: "La réaction chimique derrière chaque savon, pourquoi le surgraissage change tout, et le matériel minimum pour se lancer sans risque."
+excerpt: "La réaction chimique derrière chaque savon, comment calculer sa propre dose de soude, et le protocole complet pour se lancer sans risque."
 formula: "R-COOH + NaOH → R-COONa + H₂O"
 ---
 
@@ -9,6 +9,20 @@ Le savon maison a le vent en poupe, mais la plupart des recettes qui circulent l
 proportions sans expliquer ce qu'il se passe réellement dans le bol. Comprendre la réaction
 change tout : ça permet d'ajuster une recette en connaissance de cause plutôt que de suivre un
 protocole à l'aveugle.
+
+<a href="#recette" class="jump-to-recipe">Aller directement à la recette →</a>
+
+<div class="materials-early">
+<h4>Le matériel de cette recette, en un coup d'œil</h4>
+<ul>
+<li><a href="#mat-soude">Soude caustique en poudre, pureté &gt;99%</a> — l'ingrédient de base de la réaction</li>
+<li><a href="#mat-balance">Balance de précision 0,1g</a> — pour un dosage fiable, non négociable</li>
+<li><a href="#mat-thermo">Thermomètre à sonde digital</a> — suivre le refroidissement de la soude</li>
+<li><a href="#mat-mixeur">Mixeur plongeant</a> — atteindre la trace en quelques minutes</li>
+<li><a href="#mat-moule">Moule à savon + outils de découpe</a> — mise en forme et démoulage</li>
+<li><a href="#mat-ph">Bandelettes de pH</a> — vérifier le savon avant la première utilisation</li>
+</ul>
+</div>
 
 <div class="theory-block">
 <h4>La théorie</h4>
@@ -19,6 +33,8 @@ molécule de glycérol. La réaction est exothermique et irréversible : une foi
 revient pas en arrière.</p>
 </div>
 
+![Schéma de la réaction de saponification](/images/saponification.svg)
+
 ## Pourquoi le "surgraissage" n'est pas une option esthétique
 
 Un savon "surgras" contient volontairement un excès d'huile qui n'a pas réagi avec la soude —
@@ -27,11 +43,6 @@ gras non saponifié qui adoucit la peau. Sans surgraissage, un savon calculé à
 stœchiométrique exacte présente un risque réel de soude libre résiduelle si le dosage ou le
 mélange n'est pas parfait — d'où l'irritation que provoquent certains savons "faits maison" ratés.
 
-Le calcul du taux de saponification (combien de soude pour combien de grammes d'une huile
-donnée) dépend de la composition en acides gras de chaque huile — l'huile d'olive et l'huile de
-coco n'ont pas le même indice de saponification. Ne jamais improviser ce calcul : utiliser un
-calculateur de saponification (SAP) fiable avant de commencer.
-
 ## Sécurité : ce qui n'est pas négociable
 
 La soude caustique (NaOH) est corrosive et la réaction avec l'eau est fortement exothermique.
@@ -39,30 +50,154 @@ Toujours verser la soude dans l'eau (jamais l'inverse), travailler avec des gant
 lunettes de protection, et dans une pièce ventilée — les vapeurs dégagées à la dissolution sont
 irritantes pour les voies respiratoires.
 
-## Le matériel pour commencer correctement
+**Sous quelle forme acheter la soude ?** Pour cette recette, on utilise de la **soude caustique
+solide (poudre ou perles), pureté supérieure à 99%** — pas une solution déjà diluée type
+"déboucheur liquide", dont la concentration réelle n'est jamais garantie et fausserait tout le
+calcul de dosage.
+
+## Calculer sa propre dose de soude selon les huiles choisies
+
+La recette plus bas est un bon point de départ fiable si tu veux te lancer sans réfléchir au
+mélange — mais rien n'empêche d'expérimenter une fois que le calcul est compris. Voici comment
+il fonctionne, pour ajuster à tes propres huiles disponibles ou composer un mélange différent
+(peau grasse, sèche, mixte...).
+
+<div class="theory-block">
+<h4>La formule</h4>
+<p>Quantité de NaOH (g) = Σ (poids de chaque huile × son indice de saponification) × (1 − taux de surgraissage)</p>
+</div>
+
+Chaque huile a un **indice de saponification (SAP)** différent — la quantité de soude nécessaire
+pour transformer 1g de cette huile précise en savon.
 
 <table class="compare">
-<thead><tr><th>Matériel</th><th>Pourquoi c'est nécessaire</th></tr></thead>
+<thead><tr><th>Huile</th><th>Indice SAP (g NaOH / g huile)</th></tr></thead>
 <tbody>
-<tr><td>Balance de précision (0,1 g)</td><td>Le dosage NaOH doit être exact — pas d'approximation possible</td></tr>
-<tr><td>Lunettes + gants nitrile</td><td>Protection contre les projections de soude</td></tr>
-<tr><td>pH-mètre ou bandelettes</td><td>Vérifier l'absence de soude libre avant utilisation du savon</td></tr>
-<tr><td>Contenants en plastique (PP) ou inox</td><td>La soude attaque l'aluminium et certains plastiques</td></tr>
+<tr><td>Huile de coco</td><td>0,190</td></tr>
+<tr><td>Huile de palme</td><td>0,141</td></tr>
+<tr><td>Beurre de karité</td><td>0,128</td></tr>
+<tr><td>Huile de ricin</td><td>0,128</td></tr>
+<tr><td>Huile d'olive</td><td>0,134</td></tr>
+<tr><td>Huile d'amande douce</td><td>0,136</td></tr>
+<tr><td>Huile de tournesol</td><td>0,134</td></tr>
+<tr><td>Huile de colza</td><td>0,124</td></tr>
 </tbody>
 </table>
 
-<div class="cta-block">
-<div class="cta-text"><strong>Balance de précision 0,1 g</strong><span>Indispensable pour un dosage NaOH fiable</span></div>
-<a class="cta-button" href="#" rel="sponsored noopener" target="_blank">Voir le prix →</a>
+**Exemple de calcul, avec la recette de cet article**
+
+1. Multiplier chaque huile par son indice : 300g olive × 0,134 = 40,2g&nbsp;; 150g coco × 0,190 = 28,5g&nbsp;; 50g amande douce × 0,136 = 6,8g
+2. Additionner : 40,2 + 28,5 + 6,8 = **75,5g de NaOH** (sans surgraissage)
+3. Appliquer le surgraissage choisi (8% ici) : 75,5 × (1 − 0,08) = **69,5g de NaOH** — la quantité réellement utilisée
+
+<p style="font-size:0.85rem;color:var(--ink-soft)">Ce calcul doit être refait à chaque fois qu'une seule huile change dans le mélange — ne jamais réutiliser une quantité de soude calculée pour un autre mélange. Croiser le résultat avec un calculateur de saponification en ligne avant tout nouveau mélange, les indices SAP publiés variant légèrement selon les tables de référence.</p>
+
+<a id="recette"></a>
+## La recette : savon surgras à l'huile d'olive (500 g d'huiles)
+
+Rendement : environ 700 g de savon, à découper en 6-8 pains après démoulage.
+
+<table class="compare">
+<thead><tr><th>Ingrédient</th><th>Quantité</th><th>Rôle</th></tr></thead>
+<tbody>
+<tr><td>Huile d'olive</td><td>300 g (60 %)</td><td>Douceur, savon dur à moyen terme</td></tr>
+<tr><td>Huile de coco</td><td>150 g (30 %)</td><td>Mousse abondante, dureté rapide</td></tr>
+<tr><td>Huile d'amande douce</td><td>50 g (10 %)</td><td>Surgraissage supplémentaire, peaux sèches</td></tr>
+<tr><td>Soude caustique (NaOH), poudre &gt;99%</td><td>69,5 g</td><td>Calculé pour 8 % de surgraissage sur ce mélange</td></tr>
+<tr><td>Eau déminéralisée</td><td>174 g</td><td>Dissolution de la soude</td></tr>
+</tbody>
+</table>
+
+**Étapes détaillées**
+
+1. **Peser avec la balance de précision (0,1g)** : 69,5 g de soude dans un premier contenant, 174 g d'eau dans un second. C'est l'étape où la précision compte le plus — quelques grammes de soude en trop et le savon reste irritant pour la peau (soude libre résiduelle)&nbsp;; quelques grammes en moins et le surgraissage change, le savon devient plus mou et se conserve moins bien. Une balance de cuisine classique au gramme près n'est pas suffisante ici.
+
+2. Verser les **perles/poudre de soude caustique (solide)** dans l'eau — jamais l'inverse, verser de l'eau sur de la soude peut provoquer une projection violente. Gants nitrile et lunettes de protection portées, dehors ou en pièce très ventilée. **Sur la température : ce n'est pas nous qui chauffons.** Dissoudre la soude dans l'eau est une réaction chimique qui dégage de la chaleur toute seule (réaction exothermique). La température grimpe spontanément à 70-90°C en quelques secondes, sans plaque chauffante. Utiliser le **thermomètre à sonde** pour suivre la redescente jusqu'à 40-45°C avant de continuer (15-30 minutes&nbsp;; poser le contenant dans un bac d'eau froide accélère le refroidissement).
+
+3. Pendant ce temps, faire fondre l'huile de coco (bain-marie doux), mélanger avec l'huile d'olive et l'huile d'amande douce. Vérifier avec le même thermomètre : viser aussi 40-45°C pour que les deux mélanges (soude et huiles) soient à température proche avant de les combiner — un trop grand écart donne une saponification irrégulière.
+
+4. Verser la solution de soude dans les huiles. Utiliser le **mixeur plongeant** par impulsions de 10-15 secondes, en alternant avec un mélange à la spatule, jusqu'à la **trace** (voir lexique) — 3 à 8 minutes selon les huiles.
+
+5. Verser dans le **moule à savon**, tapoter pour chasser les bulles, couvrir d'un linge, laisser 24-48h dans un endroit à température stable.
+
+6. Démouler (le savon doit être ferme au toucher), découper en pains avec les **outils de découpe**.
+
+7. Cure de 4 semaines minimum, pains espacés, endroit sec et ventilé, à l'abri de la lumière. **Avant la première utilisation**, vérifier le pH avec les **bandelettes** : viser un pH entre 8 et 10 — un savon fini est légèrement basique&nbsp;; un pH supérieur à 11 signale de la soude libre résiduelle, dans ce cas ne pas utiliser le savon.
+
+## Le matériel, en détail
+
+<div class="cta-block" id="mat-soude">
+<div class="cta-text"><strong>Soude caustique poudre &gt;99%</strong><span>Qualité savonnerie, à ne pas confondre avec un déboucheur</span></div>
+<div class="cta-action">
+<a class="cta-button" href="https://www.amazon.fr/-/en/SOLUP-Caustic-Hydroxide-Cleaning-Degreasing/dp/B0DM1YZ1K6?linkCode=ll2&tag=maxscience06-21&linkId=d4123ea4095081d557b94ed82468cbd1&ref_=as_li_ss_tl" rel="sponsored noopener" target="_blank">Voir le prix →</a>
+<span class="cta-reassurance">Expédié par Amazon</span>
+</div>
 </div>
 
-<div class="cta-block">
-<div class="cta-text"><strong>pH-mètre de poche</strong><span>Vérifier la neutralité du savon avant usage</span></div>
-<a class="cta-button" href="#" rel="sponsored noopener" target="_blank">Voir le prix →</a>
+<div class="cta-block" id="mat-balance">
+<div class="cta-text"><strong>Balance de précision 0,1g / 5kg</strong><span>Inox, étanche IP67 — le dosage qui ne pardonne pas</span></div>
+<div class="cta-action">
+<a class="cta-button" href="https://www.amazon.fr/-/en/Waterproof-Precision-Washable-Stainless-Rechargeable/dp/B0CMH96FTJ?linkCode=ll2&tag=maxscience06-21&linkId=9d90d060797e8abe82176de2c7369a67&ref_=as_li_ss_tl" rel="sponsored noopener" target="_blank">Voir le prix →</a>
+<span class="cta-reassurance">Retours gratuits</span>
 </div>
+</div>
+
+<div class="cta-block" id="mat-thermo">
+<div class="cta-text"><strong>Thermomètre à sonde digital, jusqu'à 300°C</strong><span>ThermoPro — suivre le refroidissement de la soude</span></div>
+<div class="cta-action">
+<a class="cta-button" href="https://www.amazon.fr/-/en/ThermoPro-Instant-Digital-Thermometer-Beverages/dp/B01LXI5HYH?linkCode=ll2&tag=maxscience06-21&linkId=3e12615d5c9fd288808ae727c12bef03&ref_=as_li_ss_tl" rel="sponsored noopener" target="_blank">Voir le prix →</a>
+<span class="cta-reassurance">Livraison rapide</span>
+</div>
+</div>
+
+<div class="cta-block" id="mat-mixeur">
+<div class="cta-text"><strong>Mixeur plongeant, pied inox</strong><span>Amazon Basics — atteindre la trace en quelques minutes</span></div>
+<div class="cta-action">
+<a class="cta-button" href="https://www.amazon.fr/Amazon-Basics-Multispeed-Blender-Included/dp/B0DBTCKLKX?linkCode=ll2&tag=maxscience06-21&linkId=7c8f8dedac636e88a2cf75591bbea113&ref_=as_li_ss_tl" rel="sponsored noopener" target="_blank">Voir le prix →</a>
+<span class="cta-reassurance">Expédié par Amazon</span>
+</div>
+</div>
+
+<div class="cta-block" id="mat-moule">
+<div class="cta-text"><strong>Moule à savon 1200ml + outils de découpe</strong><span>Format loaf, largement suffisant pour 700g de pâte</span></div>
+<div class="cta-action">
+<a class="cta-button" href="https://www.amazon.fr/dp/B08S3G5RVH?linkCode=ll2&tag=maxscience06-21&linkId=50f426f5b45cec57dc827514741579d1&ref_=as_li_ss_tl" rel="sponsored noopener" target="_blank">Voir le prix →</a>
+<span class="cta-reassurance">Retours gratuits</span>
+</div>
+</div>
+
+<div class="cta-block" id="mat-ph">
+<div class="cta-text"><strong>Bandelettes de pH, rouleau</strong><span>Vérifier le savon avant la première utilisation</span></div>
+<div class="cta-action">
+<a class="cta-button" href="https://www.amazon.fr/Universal-pH-Test-Strips-Roll/dp/B079K71HJM?linkCode=ll2&tag=maxscience06-21&linkId=9e985d19e995714722739527a0691d9b&ref_=as_li_ss_tl" rel="sponsored noopener" target="_blank">Voir le prix →</a>
+<span class="cta-reassurance">Expédié par Amazon</span>
+</div>
+</div>
+
+## Petit lexique
+
+- **Saponification** — réaction chimique qui transforme un corps gras en savon au contact d'une base forte
+- **Corps gras / triglycéride** — la molécule d'huile végétale, composée de trois acides gras
+- **Trace** — le moment où le mélange épaissit assez pour laisser une marque visible à la surface quand on soulève le mixeur — signal qu'on peut couler dans le moule
+- **Surgraissage** — pourcentage d'huile volontairement laissé en excès, non transformé en savon, pour adoucir le produit fini
+- **Cure** — période de repos après démoulage, pendant laquelle la réaction se termine et l'eau s'évapore
+- **Exothermique** — qui dégage de la chaleur tout seul, sans apport extérieur
+- **Indice de saponification (SAP)** — quantité de soude nécessaire pour transformer 1g d'une huile donnée en savon&nbsp;; propre à chaque huile
 
 ## En résumé
 
 Un savon surgras réussi, c'est un calcul de saponification correct, un dosage précis, et un
 temps de cure d'au moins 4 semaines pour laisser la réaction se terminer complètement. Rien de
 tout ça n'est négociable si vous voulez un produit sûr pour la peau.
+
+<div class="materials-recap">
+<h3>Tout le matériel de cet article</h3>
+<div class="recap-grid">
+<div class="recap-item"><span>Soude caustique poudre &gt;99%</span><a href="#mat-soude">Voir →</a></div>
+<div class="recap-item"><span>Balance de précision 0,1g</span><a href="#mat-balance">Voir →</a></div>
+<div class="recap-item"><span>Thermomètre à sonde 300°C</span><a href="#mat-thermo">Voir →</a></div>
+<div class="recap-item"><span>Mixeur plongeant inox</span><a href="#mat-mixeur">Voir →</a></div>
+<div class="recap-item"><span>Moule 1200ml + outils</span><a href="#mat-moule">Voir →</a></div>
+<div class="recap-item"><span>Bandelettes de pH</span><a href="#mat-ph">Voir →</a></div>
+</div>
+</div>
