@@ -33,7 +33,14 @@ molécule de glycérol. La réaction est exothermique et irréversible : une foi
 revient pas en arrière.</p>
 </div>
 
-![Schéma de la réaction de saponification](/images/saponification.svg)
+![Réaction complète de saponification](/images/saponification-reaction.png)
+
+**Pourquoi la glycérine compte.** La glycérine (ou glycérol) libérée pendant la réaction est un
+humectant naturel — elle attire et retient l'eau, ce qui explique l'effet hydratant du savon
+fait maison. Dans l'industrie, la plupart des savons commerciaux extraient cette glycérine pour
+la revendre séparément (elle vaut cher dans les cosmétiques industriels), ce qui rend ces savons
+plus asséchants. **Un savon fait maison garde naturellement toute sa glycérine** — c'est un vrai
+avantage, pas juste un argument marketing.
 
 ## Pourquoi le "surgraissage" n'est pas une option esthétique
 
@@ -42,6 +49,18 @@ généralement 5 à 8 % du poids total des huiles. Cet excès reste dans le savo
 gras non saponifié qui adoucit la peau. Sans surgraissage, un savon calculé à l'équivalence
 stœchiométrique exacte présente un risque réel de soude libre résiduelle si le dosage ou le
 mélange n'est pas parfait — d'où l'irritation que provoquent certains savons "faits maison" ratés.
+
+**Quel taux choisir selon le type de peau**
+
+<table class="compare">
+<thead><tr><th>Type de peau</th><th>Taux de surgraissage recommandé</th></tr></thead>
+<tbody>
+<tr><td>Peau normale</td><td>5%</td></tr>
+<tr><td>Peau sèche / mature</td><td>8-10% (celui utilisé dans cette recette)</td></tr>
+<tr><td>Peau grasse / mixte</td><td>3-5%</td></tr>
+<tr><td>Peau sensible / réactive</td><td>8% avec des huiles douces (olive, amande douce)</td></tr>
+</tbody>
+</table>
 
 ## Sécurité : ce qui n'est pas négociable
 
@@ -110,19 +129,54 @@ Rendement : environ 700 g de savon, à découper en 6-8 pains après démoulage.
 
 **Étapes détaillées**
 
+![Pesée précise de 69,5g de soude caustique sur une balance 0,1g](/images/savon-etape1-pesee-soude.jpg)
+
 1. **Peser avec la balance de précision (0,1g)** : 69,5 g de soude dans un premier contenant, 174 g d'eau dans un second. C'est l'étape où la précision compte le plus — quelques grammes de soude en trop et le savon reste irritant pour la peau (soude libre résiduelle)&nbsp;; quelques grammes en moins et le surgraissage change, le savon devient plus mou et se conserve moins bien. Une balance de cuisine classique au gramme près n'est pas suffisante ici.
+
+![Dissolution de la soude dans l'eau, vapeur visible due à la réaction exothermique](/images/savon-etape2-dissolution-soude.jpg)
 
 2. Verser les **perles/poudre de soude caustique (solide)** dans l'eau — jamais l'inverse, verser de l'eau sur de la soude peut provoquer une projection violente. Gants nitrile et lunettes de protection portées, dehors ou en pièce très ventilée. **Sur la température : ce n'est pas nous qui chauffons.** Dissoudre la soude dans l'eau est une réaction chimique qui dégage de la chaleur toute seule (réaction exothermique). La température grimpe spontanément à 70-90°C en quelques secondes, sans plaque chauffante. Utiliser le **thermomètre à sonde** pour suivre la redescente jusqu'à 40-45°C avant de continuer (15-30 minutes&nbsp;; poser le contenant dans un bac d'eau froide accélère le refroidissement).
 
+![Mélange de l'huile d'olive avec les autres huiles de la recette](/images/savon-etape3-melange-huiles.jpg)
+
 3. Pendant ce temps, faire fondre l'huile de coco (bain-marie doux), mélanger avec l'huile d'olive et l'huile d'amande douce. Vérifier avec le même thermomètre : viser aussi 40-45°C pour que les deux mélanges (soude et huiles) soient à température proche avant de les combiner — un trop grand écart donne une saponification irrégulière.
+
+![La trace : le mélange épaissit et laisse une marque visible](/images/savon-etape4-trace.jpg)
 
 4. Verser la solution de soude dans les huiles. Utiliser le **mixeur plongeant** par impulsions de 10-15 secondes, en alternant avec un mélange à la spatule, jusqu'à la **trace** (voir lexique) — 3 à 8 minutes selon les huiles.
 
+![Versement de la pâte à savon dans le moule](/images/savon-etape5-versement-moule.jpg)
+
 5. Verser dans le **moule à savon**, tapoter pour chasser les bulles, couvrir d'un linge, laisser 24-48h dans un endroit à température stable.
+
+![Démoulage et découpe des pains de savon](/images/savon-etape6-decoupe.jpg)
 
 6. Démouler (le savon doit être ferme au toucher), découper en pains avec les **outils de découpe**.
 
 7. Cure de 4 semaines minimum, pains espacés, endroit sec et ventilé, à l'abri de la lumière. **Avant la première utilisation**, vérifier le pH avec les **bandelettes** : viser un pH entre 8 et 10 — un savon fini est légèrement basique&nbsp;; un pH supérieur à 11 signale de la soude libre résiduelle, dans ce cas ne pas utiliser le savon.
+
+## Saponification à froid ou à chaud : quelle différence ?
+
+La recette de cet article utilise la **méthode à froid** : les huiles et la soude sont mélangées
+à basse température (40-45°C), et c'est la cure de 4 semaines qui laisse la réaction se
+terminer complètement. C'est la méthode la plus courante pour un premier savon.
+
+Il existe une autre approche, la **méthode à chaud** : après la trace, le mélange est chauffé
+(bain-marie ou mijoteuse) pendant 1 à 2 heures pour accélérer fortement la réaction.
+
+<table class="compare">
+<thead><tr><th></th><th>À froid</th><th>À chaud</th></tr></thead>
+<tbody>
+<tr><td>Temps avant utilisation</td><td>4 semaines de cure</td><td>Utilisable en quelques jours</td></tr>
+<tr><td>Aspect du savon</td><td>Lisse, brillant</td><td>Plus rustique, texture "grumeleuse"</td></tr>
+<tr><td>Ingrédients fragiles (huiles essentielles, actifs)</td><td>Plus sûr, température basse</td><td>Risqué, la chaleur peut les dégrader</td></tr>
+<tr><td>Difficulté pour un premier essai</td><td>Plus simple</td><td>Demande plus de surveillance</td></tr>
+</tbody>
+</table>
+
+**Pour débuter, la méthode à froid reste recommandée** — c'est celle de cette recette. La
+méthode à chaud devient intéressante quand on veut utiliser son savon rapidement, ou qu'on
+maîtrise déjà les bases.
 
 ## Le matériel, en détail
 
