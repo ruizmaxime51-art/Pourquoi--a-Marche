@@ -30,7 +30,7 @@ même travail — un produit "universel" au pH neutre (7) est en réalité peu e
 l'autre type de salissure.</p>
 </div>
 
-![Échelle de pH et zone d'incompatibilité javel-acide](/images/nettoyant-echelle-ph.png)
+![Échelle de pH et zone d'incompatibilité javel-acide](/images/nettoyant-echelle-ph.jpg)
 
 ## Le mélange dangereux à connaître absolument
 
