@@ -8,15 +8,15 @@ export default function CategoryPage({ slug }) {
 
   return (
     <main>
-      <section className="hero" style={{ paddingBottom: 24 }}>
+      <section className="category-head">
         <span className="formula-eyebrow">{cat.formula}</span>
         <h1>{cat.title}</h1>
-        <p style={{ color: 'var(--ink-soft)', maxWidth: 600 }}>{cat.tagline}</p>
+        <p className="lede">{cat.tagline}</p>
       </section>
 
       <div className="article-list">
         {articles.length === 0 && (
-          <p style={{ color: 'var(--ink-soft)' }}>Premiers articles à venir.</p>
+          <p style={{ color: 'var(--ink-soft)', fontStyle: 'italic' }}>Premiers articles à venir.</p>
         )}
         {articles.map((a) => (
           <Link key={a.slug} href={`/articles/${a.slug}`} className="article-row">

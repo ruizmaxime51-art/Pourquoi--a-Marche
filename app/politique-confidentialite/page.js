@@ -3,7 +3,7 @@ export default function Confidentialite() {
     <main>
       <article className="post">
         <h1>Politique de confidentialité</h1>
-        <p style={{ color: 'var(--accent-dark)', background: 'var(--accent-light)', padding: '12px 16px', borderRadius: 6 }}>
+        <p className="notice-box">
           Base à adapter selon les outils réellement utilisés (Google Analytics, cookies des
           réseaux d&apos;affiliation Awin/Amazon, formulaire de contact éventuel).
         </p>
