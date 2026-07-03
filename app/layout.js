@@ -47,6 +47,9 @@ export const metadata = {
     images: [DEFAULT_OG_IMAGE],
   },
   robots: { index: true, follow: true },
+  verification: {
+    google: 'ktcaoGuLSaER-TOfkR87QVFP_KIazSL2Cnt0CG_O9ok',
+  },
 };
 
 export default function RootLayout({ children }) {
