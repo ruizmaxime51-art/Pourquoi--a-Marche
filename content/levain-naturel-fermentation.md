@@ -3,6 +3,8 @@ title: "Levain naturel : la fermentation en deux populations, expliquée"
 category: "fermentation"
 excerpt: "Ce qui se passe réellement dans un bocal de levain, quelle farine choisir, et pourquoi il faut le nourrir régulièrement."
 formula: "C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂ (fermentation alcoolique)"
+image: "/images/levain-rafraichi.jpg"
+date: "2026-07-02"
 ---
 
 Le levain naturel est souvent présenté comme un être vivant capricieux. En réalité, c'est un

@@ -3,6 +3,8 @@ title: "Lacto-fermentation des légumes : pourquoi c'est sûr (si on respecte de
 category: "conservation"
 excerpt: "Le mécanisme microbiologique de la lacto-fermentation, quels légumes s'y prêtent, et les paramètres qui garantissent une conservation sans risque."
 formula: "pH < 4,6 → Clostridium botulinum inhibée"
+image: "/images/lacto-etape2-versement-saumure.jpg"
+date: "2026-07-02"
 ---
 
 La lacto-fermentation fascine parce qu'elle semble presque magique : des légumes crus, de l'eau,

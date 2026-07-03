@@ -1,6 +1,7 @@
 import { Fraunces, Newsreader, IBM_Plex_Mono } from 'next/font/google';
 import Link from 'next/link';
 import './globals.css';
+import { SITE_URL, SITE_NAME, SITE_DESCRIPTION, DEFAULT_OG_IMAGE } from '@/lib/site';
 
 const display = Fraunces({
   subsets: ['latin'],
@@ -24,9 +25,28 @@ const mono = IBM_Plex_Mono({
 });
 
 export const metadata = {
-  title: 'Chimie Maison — fabriquer soi-même, comprendre pourquoi ça marche',
-  description:
-    "Cosmétique, entretien, conservation, fermentation : la chimie réelle derrière le fait maison, expliquée et vérifiée par un ingénieur chimiste.",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: `${SITE_NAME} — fabriquer soi-même, comprendre pourquoi ça marche`,
+    template: `%s — ${SITE_NAME}`,
+  },
+  description: SITE_DESCRIPTION,
+  applicationName: SITE_NAME,
+  openGraph: {
+    type: 'website',
+    locale: 'fr_FR',
+    siteName: SITE_NAME,
+    title: `${SITE_NAME} — la chimie derrière le fait maison`,
+    description: SITE_DESCRIPTION,
+    images: [{ url: DEFAULT_OG_IMAGE, width: 1000, height: 750, alt: SITE_NAME }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: `${SITE_NAME} — la chimie derrière le fait maison`,
+    description: SITE_DESCRIPTION,
+    images: [DEFAULT_OG_IMAGE],
+  },
+  robots: { index: true, follow: true },
 };
 
 export default function RootLayout({ children }) {

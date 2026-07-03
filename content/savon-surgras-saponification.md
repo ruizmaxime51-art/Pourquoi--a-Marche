@@ -3,6 +3,8 @@ title: "Savon surgras maison : comprendre la saponification (et ne pas se rater)
 category: "cosmetique"
 excerpt: "La réaction chimique derrière chaque savon, comment calculer sa propre dose de soude, et le protocole complet pour se lancer sans risque."
 formula: "R-COOH + NaOH → R-COONa + H₂O"
+image: "/images/savon-etape6-decoupe.jpg"
+date: "2026-07-01"
 ---
 
 Le savon maison a le vent en poupe, mais la plupart des recettes qui circulent listent des

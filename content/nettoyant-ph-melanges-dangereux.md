@@ -3,6 +3,8 @@ title: "Nettoyant maison : ce que le pH change vraiment (et le mélange à ne ja
 category: "entretien"
 excerpt: "Pourquoi le pH détermine l'efficacité d'un nettoyant, les deux recettes complètes, et le mélange qui ne pardonne pas."
 formula: "NaClO + acide → Cl₂ ↑ (dégagement toxique)"
+image: "/images/nettoyant-detartrant-flacon.jpg"
+date: "2026-07-01"
 ---
 
 Les recettes de nettoyants maison au vinaigre et bicarbonate sont partout, mais rarement
