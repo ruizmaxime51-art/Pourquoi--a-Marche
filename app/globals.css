@@ -51,7 +51,7 @@ body {
 
 h1, h2, h3, h4 {
   font-family: var(--font-display);
-  font-weight: 560;
+  font-weight: 600;
   line-height: 1.12;
   color: var(--ink);
   margin: 0 0 0.5em;
@@ -250,7 +250,7 @@ table.compare tbody tr:last-child td { border-bottom: none; }
 }
 .cta-block .cta-text { padding-left: 8px; }
 .cta-block .cta-text strong {
-  display: block; font-family: var(--font-display); font-weight: 560;
+  display: block; font-family: var(--font-display); font-weight: 600;
   font-size: 1.08rem; color: var(--ink); margin-bottom: 2px;
 }
 .cta-block .cta-text span { color: var(--ink-soft); font-size: 0.9rem; font-style: italic; }
