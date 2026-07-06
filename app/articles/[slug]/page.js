@@ -58,7 +58,7 @@ export default async function ArticlePage({ params }) {
         <span className="formula-eyebrow">{article.formula}</span>
         <h1>{article.title}</h1>
         <p className="standfirst">{article.excerpt}</p>
-        <p className="byline">Rédigé par un ingénieur chimiste (ENSCM) — dosages vérifiés avant publication</p>
+        <p className="byline">Rédigé par un ingénieur chimiste — dosages vérifiés avant publication</p>
 
         <div className="post-body" dangerouslySetInnerHTML={{ __html: article.contentHtml }} />
 

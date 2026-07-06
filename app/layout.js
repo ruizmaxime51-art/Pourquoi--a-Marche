@@ -1,5 +1,6 @@
 import { Fraunces, Newsreader, IBM_Plex_Mono } from 'next/font/google';
 import Link from 'next/link';
+import { Analytics } from '@vercel/analytics/next';
 import './globals.css';
 import { SITE_URL, SITE_NAME, SITE_DESCRIPTION, DEFAULT_OG_IMAGE } from '@/lib/site';
 
@@ -99,6 +100,8 @@ export default function RootLayout({ children }) {
           Cet article contient des liens affiliés. En achetant via ces liens, vous ne payez pas
           plus cher et vous soutenez le site — sans aucune influence sur nos recommandations.
         </p>
+
+        <Analytics />
       </body>
     </html>
   );
