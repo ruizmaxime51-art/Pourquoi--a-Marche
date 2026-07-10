@@ -65,6 +65,8 @@ export default function RootLayout({ children }) {
               <Link href="/entretien">Entretien</Link>
               <Link href="/conservation">Conservation</Link>
               <Link href="/fermentation">Fermentation</Link>
+              <Link href="/comprendre" className="nav-accent">Comprendre</Link>
+              <Link href="/bien-sequiper" className="nav-accent">Bien s'équiper</Link>
             </nav>
           </div>
         </header>

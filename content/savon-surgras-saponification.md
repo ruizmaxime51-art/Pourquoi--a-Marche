@@ -5,12 +5,21 @@ excerpt: "La réaction chimique derrière chaque savon, comment calculer sa prop
 formula: "R-COOH + NaOH → R-COONa + H₂O"
 image: "/images/savon-etape6-decoupe.jpg"
 date: "2026-07-01"
+type: "recette"
 ---
 
 Le savon maison a le vent en poupe, mais la plupart des recettes qui circulent listent des
 proportions sans expliquer ce qu'il se passe réellement dans le bol. Comprendre la réaction
 change tout : ça permet d'ajuster une recette en connaissance de cause plutôt que de suivre un
 protocole à l'aveugle.
+
+<div class="notion-link">
+<div class="nl-icon">📖</div>
+<div class="nl-body">
+<div class="nl-label">Pour comprendre en profondeur</div>
+<p>Cette recette applique la réaction de saponification. Pour le mécanisme complet, le calcul de la dose de soude et le tableau des huiles : <a href="/articles/notion-saponification">La saponification : comment le corps gras devient savon</a>.</p>
+</div>
+</div>
 
 <a href="#recette" class="jump-to-recipe">Aller directement à la recette →</a>
 
