@@ -901,3 +901,20 @@ article.post { max-width: 760px; padding: 24px 0 60px; }
   .article-hero-visual { display: none; }
   nav.main-nav { max-width: 100%; overflow-x: auto; padding-bottom: 4px; flex-wrap: nowrap; }
 }
+
+/* Schémas scientifiques codés : éviter les recadrages et garder le texte net */
+.post-body img[src$=".svg"] {
+  background: #fff;
+  object-fit: contain;
+  padding: 10px;
+}
+.article-hero-visual img[src$=".svg"] {
+  object-fit: contain;
+  background: #fff;
+  padding: 14px;
+}
+.article-card-media[style*=".svg"] {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
