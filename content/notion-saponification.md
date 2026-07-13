@@ -7,6 +7,14 @@ formula: "triglycéride + 3 base → 3 savons + glycérol"
 image: "/images/notion-sapo-1-reaction.png"
 date: "2026-07-09"
 sommaire: true
+takeaways:
+  - "Le bilan chimique qui transforme une huile en savon"
+  - "Le rôle du mécanisme, du surgras, de NaOH/KOH et du glycérol"
+  - "Pourquoi température, émulsion et cure changent le résultat"
+related:
+  - "notion-tensioactifs"
+  - "savon-surgras-saponification"
+  - "nettoyant-ph-melanges-dangereux"
 ---
 
 Derrière chaque savon — de toilette, de Marseille, d'Alep, liquide ou solide — se cache une seule et même réaction chimique : la **saponification**. La comprendre, c'est comprendre pourquoi un savon lave, pourquoi certains sont doux et d'autres asséchants, et comment fabriquer le sien sans se tromper.

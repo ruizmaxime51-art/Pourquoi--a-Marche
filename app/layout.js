@@ -1,34 +1,12 @@
-import { Fraunces, Newsreader, IBM_Plex_Mono } from 'next/font/google';
 import Link from 'next/link';
 import { Analytics } from '@vercel/analytics/next';
 import './globals.css';
 import { SITE_URL, SITE_NAME, SITE_DESCRIPTION, DEFAULT_OG_IMAGE } from '@/lib/site';
 
-const display = Fraunces({
-  subsets: ['latin'],
-  weight: ['400', '500', '600', '700'],
-  style: ['normal', 'italic'],
-  variable: '--font-display-loaded',
-  display: 'swap',
-});
-const body = Newsreader({
-  subsets: ['latin'],
-  weight: ['400', '500'],
-  style: ['normal', 'italic'],
-  variable: '--font-body-loaded',
-  display: 'swap',
-});
-const mono = IBM_Plex_Mono({
-  subsets: ['latin'],
-  weight: ['400', '500'],
-  variable: '--font-mono-loaded',
-  display: 'swap',
-});
-
 export const metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} — fabriquer soi-même, comprendre pourquoi ça marche`,
+    default: `${SITE_NAME} — recettes maison fiables, expliquées par la chimie`,
     template: `%s — ${SITE_NAME}`,
   },
   description: SITE_DESCRIPTION,
@@ -39,7 +17,7 @@ export const metadata = {
     siteName: SITE_NAME,
     title: `${SITE_NAME} — la chimie derrière le fait maison`,
     description: SITE_DESCRIPTION,
-    images: [{ url: DEFAULT_OG_IMAGE, width: 1000, height: 750, alt: SITE_NAME }],
+    images: [{ url: DEFAULT_OG_IMAGE, width: 1200, height: 800, alt: SITE_NAME }],
   },
   twitter: {
     card: 'summary_large_image',
@@ -55,18 +33,22 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="fr" className={`${display.variable} ${body.variable} ${mono.variable}`}>
+    <html lang="fr">
       <body>
+        <div className="reading-progress" aria-hidden="true" />
         <header className="site-header">
           <div className="wrap-inner">
-            <Link href="/" className="logo">chimie <em>maison</em></Link>
-            <nav className="main-nav">
+            <Link href="/" className="logo" aria-label="Chimie Maison — accueil">
+              chimie <em>maison</em>
+            </Link>
+            <nav className="main-nav" aria-label="Navigation principale">
               <Link href="/cosmetique">Cosmétique</Link>
               <Link href="/entretien">Entretien</Link>
               <Link href="/conservation">Conservation</Link>
               <Link href="/fermentation">Fermentation</Link>
               <Link href="/comprendre" className="nav-accent">Comprendre</Link>
               <Link href="/bien-sequiper" className="nav-accent">Bien s'équiper</Link>
+              <Link href="/outils" className="nav-accent">Outils</Link>
             </nav>
           </div>
         </header>
@@ -74,22 +56,28 @@ export default function RootLayout({ children }) {
         {children}
 
         <section className="trust-footer">
-          <div className="wrap">
-            <div className="label">L'auteur</div>
-            <h3>Ingénieur chimiste, passionné de fabrication maison.</h3>
-            <p>
-              Diplômé d'une école de chimie, je travaille en R&amp;D sur la formulation de
-              produits. Ce site est né d'un constat simple : la plupart des recettes DIY qui
-              circulent donnent des proportions sans jamais expliquer le mécanisme derrière — ni
-              les limites de sécurité. Ici, chaque recette est calculée, vérifiée, et expliquée
-              avec la chimie réelle qui la rend fiable.
-            </p>
+          <div className="wrap-wide trust-footer-grid">
+            <div>
+              <div className="label">Pourquoi faire confiance ?</div>
+              <h3>Des recettes maison expliquées comme des formulations.</h3>
+              <p>
+                Ingénieur chimiste, je relie les recettes aux mécanismes réels : pH,
+                solubilité, émulsion, fermentation, sécurité et limites d'usage. Les liens
+                affiliés servent à recommander le bon matériel, pas à masquer une recette fragile.
+              </p>
+            </div>
+            <div className="trust-mini-grid">
+              <span>Dosages vérifiés</span>
+              <span>Sécurité explicitée</span>
+              <span>Sources citées</span>
+              <span>Affiliation signalée</span>
+            </div>
           </div>
         </section>
 
         <footer className="site-footer">
           <div className="wrap-inner">
-            <nav>
+            <nav aria-label="Navigation secondaire">
               <Link href="/a-propos">À propos</Link>
               <Link href="/mentions-legales">Mentions légales</Link>
               <Link href="/politique-confidentialite">Confidentialité</Link>
@@ -99,8 +87,8 @@ export default function RootLayout({ children }) {
         </footer>
 
         <p className="affiliate-disclosure">
-          Cet article contient des liens affiliés. En achetant via ces liens, vous ne payez pas
-          plus cher et vous soutenez le site — sans aucune influence sur nos recommandations.
+          Certains liens sont affiliés. En achetant via ces liens, vous ne payez pas plus cher
+          et vous soutenez le site — sans influence sur les recommandations scientifiques.
         </p>
 
         <Analytics />

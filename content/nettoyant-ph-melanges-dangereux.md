@@ -5,6 +5,14 @@ excerpt: "Pourquoi le pH détermine l'efficacité d'un nettoyant, les deux recet
 formula: "NaClO + acide → Cl₂ ↑ (dégagement toxique)"
 image: "/images/nettoyant-detartrant-flacon.jpg"
 date: "2026-07-01"
+takeaways:
+  - "Choisir acide ou basique selon la salissure"
+  - "Éviter les mélanges dangereux comme javel + acide"
+  - "Comprendre pourquoi certains mélanges maison s'annulent"
+related:
+  - "notion-tensioactifs"
+  - "savon-surgras-saponification"
+  - "lacto-fermentation-legumes-securite"
 ---
 
 Les recettes de nettoyants maison au vinaigre et bicarbonate sont partout, mais rarement

@@ -6,6 +6,14 @@ formula: "R-COOH + NaOH → R-COONa + H₂O"
 image: "/images/savon-etape6-decoupe.jpg"
 date: "2026-07-01"
 type: "recette"
+takeaways:
+  - "Comprendre la réaction avant de manipuler la soude"
+  - "Savoir pourquoi le surgras apporte une marge de sécurité"
+  - "Identifier le matériel indispensable et les erreurs à éviter"
+related:
+  - "notion-saponification"
+  - "notion-tensioactifs"
+  - "nettoyant-ph-melanges-dangereux"
 ---
 
 Le savon maison a le vent en poupe, mais la plupart des recettes qui circulent listent des

@@ -1,71 +1,62 @@
 import Link from 'next/link';
 import { categories } from '@/lib/categories';
-import { getArticlesByCategory, getArticlesGrouped } from '@/lib/articles';
+import { getArticlesGrouped } from '@/lib/articles';
+import ArticleCard from './ArticleCard';
 
 export default function CategoryPage({ slug }) {
   const cat = categories[slug];
   const { guides, others } = getArticlesGrouped(slug);
   const isNotionCat = cat.kind === 'notion';
+  const listed = isNotionCat ? [...guides, ...others] : others;
 
   return (
     <main>
-      <section className="category-head">
-        <span className="formula-eyebrow">{cat.formula}</span>
-        <h1>{cat.title}</h1>
-        <p className="lede">{cat.tagline}</p>
+      <section className="category-hero wrap-wide">
+        <div>
+          <span className="formula-eyebrow">{cat.formula}</span>
+          <h1>{cat.title}</h1>
+          <p className="lede">{cat.tagline}</p>
+        </div>
+        <div className="category-hero-card">
+          <strong>Objectif</strong>
+          <p>Passer d'une recette suivie à une recette comprise : mécanisme, limites, sécurité et matériel utile.</p>
+        </div>
       </section>
 
-      <div className="article-list">
-        {/* Guides / notions mis en avant (pour les catégories d'usage) */}
+      <section className="category-content wrap-wide">
         {!isNotionCat && guides.length > 0 && (
           <>
-            <div className="cat-section-label">Le guide</div>
-            {guides.map((a) => (
-              <Link key={a.slug} href={`/articles/${a.slug}`} className="guide-card">
-                <div className="gc-eyebrow">{a.formula}</div>
-                <h3>{a.title}</h3>
-                <p>{a.excerpt}</p>
-              </Link>
-            ))}
+            <div className="section-headline compact">
+              <div>
+                <div className="section-kicker">Le guide pour comprendre</div>
+                <h2>Avant de passer à la pratique</h2>
+              </div>
+            </div>
+            <div className="featured-grid guide-first">
+              {guides.map((a) => <ArticleCard key={a.slug} article={a} variant="wide" />)}
+            </div>
           </>
         )}
 
-        {/* Liste principale */}
-        {!isNotionCat && others.length > 0 && (
-          <div className="cat-section-label">Les recettes</div>
-        )}
-        {isNotionCat && (guides.length > 0 || others.length > 0) && (
-          <div className="cat-section-label">Les notions</div>
-        )}
+        <div className="section-headline compact">
+          <div>
+            <div className="section-kicker">{isNotionCat ? 'Les notions' : 'Les recettes'}</div>
+            <h2>{isNotionCat ? 'Comprendre les mécanismes' : 'Fabriquer avec méthode'}</h2>
+          </div>
+        </div>
 
-        {/* Pour une catégorie notion, on liste TOUT (guides + autres) comme notions */}
-        {(isNotionCat ? [...guides, ...others] : others).map((a) => (
-          <Link key={a.slug} href={`/articles/${a.slug}`} className="article-row">
-            {a.type && (
-              <span className={`type-badge ${badgeClass(a.type)}`}>{badgeLabel(a.type)}</span>
-            )}
-            <h3>{a.title}</h3>
-            <p>{a.excerpt}</p>
-          </Link>
-        ))}
-
-        {guides.length === 0 && others.length === 0 && (
-          <p style={{ color: 'var(--ink-soft)', fontStyle: 'italic', paddingTop: 24 }}>
-            Premiers articles à venir.
-          </p>
+        {listed.length > 0 ? (
+          <div className="featured-grid listing-grid">
+            {listed.map((a) => <ArticleCard key={a.slug} article={a} />)}
+          </div>
+        ) : (
+          <div className="empty-state">
+            <h3>Premiers articles à venir.</h3>
+            <p>Cette rubrique est prête dans l'architecture, mais les contenus ne sont pas encore publiés.</p>
+            <Link href="/comprendre" className="secondary-pill">Voir les notions déjà publiées</Link>
+          </div>
         )}
-      </div>
+      </section>
     </main>
   );
-}
-
-function badgeClass(type) {
-  if (type === 'notion' || type === 'guide') return 'notion';
-  if (type === 'comparatif') return 'comparatif';
-  return 'recette';
-}
-function badgeLabel(type) {
-  if (type === 'notion' || type === 'guide') return 'Notion';
-  if (type === 'comparatif') return 'Comparatif';
-  return 'Recette';
 }

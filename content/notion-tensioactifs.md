@@ -4,9 +4,17 @@ category: "comprendre"
 type: "notion"
 excerpt: "Savon, lessive, shampoing, liquide vaisselle : tous reposent sur les mêmes molécules. Comment un tensioactif décroche la graisse, pourquoi ça mousse, et pourquoi le calcaire pose problème."
 formula: "tête hydrophile + queue hydrophobe = amphiphile"
-image: "/images/notion-tensio-1-definition.png"
+image: "/images/diagrams/tensioactif-definition.svg"
 date: "2026-07-09"
 sommaire: true
+takeaways:
+  - "Pourquoi une molécule amphiphile se place aux interfaces"
+  - "Comment micelles, CMC et mouillage expliquent le nettoyage"
+  - "Pourquoi mousse, eau dure et type de tensioactif changent tout"
+related:
+  - "notion-saponification"
+  - "nettoyant-ph-melanges-dangereux"
+  - "savon-surgras-saponification"
 ---
 
 Derrière un savon, un shampoing, une lessive, un liquide vaisselle ou même une crème cosmétique, on retrouve souvent le même principe : des molécules capables de faire le lien entre l'eau, l'huile, l'air ou les salissures. Ces molécules, ce sont les **tensioactifs**. Comprendre comment elles fonctionnent, c'est comprendre le nettoyage lui-même.
@@ -24,7 +32,7 @@ Une molécule qui porte deux parties d'affinités contraires est qualifiée d'**
 
 Le **savon** est l'exemple archétypal : sa longue chaîne carbonée (issue de l'acide gras) constitue la queue lipophile, et sa tête carboxylate chargée (–COO⁻) constitue la tête hydrophile.
 
-![Une molécule de tensioactif : une tête hydrophile qui aime l'eau et une queue hydrophobe qui aime les graisses. Exemple du savon R-COO⁻ Na⁺](/images/notion-tensio-1-definition.png)
+![Une molécule de tensioactif : une tête hydrophile qui aime l'eau et une queue hydrophobe qui aime les graisses. Exemple du savon R-COO⁻ Na⁺](/images/diagrams/tensioactif-definition.svg)
 
 <div class="expert-block">
 
@@ -66,7 +74,7 @@ Que se passe-t-il quand on ajoute de plus en plus de tensioactif dans l'eau ?
 
 La concentration à partir de laquelle les micelles se forment s'appelle la **concentration micellaire critique (CMC)**. En dessous, les tensioactifs sont surtout isolés ; au-dessus, tout ajout part former des micelles et la tension superficielle **n'évolue quasiment plus**.
 
-![Graphique de la tension superficielle en fonction de la concentration : elle chute puis atteint un plateau au point CMC, où se forment les micelles](/images/notion-tensio-4-micelles-cmc.png)
+![Graphique de la tension superficielle en fonction de la concentration : elle chute puis atteint un plateau au point CMC, où se forment les micelles](/images/diagrams/micelles-cmc.svg)
 
 Un produit trop dilué peut passer sous une zone où les micelles deviennent insuffisantes pour solubiliser les corps gras : il peut encore **mouiller** et **décoller**, mais maintient moins bien les graisses **dispersées**. À l'inverse, au-delà d'un certain dosage, ajouter plus de tensioactif n'améliore plus proportionnellement le lavage — on gaspille du produit.
 

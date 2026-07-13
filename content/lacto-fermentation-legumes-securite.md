@@ -5,6 +5,14 @@ excerpt: "Le mécanisme microbiologique de la lacto-fermentation, quels légumes
 formula: "pH < 4,6 → Clostridium botulinum inhibée"
 image: "/images/lacto-etape2-versement-saumure.jpg"
 date: "2026-07-02"
+takeaways:
+  - "Pourquoi sel, immersion et acidification sécurisent la fermentation"
+  - "Comprendre le rôle des bactéries lactiques et du pH"
+  - "Éviter les erreurs qui favorisent moisissures ou échecs"
+related:
+  - "levain-naturel-fermentation"
+  - "nettoyant-ph-melanges-dangereux"
+  - "notion-tensioactifs"
 ---
 
 La lacto-fermentation fascine parce qu'elle semble presque magique : des légumes crus, de l'eau,

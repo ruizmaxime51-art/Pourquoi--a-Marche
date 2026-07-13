@@ -5,6 +5,14 @@ excerpt: "Ce qui se passe réellement dans un bocal de levain, quelle farine cho
 formula: "C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂ (fermentation alcoolique)"
 image: "/images/levain-rafraichi.jpg"
 date: "2026-07-02"
+takeaways:
+  - "Comprendre les deux populations microbiennes du levain"
+  - "Savoir pourquoi farine, eau et température changent l'activité"
+  - "Lire les signes de fermentation sans deviner"
+related:
+  - "lacto-fermentation-legumes-securite"
+  - "notion-saponification"
+  - "nettoyant-ph-melanges-dangereux"
 ---
 
 Le levain naturel est souvent présenté comme un être vivant capricieux. En réalité, c'est un
