@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Micelles et CMC</title><desc id="desc">Schéma scientifique pédagogique.</desc>
+<defs>
+<style>
+.title{font:700 46px system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:#0b1d3a;letter-spacing:-.8px}
+.subtitle{font:400 21px system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:#2f3a49}
+.h2{font:700 30px system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:#0b1d3a}
+.label{font:600 20px system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:#0b1d3a}
+.small{font:400 17px system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:#273449}
+.tiny{font:400 14px system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:#4b5563}
+.mono{font:500 19px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#111827}
+.box{fill:#fff;stroke:#d7dce3;stroke-width:2}
+.info{fill:#f7fbff;stroke:#1769d1;stroke-width:2}
+.warn{fill:#fff9ed;stroke:#d88112;stroke-width:2}
+.blue{fill:#1769d1}.orange{fill:#d88112}.green{fill:#237047}.purple{fill:#6a3aa8}.red{fill:#b84b3f}.muted{fill:#667085}
+.tail{fill:none;stroke:#111827;stroke-width:4;stroke-linecap:round}
+.line{stroke:#d7dce3;stroke-width:2}
+</style>
+<radialGradient id="headBlue" cx="35%" cy="30%"><stop offset="0" stop-color="#9fd7ff"/><stop offset="1" stop-color="#1769d1"/></radialGradient>
+<radialGradient id="headOrange" cx="35%" cy="30%"><stop offset="0" stop-color="#ffe19a"/><stop offset="1" stop-color="#d88112"/></radialGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#111827"/></marker>
+<marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#1769d1"/></marker>
+<marker id="arrowOrange" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#d88112"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="#fbfaf6"/>
+<text x="600.0" y="72" text-anchor="middle" class="title">Micelles et CMC</text>
+<text x="600.0" y="112" text-anchor="middle" class="subtitle">La tension superficielle baisse puis atteint un plateau.</text>
+
+<line x1="250" y1="650" x2="875" y2="650" stroke="#111827" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="250" y1="650" x2="250" y2="205" stroke="#111827" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="505" y="704" class="label">Concentration en tensioactif</text>
+<text x="120" y="455" class="label" transform="rotate(-90 120 455)">Tension superficielle</text>
+<path d="M300 245 C330 360 380 475 500 560 C545 590 600 595 650 595 H820" fill="none" stroke="#1769d1" stroke-width="7" stroke-linecap="round"/>
+<g fill="#1769d1"><circle cx="300" cy="245" r="9"/><circle cx="355" cy="410" r="9"/><circle cx="500" cy="560" r="9"/><circle cx="650" cy="595" r="12"/><circle cx="760" cy="595" r="9"/></g>
+<line x1="650" y1="205" x2="650" y2="675" stroke="#1769d1" stroke-width="3" stroke-dasharray="9 9"/>
+<text x="625" y="715" class="label blue">CMC</text>
+<text x="510" y="745" class="small">concentration micellaire critique</text>
+<rect x="60" y="250" width="150" height="260" rx="18" class="info"/>
+<text x="88" y="290" class="label blue">Avant</text>
+<circle cx="110" cy="330" r="6.3" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="0.7"/><path d="M110 338.4 C102.3 351.0 117.7 362.2 110 374.8" class="tail" stroke-width="1.4"/><circle cx="165" cy="385" r="6.3" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="0.7"/><path d="M165 393.4 C157.3 406.0 172.7 417.2 165 429.8" class="tail" stroke-width="1.4"/><circle cx="110" cy="440" r="6.3" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="0.7"/><path d="M110 448.4 C102.3 461.0 117.7 472.2 110 484.8" class="tail" stroke-width="1.4"/><circle cx="165" cy="495" r="6.3" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="0.7"/><path d="M165 503.4 C157.3 516.0 172.7 527.2 165 539.8" class="tail" stroke-width="1.4"/>
+<rect x="930" y="250" width="190" height="260" rx="18" class="warn"/>
+<text x="970" y="290" class="label orange">Après</text>
+<g transform="translate(1025 390) scale(.9)"><circle cx="0" cy="0" r="27.4" fill="#ffd474" opacity=".95"/><line x1="30.2" y1="0.0" x2="72.0" y2="0.0" stroke="#111827" stroke-width="3"/><circle cx="72.0" cy="0.0" r="10" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="1.5"/><line x1="27.2" y1="13.1" x2="64.9" y2="31.2" stroke="#111827" stroke-width="3"/><circle cx="64.9" cy="31.2" r="10" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="1.5"/><line x1="18.9" y1="23.6" x2="44.9" y2="56.3" stroke="#111827" stroke-width="3"/><circle cx="44.9" cy="56.3" r="10" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="1.5"/><line x1="6.7" y1="29.5" x2="16.0" y2="70.2" stroke="#111827" stroke-width="3"/><circle cx="16.0" cy="70.2" r="10" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="1.5"/><line x1="-6.7" y1="29.5" x2="-16.0" y2="70.2" stroke="#111827" stroke-width="3"/><circle cx="-16.0" cy="70.2" r="10" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="1.5"/><line x1="-18.9" y1="23.6" x2="-44.9" y2="56.3" stroke="#111827" stroke-width="3"/><circle cx="-44.9" cy="56.3" r="10" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="1.5"/><line x1="-27.2" y1="13.1" x2="-64.9" y2="31.2" stroke="#111827" stroke-width="3"/><circle cx="-64.9" cy="31.2" r="10" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="1.5"/><line x1="-30.2" y1="0.0" x2="-72.0" y2="0.0" stroke="#111827" stroke-width="3"/><circle cx="-72.0" cy="0.0" r="10" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="1.5"/><line x1="-27.2" y1="-13.1" x2="-64.9" y2="-31.2" stroke="#111827" stroke-width="3"/><circle cx="-64.9" cy="-31.2" r="10" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="1.5"/><line x1="-18.9" y1="-23.6" x2="-44.9" y2="-56.3" stroke="#111827" stroke-width="3"/><circle cx="-44.9" cy="-56.3" r="10" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="1.5"/><line x1="-6.7" y1="-29.5" x2="-16.0" y2="-70.2" stroke="#111827" stroke-width="3"/><circle cx="-16.0" cy="-70.2" r="10" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="1.5"/><line x1="6.7" y1="-29.5" x2="16.0" y2="-70.2" stroke="#111827" stroke-width="3"/><circle cx="16.0" cy="-70.2" r="10" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="1.5"/><line x1="18.9" y1="-23.6" x2="44.9" y2="-56.3" stroke="#111827" stroke-width="3"/><circle cx="44.9" cy="-56.3" r="10" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="1.5"/><line x1="27.2" y1="-13.1" x2="64.9" y2="-31.2" stroke="#111827" stroke-width="3"/><circle cx="64.9" cy="-31.2" r="10" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="1.5"/></g>
+<text x="325" y="190" class="small blue">monomères / interfaces</text><text x="705" y="190" class="small orange">micelles</text>
+<rect x="250" y="780" width="700" height="60" rx="16" class="box"/><text x="285" y="818" class="small">Au-dessus de la CMC, les molécules supplémentaires forment surtout des micelles.</text>
+
+</svg>

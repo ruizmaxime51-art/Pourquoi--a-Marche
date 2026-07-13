@@ -4,12 +4,14 @@ category: "fermentation"
 excerpt: "Ce qui se passe réellement dans un bocal de levain, quelle farine choisir, et pourquoi il faut le nourrir régulièrement."
 formula: "C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂ (fermentation alcoolique)"
 image: "/images/levain-rafraichi.jpg"
+type: "recette"
 date: "2026-07-02"
 takeaways:
   - "Comprendre les deux populations microbiennes du levain"
   - "Savoir pourquoi farine, eau et température changent l'activité"
   - "Lire les signes de fermentation sans deviner"
 related:
+  - "notion-fermentation-maison"
   - "lacto-fermentation-legumes-securite"
   - "notion-saponification"
   - "nettoyant-ph-melanges-dangereux"
@@ -17,6 +19,22 @@ related:
 
 Le levain naturel est souvent présenté comme un être vivant capricieux. En réalité, c'est un
 écosystème microbien prévisible dès qu'on comprend les deux populations qui le composent.
+
+<div class="notion-link">
+<div class="nl-icon">📖</div>
+<div class="nl-body">
+<div class="nl-label">À relier à d'autres bases</div>
+<p>Le levain et la lacto-fermentation partagent une même logique : sélection microbienne, acidification et contrôle du milieu. Pour compléter : <a href="/articles/notion-fermentation-maison">Fermentation maison : pH, sel et sélection microbienne</a>.</p>
+</div>
+</div>
+
+<div class="article-links-block">
+<h4>Pour mieux naviguer dans le site</h4>
+<ul>
+<li><a href="/articles/notion-fermentation-maison">Bases communes : pH, sel et sélection microbienne</a></li>
+<li><a href="/articles/nettoyant-ph-melanges-dangereux">Comprendre le pH en pratique</a></li>
+</ul>
+</div>
 
 <a href="#recette" class="jump-to-recipe">Aller directement à la recette →</a>
 
@@ -52,7 +70,7 @@ réfrigérateur (4°C), l'activité ralentit fortement et un rafraîchi hebdomad
 
 ![Rafraîchi d'un levain actif, ajout de farine fraîche sur un levain bien bullé](/images/levain-rafraichi.jpg)
 
-![Cycle de rafraîchi du levain](/images/levain-cycle.svg)
+![Cycle de rafraîchi du levain](/images/diagrams/levain-cycle-v6.svg)
 
 ## Suivre l'activité sans deviner
 

@@ -4,12 +4,14 @@ category: "conservation"
 excerpt: "Le mécanisme microbiologique de la lacto-fermentation, quels légumes s'y prêtent, et les paramètres qui garantissent une conservation sans risque."
 formula: "pH < 4,6 → Clostridium botulinum inhibée"
 image: "/images/lacto-etape2-versement-saumure.jpg"
+type: "recette"
 date: "2026-07-02"
 takeaways:
   - "Pourquoi sel, immersion et acidification sécurisent la fermentation"
   - "Comprendre le rôle des bactéries lactiques et du pH"
   - "Éviter les erreurs qui favorisent moisissures ou échecs"
 related:
+  - "notion-fermentation-maison"
   - "levain-naturel-fermentation"
   - "nettoyant-ph-melanges-dangereux"
   - "notion-tensioactifs"
@@ -18,6 +20,22 @@ related:
 La lacto-fermentation fascine parce qu'elle semble presque magique : des légumes crus, de l'eau,
 du sel, et quelques jours plus tard, un produit conservé sans cuisson ni stérilisation.
 Comprendre pourquoi ça fonctionne permet de savoir exactement où sont les limites de sécurité.
+
+<div class="notion-link">
+<div class="nl-icon">📖</div>
+<div class="nl-body">
+<div class="nl-label">Relier cette recette à d'autres notions</div>
+<p>Cette recette mobilise surtout la microbiologie, le sel et le pH. Pour compléter la partie fermentation vivante : <a href="/articles/notion-fermentation-maison">Fermentation maison : pH, sel et sélection microbienne</a>.</p>
+</div>
+</div>
+
+<div class="article-links-block">
+<h4>À consulter en complément</h4>
+<ul>
+<li><a href="/articles/notion-fermentation-maison">Notion fermentation : pH, sel et sécurité</a></li>
+<li><a href="/articles/nettoyant-ph-melanges-dangereux">Comprendre ce que change le pH</a></li>
+</ul>
+</div>
 
 <a href="#recette" class="jump-to-recipe">Aller directement à la recette →</a>
 
@@ -65,7 +83,7 @@ partie émergée expose le produit à l'air et donc à des moisissures de surfac
 dangereux en soi si on retire la moisissure, mais c'est un signe que le protocole n'est pas
 respecté correctement.
 
-![Chute du pH pendant la fermentation lactique](/images/lacto-fermentation-ph.svg)
+![Chute du pH pendant la fermentation lactique](/images/diagrams/fermentation-ph-v6.svg)
 
 ## Quels légumes se prêtent bien à la lacto-fermentation, et pourquoi la méthode change
 

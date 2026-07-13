@@ -4,12 +4,14 @@ category: "entretien"
 excerpt: "Pourquoi le pH détermine l'efficacité d'un nettoyant, les deux recettes complètes, et le mélange qui ne pardonne pas."
 formula: "NaClO + acide → Cl₂ ↑ (dégagement toxique)"
 image: "/images/nettoyant-detartrant-flacon.jpg"
+type: "recette"
 date: "2026-07-01"
 takeaways:
   - "Choisir acide ou basique selon la salissure"
   - "Éviter les mélanges dangereux comme javel + acide"
   - "Comprendre pourquoi certains mélanges maison s'annulent"
 related:
+  - "notion-ph-nettoyants"
   - "notion-tensioactifs"
   - "savon-surgras-saponification"
   - "lacto-fermentation-legumes-securite"
@@ -17,6 +19,22 @@ related:
 
 Les recettes de nettoyants maison au vinaigre et bicarbonate sont partout, mais rarement
 expliquées. Résultat : des mélanges parfois inefficaces, et dans le pire des cas, dangereux.
+
+<div class="notion-link">
+<div class="nl-icon">📖</div>
+<div class="nl-body">
+<div class="nl-label">Comprendre avant de formuler</div>
+<p>Cette recette repose sur le <strong>pH</strong>, l'action des bases sur les graisses et la logique des interfaces. Pour comprendre pourquoi un produit dégraisse ou détarre : <a href="/articles/notion-ph-nettoyants">pH des nettoyants maison : acide, basique et mélanges dangereux</a>.</p>
+</div>
+</div>
+
+<div class="article-links-block">
+<h4>Articles liés utiles</h4>
+<ul>
+<li><a href="/articles/notion-ph-nettoyants">pH : choisir acide ou basique selon la salissure</a></li>
+<li><a href="/articles/savon-surgras-saponification">Recette de savon : attention à ne pas confondre cristaux de soude et soude caustique</a></li>
+</ul>
+</div>
 
 <a href="#recettes" class="jump-to-recipe">Aller directement aux recettes →</a>
 
@@ -37,10 +55,10 @@ citrique, pH 2-3) dissout le tartre et les dépôts calcaires (carbonate de calc
 acido-basique. Un nettoyant alcalin (bicarbonate, cristaux de soude, pH 9-11) est efficace sur
 les graisses par saponification partielle et sur les taches organiques. Les deux ne font pas le
 même travail — un produit "universel" au pH neutre (7) est en réalité peu efficace sur l'un ou
-l'autre type de salissure.</p>
+l'autre type de salissure. Pour le lien entre mouillage, interfaces et nettoyage, voir aussi [la notion sur les tensioactifs](/articles/notion-tensioactifs).</p>
 </div>
 
-![Échelle de pH et zone d'incompatibilité javel-acide](/images/nettoyant-echelle-ph.jpg)
+![Échelle de pH et zone d'incompatibilité javel-acide](/images/diagrams/ph-nettoyants-v6.svg)
 
 ## Le mélange dangereux à connaître absolument
 

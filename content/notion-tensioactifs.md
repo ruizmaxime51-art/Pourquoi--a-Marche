@@ -4,7 +4,7 @@ category: "comprendre"
 type: "notion"
 excerpt: "Savon, lessive, shampoing, liquide vaisselle : tous reposent sur les mêmes molécules. Comment un tensioactif décroche la graisse, pourquoi ça mousse, et pourquoi le calcaire pose problème."
 formula: "tête hydrophile + queue hydrophobe = amphiphile"
-image: "/images/notion-tensio-1-definition.png"
+image: "/images/diagrams/tensioactif-definition-v6.svg"
 date: "2026-07-09"
 sommaire: true
 takeaways:
@@ -21,6 +21,14 @@ Derrière un savon, un shampoing, une lessive, un liquide vaisselle ou même une
 
 {{sommaire}}
 
+<div class="article-links-block">
+<h4>Applications concrètes liées à cette notion</h4>
+<ul>
+<li><a href="/articles/nettoyant-ph-melanges-dangereux">Nettoyants maison : pH, dégraissant et détartrant</a></li>
+<li><a href="/articles/savon-surgras-saponification">Savon surgras maison</a></li>
+</ul>
+</div>
+
 ## Qu'est-ce qu'un tensioactif ?
 
 Un **tensioactif** (en anglais *surfactant*, pour *surface active agent*) est une molécule constituée de deux parties d'affinités opposées :
@@ -32,7 +40,7 @@ Une molécule qui porte deux parties d'affinités contraires est qualifiée d'**
 
 Le **savon** est l'exemple archétypal : sa longue chaîne carbonée (issue de l'acide gras) constitue la queue lipophile, et sa tête carboxylate chargée (–COO⁻) constitue la tête hydrophile.
 
-![Une molécule de tensioactif : une tête hydrophile qui aime l'eau et une queue hydrophobe qui aime les graisses. Exemple du savon R-COO⁻ Na⁺](/images/notion-tensio-1-definition.png)
+![Une molécule de tensioactif : une tête hydrophile qui aime l'eau et une queue hydrophobe qui aime les graisses. Exemple du savon R-COO⁻ Na⁺](/images/diagrams/tensioactif-definition-v6.svg)
 
 <div class="expert-block">
 
@@ -52,7 +60,7 @@ Le tensioactif résout cette incompatibilité en se plaçant à la **frontière*
 
 Un point important : un tensioactif ne **casse** pas la graisse comme le ferait un solvant. Il réduit la tension à l'interface et facilite la **dispersion** des salissures. La graisse n'est pas détruite : elle est fragmentée, décollée, mise en suspension, puis emportée au rinçage.
 
-![Les tensioactifs s'alignent à l'interface huile/eau : têtes dans l'eau, queues dans l'huile](/images/notion-tensio-2-interfaces.png)
+![Les tensioactifs s'alignent à l'interface huile/eau : têtes dans l'eau, queues dans l'huile](/images/diagrams/tensioactif-interfaces-v6.svg)
 
 <div class="expert-block">
 
@@ -64,7 +72,7 @@ Le tensioactif s'**adsorbe** à ces interfaces et **diminue l'énergie de surfac
 
 </div>
 
-![Le mouillage : sans tensioactif la goutte perle, avec tensioactif elle s'étale et pénètre les pores](/images/notion-tensio-3-mouillage.png)
+![Le mouillage : sans tensioactif la goutte perle, avec tensioactif elle s'étale et pénètre les pores](/images/diagrams/tensioactif-mouillage-v6.svg)
 
 ## Micelles et CMC : quand les tensioactifs s'assemblent
 
@@ -74,7 +82,7 @@ Que se passe-t-il quand on ajoute de plus en plus de tensioactif dans l'eau ?
 
 La concentration à partir de laquelle les micelles se forment s'appelle la **concentration micellaire critique (CMC)**. En dessous, les tensioactifs sont surtout isolés ; au-dessus, tout ajout part former des micelles et la tension superficielle **n'évolue quasiment plus**.
 
-![Graphique de la tension superficielle en fonction de la concentration : elle chute puis atteint un plateau au point CMC, où se forment les micelles](/images/notion-tensio-4-micelles-cmc.png)
+![Graphique de la tension superficielle en fonction de la concentration : elle chute puis atteint un plateau au point CMC, où se forment les micelles](/images/diagrams/micelles-cmc-v6.svg)
 
 Un produit trop dilué peut passer sous une zone où les micelles deviennent insuffisantes pour solubiliser les corps gras : il peut encore **mouiller** et **décoller**, mais maintient moins bien les graisses **dispersées**. À l'inverse, au-delà d'un certain dosage, ajouter plus de tensioactif n'améliore plus proportionnellement le lavage — on gaspille du produit.
 
@@ -104,7 +112,7 @@ Laver n'est pas une action unique, mais la **combinaison de plusieurs effets**.
 
 **5. La dispersion.** Les salissures doivent rester **en suspension** sans se redéposer. Pour un tensioactif ionique, les têtes chargées créent une **répulsion électrostatique** entre gouttelettes. Pour un non ionique, la stabilisation repose plutôt sur l'**encombrement stérique** et l'**hydratation** des têtes. Les salissures sont ensuite **emportées au rinçage**.
 
-![Les cinq étapes du nettoyage : mouillage, décollement, émulsification, solubilisation micellaire, dispersion et rinçage](/images/notion-tensio-5-nettoyage.png)
+![Les cinq étapes du nettoyage : mouillage, décollement, émulsification, solubilisation micellaire, dispersion et rinçage](/images/diagrams/tensioactif-nettoyage-v6.svg)
 
 **Mousse ≠ propreté.** On associe spontanément la mousse au pouvoir nettoyant : c'est une **idée reçue**. La mousse et la détergence sont deux propriétés distinctes — on y revient juste après.
 
@@ -122,7 +130,7 @@ Cette distinction explique pourquoi le **rinçage** est une étape à part enti�
 
 Une **mousse** est une **dispersion de gaz dans un liquide** : des bulles d'air dans de fins films liquides. L'eau pure ne mousse pas durablement. Les tensioactifs se placent à l'**interface air/eau** de chaque bulle (têtes dans l'eau, queues vers l'air, ce qui limite leur contact avec l'eau) et **stabilisent le film**, retardant son éclatement.
 
-![Coupe d'un film de mousse : les tensioactifs tapissent les deux faces de la lamelle d'eau ; le drainage finit par amincir le film. Mousse ≠ pouvoir lavant](/images/notion-tensio-6-mousse.png)
+![Coupe d'un film de mousse : les tensioactifs tapissent les deux faces de la lamelle d'eau ; le drainage finit par amincir le film. Mousse ≠ pouvoir lavant](/images/diagrams/tensioactif-mousse-v6.svg)
 
 <div class="expert-block">
 
@@ -142,7 +150,7 @@ Les tensioactifs abaissent la tension superficielle et confèrent au film une ca
 
 Tous les tensioactifs partagent l'architecture amphiphile, mais se distinguent par **la nature et la charge de leur tête**. C'est ce critère qui définit les **quatre grandes familles**.
 
-![Les quatre familles de tensioactifs : anioniques, cationiques, non ioniques, amphotères, avec leur charge et leur rôle dominant](/images/notion-tensio-7-familles.png)
+![Les quatre familles de tensioactifs : anioniques, cationiques, non ioniques, amphotères, avec leur charge et leur rôle dominant](/images/diagrams/tensioactif-familles-v6.svg)
 
 | Famille | Charge de la tête | Exemples | Propriétés générales |
 |---|---|---|---|
@@ -173,7 +181,7 @@ Deux phénomènes, propres à deux familles différentes, expliquent des comport
 
 **Le point de trouble** est l'inverse, pour de nombreux tensioactifs **non ioniques éthoxylés** : au-dessus d'une certaine température, la solution limpide devient **trouble**. Leur solubilité repose sur l'**hydratation** de la tête (liaisons hydrogène avec l'eau) ; la chaleur défait ces liaisons, les têtes se déshydratent, les tensioactifs se regroupent et la solution se trouble.
 
-![Deux phénomènes symétriques : le point de Krafft (les ioniques limités par le froid) et le point de trouble (les non ioniques éthoxylés limités par le chaud)](/images/notion-tensio-8-krafft-trouble.png)
+![Deux phénomènes symétriques : le point de Krafft (les ioniques limités par le froid) et le point de trouble (les non ioniques éthoxylés limités par le chaud)](/images/diagrams/tensioactif-krafft-trouble-v6.svg)
 
 <div class="expert-block">
 
@@ -191,7 +199,7 @@ La **dureté** d'une eau désigne sa teneur en ions **calcium (Ca²⁺)** et **m
 
 **2 R–COO⁻ Na⁺ + Ca²⁺ → (R–COO)₂Ca ↓ + 2 Na⁺**
 
-![En eau douce le savon reste actif ; en eau dure, le calcium capture le savon deux par deux et forme un précipité insoluble](/images/notion-tensio-9-eau-dure.png)
+![En eau douce le savon reste actif ; en eau dure, le calcium capture le savon deux par deux et forme un précipité insoluble](/images/diagrams/tensioactif-eau-dure-v6.svg)
 
 Les conséquences : une part importante du savon est **consommée pour former un sel insoluble** avant d'agir (il faut surdoser) ; des **dépôts blancs** se forment sur le linge et les parois ; la sensation de peau « qui accroche » est largement liée à ce dépôt ; et à long terme, une machine peut s'**encrasser** — le reproche classique des lessives maison au savon.
 
@@ -219,7 +227,7 @@ On oppose souvent le savon « naturel » aux détergents « chimiques ». La ré
 
 **Le syndet** (*synthetic detergent*) désigne les tensioactifs de synthèse et les produits « sans savon ». Leur tête n'est pas un carboxylate mais un **sulfate**, **sulfonate**, **glucoside**, **bétaïne**… « Synthétique » décrit ici une catégorie chimique différente du savon, pas forcément une origine 100 % pétrochimique (certains sont biosourcés). Cette diversité permet un **pH ajustable** (jusqu'à ~5,5), une bonne tenue **en eau dure**, et une douceur modulable.
 
-![Savon et syndets partagent la même queue mais diffèrent par la tête : carboxylate pour le savon, sulfate/glucoside/bétaïne pour les syndets](/images/notion-tensio-10-savon-syndet.png)
+![Savon et syndets partagent la même queue mais diffèrent par la tête : carboxylate pour le savon, sulfate/glucoside/bétaïne pour les syndets](/images/diagrams/tensioactif-savon-syndet-v6.svg)
 
 | Critère | Savon | Syndet |
 |---|---|---|

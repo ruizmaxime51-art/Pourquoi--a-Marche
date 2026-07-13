@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Pourquoi les tensioactifs vont aux interfaces ?</title><desc id="desc">Schéma scientifique pédagogique.</desc>
+<defs>
+<style>
+.title{font:700 46px system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:#0b1d3a;letter-spacing:-.8px}
+.subtitle{font:400 21px system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:#2f3a49}
+.h2{font:700 30px system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:#0b1d3a}
+.label{font:600 20px system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:#0b1d3a}
+.small{font:400 17px system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:#273449}
+.tiny{font:400 14px system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:#4b5563}
+.mono{font:500 19px ui-monospace,SFMono-Regular,Menlo,monospace;fill:#111827}
+.box{fill:#fff;stroke:#d7dce3;stroke-width:2}
+.info{fill:#f7fbff;stroke:#1769d1;stroke-width:2}
+.warn{fill:#fff9ed;stroke:#d88112;stroke-width:2}
+.blue{fill:#1769d1}.orange{fill:#d88112}.green{fill:#237047}.purple{fill:#6a3aa8}.red{fill:#b84b3f}.muted{fill:#667085}
+.tail{fill:none;stroke:#111827;stroke-width:4;stroke-linecap:round}
+.line{stroke:#d7dce3;stroke-width:2}
+</style>
+<radialGradient id="headBlue" cx="35%" cy="30%"><stop offset="0" stop-color="#9fd7ff"/><stop offset="1" stop-color="#1769d1"/></radialGradient>
+<radialGradient id="headOrange" cx="35%" cy="30%"><stop offset="0" stop-color="#ffe19a"/><stop offset="1" stop-color="#d88112"/></radialGradient>
+<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#111827"/></marker>
+<marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#1769d1"/></marker>
+<marker id="arrowOrange" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#d88112"/></marker>
+</defs>
+<rect width="100%" height="100%" fill="#fbfaf6"/>
+<text x="600.0" y="72" text-anchor="middle" class="title">Pourquoi les tensioactifs vont aux interfaces ?</text>
+<text x="600.0" y="112" text-anchor="middle" class="subtitle">Chaque partie de la molécule se place dans le milieu le plus favorable.</text>
+
+<rect x="150" y="205" width="900" height="440" rx="24" class="box"/>
+<path d="M150 205 H1050 V405 H150Z" fill="#ffe1a3" opacity=".78"/>
+<path d="M150 405 H1050 V645 H150Z" fill="#dcefff" opacity=".92"/>
+<line x1="150" y1="405" x2="1050" y2="405" stroke="#68aee8" stroke-width="4"/>
+<text x="590" y="300" text-anchor="middle" class="h2 orange">huile</text>
+<text x="590" y="550" text-anchor="middle" class="h2 blue">eau</text>
+<circle cx="250" cy="405" r="14.040000000000001" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="1.56"/><path d="M250 386.28 C232.84 358.2 267.16 333.24 250 305.15999999999997" class="tail" stroke-width="3.12"/><circle cx="320" cy="405" r="14.040000000000001" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="1.56"/><path d="M320 386.28 C302.84 358.2 337.16 333.24 320 305.15999999999997" class="tail" stroke-width="3.12"/><circle cx="390" cy="405" r="14.040000000000001" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="1.56"/><path d="M390 386.28 C372.84 358.2 407.16 333.24 390 305.15999999999997" class="tail" stroke-width="3.12"/><circle cx="460" cy="405" r="14.040000000000001" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="1.56"/><path d="M460 386.28 C442.84 358.2 477.16 333.24 460 305.15999999999997" class="tail" stroke-width="3.12"/><circle cx="530" cy="405" r="14.040000000000001" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="1.56"/><path d="M530 386.28 C512.84 358.2 547.16 333.24 530 305.15999999999997" class="tail" stroke-width="3.12"/><circle cx="600" cy="405" r="14.040000000000001" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="1.56"/><path d="M600 386.28 C582.84 358.2 617.16 333.24 600 305.15999999999997" class="tail" stroke-width="3.12"/><circle cx="670" cy="405" r="14.040000000000001" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="1.56"/><path d="M670 386.28 C652.84 358.2 687.16 333.24 670 305.15999999999997" class="tail" stroke-width="3.12"/><circle cx="740" cy="405" r="14.040000000000001" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="1.56"/><path d="M740 386.28 C722.84 358.2 757.16 333.24 740 305.15999999999997" class="tail" stroke-width="3.12"/><circle cx="810" cy="405" r="14.040000000000001" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="1.56"/><path d="M810 386.28 C792.84 358.2 827.16 333.24 810 305.15999999999997" class="tail" stroke-width="3.12"/><circle cx="880" cy="405" r="14.040000000000001" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="1.56"/><path d="M880 386.28 C862.84 358.2 897.16 333.24 880 305.15999999999997" class="tail" stroke-width="3.12"/><circle cx="950" cy="405" r="14.040000000000001" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="1.56"/><path d="M950 386.28 C932.84 358.2 967.16 333.24 950 305.15999999999997" class="tail" stroke-width="3.12"/>
+<text x="1080" y="405" class="label">interface huile/eau</text><path d="M1050 405 H1070" stroke="#111827" stroke-width="3"/>
+<rect x="190" y="690" width="360" height="92" rx="18" class="info"/><text x="230" y="730" class="label blue">Tête hydrophile</text><text x="230" y="760" class="small">reste dans l’eau</text>
+<rect x="650" y="690" width="360" height="92" rx="18" class="warn"/><text x="690" y="730" class="label orange">Queue hydrophobe</text><text x="690" y="760" class="small">se place vers l’huile</text>
+
+</svg>
