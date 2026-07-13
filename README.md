@@ -65,3 +65,8 @@ related:
 - `{{affil-inline:cle-produit}}` : lien d'affiliation inline
 - `{{ref:cle-source}}` : référence scientifique numérotée
 - `{{references}}` : emplacement manuel de la bibliographie
+
+## Note déploiement Vercel
+
+Le fichier `package-lock.json` pointe vers le registre public npm (`https://registry.npmjs.org/`).
+Le fichier `.npmrc` force également ce registre afin d’éviter les erreurs de build si un lockfile a été généré dans un environnement avec registre npm privé.
