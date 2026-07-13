@@ -42,6 +42,7 @@ export default function RootLayout({ children }) {
               chimie <em>maison</em>
             </Link>
             <nav className="main-nav" aria-label="Navigation principale">
+              <Link href="/recettes">Recettes</Link>
               <Link href="/cosmetique">Cosmétique</Link>
               <Link href="/entretien">Entretien</Link>
               <Link href="/conservation">Conservation</Link>

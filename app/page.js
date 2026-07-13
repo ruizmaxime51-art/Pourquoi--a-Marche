@@ -17,7 +17,7 @@ export default function Home() {
             une recette copiée ailleurs.
           </p>
           <div className="hero-actions">
-            <Link href="/entretien" className="primary-pill">Voir les recettes</Link>
+            <Link href="/recettes" className="primary-pill">Voir les recettes</Link>
             <Link href="/comprendre" className="secondary-pill">Comprendre la chimie</Link>
           </div>
         </div>
@@ -36,7 +36,7 @@ export default function Home() {
       <section className="start-here wrap-wide">
         <div className="section-kicker">Commencer ici</div>
         <div className="path-grid">
-          <Link href="/entretien" className="path-card">
+          <Link href="/recettes" className="path-card">
             <span>01</span>
             <h3>Je veux fabriquer un produit</h3>
             <p>Lessive, nettoyant, savon, fermentation : aller directement aux recettes expliquées.</p>

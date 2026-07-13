@@ -5,7 +5,7 @@ import { SITE_URL } from '@/lib/site';
 export default function sitemap() {
   const now = new Date();
 
-  const staticPaths = ['', '/a-propos', '/mentions-legales', '/politique-confidentialite', '/outils', '/outils/lessive-eau-dure'];
+  const staticPaths = ['', '/recettes', '/a-propos', '/mentions-legales', '/politique-confidentialite', '/outils', '/outils/lessive-eau-dure'];
   const categoryPaths = categoryList.map((c) => `/${c.slug}`);
   const articlePaths = getAllSlugs().map((s) => `/articles/${s}`);
 
