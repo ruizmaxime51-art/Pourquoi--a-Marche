@@ -29,6 +29,15 @@ protocole à l'aveugle.
 </div>
 </div>
 
+<div class="article-links-block">
+<h4>Pour aller plus loin pendant la lecture</h4>
+<ul>
+<li><a href="/articles/notion-saponification">La saponification : mécanisme, surgras, NaOH/KOH</a></li>
+<li><a href="/articles/notion-tensioactifs">Les tensioactifs : pourquoi le savon lave</a></li>
+<li><a href="/articles/nettoyant-ph-melanges-dangereux">Cristaux de soude, acides et pH des nettoyants</a></li>
+</ul>
+</div>
+
 <a href="#recette" class="jump-to-recipe">Aller directement à la recette →</a>
 
 <div class="materials-early">
@@ -52,14 +61,14 @@ molécule de glycérol. La réaction est exothermique et irréversible : une foi
 revient pas en arrière.</p>
 </div>
 
-![Réaction complète de saponification](/images/saponification-reaction.png)
+![Réaction complète de saponification](/images/diagrams/sapo-reaction-v6.svg)
 
 **Pourquoi la glycérine compte.** La glycérine (ou glycérol) libérée pendant la réaction est un
 humectant naturel — elle attire et retient l'eau, ce qui explique l'effet hydratant du savon
 fait maison. Dans l'industrie, la plupart des savons commerciaux extraient cette glycérine pour
 la revendre séparément (elle vaut cher dans les cosmétiques industriels), ce qui rend ces savons
 plus asséchants. **Un savon fait maison garde naturellement toute sa glycérine** — c'est un vrai
-avantage, pas juste un argument marketing.
+avantage, pas juste un argument marketing. Si tu veux la version plus scientifique sur le rôle du glycérol, vois aussi la notion : [La saponification : comment le corps gras devient savon](/articles/notion-saponification).
 
 ## Pourquoi le "surgraissage" n'est pas une option esthétique
 
