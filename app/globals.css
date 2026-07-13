@@ -918,3 +918,8 @@ article.post { max-width: 760px; padding: 24px 0 60px; }
   background-repeat: no-repeat;
   background-color: #fff;
 }
+
+
+/* v4 fix: article schemas display cleanly */
+.post-body img { max-width: 100%; object-fit: contain; }
+.post-body p:has(> img) { overflow: visible; }
