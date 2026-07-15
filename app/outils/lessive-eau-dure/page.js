@@ -1,20 +1,42 @@
 import HardWaterLaundryTool from '@/app/_components/HardWaterLaundryTool';
 
-export const metadata = {
-  title: 'Calculateur lessive au savon et eau dure',
-  description: "Évaluez le risque de dépôt d'une lessive au savon selon la dureté de votre eau.",
-};
-
 export default function HardWaterToolPage() {
   return (
     <main>
       <section className="tool-hero wrap">
         <span className="formula-eyebrow">Ca²⁺ + savon → dépôt insoluble</span>
         <h1>Lessive au savon : votre eau risque-t-elle de faire déposer ?</h1>
-        <p className="standfirst">Un outil pédagogique pour visualiser l'impact de la dureté de l'eau, de la température et du dosage sur une recette de lessive au savon.</p>
+        <p className="standfirst">
+          Un outil pédagogique pour visualiser l'impact de la dureté de l'eau, de la température
+          et du dosage sur une recette de lessive au savon.
+        </p>
       </section>
+
       <section className="wrap">
         <HardWaterLaundryTool />
+      </section>
+
+      <section className="wrap">
+        <div className="article-links-block">
+          <h4>Mesurer sa dureté à la maison</h4>
+          <p>
+            Si vous voulez connaître votre eau plutôt que l'estimer, le plus simple est d'utiliser
+            un testeur domestique. Vous pouvez relier ce bouton à votre lien affilié préféré.
+          </p>
+          <p>
+            <a
+              href="https://www.amazon.fr/AGUALEVE%C2%AE-Fran%C3%A7ais-Nouveau-pr%C3%A9cise-Qualit%C3%A9/dp/B0CJ9QQ2M2?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2XXHY24JQ0OPO&dib=eyJ2IjoiMSJ9.If30TSvZ37_2UFwtz2JdRuGnMrU5ZlrupTLSWKQrO_yJO2SRzA1Wl1djniZkPZCaVvAomst8xBmKifT2F2mPyGT_v6vD5rBrKU7geHcbovzSmzO9ukZa4G3E24LrO5JQ1ABVi94TQtdv2VEjpcB0-PeuSgq8YGEVAWVp8WQ5GdB3F9uJxnkiuXPpzzDGiHCpxivWkRs-uTDHTJAGmGEW99fAJuUFimTvOy4XWBAR_BQTibrn8Il7dN08LQ23BAz8b2OBIvchGcVWFiGCosce-gFtmyg_5lfMrXspDdgh5ao.LYInu6n8x5eYI3db6157JrypmXbqyz0j-eqp-6_0wek&dib_tag=se&keywords=calculateur+duret%C3%A9+eau&qid=1784101513&sprefix=calculateur+duret%C3%A9+eau+%2Caps%2C197&sr=8-1&linkCode=ll2&tag=maxscience06-21&linkId=a0d462012506dc9ce3bd7e0335a8e753&ref_=as_li_ss_tl"
+              target="_blank"
+              rel="nofollow sponsored noopener noreferrer"
+              className="secondary-pill"
+            >
+              Voir le test dureté de l’eau AGUALEVE
+            </a>
+          </p>
+          <p className="tool-disclaimer">
+            Lien affilié — test domestique pour estimer directement le degré français de l’eau.
+          </p>
+        </div>
       </section>
     </main>
   );

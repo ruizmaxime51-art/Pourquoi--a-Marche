@@ -1210,3 +1210,27 @@ h1, h2, h3, h4,
 .compare th {
   border-color: #D8CEBF !important;
 }
+
+
+/* v12 – cartes d'articles : vraies images, plus de fonds qui masquent les photos */
+.article-card-media {
+  position: relative;
+  min-height: 170px;
+  overflow: hidden;
+  background: #EFE7D9 !important;
+}
+.article-card-media img {
+  width: 100%;
+  height: 100%;
+  min-height: 170px;
+  object-fit: cover;
+  display: block;
+}
+.article-card.compact .article-card-media img { min-height: 110px; }
+.article-card.wide .article-card-media img { min-height: 240px; }
+.article-card-media-fallback {
+  width: 100%;
+  height: 100%;
+  min-height: 170px;
+  background: linear-gradient(135deg, #E8EDE5, #F3E5C9);
+}

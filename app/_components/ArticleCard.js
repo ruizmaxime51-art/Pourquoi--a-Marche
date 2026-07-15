@@ -3,7 +3,13 @@ import Link from 'next/link';
 export default function ArticleCard({ article, variant = 'default' }) {
   return (
     <Link href={`/articles/${article.slug}`} className={`article-card ${variant}`}>
-      <div className="article-card-media" style={{ backgroundImage: article.image ? `url(${article.image})` : undefined }} />
+      <div className="article-card-media">
+        {article.image ? (
+          <img src={article.image} alt={article.title} loading="lazy" />
+        ) : (
+          <div className="article-card-media-fallback" aria-hidden="true" />
+        )}
+      </div>
       <div className="article-card-body">
         <div className="card-meta">
           {article.type && <span className={`type-badge ${badgeClass(article.type)}`}>{badgeLabel(article.type)}</span>}
@@ -23,7 +29,8 @@ function badgeClass(type) {
   return 'recette';
 }
 function badgeLabel(type) {
-  if (type === 'notion' || type === 'guide') return 'Notion';
+  if (type === 'notion') return 'Notion';
+  if (type === 'guide') return 'Guide';
   if (type === 'comparatif') return 'Comparatif';
   return 'Recette';
 }
