@@ -1,66 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
 <style>
   .bg { fill:#FBFAF7; }
-  .panel { fill:#F7F5F0; stroke:#D2C8B8; stroke-width:2; }
-  .panelBlue { fill:#F1F6FD; stroke:#2B6CCF; stroke-width:2; }
-  .panelOrange { fill:#FCF5E8; stroke:#D98310; stroke-width:2; }
-  .panelGreen { fill:#EFF7F1; stroke:#2C7A48; stroke-width:2; }
+  .panel { fill:#F7F5F0; stroke:#D2C8B8; stroke-width:2.2; }
+  .panelBlue { fill:#F1F6FD; stroke:#2B6CCF; stroke-width:2.2; }
+  .panelOrange { fill:#FCF5E8; stroke:#D98310; stroke-width:2.2; }
+  .panelGreen { fill:#EFF7F1; stroke:#2C7A48; stroke-width:2.2; }
   .ink { fill:#142544; font-family:Roboto,Arial,sans-serif; }
   .muted { fill:#4B5563; font-family:Roboto,Arial,sans-serif; }
-  .small { font-size:22px; }
-  .body { font-size:26px; }
-  .h1 { font-size:54px; font-weight:800; }
-  .h2 { font-size:34px; font-weight:700; }
-  .h3 { font-size:30px; font-weight:700; }
-  .note { font-size:20px; }
-  .caption { font-size:24px; }
+  .small { font-size:18px; }
+  .body { font-size:22px; }
+  .h1 { font-size:44px; font-weight:800; }
+  .h2 { font-size:28px; font-weight:700; }
+  .h3 { font-size:24px; font-weight:700; }
   .blue { fill:#2B6CCF; }
   .orange { fill:#D98310; }
   .green { fill:#2C7A48; }
   .darkstroke { stroke:#142544; stroke-width:4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
-  .bluestroke { stroke:#2B6CCF; stroke-width:4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
-  .orangestroke { stroke:#D98310; stroke-width:4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
-  .redstroke { stroke:#D1495B; stroke-width:3.5; fill:none; stroke-linecap:round; stroke-linejoin:round; }
-  .dash { stroke-dasharray:9 9; }
+  .bluestroke { stroke:#2B6CCF; stroke-width:3.5; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .orangestroke { stroke:#D98310; stroke-width:3.5; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .greenstroke { stroke:#2C7A48; stroke-width:3.5; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .redstroke { stroke:#D1495B; stroke-width:3; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .dash { stroke-dasharray:8 8; }
 </style>
 <defs>
   <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
     <path d="M0,0 L12,6 L0,12 z" fill="#142544"/>
   </marker>
-  <marker id="blueArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
-    <path d="M0,0 L12,6 L0,12 z" fill="#2B6CCF"/>
+  <marker id="blueArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 z" fill="#2B6CCF"/>
   </marker>
-  <marker id="orangeArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
-    <path d="M0,0 L12,6 L0,12 z" fill="#D98310"/>
+  <marker id="orangeArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 z" fill="#D98310"/>
   </marker>
-  <marker id="redArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
-    <path d="M0,0 L10,5 L0,10 z" fill="#D1495B"/>
+  <marker id="redArrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+    <path d="M0,0 L8,4 L0,8 z" fill="#D1495B"/>
   </marker>
 </defs>
-<rect class="bg" x="0" y="0" width="1200" height="760" rx="18"/>
+<rect class="bg" width="1400" height="900" rx="18"/>
 
-<rect class="panel" x="40" y="40" width="1120" height="680" rx="22"/>
-<text class="ink h1" x="600" y="110" text-anchor="middle">Pourquoi ça mousse ?</text>
-<text class="muted body" x="600" y="155" text-anchor="middle">Une mousse est une dispersion d’air stabilisée par un film d’eau tapissé de tensioactifs.</text>
+<rect class="panel" x="50" y="50" width="1300" height="800" rx="24"/>
+<text class="ink h1" x="700" y="110" text-anchor="middle">Pourquoi ça mousse ?</text>
+<text class="muted body" x="700" y="150" text-anchor="middle">Une mousse est une dispersion d’air séparée par des films d’eau stabilisés par les tensioactifs.</text>
+<text class="ink h2" x="210" y="400">air</text>
+<text class="ink h2" x="1060" y="400">air</text>
+<rect x="570" y="250" width="180" height="280" rx="90" fill="#D9EAFB" stroke="#5AA0E6" stroke-width="3"/>
+<circle cx="570" cy="285" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M563 285 C540 275, 525 293, 505 282" class="darkstroke" stroke-width="3"/><circle cx="750" cy="285" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M757 285 C780 275, 795 293, 815 282" class="darkstroke" stroke-width="3"/><circle cx="570" cy="330" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M563 330 C540 320, 525 338, 505 327" class="darkstroke" stroke-width="3"/><circle cx="750" cy="330" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M757 330 C780 320, 795 338, 815 327" class="darkstroke" stroke-width="3"/><circle cx="570" cy="375" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M563 375 C540 365, 525 383, 505 372" class="darkstroke" stroke-width="3"/><circle cx="750" cy="375" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M757 375 C780 365, 795 383, 815 372" class="darkstroke" stroke-width="3"/><circle cx="570" cy="420" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M563 420 C540 410, 525 428, 505 417" class="darkstroke" stroke-width="3"/><circle cx="750" cy="420" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M757 420 C780 410, 795 428, 815 417" class="darkstroke" stroke-width="3"/><circle cx="570" cy="465" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M563 465 C540 455, 525 473, 505 462" class="darkstroke" stroke-width="3"/><circle cx="750" cy="465" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M757 465 C780 455, 795 473, 815 462" class="darkstroke" stroke-width="3"/>
+<text class="muted body blue" x="660" y="225" text-anchor="middle">film d’eau / lamelle</text>
+<text class="muted body blue" x="845" y="320">têtes dans l’eau</text>
+<text class="muted body orange" x="845" y="360">queues vers l’air</text>
+<line x1="752" y1="315" x2="825" y2="315" class="bluestroke" marker-end="url(#blueArrow)"/>
+<line x1="790" y1="355" x2="860" y2="355" class="orangestroke" marker-end="url(#orangeArrow)"/>
 
-<text class="ink h2" x="205" y="360">air</text>
-<text class="ink h2" x="940" y="360">air</text>
-<rect x="470" y="220" width="170" height="230" rx="85" fill="#D9EAFB" stroke="#5AA0E6" stroke-width="3"/>
-<circle cx="470" cy="250" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M463 250 C440 240, 430 258, 410 246" class="darkstroke" stroke-width="3"/><circle cx="640" cy="250" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M647 250 C670 240, 680 258, 700 246" class="darkstroke" stroke-width="3"/><circle cx="470" cy="290" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M463 290 C440 280, 430 298, 410 286" class="darkstroke" stroke-width="3"/><circle cx="640" cy="290" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M647 290 C670 280, 680 298, 700 286" class="darkstroke" stroke-width="3"/><circle cx="470" cy="330" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M463 330 C440 320, 430 338, 410 326" class="darkstroke" stroke-width="3"/><circle cx="640" cy="330" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M647 330 C670 320, 680 338, 700 326" class="darkstroke" stroke-width="3"/><circle cx="470" cy="370" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M463 370 C440 360, 430 378, 410 366" class="darkstroke" stroke-width="3"/><circle cx="640" cy="370" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M647 370 C670 360, 680 378, 700 366" class="darkstroke" stroke-width="3"/><circle cx="470" cy="410" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M463 410 C440 400, 430 418, 410 406" class="darkstroke" stroke-width="3"/><circle cx="640" cy="410" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M647 410 C670 400, 680 418, 700 406" class="darkstroke" stroke-width="3"/>
-<text class="muted body blue" x="600" y="205" text-anchor="middle">film d’eau / lamelle</text>
-<text class="muted body blue" x="705" y="275">têtes dans l’eau</text>
-<text class="muted body orange" x="705" y="320">queues vers l’air</text>
-<line x1="642" y1="258" x2="690" y2="266" class="bluestroke" marker-end="url(#blueArrow)"/>
-<line x1="680" y1="306" x2="722" y2="314" class="orangestroke" marker-end="url(#orangeArrow)"/>
+<rect class="panelBlue" x="175" y="610" width="360" height="100" rx="18"/>
+<text class="ink body blue" x="210" y="655" font-weight="700">drainage</text>
+<text class="muted body" x="320" y="655">le liquide s’écoule,</text>
+<text class="muted body" x="320" y="688">le film s’amincit.</text>
+<line x1="370" y1="555" x2="370" y2="603" class="bluestroke" stroke-width="8" marker-end="url(#blueArrow)"/>
 
-<rect class="panelBlue" x="165" y="525" width="330" height="92" rx="18"/>
-<text class="ink body blue" x="200" y="565" font-weight="700">drainage</text>
-<text class="muted body" x="315" y="565">le liquide s’écoule,</text>
-<text class="muted body" x="315" y="600">le film s’amincit.</text>
-<line x1="335" y1="490" x2="335" y2="515" class="bluestroke" stroke-width="10" marker-end="url(#blueArrow)"/>
-
-<rect class="panelOrange" x="625" y="525" width="380" height="92" rx="18"/>
-<text class="ink h2 orange" x="815" y="570" text-anchor="middle">Mousse ≠ pouvoir lavant</text>
-<text class="muted body" x="815" y="607" text-anchor="middle">La mousse renseigne surtout sur la stabilité des bulles.</text>
+<rect class="panelOrange" x="785" y="610" width="400" height="100" rx="18"/>
+<text class="ink h2 orange" x="985" y="655" text-anchor="middle">Mousse ≠ pouvoir lavant</text>
+<text class="muted body" x="985" y="688" text-anchor="middle">La mousse renseigne surtout sur la stabilité des bulles.</text>
 
 </svg>

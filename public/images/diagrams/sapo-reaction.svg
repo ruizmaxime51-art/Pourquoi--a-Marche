@@ -1,72 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
 <style>
   .bg { fill:#FBFAF7; }
-  .panel { fill:#F7F5F0; stroke:#D2C8B8; stroke-width:2; }
-  .panelBlue { fill:#F1F6FD; stroke:#2B6CCF; stroke-width:2; }
-  .panelOrange { fill:#FCF5E8; stroke:#D98310; stroke-width:2; }
-  .panelGreen { fill:#EFF7F1; stroke:#2C7A48; stroke-width:2; }
+  .panel { fill:#F7F5F0; stroke:#D2C8B8; stroke-width:2.2; }
+  .panelBlue { fill:#F1F6FD; stroke:#2B6CCF; stroke-width:2.2; }
+  .panelOrange { fill:#FCF5E8; stroke:#D98310; stroke-width:2.2; }
+  .panelGreen { fill:#EFF7F1; stroke:#2C7A48; stroke-width:2.2; }
   .ink { fill:#142544; font-family:Roboto,Arial,sans-serif; }
   .muted { fill:#4B5563; font-family:Roboto,Arial,sans-serif; }
-  .small { font-size:22px; }
-  .body { font-size:26px; }
-  .h1 { font-size:54px; font-weight:800; }
-  .h2 { font-size:34px; font-weight:700; }
-  .h3 { font-size:30px; font-weight:700; }
-  .note { font-size:20px; }
-  .caption { font-size:24px; }
+  .small { font-size:18px; }
+  .body { font-size:22px; }
+  .h1 { font-size:44px; font-weight:800; }
+  .h2 { font-size:28px; font-weight:700; }
+  .h3 { font-size:24px; font-weight:700; }
   .blue { fill:#2B6CCF; }
   .orange { fill:#D98310; }
   .green { fill:#2C7A48; }
   .darkstroke { stroke:#142544; stroke-width:4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
-  .bluestroke { stroke:#2B6CCF; stroke-width:4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
-  .orangestroke { stroke:#D98310; stroke-width:4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
-  .redstroke { stroke:#D1495B; stroke-width:3.5; fill:none; stroke-linecap:round; stroke-linejoin:round; }
-  .dash { stroke-dasharray:9 9; }
+  .bluestroke { stroke:#2B6CCF; stroke-width:3.5; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .orangestroke { stroke:#D98310; stroke-width:3.5; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .greenstroke { stroke:#2C7A48; stroke-width:3.5; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .redstroke { stroke:#D1495B; stroke-width:3; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .dash { stroke-dasharray:8 8; }
 </style>
 <defs>
   <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
     <path d="M0,0 L12,6 L0,12 z" fill="#142544"/>
   </marker>
-  <marker id="blueArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
-    <path d="M0,0 L12,6 L0,12 z" fill="#2B6CCF"/>
+  <marker id="blueArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 z" fill="#2B6CCF"/>
   </marker>
-  <marker id="orangeArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
-    <path d="M0,0 L12,6 L0,12 z" fill="#D98310"/>
+  <marker id="orangeArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 z" fill="#D98310"/>
   </marker>
-  <marker id="redArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
-    <path d="M0,0 L10,5 L0,10 z" fill="#D1495B"/>
+  <marker id="redArrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+    <path d="M0,0 L8,4 L0,8 z" fill="#D1495B"/>
   </marker>
 </defs>
-<rect class="bg" x="0" y="0" width="1200" height="760" rx="18"/>
+<rect class="bg" width="1400" height="900" rx="18"/>
 
-<rect class="panel" x="40" y="40" width="1120" height="680" rx="22"/>
-<text class="ink h1" x="600" y="105" text-anchor="middle">Réaction globale de saponification</text>
-<text class="muted body" x="600" y="150" text-anchor="middle">Un triglycéride réagit avec 3 équivalents de soude pour donner du glycérol et trois carboxylates de sodium.</text>
+<rect class="panel" x="50" y="50" width="1300" height="800" rx="24"/>
+<text class="ink h1" x="700" y="110" text-anchor="middle">Réaction globale de saponification</text>
+<text class="muted body" x="700" y="150" text-anchor="middle">Un triglycéride réagit avec 3 équivalents de soude pour donner du glycérol et trois savons.</text>
 
-<text class="ink h2" x="185" y="245">Triglycéride</text>
-<text class="ink body" x="170" y="300">CH₂–O–C(=O)–R₁</text>
-<text class="ink body" x="230" y="338">│</text>
-<text class="ink body" x="182" y="376">CH–O–C(=O)–R₂</text>
-<text class="ink body" x="230" y="414">│</text>
-<text class="ink body" x="170" y="452">CH₂–O–C(=O)–R₃</text>
-<text class="muted small" x="170" y="495">R = chaînes carbonées provenant des huiles</text>
+<text class="ink h2" x="190" y="250">Triglycéride</text>
+<text class="ink body" x="180" y="310">CH₂–O–C(=O)–R₁</text>
+<text class="ink body" x="258" y="345">│</text>
+<text class="ink body" x="196" y="380">CH–O–C(=O)–R₂</text>
+<text class="ink body" x="258" y="415">│</text>
+<text class="ink body" x="180" y="450">CH₂–O–C(=O)–R₃</text>
+<text class="muted body" x="180" y="495">R = chaînes carbonées des huiles</text>
 
-<text class="ink h2" x="420" y="370">+ 3 NaOH</text>
-<line x1="470" y1="360" x2="675" y2="360" class="darkstroke" stroke-width="7" marker-end="url(#arrow)"/>
-<text class="muted small" x="575" y="335" text-anchor="middle">hydrolyse basique des liaisons ester</text>
+<text class="ink h2" x="510" y="385">+ 3 NaOH</text>
+<line x1="600" y1="370" x2="760" y2="370" class="darkstroke" marker-end="url(#arrow)"/>
+<text class="muted small" x="680" y="340" text-anchor="middle">hydrolyse basique des liaisons ester</text>
 
-<text class="ink h2" x="760" y="245">Glycérol</text>
-<text class="ink body" x="770" y="300">CH₂OH</text>
-<text class="ink body" x="815" y="338">│</text>
-<text class="ink body" x="782" y="376">CHOH</text>
-<text class="ink body" x="815" y="414">│</text>
-<text class="ink body" x="770" y="452">CH₂OH</text>
+<text class="ink h2" x="865" y="250">Glycérol</text>
+<text class="ink body" x="875" y="310">CH₂OH</text>
+<text class="ink body" x="920" y="345">│</text>
+<text class="ink body" x="887" y="380">CHOH</text>
+<text class="ink body" x="920" y="415">│</text>
+<text class="ink body" x="875" y="450">CH₂OH</text>
 
-<text class="ink h2" x="975" y="370">+ 3 R–COO⁻ Na⁺</text>
+<text class="ink h2" x="1035" y="385">+ 3 R–COO⁻ Na⁺</text>
 
-<rect class="panelBlue" x="160" y="560" width="880" height="92" rx="18"/>
-<text class="ink body" x="200" y="610">Bilan global :</text>
-<text class="ink body" x="380" y="610">1 triglycéride + 3 NaOH → glycérol + 3 savons</text>
-<text class="muted small" x="200" y="640">Les produits sont des sels de sodium d’acides gras : ce sont les savons.</text>
+<rect class="panelBlue" x="185" y="610" width="1030" height="110" rx="18"/>
+<text class="ink body" x="220" y="656">Bilan global :</text>
+<text class="ink body" x="380" y="656">1 triglycéride + 3 NaOH → glycérol + 3 savons</text>
+<text class="muted body" x="220" y="692">Les produits sont des sels de sodium d’acides gras : ce sont les savons.</text>
 
 </svg>

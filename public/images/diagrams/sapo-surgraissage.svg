@@ -1,67 +1,68 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
 <style>
   .bg { fill:#FBFAF7; }
-  .panel { fill:#F7F5F0; stroke:#D2C8B8; stroke-width:2; }
-  .panelBlue { fill:#F1F6FD; stroke:#2B6CCF; stroke-width:2; }
-  .panelOrange { fill:#FCF5E8; stroke:#D98310; stroke-width:2; }
-  .panelGreen { fill:#EFF7F1; stroke:#2C7A48; stroke-width:2; }
+  .panel { fill:#F7F5F0; stroke:#D2C8B8; stroke-width:2.2; }
+  .panelBlue { fill:#F1F6FD; stroke:#2B6CCF; stroke-width:2.2; }
+  .panelOrange { fill:#FCF5E8; stroke:#D98310; stroke-width:2.2; }
+  .panelGreen { fill:#EFF7F1; stroke:#2C7A48; stroke-width:2.2; }
   .ink { fill:#142544; font-family:Roboto,Arial,sans-serif; }
   .muted { fill:#4B5563; font-family:Roboto,Arial,sans-serif; }
-  .small { font-size:22px; }
-  .body { font-size:26px; }
-  .h1 { font-size:54px; font-weight:800; }
-  .h2 { font-size:34px; font-weight:700; }
-  .h3 { font-size:30px; font-weight:700; }
-  .note { font-size:20px; }
-  .caption { font-size:24px; }
+  .small { font-size:18px; }
+  .body { font-size:22px; }
+  .h1 { font-size:44px; font-weight:800; }
+  .h2 { font-size:28px; font-weight:700; }
+  .h3 { font-size:24px; font-weight:700; }
   .blue { fill:#2B6CCF; }
   .orange { fill:#D98310; }
   .green { fill:#2C7A48; }
   .darkstroke { stroke:#142544; stroke-width:4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
-  .bluestroke { stroke:#2B6CCF; stroke-width:4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
-  .orangestroke { stroke:#D98310; stroke-width:4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
-  .redstroke { stroke:#D1495B; stroke-width:3.5; fill:none; stroke-linecap:round; stroke-linejoin:round; }
-  .dash { stroke-dasharray:9 9; }
+  .bluestroke { stroke:#2B6CCF; stroke-width:3.5; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .orangestroke { stroke:#D98310; stroke-width:3.5; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .greenstroke { stroke:#2C7A48; stroke-width:3.5; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .redstroke { stroke:#D1495B; stroke-width:3; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .dash { stroke-dasharray:8 8; }
 </style>
 <defs>
   <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
     <path d="M0,0 L12,6 L0,12 z" fill="#142544"/>
   </marker>
-  <marker id="blueArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
-    <path d="M0,0 L12,6 L0,12 z" fill="#2B6CCF"/>
+  <marker id="blueArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 z" fill="#2B6CCF"/>
   </marker>
-  <marker id="orangeArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
-    <path d="M0,0 L12,6 L0,12 z" fill="#D98310"/>
+  <marker id="orangeArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 z" fill="#D98310"/>
   </marker>
-  <marker id="redArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
-    <path d="M0,0 L10,5 L0,10 z" fill="#D1495B"/>
+  <marker id="redArrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+    <path d="M0,0 L8,4 L0,8 z" fill="#D1495B"/>
   </marker>
 </defs>
-<rect class="bg" x="0" y="0" width="1200" height="760" rx="18"/>
+<rect class="bg" width="1400" height="900" rx="18"/>
 
-<rect class="panel" x="40" y="40" width="1120" height="680" rx="22"/>
-<text class="ink h1" x="600" y="110" text-anchor="middle">Surgraissage : pourquoi c’est une marge de sécurité</text>
-<text class="muted body" x="600" y="155" text-anchor="middle">On ne neutralise pas la soude après coup : on en pèse volontairement un peu moins dès le départ.</text>
+<rect class="panel" x="50" y="50" width="1300" height="800" rx="24"/>
+<text class="ink h1" x="700" y="110" text-anchor="middle">Surgraissage : marge de sécurité</text>
+<text class="muted body" x="700" y="150" text-anchor="middle">On pèse volontairement un peu moins de soude pour garder un léger excès d’huiles.</text>
 
-<rect class="panelOrange" x="130" y="220" width="390" height="300" rx="22"/>
-<text class="ink h2 orange" x="325" y="270" text-anchor="middle">0 % de surgras</text>
-<text class="muted body" x="180" y="320">Huiles prévues : 100 %</text>
-<rect x="180" y="336" width="280" height="22" rx="11" fill="#D98310" opacity="0.25"/><rect x="180" y="336" width="280" height="22" rx="11" fill="#D98310"/>
-<text class="muted body" x="180" y="395">Soude pesée : 100 %</text>
-<rect x="180" y="411" width="280" height="22" rx="11" fill="#2B6CCF" opacity="0.25"/><rect x="180" y="411" width="280" height="22" rx="11" fill="#2B6CCF"/>
-<text class="muted body" x="180" y="470">À l’équivalence exacte, une petite erreur de pesée</text>
-<text class="muted body red" x="180" y="502" fill="#D1495B">peut laisser de la soude libre.</text>
+<rect class="panelOrange" x="180" y="230" width="430" height="360" rx="24"/>
+<text class="ink h2 orange" x="395" y="280" text-anchor="middle">0 % de surgras</text>
+<text class="muted body" x="230" y="340">Huiles prévues : 100 %</text>
+<rect x="230" y="355" width="320" height="24" rx="12" fill="#D98310"/>
+<text class="muted body" x="230" y="420">Soude pesée : 100 %</text>
+<rect x="230" y="435" width="320" height="24" rx="12" fill="#2B6CCF"/>
+<text class="muted body" x="230" y="505">À l’équivalence exacte, une petite erreur</text>
+<text class="muted body" x="230" y="535">peut laisser de la soude libre.</text>
+<text class="ink body orange" x="230" y="570" font-weight="700">→ risque caustique plus élevé</text>
 
-<rect class="panelGreen" x="680" y="220" width="390" height="300" rx="22"/>
-<text class="ink h2 green" x="875" y="270" text-anchor="middle">5 % de surgras</text>
-<text class="muted body" x="730" y="320">Huiles prévues : 100 %</text>
-<rect x="730" y="336" width="280" height="22" rx="11" fill="#2C7A48" opacity="0.25"/><rect x="730" y="336" width="280" height="22" rx="11" fill="#2C7A48"/>
-<text class="muted body" x="730" y="395">Soude pesée : 95 %</text>
-<rect x="730" y="411" width="266" height="22" rx="11" fill="#2B6CCF" opacity="0.25"/><rect x="730" y="411" width="266" height="22" rx="11" fill="#2B6CCF"/>
-<text class="muted body" x="730" y="470">On limite volontairement la soude :</text>
-<text class="muted body green" x="730" y="502" fill="#2C7A48">petit excès d’huiles = marge de sécurité.</text>
+<rect class="panelGreen" x="790" y="230" width="430" height="360" rx="24"/>
+<text class="ink h2 green" x="1005" y="280" text-anchor="middle">5 % de surgras</text>
+<text class="muted body" x="840" y="340">Huiles prévues : 100 %</text>
+<rect x="840" y="355" width="320" height="24" rx="12" fill="#2C7A48"/>
+<text class="muted body" x="840" y="420">Soude pesée : 95 %</text>
+<rect x="840" y="435" width="304" height="24" rx="12" fill="#2B6CCF"/>
+<text class="muted body" x="840" y="505">La soude est volontairement limitée :</text>
+<text class="muted body" x="840" y="535">il reste un petit excès d’huiles.</text>
+<text class="ink body green" x="840" y="570" font-weight="700">→ marge de sécurité</text>
 
-<rect class="panelBlue" x="200" y="565" width="800" height="70" rx="16"/>
-<text class="muted body" x="600" y="608" text-anchor="middle">Le surgras réduit la quantité de soude prévue ; il ne “neutralise” pas la soude une fois la cuisson terminée.</text>
+<rect class="panelBlue" x="220" y="665" width="960" height="74" rx="16"/>
+<text class="muted body" x="700" y="712" text-anchor="middle">Le surgras réduit la quantité de soude prévue ; il ne “neutralise” pas la soude une fois le savon formé.</text>
 
 </svg>

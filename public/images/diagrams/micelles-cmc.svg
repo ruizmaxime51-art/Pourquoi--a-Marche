@@ -1,71 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
 <style>
   .bg { fill:#FBFAF7; }
-  .panel { fill:#F7F5F0; stroke:#D2C8B8; stroke-width:2; }
-  .panelBlue { fill:#F1F6FD; stroke:#2B6CCF; stroke-width:2; }
-  .panelOrange { fill:#FCF5E8; stroke:#D98310; stroke-width:2; }
-  .panelGreen { fill:#EFF7F1; stroke:#2C7A48; stroke-width:2; }
+  .panel { fill:#F7F5F0; stroke:#D2C8B8; stroke-width:2.2; }
+  .panelBlue { fill:#F1F6FD; stroke:#2B6CCF; stroke-width:2.2; }
+  .panelOrange { fill:#FCF5E8; stroke:#D98310; stroke-width:2.2; }
+  .panelGreen { fill:#EFF7F1; stroke:#2C7A48; stroke-width:2.2; }
   .ink { fill:#142544; font-family:Roboto,Arial,sans-serif; }
   .muted { fill:#4B5563; font-family:Roboto,Arial,sans-serif; }
-  .small { font-size:22px; }
-  .body { font-size:26px; }
-  .h1 { font-size:54px; font-weight:800; }
-  .h2 { font-size:34px; font-weight:700; }
-  .h3 { font-size:30px; font-weight:700; }
-  .note { font-size:20px; }
-  .caption { font-size:24px; }
+  .small { font-size:18px; }
+  .body { font-size:22px; }
+  .h1 { font-size:44px; font-weight:800; }
+  .h2 { font-size:28px; font-weight:700; }
+  .h3 { font-size:24px; font-weight:700; }
   .blue { fill:#2B6CCF; }
   .orange { fill:#D98310; }
   .green { fill:#2C7A48; }
   .darkstroke { stroke:#142544; stroke-width:4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
-  .bluestroke { stroke:#2B6CCF; stroke-width:4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
-  .orangestroke { stroke:#D98310; stroke-width:4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
-  .redstroke { stroke:#D1495B; stroke-width:3.5; fill:none; stroke-linecap:round; stroke-linejoin:round; }
-  .dash { stroke-dasharray:9 9; }
+  .bluestroke { stroke:#2B6CCF; stroke-width:3.5; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .orangestroke { stroke:#D98310; stroke-width:3.5; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .greenstroke { stroke:#2C7A48; stroke-width:3.5; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .redstroke { stroke:#D1495B; stroke-width:3; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .dash { stroke-dasharray:8 8; }
 </style>
 <defs>
   <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
     <path d="M0,0 L12,6 L0,12 z" fill="#142544"/>
   </marker>
-  <marker id="blueArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
-    <path d="M0,0 L12,6 L0,12 z" fill="#2B6CCF"/>
+  <marker id="blueArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 z" fill="#2B6CCF"/>
   </marker>
-  <marker id="orangeArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
-    <path d="M0,0 L12,6 L0,12 z" fill="#D98310"/>
+  <marker id="orangeArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 z" fill="#D98310"/>
   </marker>
-  <marker id="redArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
-    <path d="M0,0 L10,5 L0,10 z" fill="#D1495B"/>
+  <marker id="redArrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+    <path d="M0,0 L8,4 L0,8 z" fill="#D1495B"/>
   </marker>
 </defs>
-<rect class="bg" x="0" y="0" width="1200" height="760" rx="18"/>
+<rect class="bg" width="1400" height="900" rx="18"/>
 
-<rect class="panel" x="40" y="40" width="1120" height="680" rx="22"/>
-<text class="ink h1" x="600" y="110" text-anchor="middle">Micelles et CMC</text>
-<text class="muted body" x="600" y="155" text-anchor="middle">La tension superficielle diminue d’abord, puis atteint un plateau à la concentration micellaire critique.</text>
+<rect class="panel" x="50" y="50" width="1300" height="800" rx="24"/>
+<text class="ink h1" x="700" y="110" text-anchor="middle">Micelles et CMC</text>
+<text class="muted body" x="700" y="150" text-anchor="middle">La tension superficielle diminue, puis devient presque constante après la concentration micellaire critique.</text>
 
-<line x1="210" y1="530" x2="210" y2="230" class="darkstroke" marker-end="url(#arrow)"/>
-<line x1="210" y1="530" x2="780" y2="530" class="darkstroke" marker-end="url(#arrow)"/>
-<text class="ink body" x="130" y="225" transform="rotate(-90 130 225)">Tension superficielle</text>
-<text class="ink body" x="470" y="585" text-anchor="middle">Concentration en tensioactif</text>
+<line x1="210" y1="610" x2="210" y2="230" class="darkstroke" marker-end="url(#arrow)"/>
+<line x1="210" y1="610" x2="860" y2="610" class="darkstroke" marker-end="url(#arrow)"/>
+<text class="ink body" x="125" y="235" transform="rotate(-90 125 235)">Tension superficielle</text>
+<text class="ink body" x="545" y="670" text-anchor="middle">Concentration en tensioactif</text>
 
-<path d="M250 270 C310 380, 350 430, 430 470 S560 490, 730 485" class="bluestroke" stroke-width="8"/>
-<circle cx="250" cy="270" r="8" fill="#2B6CCF"/><circle cx="340" cy="405" r="8" fill="#2B6CCF"/><circle cx="430" cy="470" r="8" fill="#2B6CCF"/><circle cx="560" cy="485" r="10" fill="#2B6CCF"/><circle cx="650" cy="485" r="8" fill="#2B6CCF"/>
-<line x1="560" y1="220" x2="560" y2="560" class="bluestroke dash"/>
-<text class="ink body blue" x="560" y="548" text-anchor="middle" font-weight="700">CMC</text>
-<text class="muted small" x="560" y="572" text-anchor="middle">concentration micellaire critique</text>
+<path d="M260 280 C330 420, 420 500, 545 530 S690 540, 815 540" class="bluestroke" stroke-width="8"/>
+<circle cx="260" cy="280" r="8" fill="#2B6CCF"/><circle cx="360" cy="445" r="8" fill="#2B6CCF"/><circle cx="470" cy="520" r="8" fill="#2B6CCF"/><circle cx="545" cy="530" r="10" fill="#2B6CCF"/><circle cx="650" cy="540" r="8" fill="#2B6CCF"/>
+<line x1="545" y1="230" x2="545" y2="628" class="bluestroke dash"/>
+<text class="ink body blue" x="545" y="635" text-anchor="middle" font-weight="700">CMC</text>
+<text class="muted small" x="545" y="660" text-anchor="middle">concentration micellaire critique</text>
 
-<rect class="panelBlue" x="70" y="275" width="120" height="180" rx="18"/>
-<text class="ink body blue" x="130" y="315" text-anchor="middle" font-weight="700">Avant</text>
-<circle cx="105" cy="355" r="6" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M105 363 C99 380, 111 390, 105 410" class="darkstroke" stroke-width="3"/><circle cx="145" cy="390" r="6" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M145 398 C139 415, 151 425, 145 445" class="darkstroke" stroke-width="3"/><circle cx="105" cy="425" r="6" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M105 433 C99 450, 111 460, 105 480" class="darkstroke" stroke-width="3"/><circle cx="145" cy="460" r="6" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M145 468 C139 485, 151 495, 145 515" class="darkstroke" stroke-width="3"/>
-<text class="muted small" x="130" y="485" text-anchor="middle">monomères</text>
-
-<rect class="panelOrange" x="860" y="275" width="170" height="180" rx="18"/>
-<text class="ink body orange" x="945" y="315" text-anchor="middle" font-weight="700">Après</text>
-<circle cx="945" cy="385" r="26" fill="#F2C45B"/>
-<line x1="973.0" y1="385.0" x2="997.0" y2="385.0" stroke="#142544" stroke-width="3"/><circle cx="997.0" cy="385.0" r="8" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="969.2" y1="399.0" x2="990.0" y2="411.0" stroke="#142544" stroke-width="3"/><circle cx="990.0" cy="411.0" r="8" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="959.0" y1="409.2" x2="971.0" y2="430.0" stroke="#142544" stroke-width="3"/><circle cx="971.0" cy="430.0" r="8" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="945.0" y1="413.0" x2="945.0" y2="437.0" stroke="#142544" stroke-width="3"/><circle cx="945.0" cy="437.0" r="8" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="931.0" y1="409.2" x2="919.0" y2="430.0" stroke="#142544" stroke-width="3"/><circle cx="919.0" cy="430.0" r="8" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="920.8" y1="399.0" x2="900.0" y2="411.0" stroke="#142544" stroke-width="3"/><circle cx="900.0" cy="411.0" r="8" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="917.0" y1="385.0" x2="893.0" y2="385.0" stroke="#142544" stroke-width="3"/><circle cx="893.0" cy="385.0" r="8" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="920.8" y1="371.0" x2="900.0" y2="359.0" stroke="#142544" stroke-width="3"/><circle cx="900.0" cy="359.0" r="8" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="931.0" y1="360.8" x2="919.0" y2="340.0" stroke="#142544" stroke-width="3"/><circle cx="919.0" cy="340.0" r="8" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="945.0" y1="357.0" x2="945.0" y2="333.0" stroke="#142544" stroke-width="3"/><circle cx="945.0" cy="333.0" r="8" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="959.0" y1="360.8" x2="971.0" y2="340.0" stroke="#142544" stroke-width="3"/><circle cx="971.0" cy="340.0" r="8" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="969.2" y1="371.0" x2="990.0" y2="359.0" stroke="#142544" stroke-width="3"/><circle cx="990.0" cy="359.0" r="8" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/>
-<text class="muted small" x="945" y="485" text-anchor="middle">micelles</text>
-
-<rect class="panel" x="290" y="615" width="520" height="62" rx="16"/>
-<text class="muted body" x="550" y="654" text-anchor="middle">Au-dessus de la CMC, les molécules ajoutées forment surtout des micelles.</text>
+<rect class="panelBlue" x="75" y="300" width="110" height="180" rx="16"/>
+<text class="ink body blue" x="130" y="335" text-anchor="middle" font-weight="700">Avant</text>
+<circle cx="110" cy="370" r="6" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M110 378 C105 394, 115 404, 110 420" class="darkstroke" stroke-width="2.5"/><circle cx="145" cy="410" r="6" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M145 418 C140 434, 150 444, 145 460" class="darkstroke" stroke-width="2.5"/><circle cx="110" cy="450" r="6" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M110 458 C105 474, 115 484, 110 500" class="darkstroke" stroke-width="2.5"/><text class="muted small" x="130" y="470" text-anchor="middle">monomères</text>
+<rect class="panelOrange" x="1040" y="300" width="170" height="190" rx="16"/>
+<text class="ink body orange" x="1125" y="335" text-anchor="middle" font-weight="700">Après</text>
+<circle cx="1125" cy="410" r="24" fill="#F2C45B"/>
+<line x1="1149.0" y1="410.0" x2="1173.0" y2="410.0" stroke="#142544" stroke-width="2.5"/><circle cx="1173.0" cy="410.0" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="1145.8" y1="422.0" x2="1166.6" y2="434.0" stroke="#142544" stroke-width="2.5"/><circle cx="1166.6" cy="434.0" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="1137.0" y1="430.8" x2="1149.0" y2="451.6" stroke="#142544" stroke-width="2.5"/><circle cx="1149.0" cy="451.6" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="1125.0" y1="434.0" x2="1125.0" y2="458.0" stroke="#142544" stroke-width="2.5"/><circle cx="1125.0" cy="458.0" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="1113.0" y1="430.8" x2="1101.0" y2="451.6" stroke="#142544" stroke-width="2.5"/><circle cx="1101.0" cy="451.6" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="1104.2" y1="422.0" x2="1083.4" y2="434.0" stroke="#142544" stroke-width="2.5"/><circle cx="1083.4" cy="434.0" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="1101.0" y1="410.0" x2="1077.0" y2="410.0" stroke="#142544" stroke-width="2.5"/><circle cx="1077.0" cy="410.0" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="1104.2" y1="398.0" x2="1083.4" y2="386.0" stroke="#142544" stroke-width="2.5"/><circle cx="1083.4" cy="386.0" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="1113.0" y1="389.2" x2="1101.0" y2="368.4" stroke="#142544" stroke-width="2.5"/><circle cx="1101.0" cy="368.4" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="1125.0" y1="386.0" x2="1125.0" y2="362.0" stroke="#142544" stroke-width="2.5"/><circle cx="1125.0" cy="362.0" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="1137.0" y1="389.2" x2="1149.0" y2="368.4" stroke="#142544" stroke-width="2.5"/><circle cx="1149.0" cy="368.4" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="1145.8" y1="398.0" x2="1166.6" y2="386.0" stroke="#142544" stroke-width="2.5"/><circle cx="1166.6" cy="386.0" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/>
+<text class="muted small" x="1125" y="495" text-anchor="middle">micelles</text>
+<rect class="panel" x="300" y="725" width="800" height="70" rx="16"/>
+<text class="muted body" x="700" y="768" text-anchor="middle">Au-dessus de la CMC, les molécules supplémentaires s’agrègent surtout en micelles.</text>
 
 </svg>

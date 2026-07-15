@@ -1,73 +1,72 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
 <style>
   .bg { fill:#FBFAF7; }
-  .panel { fill:#F7F5F0; stroke:#D2C8B8; stroke-width:2; }
-  .panelBlue { fill:#F1F6FD; stroke:#2B6CCF; stroke-width:2; }
-  .panelOrange { fill:#FCF5E8; stroke:#D98310; stroke-width:2; }
-  .panelGreen { fill:#EFF7F1; stroke:#2C7A48; stroke-width:2; }
+  .panel { fill:#F7F5F0; stroke:#D2C8B8; stroke-width:2.2; }
+  .panelBlue { fill:#F1F6FD; stroke:#2B6CCF; stroke-width:2.2; }
+  .panelOrange { fill:#FCF5E8; stroke:#D98310; stroke-width:2.2; }
+  .panelGreen { fill:#EFF7F1; stroke:#2C7A48; stroke-width:2.2; }
   .ink { fill:#142544; font-family:Roboto,Arial,sans-serif; }
   .muted { fill:#4B5563; font-family:Roboto,Arial,sans-serif; }
-  .small { font-size:22px; }
-  .body { font-size:26px; }
-  .h1 { font-size:54px; font-weight:800; }
-  .h2 { font-size:34px; font-weight:700; }
-  .h3 { font-size:30px; font-weight:700; }
-  .note { font-size:20px; }
-  .caption { font-size:24px; }
+  .small { font-size:18px; }
+  .body { font-size:22px; }
+  .h1 { font-size:44px; font-weight:800; }
+  .h2 { font-size:28px; font-weight:700; }
+  .h3 { font-size:24px; font-weight:700; }
   .blue { fill:#2B6CCF; }
   .orange { fill:#D98310; }
   .green { fill:#2C7A48; }
   .darkstroke { stroke:#142544; stroke-width:4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
-  .bluestroke { stroke:#2B6CCF; stroke-width:4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
-  .orangestroke { stroke:#D98310; stroke-width:4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
-  .redstroke { stroke:#D1495B; stroke-width:3.5; fill:none; stroke-linecap:round; stroke-linejoin:round; }
-  .dash { stroke-dasharray:9 9; }
+  .bluestroke { stroke:#2B6CCF; stroke-width:3.5; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .orangestroke { stroke:#D98310; stroke-width:3.5; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .greenstroke { stroke:#2C7A48; stroke-width:3.5; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .redstroke { stroke:#D1495B; stroke-width:3; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .dash { stroke-dasharray:8 8; }
 </style>
 <defs>
   <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
     <path d="M0,0 L12,6 L0,12 z" fill="#142544"/>
   </marker>
-  <marker id="blueArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
-    <path d="M0,0 L12,6 L0,12 z" fill="#2B6CCF"/>
+  <marker id="blueArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 z" fill="#2B6CCF"/>
   </marker>
-  <marker id="orangeArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
-    <path d="M0,0 L12,6 L0,12 z" fill="#D98310"/>
+  <marker id="orangeArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 z" fill="#D98310"/>
   </marker>
-  <marker id="redArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
-    <path d="M0,0 L10,5 L0,10 z" fill="#D1495B"/>
+  <marker id="redArrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+    <path d="M0,0 L8,4 L0,8 z" fill="#D1495B"/>
   </marker>
 </defs>
-<rect class="bg" x="0" y="0" width="1200" height="760" rx="18"/>
+<rect class="bg" width="1400" height="900" rx="18"/>
 
-<rect class="panel" x="40" y="40" width="1120" height="680" rx="22"/>
-<text class="ink h1" x="600" y="105" text-anchor="middle">Mécanisme de la saponification</text>
-<text class="muted body" x="600" y="150" text-anchor="middle">Les deux premières étapes sont réversibles ; la dernière est fortement déplacée vers la droite.</text>
+<rect class="panel" x="50" y="50" width="1300" height="800" rx="24"/>
+<text class="ink h1" x="700" y="110" text-anchor="middle">Mécanisme de la saponification</text>
+<text class="muted body" x="700" y="150" text-anchor="middle">Les deux premières étapes sont réversibles ; la dernière est une réaction acido-basique pratiquement totale.</text>
 
-<rect class="panelBlue" x="85" y="195" width="1030" height="135" rx="18"/>
-<text class="ink h2 blue" x="115" y="240">1. Addition nucléophile</text>
-<text class="ink body" x="115" y="290">R–C(=O)–OR′  +  HO⁻</text>
-<text class="ink body" x="465" y="290">⇌</text>
-<text class="ink body" x="550" y="290">[ R–C(OH)(O⁻)–OR′ ]</text>
-<path d="M300 280 C330 255, 360 255, 392 278" class="redstroke" marker-end="url(#redArrow)"/>
-<path d="M186 272 C215 248, 246 248, 275 270" class="redstroke" marker-end="url(#redArrow)"/>
-<text class="muted small" x="115" y="318">HO⁻ attaque le carbone carbonylé ; le doublet π du C=O se déplace sur l’oxygène.</text>
+<rect class="panelBlue" x="95" y="200" width="1210" height="150" rx="20"/>
+<text class="ink h2 blue" x="125" y="245">1. Addition nucléophile</text>
+<text class="ink body" x="125" y="295">R–C(=O)–OR′  +  HO⁻</text>
+<text class="ink body" x="540" y="295">⇌</text>
+<text class="ink body" x="620" y="295">[ R–C(OH)(O⁻)–OR′ ]</text>
+<path d="M250 282 C280 262, 304 262, 335 281" class="redstroke" marker-end="url(#redArrow)"/>
+<path d="M370 280 C395 260, 418 260, 446 279" class="redstroke" marker-end="url(#redArrow)"/>
+<text class="muted body" x="125" y="330">HO⁻ attaque le carbone carbonylé ; le doublet π du C=O se déplace sur l’oxygène.</text>
 
-<rect class="panelOrange" x="85" y="350" width="1030" height="135" rx="18"/>
-<text class="ink h2 orange" x="115" y="395">2. Élimination de l’alcoolate</text>
-<text class="ink body" x="115" y="445">[ R–C(OH)(O⁻)–OR′ ]</text>
-<text class="ink body" x="465" y="445">⇌</text>
-<text class="ink body" x="540" y="445">R–C(=O)–OH  +  R′O⁻</text>
-<path d="M250 428 C282 405, 315 405, 346 428" class="redstroke" marker-end="url(#redArrow)"/>
-<path d="M330 430 C365 405, 398 405, 428 428" class="redstroke" marker-end="url(#redArrow)"/>
-<text class="muted small" x="115" y="473">Re-formation du carbonyle et départ du groupe alcoolate R′O⁻.</text>
+<rect class="panelOrange" x="95" y="385" width="1210" height="150" rx="20"/>
+<text class="ink h2 orange" x="125" y="430">2. Élimination de l’alcoolate</text>
+<text class="ink body" x="125" y="480">[ R–C(OH)(O⁻)–OR′ ]</text>
+<text class="ink body" x="540" y="480">⇌</text>
+<text class="ink body" x="615" y="480">R–C(=O)–OH  +  R′O⁻</text>
+<path d="M265 468 C297 447, 322 446, 355 468" class="redstroke" marker-end="url(#redArrow)"/>
+<path d="M365 468 C398 447, 425 447, 458 468" class="redstroke" marker-end="url(#redArrow)"/>
+<text class="muted body" x="125" y="515">Le carbonyle se reforme et le groupe alcoolate R′O⁻ part.</text>
 
-<rect class="panelGreen" x="85" y="505" width="1030" height="125" rx="18"/>
-<text class="ink h2 green" x="115" y="550">3. Réaction acido-basique totale</text>
-<text class="ink body" x="115" y="600">R–C(=O)–OH  +  R′O⁻</text>
-<line x1="410" y1="590" x2="480" y2="590" class="darkstroke" marker-end="url(#arrow)"/>
-<text class="ink body" x="520" y="600">R–C(=O)–O⁻  +  R′OH</text>
-<path d="M310 585 C345 560, 380 560, 410 582" class="redstroke" marker-end="url(#redArrow)"/>
-<path d="M315 606 C350 635, 385 635, 425 610" class="redstroke" marker-end="url(#redArrow)"/>
-<text class="muted small" x="115" y="628">pKₐ(acide gras) ≈ 4,8 ; pKₐ(alcool) ≈ 16  →  K ≈ 10^(16−4,8) ≈ 10¹¹ : étape pratiquement totale.</text>
+<rect class="panelGreen" x="95" y="570" width="1210" height="150" rx="20"/>
+<text class="ink h2 green" x="125" y="615">3. Réaction acido-basique totale</text>
+<text class="ink body" x="125" y="665">R–C(=O)–OH  +  R′O⁻</text>
+<line x1="450" y1="652" x2="525" y2="652" class="darkstroke" marker-end="url(#arrow)"/>
+<text class="ink body" x="565" y="665">R–C(=O)–O⁻  +  R′OH</text>
+<path d="M320 652 C347 633, 373 633, 402 652" class="redstroke" marker-end="url(#redArrow)"/>
+<path d="M325 670 C350 688, 380 688, 410 670" class="redstroke" marker-end="url(#redArrow)"/>
+<text class="muted body" x="125" y="700">pKₐ(acide gras) ≈ 4,8 ; pKₐ(alcool) ≈ 16 ; donc K ≈ 10^(16−4,8) ≈ 10¹¹ → étape pratiquement totale.</text>
 
 </svg>

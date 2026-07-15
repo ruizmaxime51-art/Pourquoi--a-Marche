@@ -1,64 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
 <style>
   .bg { fill:#FBFAF7; }
-  .panel { fill:#F7F5F0; stroke:#D2C8B8; stroke-width:2; }
-  .panelBlue { fill:#F1F6FD; stroke:#2B6CCF; stroke-width:2; }
-  .panelOrange { fill:#FCF5E8; stroke:#D98310; stroke-width:2; }
-  .panelGreen { fill:#EFF7F1; stroke:#2C7A48; stroke-width:2; }
+  .panel { fill:#F7F5F0; stroke:#D2C8B8; stroke-width:2.2; }
+  .panelBlue { fill:#F1F6FD; stroke:#2B6CCF; stroke-width:2.2; }
+  .panelOrange { fill:#FCF5E8; stroke:#D98310; stroke-width:2.2; }
+  .panelGreen { fill:#EFF7F1; stroke:#2C7A48; stroke-width:2.2; }
   .ink { fill:#142544; font-family:Roboto,Arial,sans-serif; }
   .muted { fill:#4B5563; font-family:Roboto,Arial,sans-serif; }
-  .small { font-size:22px; }
-  .body { font-size:26px; }
-  .h1 { font-size:54px; font-weight:800; }
-  .h2 { font-size:34px; font-weight:700; }
-  .h3 { font-size:30px; font-weight:700; }
-  .note { font-size:20px; }
-  .caption { font-size:24px; }
+  .small { font-size:18px; }
+  .body { font-size:22px; }
+  .h1 { font-size:44px; font-weight:800; }
+  .h2 { font-size:28px; font-weight:700; }
+  .h3 { font-size:24px; font-weight:700; }
   .blue { fill:#2B6CCF; }
   .orange { fill:#D98310; }
   .green { fill:#2C7A48; }
   .darkstroke { stroke:#142544; stroke-width:4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
-  .bluestroke { stroke:#2B6CCF; stroke-width:4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
-  .orangestroke { stroke:#D98310; stroke-width:4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
-  .redstroke { stroke:#D1495B; stroke-width:3.5; fill:none; stroke-linecap:round; stroke-linejoin:round; }
-  .dash { stroke-dasharray:9 9; }
+  .bluestroke { stroke:#2B6CCF; stroke-width:3.5; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .orangestroke { stroke:#D98310; stroke-width:3.5; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .greenstroke { stroke:#2C7A48; stroke-width:3.5; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .redstroke { stroke:#D1495B; stroke-width:3; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .dash { stroke-dasharray:8 8; }
 </style>
 <defs>
   <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
     <path d="M0,0 L12,6 L0,12 z" fill="#142544"/>
   </marker>
-  <marker id="blueArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
-    <path d="M0,0 L12,6 L0,12 z" fill="#2B6CCF"/>
+  <marker id="blueArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 z" fill="#2B6CCF"/>
   </marker>
-  <marker id="orangeArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
-    <path d="M0,0 L12,6 L0,12 z" fill="#D98310"/>
+  <marker id="orangeArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 z" fill="#D98310"/>
   </marker>
-  <marker id="redArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
-    <path d="M0,0 L10,5 L0,10 z" fill="#D1495B"/>
+  <marker id="redArrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+    <path d="M0,0 L8,4 L0,8 z" fill="#D1495B"/>
   </marker>
 </defs>
-<rect class="bg" x="0" y="0" width="1200" height="760" rx="18"/>
+<rect class="bg" width="1400" height="900" rx="18"/>
 
-<rect class="panel" x="40" y="40" width="1120" height="680" rx="22"/>
-<text class="ink h1" x="600" y="110" text-anchor="middle">Glycérol : pourquoi retient-il l’eau ?</text>
-<text class="muted body" x="600" y="155" text-anchor="middle">Le glycérol possède trois fonctions alcool ; chacune peut établir des liaisons hydrogène avec l’eau.</text>
+<rect class="panel" x="50" y="50" width="1300" height="800" rx="24"/>
+<text class="ink h1" x="700" y="110" text-anchor="middle">Glycérol : pourquoi retient-il l’eau ?</text>
+<text class="muted body" x="700" y="150" text-anchor="middle">Ses trois groupes –OH peuvent établir des liaisons hydrogène avec l’eau.</text>
 
-<text class="ink h2" x="230" y="225">Glycérol (propane-1,2,3-triol)</text>
-<text class="ink body" x="245" y="305">HO–CH₂</text>
-<text class="ink body" x="320" y="344">│</text>
-<text class="ink body" x="250" y="384">CH–OH</text>
-<text class="ink body" x="320" y="423">│</text>
-<text class="ink body" x="245" y="463">CH₂–OH</text>
+<text class="ink h2" x="240" y="240">Glycérol (propane-1,2,3-triol)</text>
+<text class="ink body" x="275" y="325">HO–CH₂</text>
+<text class="ink body" x="350" y="360">│</text>
+<text class="ink body" x="280" y="395">CH–OH</text>
+<text class="ink body" x="350" y="430">│</text>
+<text class="ink body" x="275" y="465">CH₂–OH</text>
 
-<text class="ink h2" x="760" y="265">Une molécule d’eau</text>
-<text class="ink body" x="780" y="340">H–O–H</text>
+<text class="ink h2" x="850" y="270">Eau</text>
+<text class="ink body" x="800" y="350">H–O–H</text>
+<path d="M380 310 C470 295, 555 300, 705 338" class="redstroke dash"/>
+<text class="muted body" x="540" y="286">liaison hydrogène</text>
+<text class="muted small" x="510" y="320">doublet de O(glycérol) ⋯ H–O(eau)</text>
 
-<circle cx="384" cy="306" r="4" fill="#142544"/><circle cx="395" cy="300" r="4" fill="#142544"/>
-<path d="M404 302 C485 282, 560 274, 705 328" class="redstroke dash"/>
-<text class="muted body" x="520" y="274">liaison hydrogène</text>
-<text class="muted small" x="490" y="312">O du glycérol ⋯ H–O de l’eau</text>
+<path d="M386 452 C490 500, 585 510, 748 390" class="redstroke dash"/>
+<text class="muted small" x="580" y="500">d’autres groupes –OH peuvent aussi</text>
+<text class="muted small" x="580" y="524">former des liaisons hydrogène</text>
 
-<rect class="panelBlue" x="160" y="545" width="880" height="82" rx="18"/>
-<text class="muted body" x="600" y="590" text-anchor="middle">On schématise ici une seule liaison hydrogène, mais les trois groupes –OH rendent le glycérol très hydrophile.</text>
+<rect class="panelBlue" x="200" y="640" width="1000" height="82" rx="18"/>
+<text class="muted body" x="700" y="688" text-anchor="middle">On ne dessine ici que des exemples : l’ensemble des trois fonctions alcool rend le glycérol très hydrophile.</text>
 
 </svg>
