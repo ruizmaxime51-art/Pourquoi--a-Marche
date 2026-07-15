@@ -23,6 +23,11 @@ un mélange très spectaculaire peut être chimiquement presque inutile.
 
 {{sommaire}}
 
+<div class="notice-box">
+<h4>Pourquoi cette notion existe</h4>
+<p>La recette nettoyants reste volontairement courte. Les explications sur le pH, le mélange vinaigre + bicarbonate et le danger javel + acide sont centralisées ici pour éviter de répéter la théorie dans chaque protocole.</p>
+</div>
+
 <div class="article-links-block">
 <h4>À relier directement</h4>
 <ul>

@@ -21,6 +21,11 @@ Derrière chaque savon — de toilette, de Marseille, d'Alep, liquide ou solide 
 
 {{sommaire}}
 
+<div class="notice-box">
+<h4>Pourquoi cette notion existe</h4>
+<p>La recette de savon reste centrée sur le protocole. Le mécanisme de réaction, le calcul de soude, le surgras, le glycérol et le choix NaOH/KOH sont centralisés ici.</p>
+</div>
+
 <div class="article-links-block">
 <h4>Continuer vers des applications concrètes</h4>
 <ul>

@@ -1,15 +1,15 @@
 ---
-title: "Levain naturel : la fermentation en deux populations, expliquée"
+title: "Levain naturel : créer, nourrir et lire son activité"
 category: "fermentation"
-excerpt: "Ce qui se passe réellement dans un bocal de levain, quelle farine choisir, et pourquoi il faut le nourrir régulièrement."
-formula: "C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂ (fermentation alcoolique)"
+excerpt: "Une méthode pratique pour démarrer un levain, choisir la bonne farine, suivre la montée et éviter les erreurs classiques."
+formula: "farine + eau → bulles + acidité"
 image: "/images/levain-rafraichi.jpg"
 type: "recette"
 date: "2026-07-02"
 takeaways:
-  - "Comprendre les deux populations microbiennes du levain"
-  - "Savoir pourquoi farine, eau et température changent l'activité"
-  - "Lire les signes de fermentation sans deviner"
+  - "Créer un levain en 5 à 7 jours avec un protocole simple"
+  - "Savoir quand le nourrir et quand l’utiliser"
+  - "Choisir une farine fiable pour démarrer"
 related:
   - "notion-fermentation-maison"
   - "lacto-fermentation-legumes-securite"
@@ -17,14 +17,15 @@ related:
   - "nettoyant-ph-melanges-dangereux"
 ---
 
-Le levain naturel est souvent présenté comme un être vivant capricieux. En réalité, c'est un
-écosystème microbien prévisible dès qu'on comprend les deux populations qui le composent.
+Le levain naturel se réussit mieux quand on arrête de deviner : on pèse, on observe le volume,
+on nourrit au bon moment et on garde une température régulière. La microbiologie complète est
+détaillée dans la notion dédiée ; ici, on se concentre sur la méthode pratique.
 
 <div class="notion-link">
 <div class="nl-icon">📖</div>
 <div class="nl-body">
-<div class="nl-label">À relier à d'autres bases</div>
-<p>Le levain et la lacto-fermentation partagent une même logique : sélection microbienne, acidification et contrôle du milieu. Pour compléter : <a href="/articles/notion-fermentation-maison">Fermentation maison : pH, sel et sélection microbienne</a>.</p>
+<div class="nl-label">La théorie est séparée de la recette</div>
+<p>Pour comprendre levures, bactéries lactiques, acidification et sélection microbienne : <a href="/articles/notion-fermentation-maison">Fermentation maison : pH, sel et sélection microbienne</a>.</p>
 </div>
 </div>
 
@@ -46,31 +47,17 @@ Le levain naturel est souvent présenté comme un être vivant capricieux. En r�
 </ul>
 </div>
 
-<div class="theory-block">
-<h4>La théorie</h4>
-<p>Un levain naturel est une culture symbiotique de levures sauvages (principalement
-<em>Saccharomyces</em> et espèces apparentées) et de bactéries lactiques. Les levures
-consomment les sucres de la farine et produisent du CO₂ (qui fait lever la pâte) et de
-l'éthanol. Les bactéries lactiques produisent de l'acide lactique et de l'acide acétique, qui
-acidifient le milieu et donnent au pain au levain son goût caractéristique. Les deux populations
-sont en compétition pour les mêmes sucres — c'est cet équilibre qui détermine le comportement du
-levain.</p>
-</div>
+## Le rythme de rafraîchi : la règle pratique
 
-## Pourquoi nourrir le levain n'est pas juste une habitude
+Un rafraîchi sert à redonner de la farine et de l'eau au levain. En pratique, retenez une règle
+simple : on nourrit quand le levain a bien monté puis commence à redescendre, ou quand son odeur
+devient trop piquante / proche du dissolvant.
 
-Chaque "rafraîchi" (ajout de farine + eau) réintroduit des sucres fermentescibles que la
-population microbienne a épuisés. Sans apport régulier, les levures et bactéries entrent en
-phase de stress, produisent davantage d'acide acétique (odeur de dissolvant caractéristique d'un
-levain affamé), et la population de levures peut décliner au profit de bactéries plus
-résistantes — d'où un levain qui "ne lève plus".
-
-La fréquence de rafraîchi dépend de la température : à 20°C, un cycle de 12-24h est courant ; au
-réfrigérateur (4°C), l'activité ralentit fortement et un rafraîchi hebdomadaire suffit.
+À température ambiante, un rafraîchi toutes les 12 à 24 h est courant. Au réfrigérateur,
+l'activité ralentit fortement : un entretien hebdomadaire suffit souvent.
 
 ![Rafraîchi d'un levain actif, ajout de farine fraîche sur un levain bien bullé](/images/levain-rafraichi.jpg)
 
-![Cycle de rafraîchi du levain](/images/diagrams/levain-cycle-v6.svg)
 
 ## Suivre l'activité sans deviner
 
@@ -106,21 +93,10 @@ par semaine au réfrigérateur.
 
 ## Quelle farine choisir pour son levain ?
 
-Deux facteurs expliquent pourquoi certaines farines démarrent plus facilement que d'autres — et
-ce n'est pas lié au gluten, qui ne sert qu'à la structure du pain, pas à nourrir les
-micro-organismes.
-
-Le premier facteur est **l'activité enzymatique naturelle de la farine**. Le blé et le seigle
-sont naturellement riches en amylases, des enzymes qui découpent l'amidon en sucres simples
-rapidement disponibles pour nourrir les levures et bactéries. Le riz ou le sarrasin en
-contiennent naturellement moins — moins de sucres disponibles rapidement, démarrage plus lent.
-
-Le second facteur est **la présence de micro-organismes déjà adaptés sur le grain**. Le blé et
-le seigle sont utilisés en panification depuis des millénaires ; les levures et bactéries
-sauvages qui vivent sur ces céréales sont "rodées" à ce processus. Le sarrasin (une
-pseudo-céréale, pas une vraie graminée) ou la châtaigne (un fruit à coque, pas une céréale) n'ont
-pas cette même histoire — leur flore microbienne naturelle est différente, et la châtaigne
-contient en plus des tanins, des composés ayant eux-mêmes un léger effet antimicrobien naturel.
+Pour démarrer, le plus fiable reste le **seigle** ou une farine de blé assez complète. Ces
+farines donnent généralement un départ plus rapide et un comportement plus lisible qu'une farine
+très blanche. Les farines sans gluten peuvent fonctionner, mais elles demandent souvent plus de
+temps et d'ajustements.
 
 <table class="compare">
 <thead><tr><th>Farine</th><th>Goût développé</th><th>Avantage</th><th>Inconvénient</th></tr></thead>
@@ -159,16 +135,9 @@ Si le riz et le sarrasin ne prennent vraiment pas, ce n'est pas rare — certain
 un résultat satisfaisant qu'en persévérant sur plusieurs tentatives, contrairement au blé qui
 réussit presque toujours du premier coup.
 
-<div class="theory-block">
-<h4>Le coup de pouce miel</h4>
-<p>Si un levain peine à démarrer (notamment sans gluten), ajouter 1 à 2 cuillères à café de
-miel au premier mélange peut aider. Le miel contient des sucres simples (glucose, fructose)
-immédiatement assimilables par les levures et bactéries — contrairement à l'amidon de la
-farine, qui doit d'abord être découpé par des enzymes avant d'être utilisable. C'est un vrai
-coup de pouce nutritif, particulièrement utile pour les farines à plus faible activité
-enzymatique comme le riz ou le sarrasin. Attention à la dose : en grande quantité, le miel a au
-contraire un effet antimicrobien (forte concentration en sucre) — il se conserve indéfiniment
-sans moisir pour cette raison. En petite dose ponctuelle, l'effet nourrissant domine largement.</p>
+<div class="notice-box">
+<h4>Astuce pratique — coup de pouce au démarrage</h4>
+<p>Si un levain peine à démarrer, surtout avec des farines sans gluten, on peut ajouter 1 à 2 cuillères à café de miel au premier mélange. Cela apporte des sucres rapidement disponibles. Ne pas surdoser : en grande quantité, le miel freine au contraire l'activité microbienne.</p>
 </div>
 
 ## Le matériel, en détail

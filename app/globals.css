@@ -15,9 +15,9 @@
   --amber-wash: #F6EEDC;
 
   /* Fontes (chargées via next/font) */
-  --font-display: var(--font-display-loaded), Georgia, serif;
-  --font-body:    var(--font-body-loaded), Georgia, serif;
-  --font-mono:    var(--font-mono-loaded), monospace;
+  --font-display: var(--font-roboto), Arial, sans-serif;
+  --font-body: var(--font-roboto), Arial, sans-serif;
+  --font-mono: var(--font-roboto), Arial, sans-serif;
 
   /* Alias de compatibilité (anciennes classes / styles inline) */
   --sage: var(--green);
@@ -526,9 +526,9 @@ nav.main-nav a.nav-accent:hover { color: var(--green-deep); border-color: var(--
   --danger: #B4452F;
   --radius: 18px;
   --shadow: 0 18px 55px rgba(22, 35, 30, .10);
-  --font-display: ui-serif, Georgia, Cambria, "Times New Roman", serif;
-  --font-body: ui-serif, Georgia, Cambria, "Times New Roman", serif;
-  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  --font-display: var(--font-roboto), Arial, sans-serif;
+  --font-body: var(--font-roboto), Arial, sans-serif;
+  --font-mono: var(--font-roboto), Arial, sans-serif;
 }
 
 body {
@@ -992,4 +992,221 @@ article.post { max-width: 760px; padding: 24px 0 60px; }
 .article-card-media[style*=".svg"] {
   object-fit: contain !important;
   background-size: contain !important;
+}
+
+/* ─────────────────────────────────────────────────────────────
+   v9 — Direction artistique plus éditoriale, moins « générée IA »
+   Roboto partout, surfaces plus sobres, moins de gradients, ombres limitées.
+   ───────────────────────────────────────────────────────────── */
+:root {
+  --paper: #F6F1E7;
+  --paper-2: #EEE6D8;
+  --ink: #171B17;
+  --ink-soft: #4A514A;
+  --line: #D6CDBE;
+  --line-soft: #E6DDD0;
+  --green: #2F5143;
+  --green-deep: #203B31;
+  --green-mid: #607568;
+  --green-soft: #E6ECE5;
+  --amber: #A86F21;
+  --amber-deep: #7E5217;
+  --amber-wash: #F3E5C9;
+  --radius: 12px;
+  --shadow: 0 8px 20px rgba(30, 27, 22, .06);
+}
+body {
+  background:
+    linear-gradient(180deg, rgba(255,255,255,.28), rgba(255,255,255,0) 360px),
+    var(--paper);
+  font-family: var(--font-roboto), Arial, sans-serif;
+  letter-spacing: 0;
+}
+h1, h2, h3, h4,
+.logo,
+.section-kicker,
+.formula-eyebrow,
+.card-meta,
+.article-meta-line,
+.byline,
+.sommaire-title,
+.trust-mini-grid span,
+.site-footer a {
+  font-family: var(--font-roboto), Arial, sans-serif !important;
+}
+.site-header {
+  background: rgba(246,241,231,.94);
+  backdrop-filter: none;
+  border-bottom: 1px solid #CFC4B4;
+}
+.logo {
+  text-transform: uppercase;
+  letter-spacing: .055em;
+  font-size: 1.05rem;
+  font-weight: 900;
+}
+.logo em {
+  font-style: normal;
+  color: var(--amber-deep);
+}
+.main-nav a {
+  border-radius: 999px;
+}
+.home-hero {
+  padding-top: clamp(42px, 7vw, 86px);
+  border-bottom: 1px solid var(--line-soft);
+}
+.home-hero h1 {
+  max-width: 16ch;
+  font-weight: 900;
+  letter-spacing: -.035em;
+  font-size: clamp(2.5rem, 6vw, 4.4rem);
+}
+.home-hero .lede {
+  font-size: clamp(1.05rem, 1.8vw, 1.24rem);
+  max-width: 60ch;
+}
+.home-hero-panel {
+  background: #FFFDF8;
+  border: 1px solid #CFC4B4;
+  border-left: 6px solid var(--amber);
+  border-radius: 18px;
+  box-shadow: none;
+}
+.home-hero-panel::after { display: none; }
+.panel-formula {
+  display: inline-block;
+  padding: 5px 9px;
+  background: #F3E5C9;
+  border: 1px solid #D7BC83;
+  color: #6B4511;
+  font-weight: 700;
+}
+.primary-pill,
+.secondary-pill,
+.cta-button,
+.jump-to-recipe {
+  border-radius: 10px !important;
+  box-shadow: none !important;
+  font-weight: 700;
+}
+.primary-pill:hover,
+.secondary-pill:hover,
+.text-link:hover {
+  transform: none;
+}
+.path-card,
+.article-card,
+.category-card,
+.transversal-card,
+.category-hero-card,
+.tool-card,
+.materials-early,
+.notion-link,
+.article-links-block,
+.takeaway-box,
+.sommaire,
+.expert-block,
+.theory-block,
+.cta-block,
+.notice-box {
+  border-radius: 16px !important;
+  box-shadow: none !important;
+}
+.path-card,
+.article-card,
+.category-hero-card,
+.tool-card,
+.article-links-block,
+.materials-early {
+  background: #FFFDF8 !important;
+  border-color: #D1C6B7 !important;
+}
+.path-card {
+  min-height: 190px;
+  border-left: 4px solid transparent;
+}
+.path-card:hover {
+  transform: none;
+  border-left-color: var(--amber);
+  background: #FFF9EE !important;
+}
+.path-card span {
+  font-weight: 900;
+  letter-spacing: .08em;
+}
+.article-card {
+  transition: border-color .16s ease, background .16s ease;
+}
+.article-card:hover {
+  transform: none;
+  box-shadow: none;
+  border-color: var(--amber) !important;
+  background: #FFF9EE !important;
+}
+.article-card-media {
+  background: #EFE7D9 !important;
+  border-bottom: 1px solid #D1C6B7;
+}
+.category-grid.upgraded .category-card,
+.category-card {
+  background: #FFFDF8;
+  border: 1px solid #D1C6B7 !important;
+}
+.category-card:hover {
+  background: #FFF9EE;
+}
+.section-kicker,
+.formula-eyebrow,
+.card-meta,
+.article-meta-line {
+  font-weight: 900;
+  letter-spacing: .1em;
+}
+.trust-footer {
+  background: #17241E !important;
+  border-top: 6px solid var(--amber);
+  border-radius: 0 !important;
+}
+.trust-mini-grid span {
+  border-radius: 10px !important;
+  background: rgba(255,255,255,.06) !important;
+}
+.article-figure {
+  background: #FFFDF8 !important;
+  border: 1px solid #D1C6B7 !important;
+  border-radius: 14px !important;
+  box-shadow: none !important;
+  padding: 14px !important;
+}
+.article-figure img {
+  border-radius: 8px !important;
+}
+.article-figure figcaption {
+  font-size: .86rem;
+  color: #5C625B;
+}
+.article-figure figcaption::before {
+  content: "Figure — ";
+  font-weight: 700;
+  color: var(--green-deep);
+}
+.expert-block {
+  background: #FFF9EE !important;
+  border-left-color: var(--amber) !important;
+}
+.theory-block,
+.notion-link {
+  background: #EEF2EA !important;
+  border-left: 5px solid var(--green);
+}
+.article-links-block {
+  border-left: 5px solid var(--amber);
+}
+.compare th {
+  background: #F2EBDD;
+}
+.compare td,
+.compare th {
+  border-color: #D8CEBF !important;
 }

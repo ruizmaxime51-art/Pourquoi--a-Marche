@@ -1,15 +1,15 @@
 ---
-title: "Nettoyant maison : ce que le pH change vraiment (et le mélange à ne jamais faire)"
+title: "Nettoyants maison : un détartrant et un dégraissant qui ne se mélangent pas"
 category: "entretien"
-excerpt: "Pourquoi le pH détermine l'efficacité d'un nettoyant, les deux recettes complètes, et le mélange qui ne pardonne pas."
-formula: "NaClO + acide → Cl₂ ↑ (dégagement toxique)"
+excerpt: "Deux recettes séparées et efficaces : un détartrant à l’acide citrique et un dégraissant aux cristaux de soude, avec les surfaces à éviter."
+formula: "acide pour calcaire · base pour graisse"
 image: "/images/nettoyant-detartrant-flacon.jpg"
 type: "recette"
 date: "2026-07-01"
 takeaways:
-  - "Choisir acide ou basique selon la salissure"
-  - "Éviter les mélanges dangereux comme javel + acide"
-  - "Comprendre pourquoi certains mélanges maison s'annulent"
+  - "Préparer un détartrant acide et un dégraissant basique"
+  - "Savoir quelle surface éviter avec chaque produit"
+  - "Ne jamais mélanger javel, acides et bases au hasard"
 related:
   - "notion-ph-nettoyants"
   - "notion-tensioactifs"
@@ -17,14 +17,15 @@ related:
   - "lacto-fermentation-legumes-securite"
 ---
 
-Les recettes de nettoyants maison au vinaigre et bicarbonate sont partout, mais rarement
-expliquées. Résultat : des mélanges parfois inefficaces, et dans le pire des cas, dangereux.
+Cette page est la version **recette** : deux produits séparés, simples et efficaces. Le
+détartrant sert aux dépôts calcaires ; le dégraissant sert aux graisses de cuisine. La théorie
+du pH et des mélanges dangereux est détaillée dans la notion dédiée.
 
 <div class="notion-link">
 <div class="nl-icon">📖</div>
 <div class="nl-body">
-<div class="nl-label">Comprendre avant de formuler</div>
-<p>Cette recette repose sur le <strong>pH</strong>, l'action des bases sur les graisses et la logique des interfaces. Pour comprendre pourquoi un produit dégraisse ou détarre : <a href="/articles/notion-ph-nettoyants">pH des nettoyants maison : acide, basique et mélanges dangereux</a>.</p>
+<div class="nl-label">La théorie est séparée de la recette</div>
+<p>Pour comprendre acide vs basique, vinaigre + bicarbonate, et javel + acide : <a href="/articles/notion-ph-nettoyants">pH des nettoyants maison : acide, basique et mélanges dangereux</a>.</p>
 </div>
 </div>
 
@@ -48,44 +49,30 @@ expliquées. Résultat : des mélanges parfois inefficaces, et dans le pire des 
 </ul>
 </div>
 
-<div class="theory-block">
-<h4>La théorie</h4>
-<p>L'efficacité d'un nettoyant dépend directement de son pH. Un nettoyant acide (vinaigre, acide
-citrique, pH 2-3) dissout le tartre et les dépôts calcaires (carbonate de calcium) par réaction
-acido-basique. Un nettoyant alcalin (bicarbonate, cristaux de soude, pH 9-11) est efficace sur
-les graisses par saponification partielle et sur les taches organiques. Les deux ne font pas le
-même travail — un produit "universel" au pH neutre (7) est en réalité peu efficace sur l'un ou
-l'autre type de salissure. Pour le lien entre mouillage, interfaces et nettoyage, voir aussi [la notion sur les tensioactifs](/articles/notion-tensioactifs).</p>
+## Règles de sécurité avant de préparer
+
+<div class="notice-box">
+<h4>À ne pas mélanger</h4>
+<p>Ne mélangez pas ces recettes avec de l'eau de javel, du vinaigre, un autre acide, de l'ammoniaque
+ou un nettoyant du commerce. Utilisez un seul produit à la fois, rincez, puis changez de produit
+si nécessaire.</p>
 </div>
 
-![Échelle de pH et zone d'incompatibilité javel-acide](/images/diagrams/ph-nettoyants-v6.svg)
-
-## Le mélange dangereux à connaître absolument
-
-Le mélange le plus mal compris — et le plus dangereux — est celui de l'eau de javel
-(hypochlorite de sodium, NaClO) avec un acide, y compris le vinaigre. La réaction libère du
-dichlore gazeux (Cl₂), un gaz toxique qui attaque les voies respiratoires même à faible
-concentration. Ce n'est pas une légende urbaine : c'est une réaction chimique documentée, et
-plusieurs intoxications domestiques y sont liées chaque année en France.
-
-**Règle simple : ne jamais mélanger l'eau de javel avec quoi que ce soit d'autre que de l'eau.**
-Pas de vinaigre, pas de détartrant, pas d'ammoniaque (autre mélange dangereux, qui produit de la
-chloramine).
-
-## Pourquoi bicarbonate + vinaigre ne "nettoie" pas grand-chose
-
-Le mélange classique bicarbonate + vinaigre est spectaculaire (effervescence due au CO₂ libéré)
-mais chimiquement, les deux se neutralisent mutuellement — l'acide du vinaigre neutralise la
-base du bicarbonate. Le résultat final est proche du pH neutre, donc moins efficace que chacun
-utilisé séparément selon le type de salissure visé.
+<div class="article-links-block">
+<h4>Pourquoi ces mélanges posent problème ?</h4>
+<ul>
+<li><a href="/articles/notion-ph-nettoyants">Voir la notion pH : acide, base, neutralisation et javel + acide</a></li>
+<li><a href="/articles/notion-tensioactifs">Voir la notion tensioactifs : mouillage, micelles et détergence</a></li>
+</ul>
+</div>
 
 ## Construire deux nettoyants efficaces, séparément
 
 <table class="compare">
 <thead><tr><th>Usage</th><th>Base</th><th>Pourquoi</th></tr></thead>
 <tbody>
-<tr><td>Détartrant (calcaire, robinetterie)</td><td>Acide citrique dilué</td><td>Dissout le carbonate de calcium par réaction acide</td></tr>
-<tr><td>Dégraissant (plaques, hottes)</td><td>Cristaux de soude dilués</td><td>Saponifie les graisses en surface</td></tr>
+<tr><td>Détartrant (calcaire, robinetterie)</td><td>Acide citrique dilué</td><td>À utiliser sur les dépôts blancs minéraux</td></tr>
+<tr><td>Dégraissant (plaques, hottes)</td><td>Cristaux de soude dilués</td><td>À utiliser sur les surfaces grasses, puis rincer</td></tr>
 </tbody>
 </table>
 

@@ -3,7 +3,7 @@
 <desc id="desc">Une tête hydrophile bleue aime l'eau et une queue hydrophobe aime les graisses. Exemple du savon R-COO- Na+.</desc>
 <defs>
   <style>
-    .title{font:700 62px system-ui, sans-serif;fill:#0b1d3a}.sub{font:400 25px system-ui, sans-serif;fill:#273449}.label{font:700 30px system-ui,sans-serif}.small{font:400 22px system-ui,sans-serif}.mono{font:500 34px ui-monospace,monospace}.box{fill:#fff;stroke:#d8d8d0;stroke-width:2}.blue{fill:#1769d1}.orange{fill:#d88112}.ink{fill:#16231e}.soft{fill:#56625b}
+    .title{font:700 62px Roboto,Arial,sans-serif;fill:#0b1d3a}.sub{font:400 25px Roboto,Arial,sans-serif;fill:#273449}.label{font:700 30px Roboto,Arial,sans-serif}.small{font:400 22px Roboto,Arial,sans-serif}.mono{font:500 34px Roboto,Arial,sans-serif}.box{fill:#fff;stroke:#d8d8d0;stroke-width:2}.blue{fill:#1769d1}.orange{fill:#d88112}.ink{fill:#16231e}.soft{fill:#56625b}
   </style>
   <radialGradient id="head" cx="35%" cy="30%"><stop offset="0" stop-color="#88c8ff"/><stop offset="1" stop-color="#1769d1"/></radialGradient>
   <radialGradient id="oil" cx="35%" cy="30%"><stop offset="0" stop-color="#ffd887"/><stop offset="1" stop-color="#d88112"/></radialGradient>

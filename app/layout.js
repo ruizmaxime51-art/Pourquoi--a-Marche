@@ -1,7 +1,15 @@
 import Link from 'next/link';
+import { Roboto } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/next';
 import './globals.css';
 import { SITE_URL, SITE_NAME, SITE_DESCRIPTION, DEFAULT_OG_IMAGE } from '@/lib/site';
+
+const roboto = Roboto({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '700', '900'],
+  display: 'swap',
+  variable: '--font-roboto',
+});
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),
@@ -34,7 +42,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
-      <body>
+      <body className={roboto.variable}>
         <div className="reading-progress" aria-hidden="true" />
         <header className="site-header">
           <div className="wrap-inner">

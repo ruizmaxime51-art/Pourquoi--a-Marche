@@ -1,31 +1,30 @@
 ---
-title: "Savon surgras maison : comprendre la saponification (et ne pas se rater)"
+title: "Savon surgras maison : recette sécurisée à l’huile d’olive"
 category: "cosmetique"
-excerpt: "La réaction chimique derrière chaque savon, comment calculer sa propre dose de soude, et le protocole complet pour se lancer sans risque."
-formula: "R-COOH + NaOH → R-COONa + H₂O"
+excerpt: "Un protocole pratique pour fabriquer un savon surgras : matériel, sécurité, quantités précises, trace, cure et erreurs à éviter."
+formula: "500 g d’huiles · 69,5 g NaOH · 8 % surgras"
 image: "/images/savon-etape6-decoupe.jpg"
 date: "2026-07-01"
 type: "recette"
 takeaways:
-  - "Comprendre la réaction avant de manipuler la soude"
-  - "Savoir pourquoi le surgras apporte une marge de sécurité"
-  - "Identifier le matériel indispensable et les erreurs à éviter"
+  - "Préparer un savon surgras avec des quantités précises"
+  - "Manipuler la soude avec les bonnes règles de sécurité"
+  - "Reconnaître la trace, démouler et respecter la cure"
 related:
   - "notion-saponification"
   - "notion-tensioactifs"
   - "nettoyant-ph-melanges-dangereux"
 ---
 
-Le savon maison a le vent en poupe, mais la plupart des recettes qui circulent listent des
-proportions sans expliquer ce qu'il se passe réellement dans le bol. Comprendre la réaction
-change tout : ça permet d'ajuster une recette en connaissance de cause plutôt que de suivre un
-protocole à l'aveugle.
+Cette page est la version **recette** : quantités, ordre des étapes, sécurité et points de
+contrôle. La chimie de la saponification, le surgraissage et le calcul de soude sont détaillés
+dans la notion dédiée, pour ne pas alourdir le protocole.
 
 <div class="notion-link">
 <div class="nl-icon">📖</div>
 <div class="nl-body">
-<div class="nl-label">Pour comprendre en profondeur</div>
-<p>Cette recette applique la réaction de saponification. Pour le mécanisme complet, le calcul de la dose de soude et le tableau des huiles : <a href="/articles/notion-saponification">La saponification : comment le corps gras devient savon</a>.</p>
+<div class="nl-label">La théorie est séparée de la recette</div>
+<p>Pour comprendre la réaction, le surgras, le rôle du glycérol et le calcul de soude : <a href="/articles/notion-saponification">La saponification : comment le corps gras devient savon</a>.</p>
 </div>
 </div>
 
@@ -52,43 +51,28 @@ protocole à l'aveugle.
 </ul>
 </div>
 
-<div class="theory-block">
-<h4>La théorie</h4>
-<p>La saponification est une réaction chimique entre un corps gras (triglycéride, ester
-d'acides gras) et une base forte, la soude (NaOH). Chaque molécule de triglycéride réagit avec
-trois molécules de soude pour donner trois molécules de savon (un carboxylate de sodium) et une
-molécule de glycérol. La réaction est exothermique et irréversible : une fois faite, elle ne
-revient pas en arrière.</p>
-</div>
+## Avant de commencer : les trois choix de cette recette
 
-![Réaction complète de saponification](/images/diagrams/sapo-reaction-v6.svg)
-
-**Pourquoi la glycérine compte.** La glycérine (ou glycérol) libérée pendant la réaction est un
-humectant naturel — elle attire et retient l'eau, ce qui explique l'effet hydratant du savon
-fait maison. Dans l'industrie, la plupart des savons commerciaux extraient cette glycérine pour
-la revendre séparément (elle vaut cher dans les cosmétiques industriels), ce qui rend ces savons
-plus asséchants. **Un savon fait maison garde naturellement toute sa glycérine** — c'est un vrai
-avantage, pas juste un argument marketing. Si tu veux la version plus scientifique sur le rôle du glycérol, vois aussi la notion : [La saponification : comment le corps gras devient savon](/articles/notion-saponification).
-
-## Pourquoi le "surgraissage" n'est pas une option esthétique
-
-Un savon "surgras" contient volontairement un excès d'huile qui n'a pas réagi avec la soude —
-généralement 5 à 8 % du poids total des huiles. Cet excès reste dans le savon fini et apporte du
-gras non saponifié qui adoucit la peau. Sans surgraissage, un savon calculé à l'équivalence
-stœchiométrique exacte présente un risque réel de soude libre résiduelle si le dosage ou le
-mélange n'est pas parfait — d'où l'irritation que provoquent certains savons "faits maison" ratés.
-
-**Quel taux choisir selon le type de peau**
+Cette recette est volontairement cadrée pour débuter : elle utilise un mélange d'huiles simple,
+un surgraissage de 8 % et des quantités déjà calculées. Ne changez pas une huile, un poids ou le
+taux de surgras sans refaire le calcul de soude.
 
 <table class="compare">
-<thead><tr><th>Type de peau</th><th>Taux de surgraissage recommandé</th></tr></thead>
+<thead><tr><th>Paramètre</th><th>Choix retenu</th><th>Pourquoi</th></tr></thead>
 <tbody>
-<tr><td>Peau normale</td><td>5%</td></tr>
-<tr><td>Peau sèche / mature</td><td>8-10% (celui utilisé dans cette recette)</td></tr>
-<tr><td>Peau grasse / mixte</td><td>3-5%</td></tr>
-<tr><td>Peau sensible / réactive</td><td>8% avec des huiles douces (olive, amande douce)</td></tr>
+<tr><td>Huiles totales</td><td>500 g</td><td>Format facile à manipuler, donne environ 6 à 8 savons</td></tr>
+<tr><td>Surgraissage</td><td>8 %</td><td>Marge confortable pour un savon doux</td></tr>
+<tr><td>Soude NaOH</td><td>69,5 g</td><td>Quantité calculée pour ce mélange précis d'huiles</td></tr>
 </tbody>
 </table>
+
+<div class="article-links-block">
+<h4>Changer la recette ?</h4>
+<ul>
+<li><a href="/articles/notion-saponification">Lire d'abord la notion saponification : calcul de soude, SAP, surgras</a></li>
+<li>Ne jamais reprendre les 69,5 g de soude si une huile ou une quantité change.</li>
+</ul>
+</div>
 
 ## Sécurité : ce qui n'est pas négociable
 
@@ -102,42 +86,12 @@ solide (poudre ou perles), pureté supérieure à 99%** — pas une solution dé
 "déboucheur liquide", dont la concentration réelle n'est jamais garantie et fausserait tout le
 calcul de dosage.
 
-## Calculer sa propre dose de soude selon les huiles choisies
-
-La recette plus bas est un bon point de départ fiable si tu veux te lancer sans réfléchir au
-mélange — mais rien n'empêche d'expérimenter une fois que le calcul est compris. Voici comment
-il fonctionne, pour ajuster à tes propres huiles disponibles ou composer un mélange différent
-(peau grasse, sèche, mixte...).
-
-<div class="theory-block">
-<h4>La formule</h4>
-<p>Quantité de NaOH (g) = Σ (poids de chaque huile × son indice de saponification) × (1 − taux de surgraissage)</p>
+<div class="notice-box">
+<h4>Important — ne pas improviser le calcul</h4>
+<p>Les quantités ci-dessous valent uniquement pour cette recette. Si vous changez une huile, son poids
+ou le taux de surgras, il faut refaire le calcul de NaOH. La méthode est expliquée dans la notion :
+<a href="/articles/notion-saponification">calculer la soude avec l'indice de saponification</a>.</p>
 </div>
-
-Chaque huile a un **indice de saponification (SAP)** différent — la quantité de soude nécessaire
-pour transformer 1g de cette huile précise en savon.
-
-<table class="compare">
-<thead><tr><th>Huile</th><th>Indice SAP (g NaOH / g huile)</th></tr></thead>
-<tbody>
-<tr><td>Huile de coco</td><td>0,190</td></tr>
-<tr><td>Huile de palme</td><td>0,141</td></tr>
-<tr><td>Beurre de karité</td><td>0,128</td></tr>
-<tr><td>Huile de ricin</td><td>0,128</td></tr>
-<tr><td>Huile d'olive</td><td>0,134</td></tr>
-<tr><td>Huile d'amande douce</td><td>0,136</td></tr>
-<tr><td>Huile de tournesol</td><td>0,134</td></tr>
-<tr><td>Huile de colza</td><td>0,124</td></tr>
-</tbody>
-</table>
-
-**Exemple de calcul, avec la recette de cet article**
-
-1. Multiplier chaque huile par son indice : 300g olive × 0,134 = 40,2g&nbsp;; 150g coco × 0,190 = 28,5g&nbsp;; 50g amande douce × 0,136 = 6,8g
-2. Additionner : 40,2 + 28,5 + 6,8 = **75,5g de NaOH** (sans surgraissage)
-3. Appliquer le surgraissage choisi (8% ici) : 75,5 × (1 − 0,08) = **69,5g de NaOH** — la quantité réellement utilisée
-
-<p style="font-size:0.85rem;color:var(--ink-soft)">Ce calcul doit être refait à chaque fois qu'une seule huile change dans le mélange — ne jamais réutiliser une quantité de soude calculée pour un autre mélange. Croiser le résultat avec un calculateur de saponification en ligne avant tout nouveau mélange, les indices SAP publiés variant légèrement selon les tables de référence.</p>
 
 <a id="recette"></a>
 ## La recette : savon surgras à l'huile d'olive (500 g d'huiles)
@@ -183,28 +137,12 @@ Rendement : environ 700 g de savon, à découper en 6-8 pains après démoulage.
 
 7. Cure de 4 semaines minimum, pains espacés, endroit sec et ventilé, à l'abri de la lumière. **Avant la première utilisation**, vérifier le pH avec les **bandelettes** : viser un pH entre 8 et 10 — un savon fini est légèrement basique&nbsp;; un pH supérieur à 11 signale de la soude libre résiduelle, dans ce cas ne pas utiliser le savon.
 
-## Saponification à froid ou à chaud : quelle différence ?
+## Après démoulage : cure et patience
 
-La recette de cet article utilise la **méthode à froid** : les huiles et la soude sont mélangées
-à basse température (40-45°C), et c'est la cure de 4 semaines qui laisse la réaction se
-terminer complètement. C'est la méthode la plus courante pour un premier savon.
-
-Il existe une autre approche, la **méthode à chaud** : après la trace, le mélange est chauffé
-(bain-marie ou mijoteuse) pendant 1 à 2 heures pour accélérer fortement la réaction.
-
-<table class="compare">
-<thead><tr><th></th><th>À froid</th><th>À chaud</th></tr></thead>
-<tbody>
-<tr><td>Temps avant utilisation</td><td>4 semaines de cure</td><td>Utilisable en quelques jours</td></tr>
-<tr><td>Aspect du savon</td><td>Lisse, brillant</td><td>Plus rustique, texture "grumeleuse"</td></tr>
-<tr><td>Ingrédients fragiles (huiles essentielles, actifs)</td><td>Plus sûr, température basse</td><td>Risqué, la chaleur peut les dégrader</td></tr>
-<tr><td>Difficulté pour un premier essai</td><td>Plus simple</td><td>Demande plus de surveillance</td></tr>
-</tbody>
-</table>
-
-**Pour débuter, la méthode à froid reste recommandée** — c'est celle de cette recette. La
-méthode à chaud devient intéressante quand on veut utiliser son savon rapidement, ou qu'on
-maîtrise déjà les bases.
+Cette recette suit la méthode à froid. Après découpe, les savons doivent sécher plusieurs semaines
+dans un endroit ventilé. La cure laisse le savon durcir, perdre de l'eau et devenir plus agréable
+à l'usage. Pour la comparaison détaillée entre méthode à froid et méthode à chaud, voir :
+[la notion saponification](/articles/notion-saponification).
 
 ## Le matériel, en détail
 

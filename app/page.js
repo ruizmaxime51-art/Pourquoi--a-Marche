@@ -23,8 +23,8 @@ export default function Home() {
         </div>
         <div className="home-hero-panel" aria-label="Promesse éditoriale">
           <div className="panel-formula">pH · CMC · NaOH · Ca²⁺</div>
-          <h2>Recette + mécanisme + sécurité</h2>
-          <p>Le site relie chaque geste pratique à une explication scientifique lisible.</p>
+          <h2>Carnet de formulation domestique</h2>
+          <p>Chaque recette relie un geste concret à une réaction, une limite et une précaution.</p>
           <ul>
             <li>Dosages argumentés</li>
             <li>Erreurs fréquentes corrigées</li>

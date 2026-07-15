@@ -42,6 +42,40 @@ biopréservation des aliments fermentés{{ref:lab-preservation-review}}.
 Le point clé : les microorganismes ne réagissent pas tous de la même manière au sel, à l'acidité,
 à la température ou au manque d'oxygène. Une bonne fermentation exploite ces différences.
 
+## Levain : levures, bactéries lactiques et rafraîchis
+
+Un levain naturel est une culture vivante de **levures** et de **bactéries lactiques** dans un
+mélange farine/eau. Les levures produisent surtout du **CO₂**, qui fait lever la pâte, ainsi que
+de l'éthanol. Les bactéries lactiques acidifient progressivement le milieu en produisant des
+acides organiques. Cette coexistence explique le comportement typique du levain : il monte, il
+atteint un pic, puis il redescend quand les sucres disponibles diminuent.
+
+Le **rafraîchi** n'est donc pas une habitude folklorique : c'est un apport de farine et d'eau qui
+renouvelle les sucres, dilue l'acidité accumulée et relance l'activité microbienne. Les revues
+sur les starters de levain décrivent ce système comme un écosystème maintenu par les pratiques
+d'entretien : farine utilisée, hydratation, température, fréquence de rafraîchi et âge du
+starter{{ref:sourdough-starters-review}}.
+
+
+## Lacto-fermentation : succession des populations
+
+Dans les légumes fermentés, les populations ne restent pas identiques du premier au dernier jour.
+Au démarrage, plusieurs microorganismes présents sur le végétal peuvent être actifs. Ensuite, les
+conditions deviennent de plus en plus favorables aux bactéries lactiques acidotolérantes. Dans
+les fermentations de type choucroute, des espèces comme **Leuconostoc mesenteroides**,
+**Lactobacillus plantarum**, **Pediococcus pentosaceus** et **Lactobacillus brevis** sont
+classiquement retrouvées parmi les bactéries lactiques majeures{{ref:sauerkraut-lab-fingerprint}}.
+
+En pratique, cette succession explique trois observations courantes :
+
+- les premières bulles ne signifient pas que la fermentation est déjà stabilisée ;
+- l'acidité se construit progressivement ;
+- l'odeur devient de plus en plus acidulée quand les bactéries lactiques dominent.
+
+Cette partie théorique a été sortie des recettes pour garder les protocoles plus lisibles. Les
+recettes doivent répondre à « que faire ? » ; cette notion répond à « pourquoi cela fonctionne ? ».
+
+
 ## Le pH : la barrière qui sécurise
 
 À mesure que les bactéries lactiques produisent de l'acide, le pH baisse. Ce changement rend le
