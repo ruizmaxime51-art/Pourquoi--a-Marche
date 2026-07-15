@@ -1,8 +1,8 @@
 ---
-title: "Lacto-fermentation des légumes : réussir la saumure et éviter les échecs"
+title: "Carottes lacto-fermentées : réussir la saumure et éviter les échecs"
 category: "conservation"
-excerpt: "Une recette pratique pour fermenter des légumes : bon taux de sel, immersion, choix des légumes et signes normaux ou inquiétants."
-formula: "légumes + sel + immersion → acidification"
+excerpt: "Une recette pratique pour des carottes lacto-fermentées : bon taux de sel, immersion, aromates, conservation et signes normaux ou inquiétants."
+formula: "carottes + sel + immersion → acidification"
 image: "/images/lacto-etape2-versement-saumure.jpg"
 type: "recette"
 date: "2026-07-02"
@@ -11,15 +11,16 @@ takeaways:
   - "Maintenir les légumes immergés pour éviter les échecs"
   - "Reconnaître les signes normaux et les vrais signaux d’alerte"
 related:
+  - "lacto-fermentation-guide-legumes"
   - "notion-fermentation-maison"
   - "levain-naturel-fermentation"
   - "nettoyant-ph-melanges-dangereux"
   - "notion-tensioactifs"
 ---
 
-La lacto-fermentation est simple quand on la traite comme un protocole : bon taux de sel,
-légumes toujours immergés, bocal propre et observation régulière. La microbiologie et le rôle du
-pH sont expliqués dans la notion dédiée ; ici, on se concentre sur la méthode pour réussir.
+Cette page reste volontairement une **recette de carottes lacto-fermentées**. Les principes
+ généraux (pH, sel, populations microbiennes, sécurité) sont détaillés dans la notion dédiée ; ici,
+ on se concentre sur le bocal, la saumure et les bons gestes.
 
 <div class="notion-link">
 <div class="nl-icon">📖</div>
@@ -32,6 +33,7 @@ pH sont expliqués dans la notion dédiée ; ici, on se concentre sur la méthod
 <div class="article-links-block">
 <h4>À consulter en complément</h4>
 <ul>
+<li><a href="/articles/lacto-fermentation-guide-legumes">Guide général : quels légumes lacto-fermenter et comment faire</a></li>
 <li><a href="/articles/notion-fermentation-maison">Notion fermentation : pH, sel et sécurité</a></li>
 <li><a href="/articles/nettoyant-ph-melanges-dangereux">Comprendre ce que change le pH</a></li>
 </ul>
@@ -46,6 +48,11 @@ pH sont expliqués dans la notion dédiée ; ici, on se concentre sur la méthod
 <li><a href="#mat-poids">Poids de fermentation en verre</a> — maintient les légumes immergés</li>
 <li><a href="#mat-balance">Balance de précision</a> — la même que pour les autres articles</li>
 </ul>
+</div>
+
+<div class="notice-box">
+<h4>Portée de cette page</h4>
+<p>Les généralités pratiques sont dans le <a href="/articles/lacto-fermentation-guide-legumes">guide de lacto-fermentation des légumes</a>, et la théorie microbiologique est dans la notion <a href="/articles/notion-fermentation-maison">Fermentation maison</a>. Cette page sert surtout de recette pratique pour des <strong>carottes lacto-fermentées</strong>.</p>
 </div>
 
 ## Les deux règles pratiques à ne jamais rater
@@ -65,92 +72,13 @@ en surface est plus exposé à l'air et augmente le risque de moisissure.
 </div>
 
 
-## Quels légumes se prêtent bien à la lacto-fermentation ?
+<div class="article-links-block">
+<h4>Besoin de varier les légumes ?</h4>
+<ul>
+<li><a href="/articles/lacto-fermentation-guide-legumes">Voir le guide général : légumes adaptés, aromates, méthode et signes d’alerte</a></li>
+</ul>
+</div>
 
-La méthode dépend surtout de la **découpe**. Un légume râpé ou finement émincé relâche facilement
-son jus : le salage à sec suffit souvent. Un légume en bâtonnets, rondelles épaisses ou entier
-relâche moins d'eau : il faut une saumure externe.
-
-
-<table class="compare">
-<thead><tr><th>Découpe</th><th>Méthode</th><th>Pourquoi</th></tr></thead>
-<tbody>
-<tr><td>Râpé, émincé finement (chou, carotte râpée)</td><td>Salage à sec (~10g sel/kg)</td><td>Grande surface exposée, relâche assez de jus</td></tr>
-<tr><td>Bâtonnets, rondelles épaisses, entier</td><td>Saumure externe (2-3%)</td><td>Surface trop réduite pour s'auto-saumurer</td></tr>
-</tbody>
-</table>
-
-**Excellents candidats** : carottes, radis, betteraves, navets, concombres, haricots verts,
-chou-fleur, poivrons, ail, oignons, fenouil, chou blanc et rouge (choucroute), chou chinois
-(base du kimchi).
-
-**Cas particuliers** : tomates (protocole spécifique, souvent entières, déjà naturellement
-acides) ; piments (saumure externe, fermentation plus lente à cause de leur peau) ; ail noir
-fermenté (procédé totalement différent, sans saumure, par chaleur et humidité contrôlées — hors
-sujet de cet article).
-
-**Déconseillés** : pommes de terre (amidon, pas d'usage traditionnel établi) ; légumes-feuilles
-tendres type épinard, roquette, jeune pousse de salade (ramollissent et deviennent visqueux
-avant que la fermentation ne les stabilise — ni assez denses pour le salage à sec, ni assez
-fermes pour la saumure externe).
-
-## Les aromates — ce qu'on peut ajouter, et comment
-
-Certaines herbes fraîches sont un classique établi de la lacto-fermentation — la distinction se
-fait sur la robustesse de l'herbe, pas sur "fraîche contre séchée".
-
-**Herbes fraîches qui fonctionnent bien, en quantité généreuse** : l'aneth est LE classique (les
-cornichons à l'aneth sont une lacto-fermentation traditionnelle), le thym, le romarin, les
-feuilles de laurier fraîches. Ces herbes ont des tiges et feuilles robustes qui tiennent la
-structure plusieurs jours en immersion. Les utiliser en branches ou tiges entières plutôt que
-hachées — plus faciles à maintenir sous la saumure, moins de surface exposée à la dégradation.
-
-**Herbes fraîches à utiliser avec modération** : le persil, la coriandre fraîche — plus tendres,
-à limiter à quelques brins plutôt qu'une poignée, bien enfoncées sous la saumure.
-
-**Herbes fraîches à éviter en grande quantité** : le basilic se dégrade particulièrement vite en
-immersion prolongée (au-delà de 5-7 jours) et peut noircir ou devenir visqueux.
-
-**Bons choix d'épices** : ail, graines de moutarde, feuille de laurier, grains de poivre,
-graines de coriandre, gingembre, piment — en graines ou morceaux entiers plutôt qu'en poudre (la
-poudre trouble la saumure et se dépose en sédiment, rendant plus difficile de juger visuellement
-l'avancement).
-
-**À éviter** : le vinaigre ajouté directement — ça acidifie artificiellement le milieu avant que
-la fermentation naturelle n'ait eu lieu, et ça fausse le processus qu'on cherche justement à
-laisser opérer.
-
-## Ce qui n'est PAS un signe de danger (contrairement à une idée reçue)
-
-Le trouble du liquide, les petites bulles, l'odeur acide prononcée : ce sont des signes normaux
-de fermentation active, pas des signes d'échec. Le vrai signal d'alerte est une odeur putride
-(différente de l'odeur acide), une texture visqueuse anormale, ou une couleur rose/orange
-inhabituelle — dans ce cas, on jette sans hésiter.
-
-<table class="compare">
-<thead><tr><th>Signe</th><th>Normal</th><th>À jeter</th></tr></thead>
-<tbody>
-<tr><td>Odeur</td><td>Acide, légèrement soufrée</td><td>Putride, "œuf pourri" intense</td></tr>
-<tr><td>Aspect liquide</td><td>Trouble, bulles</td><td>Filandreux, visqueux</td></tr>
-<tr><td>Surface</td><td>Léger film blanc (levures) — à retirer</td><td>Moisissure colorée (vert, noir, rose)</td></tr>
-</tbody>
-</table>
-
-## Combien de temps ça se garde une fois le bocal ouvert
-
-Oui, tu peux refermer le bocal et continuer à le conserver sans crainte — ce n'est pas "à
-consommer immédiatement une fois ouvert" comme une conserve stérilisée classique. Trois règles
-simples :
-
-- **Toujours utiliser un ustensile propre** pour prélever les légumes (jamais les doigts, jamais une fourchette qui a déjà touché autre chose) — c'est la principale source de contamination après ouverture, pas l'air lui-même.
-- **Garder les légumes restants immergés sous la saumure** après chaque prélèvement, en rajoutant le poids de fermentation si besoin.
-- **Conserver au réfrigérateur** une fois entamé — le froid ralentit fortement la fermentation sans l'arrêter complètement, ce qui stabilise le produit dans la durée.
-
-Dans ces conditions, un bocal entamé se garde généralement **2 à 3 mois au réfrigérateur** sans
-problème — certains bocaux bien maintenus durent plus longtemps, mais au-delà de cette durée le
-goût devient nettement plus acide et la texture plus molle (pas dangereux, juste moins
-agréable). Comme toujours, se fier aux signes du tableau ci-dessus à chaque ouverture plutôt
-qu'à une date arbitraire.
 
 <a id="recette"></a>
 ## La recette : carottes lacto-fermentées (bocal de 1 L)
@@ -210,17 +138,12 @@ qu'à une date arbitraire.
 
 - **Lactofermentation** — conservation par des bactéries lactiques qui transforment les sucres du légume en acide lactique
 - **Anaérobiose** — absence d'oxygène, condition nécessaire pour que la fermentation se déroule correctement
-- **_Leuconostoc mesenteroides_** — bactérie qui démarre la fermentation en phase 2, produit du CO₂ et amorce la baisse de pH
-- **_Lactobacillus plantarum_** — bactérie dominante en phase 3, responsable de la majorité de l'acide lactique produit
-- **Clostridium botulinum** — bactérie responsable du botulisme, inhibée par le pH acide produit par la fermentation
 - **Saumure** — solution d'eau salée dans laquelle baignent les légumes
 - **Salage à sec** — méthode où le sel est massé directement sur un légume râpé/émincé, qui relâche sa propre eau
 
 ## En résumé
 
-La lacto-fermentation est une des méthodes de conservation les plus sûres qui existent — à
-condition de respecter le taux de sel et l'immersion totale. Ce n'est pas de la chance, c'est de
-la microbiologie.
+Pour cette recette, tout repose sur trois gestes : peser la saumure, garder les carottes immergées et passer au froid quand le goût convient. Pour varier les légumes, utilisez le guide général.
 
 <div class="materials-recap">
 <h3>Tout le matériel de cet article</h3>

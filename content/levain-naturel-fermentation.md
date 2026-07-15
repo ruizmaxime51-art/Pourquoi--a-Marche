@@ -91,6 +91,34 @@ actif double généralement de volume en 4 à 8h à température ambiante.
 exemple 50 g + 50 g + 50 g, toujours pesés), toutes les 24h à température ambiante ou une fois
 par semaine au réfrigérateur.
 
+
+
+## Le matériel, en détail
+
+<div class="cta-block" id="mat-bocal">
+<div class="cta-text"><strong>Kit de démarrage levain, bocal gradué + accessoires</strong><span>Praknu — tout pour débuter, suivi du volume sans deviner</span></div>
+<div class="cta-action">
+<a class="cta-button" href="https://www.amazon.fr/Praknu-Kit-d%C3%A9marrage-Complet-d%C3%A9butants/dp/B0FBX1C13Z?linkCode=ll2&tag=maxscience06-21&linkId=0617d432b0592b417f012fe54efd8eeb&ref_=as_li_ss_tl" rel="sponsored noopener" target="_blank">Voir le prix →</a>
+<span class="cta-reassurance">Expédié par Amazon</span>
+</div>
+</div>
+
+<div class="cta-block" id="mat-balance">
+<div class="cta-text"><strong>Balance de précision 0,1g / 5kg</strong><span>La même que pour le savon et l'entretien — inox, étanche</span></div>
+<div class="cta-action">
+<a class="cta-button" href="https://www.amazon.fr/-/en/Waterproof-Precision-Washable-Stainless-Rechargeable/dp/B0CMH96FTJ?linkCode=ll2&tag=maxscience06-21&linkId=9d90d060797e8abe82176de2c7369a67&ref_=as_li_ss_tl" rel="sponsored noopener" target="_blank">Voir le prix →</a>
+<span class="cta-reassurance">Retours gratuits</span>
+</div>
+</div>
+
+## Petit lexique
+
+- **Levain** — culture vivante de levures sauvages et de bactéries lactiques, utilisée pour faire lever le pain sans levure industrielle
+- **Rafraîchi** — action de retirer une partie du levain et d'ajouter de la farine et de l'eau fraîches, pour renouveler les nutriments disponibles
+- **Levures sauvages** — micro-organismes naturellement présents sur les céréales et dans l'air, responsables de la production de CO₂ (la levée)
+- **Amylases** — enzymes naturellement présentes dans certaines farines, qui découpent l'amidon en sucres simples assimilables par les levures et bactéries
+- **Hooch** — liquide sombre qui se forme en surface d'un levain affamé, signe qu'il faut le rafraîchir, sans danger
+
 ## Quelle farine choisir pour son levain ?
 
 Pour démarrer, le plus fiable reste le **seigle** ou une farine de blé assez complète. Ces
@@ -139,32 +167,6 @@ réussit presque toujours du premier coup.
 <h4>Astuce pratique — coup de pouce au démarrage</h4>
 <p>Si un levain peine à démarrer, surtout avec des farines sans gluten, on peut ajouter 1 à 2 cuillères à café de miel au premier mélange. Cela apporte des sucres rapidement disponibles. Ne pas surdoser : en grande quantité, le miel freine au contraire l'activité microbienne.</p>
 </div>
-
-## Le matériel, en détail
-
-<div class="cta-block" id="mat-bocal">
-<div class="cta-text"><strong>Kit de démarrage levain, bocal gradué + accessoires</strong><span>Praknu — tout pour débuter, suivi du volume sans deviner</span></div>
-<div class="cta-action">
-<a class="cta-button" href="https://www.amazon.fr/Praknu-Kit-d%C3%A9marrage-Complet-d%C3%A9butants/dp/B0FBX1C13Z?linkCode=ll2&tag=maxscience06-21&linkId=0617d432b0592b417f012fe54efd8eeb&ref_=as_li_ss_tl" rel="sponsored noopener" target="_blank">Voir le prix →</a>
-<span class="cta-reassurance">Expédié par Amazon</span>
-</div>
-</div>
-
-<div class="cta-block" id="mat-balance">
-<div class="cta-text"><strong>Balance de précision 0,1g / 5kg</strong><span>La même que pour le savon et l'entretien — inox, étanche</span></div>
-<div class="cta-action">
-<a class="cta-button" href="https://www.amazon.fr/-/en/Waterproof-Precision-Washable-Stainless-Rechargeable/dp/B0CMH96FTJ?linkCode=ll2&tag=maxscience06-21&linkId=9d90d060797e8abe82176de2c7369a67&ref_=as_li_ss_tl" rel="sponsored noopener" target="_blank">Voir le prix →</a>
-<span class="cta-reassurance">Retours gratuits</span>
-</div>
-</div>
-
-## Petit lexique
-
-- **Levain** — culture vivante de levures sauvages et de bactéries lactiques, utilisée pour faire lever le pain sans levure industrielle
-- **Rafraîchi** — action de retirer une partie du levain et d'ajouter de la farine et de l'eau fraîches, pour renouveler les nutriments disponibles
-- **Levures sauvages** — micro-organismes naturellement présents sur les céréales et dans l'air, responsables de la production de CO₂ (la levée)
-- **Amylases** — enzymes naturellement présentes dans certaines farines, qui découpent l'amidon en sucres simples assimilables par les levures et bactéries
-- **Hooch** — liquide sombre qui se forme en surface d'un levain affamé, signe qu'il faut le rafraîchir, sans danger
 
 ## En résumé
 

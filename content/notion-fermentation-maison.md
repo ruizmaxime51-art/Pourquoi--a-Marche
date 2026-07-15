@@ -151,7 +151,8 @@ pilote un milieu vivant par les apports nutritifs, la température, l'acidité e
 
 Cette notion sert de base aux deux recettes suivantes :
 
-- [Lacto-fermentation des légumes : pourquoi c'est sûr](/articles/lacto-fermentation-legumes-securite)
+- [Lacto-fermentation des légumes : choisir les légumes et les aromates](/articles/lacto-fermentation-guide-legumes)
+- [Carottes lacto-fermentées : recette pratique](/articles/lacto-fermentation-legumes-securite)
 - [Levain naturel : la fermentation en deux populations](/articles/levain-naturel-fermentation)
 
 {{references}}

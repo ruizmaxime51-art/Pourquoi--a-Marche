@@ -1,47 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
-<title id="title">Qu’est-ce qu’un tensioactif ?</title><desc id="desc">Schéma scientifique pédagogique.</desc>
-<defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
 <style>
-.title{font:700 46px Roboto,Arial,sans-serif;fill:#0b1d3a;letter-spacing:-.8px}
-.subtitle{font:400 21px Roboto,Arial,sans-serif;fill:#2f3a49}
-.h2{font:700 30px Roboto,Arial,sans-serif;fill:#0b1d3a}
-.label{font:600 20px Roboto,Arial,sans-serif;fill:#0b1d3a}
-.small{font:400 17px Roboto,Arial,sans-serif;fill:#273449}
-.tiny{font:400 14px Roboto,Arial,sans-serif;fill:#4b5563}
-.mono{font:500 19px Roboto,Arial,sans-serif;fill:#111827}
-.box{fill:#fff;stroke:#d7dce3;stroke-width:2}
-.info{fill:#f7fbff;stroke:#1769d1;stroke-width:2}
-.warn{fill:#fff9ed;stroke:#d88112;stroke-width:2}
-.blue{fill:#1769d1}.orange{fill:#d88112}.green{fill:#237047}.purple{fill:#6a3aa8}.red{fill:#b84b3f}.muted{fill:#667085}
-.tail{fill:none;stroke:#111827;stroke-width:4;stroke-linecap:round}
-.line{stroke:#d7dce3;stroke-width:2}
+  .bg { fill:#FBFAF7; }
+  .panel { fill:#F7F5F0; stroke:#D2C8B8; stroke-width:2; }
+  .panelBlue { fill:#F1F6FD; stroke:#2B6CCF; stroke-width:2; }
+  .panelOrange { fill:#FCF5E8; stroke:#D98310; stroke-width:2; }
+  .panelGreen { fill:#EFF7F1; stroke:#2C7A48; stroke-width:2; }
+  .ink { fill:#142544; font-family:Roboto,Arial,sans-serif; }
+  .muted { fill:#4B5563; font-family:Roboto,Arial,sans-serif; }
+  .small { font-size:22px; }
+  .body { font-size:26px; }
+  .h1 { font-size:54px; font-weight:800; }
+  .h2 { font-size:34px; font-weight:700; }
+  .h3 { font-size:30px; font-weight:700; }
+  .note { font-size:20px; }
+  .caption { font-size:24px; }
+  .blue { fill:#2B6CCF; }
+  .orange { fill:#D98310; }
+  .green { fill:#2C7A48; }
+  .darkstroke { stroke:#142544; stroke-width:4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .bluestroke { stroke:#2B6CCF; stroke-width:4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .orangestroke { stroke:#D98310; stroke-width:4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .redstroke { stroke:#D1495B; stroke-width:3.5; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .dash { stroke-dasharray:9 9; }
 </style>
-<radialGradient id="headBlue" cx="35%" cy="30%"><stop offset="0" stop-color="#9fd7ff"/><stop offset="1" stop-color="#1769d1"/></radialGradient>
-<radialGradient id="headOrange" cx="35%" cy="30%"><stop offset="0" stop-color="#ffe19a"/><stop offset="1" stop-color="#d88112"/></radialGradient>
-<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#111827"/></marker>
-<marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#1769d1"/></marker>
-<marker id="arrowOrange" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#d88112"/></marker>
+<defs>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+    <path d="M0,0 L12,6 L0,12 z" fill="#142544"/>
+  </marker>
+  <marker id="blueArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+    <path d="M0,0 L12,6 L0,12 z" fill="#2B6CCF"/>
+  </marker>
+  <marker id="orangeArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+    <path d="M0,0 L12,6 L0,12 z" fill="#D98310"/>
+  </marker>
+  <marker id="redArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 z" fill="#D1495B"/>
+  </marker>
 </defs>
-<rect width="100%" height="100%" fill="#fbfaf6"/>
-<text x="600.0" y="72" text-anchor="middle" class="title">Qu’est-ce qu’un tensioactif ?</text>
-<text x="600.0" y="112" text-anchor="middle" class="subtitle">Une molécule amphiphile relie l’eau et les corps gras.</text>
+<rect class="bg" x="0" y="0" width="1200" height="760" rx="18"/>
 
-<g transform="translate(0,20)">
-<circle cx="360" cy="385" r="64" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="3"/>
-<path d="M424 385 C475 340 520 430 570 385 S670 340 725 385 S825 430 880 385" fill="none" stroke="#111827" stroke-width="12" stroke-linecap="round"/>
-<text x="235" y="285" class="h2 blue">Tête hydrophile</text><text x="260" y="318" class="small blue">aime l’eau</text>
-<line x1="340" y1="330" x2="360" y2="365" stroke="#1769d1" stroke-width="3"/>
-<text x="695" y="285" class="h2 orange">Queue hydrophobe</text><text x="735" y="318" class="small orange">aime les graisses</text>
-<line x1="770" y1="330" x2="725" y2="372" stroke="#d88112" stroke-width="3"/>
-<path d="M170 430 C135 375 185 345 180 300 C230 360 255 395 225 438 C210 458 185 458 170 430Z" fill="url(#headBlue)" opacity=".9"/>
-<path d="M1015 430 C980 375 1030 345 1025 300 C1075 360 1100 395 1070 438 C1055 458 1030 458 1015 430Z" fill="url(#headOrange)" opacity=".95"/>
-<rect x="115" y="610" width="430" height="150" rx="22" class="info"/>
-<text x="155" y="660" class="label blue">Deux affinités dans une même molécule</text>
-<text x="155" y="696" class="small">Une partie interagit avec l’eau ; l’autre</text><text x="155" y="721" class="small">interagit avec les corps gras.</text>
-<rect x="655" y="610" width="430" height="150" rx="22" class="warn"/>
-<text x="695" y="660" class="label orange">Exemple : le savon</text>
-<text x="700" y="710" class="mono">R–COO⁻ Na⁺</text>
-<text x="700" y="742" class="tiny">R = queue hydrophobe ; –COO⁻ = tête hydrophile</text>
-</g>
+<rect class="panel" x="40" y="40" width="1120" height="680" rx="22"/>
+<text class="ink h1" x="600" y="110" text-anchor="middle">Qu’est-ce qu’un tensioactif ?</text>
+<text class="muted body" x="600" y="155" text-anchor="middle">Une même molécule possède une tête hydrophile et une queue hydrophobe.</text>
+
+<circle cx="330" cy="330" r="58" fill="#2B6CCF" stroke="#1D4EA7" stroke-width="3"/>
+<path d="M388 330 C450 275, 520 390, 585 330 S710 380, 790 330" class="darkstroke" stroke-width="10"/>
+<text class="ink h2 blue" x="245" y="255">Tête hydrophile</text>
+<text class="muted body blue" x="270" y="290">aime l’eau</text>
+<text class="ink h2 orange" x="620" y="255">Queue hydrophobe</text>
+<text class="muted body orange" x="665" y="290">aime les graisses</text>
+<line x1="280" y1="270" x2="318" y2="314" class="bluestroke" marker-end="url(#blueArrow)"/>
+<line x1="700" y1="270" x2="736" y2="312" class="orangestroke" marker-end="url(#orangeArrow)"/>
+
+<rect class="panelBlue" x="110" y="510" width="380" height="130" rx="18"/>
+<text class="ink body blue" x="145" y="555" font-weight="700">Deux affinités dans une même molécule</text>
+<text class="muted body" x="145" y="595">La tête interagit avec l’eau ; la queue</text>
+<text class="muted body" x="145" y="625">interagit avec les corps gras.</text>
+
+<rect class="panelOrange" x="620" y="510" width="420" height="130" rx="18"/>
+<text class="ink body orange" x="650" y="555" font-weight="700">Exemple : le savon</text>
+<text class="ink body" x="650" y="595">R–COO<tspan dy="-10" font-size="18">−</tspan><tspan dy="10"> Na</tspan><tspan dy="-10" font-size="18">+</tspan></text>
+<text class="muted small" x="650" y="625">R = chaîne hydrophobe ; –COO⁻ = tête hydrophile</text>
 
 </svg>

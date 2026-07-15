@@ -1,13 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="850" viewBox="0 0 1000 850" role="img" aria-labelledby="title desc">
-<title id="title">Graphique CMC et micelles</title><desc id="desc">La tension superficielle baisse avec la concentration puis atteint un plateau à la CMC, où les micelles se forment.</desc>
-<defs><style>.t{font:700 56px Roboto,Arial,sans-serif;fill:#0b1d3a}.s{font:400 23px Roboto,Arial,sans-serif;fill:#273449}.l{font:600 22px Roboto,Arial,sans-serif;fill:#0b4fa3}.o{font:600 22px Roboto,Arial,sans-serif;fill:#d88112}.a{stroke:#111;stroke-width:3;marker-end:url(#arr)}.b{fill:#1769d1}.box{fill:#fff;stroke:#d8d8d0;stroke-width:2}.mono{font:500 20px Roboto,Arial,sans-serif;fill:#16231e}</style><marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#111"/></marker></defs>
-<rect width="1000" height="850" fill="#fbfaf6"/><text x="290" y="78" class="t">Micelles et CMC</text><text x="170" y="122" class="s">La tension superficielle chute puis se stabilise quand les micelles apparaissent.</text>
-<line x1="210" y1="620" x2="760" y2="620" class="a"/><line x1="210" y1="620" x2="210" y2="185" class="a"/><text x="380" y="675" class="s">Concentration en tensioactif</text><text x="88" y="430" class="s" transform="rotate(-90 88 430)">Tension superficielle</text>
-<path d="M250 230 C280 330 310 430 380 495 C430 540 480 550 520 550 L720 550" fill="none" stroke="#1769d1" stroke-width="7" stroke-linecap="round"/>
-<g fill="#1769d1"><circle cx="250" cy="230" r="9"/><circle cx="295" cy="370" r="9"/><circle cx="380" cy="495" r="9"/><circle cx="520" cy="550" r="13"/><circle cx="600" cy="550" r="9"/><circle cx="690" cy="550" r="9"/></g>
-<line x1="520" y1="180" x2="520" y2="640" stroke="#1769d1" stroke-dasharray="10 10" stroke-width="3"/><text x="491" y="684" class="l">CMC</text><text x="385" y="720" class="s">concentration micellaire critique</text>
-<text x="250" y="170" class="l">monomères / interfaces</text><text x="590" y="170" class="o">micelles</text>
-<rect x="45" y="250" width="130" height="240" rx="18" fill="#eaf1ff" stroke="#1769d1"/><text x="67" y="285" class="l">Avant</text><g transform="translate(68 330)"><circle class="b" cx="0" cy="0" r="10"/><path d="M0 10 q8 14 0 28 q-8 14 0 28" fill="none" stroke="#111" stroke-width="3"/><circle class="b" cx="52" cy="50" r="10"/><path d="M52 60 q8 14 0 28 q-8 14 0 28" fill="none" stroke="#111" stroke-width="3"/><circle class="b" cx="30" cy="120" r="10"/><path d="M30 130 q8 14 0 28" fill="none" stroke="#111" stroke-width="3"/></g>
-<rect x="790" y="245" width="160" height="245" rx="18" fill="#fff4df" stroke="#d88112"/><text x="824" y="285" class="o">Après</text><g transform="translate(870 380)"><circle cx="0" cy="0" r="18" fill="#ffd474"/><g stroke="#111" stroke-width="2"><line x1="0" y1="0" x2="0" y2="-58"/><line x1="0" y1="0" x2="50" y2="-25"/><line x1="0" y1="0" x2="50" y2="25"/><line x1="0" y1="0" x2="0" y2="58"/><line x1="0" y1="0" x2="-50" y2="25"/><line x1="0" y1="0" x2="-50" y2="-25"/></g><g fill="#1769d1"><circle cx="0" cy="-65" r="9"/><circle cx="58" cy="-30" r="9"/><circle cx="58" cy="30" r="9"/><circle cx="0" cy="65" r="9"/><circle cx="-58" cy="30" r="9"/><circle cx="-58" cy="-30" r="9"/></g></g>
-<rect x="180" y="760" width="640" height="52" rx="14" class="box"/><text x="215" y="794" class="mono">Au-dessus de la CMC : les molécules ajoutées forment surtout des micelles.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+<style>
+  .bg { fill:#FBFAF7; }
+  .panel { fill:#F7F5F0; stroke:#D2C8B8; stroke-width:2; }
+  .panelBlue { fill:#F1F6FD; stroke:#2B6CCF; stroke-width:2; }
+  .panelOrange { fill:#FCF5E8; stroke:#D98310; stroke-width:2; }
+  .panelGreen { fill:#EFF7F1; stroke:#2C7A48; stroke-width:2; }
+  .ink { fill:#142544; font-family:Roboto,Arial,sans-serif; }
+  .muted { fill:#4B5563; font-family:Roboto,Arial,sans-serif; }
+  .small { font-size:22px; }
+  .body { font-size:26px; }
+  .h1 { font-size:54px; font-weight:800; }
+  .h2 { font-size:34px; font-weight:700; }
+  .h3 { font-size:30px; font-weight:700; }
+  .note { font-size:20px; }
+  .caption { font-size:24px; }
+  .blue { fill:#2B6CCF; }
+  .orange { fill:#D98310; }
+  .green { fill:#2C7A48; }
+  .darkstroke { stroke:#142544; stroke-width:4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .bluestroke { stroke:#2B6CCF; stroke-width:4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .orangestroke { stroke:#D98310; stroke-width:4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .redstroke { stroke:#D1495B; stroke-width:3.5; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .dash { stroke-dasharray:9 9; }
+</style>
+<defs>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+    <path d="M0,0 L12,6 L0,12 z" fill="#142544"/>
+  </marker>
+  <marker id="blueArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+    <path d="M0,0 L12,6 L0,12 z" fill="#2B6CCF"/>
+  </marker>
+  <marker id="orangeArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+    <path d="M0,0 L12,6 L0,12 z" fill="#D98310"/>
+  </marker>
+  <marker id="redArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 z" fill="#D1495B"/>
+  </marker>
+</defs>
+<rect class="bg" x="0" y="0" width="1200" height="760" rx="18"/>
+
+<rect class="panel" x="40" y="40" width="1120" height="680" rx="22"/>
+<text class="ink h1" x="600" y="110" text-anchor="middle">Micelles et CMC</text>
+<text class="muted body" x="600" y="155" text-anchor="middle">La tension superficielle diminue d’abord, puis atteint un plateau à la concentration micellaire critique.</text>
+
+<line x1="210" y1="530" x2="210" y2="230" class="darkstroke" marker-end="url(#arrow)"/>
+<line x1="210" y1="530" x2="780" y2="530" class="darkstroke" marker-end="url(#arrow)"/>
+<text class="ink body" x="130" y="225" transform="rotate(-90 130 225)">Tension superficielle</text>
+<text class="ink body" x="470" y="585" text-anchor="middle">Concentration en tensioactif</text>
+
+<path d="M250 270 C310 380, 350 430, 430 470 S560 490, 730 485" class="bluestroke" stroke-width="8"/>
+<circle cx="250" cy="270" r="8" fill="#2B6CCF"/><circle cx="340" cy="405" r="8" fill="#2B6CCF"/><circle cx="430" cy="470" r="8" fill="#2B6CCF"/><circle cx="560" cy="485" r="10" fill="#2B6CCF"/><circle cx="650" cy="485" r="8" fill="#2B6CCF"/>
+<line x1="560" y1="220" x2="560" y2="560" class="bluestroke dash"/>
+<text class="ink body blue" x="560" y="548" text-anchor="middle" font-weight="700">CMC</text>
+<text class="muted small" x="560" y="572" text-anchor="middle">concentration micellaire critique</text>
+
+<rect class="panelBlue" x="70" y="275" width="120" height="180" rx="18"/>
+<text class="ink body blue" x="130" y="315" text-anchor="middle" font-weight="700">Avant</text>
+<circle cx="105" cy="355" r="6" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M105 363 C99 380, 111 390, 105 410" class="darkstroke" stroke-width="3"/><circle cx="145" cy="390" r="6" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M145 398 C139 415, 151 425, 145 445" class="darkstroke" stroke-width="3"/><circle cx="105" cy="425" r="6" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M105 433 C99 450, 111 460, 105 480" class="darkstroke" stroke-width="3"/><circle cx="145" cy="460" r="6" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M145 468 C139 485, 151 495, 145 515" class="darkstroke" stroke-width="3"/>
+<text class="muted small" x="130" y="485" text-anchor="middle">monomères</text>
+
+<rect class="panelOrange" x="860" y="275" width="170" height="180" rx="18"/>
+<text class="ink body orange" x="945" y="315" text-anchor="middle" font-weight="700">Après</text>
+<circle cx="945" cy="385" r="26" fill="#F2C45B"/>
+<line x1="973.0" y1="385.0" x2="997.0" y2="385.0" stroke="#142544" stroke-width="3"/><circle cx="997.0" cy="385.0" r="8" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="969.2" y1="399.0" x2="990.0" y2="411.0" stroke="#142544" stroke-width="3"/><circle cx="990.0" cy="411.0" r="8" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="959.0" y1="409.2" x2="971.0" y2="430.0" stroke="#142544" stroke-width="3"/><circle cx="971.0" cy="430.0" r="8" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="945.0" y1="413.0" x2="945.0" y2="437.0" stroke="#142544" stroke-width="3"/><circle cx="945.0" cy="437.0" r="8" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="931.0" y1="409.2" x2="919.0" y2="430.0" stroke="#142544" stroke-width="3"/><circle cx="919.0" cy="430.0" r="8" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="920.8" y1="399.0" x2="900.0" y2="411.0" stroke="#142544" stroke-width="3"/><circle cx="900.0" cy="411.0" r="8" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="917.0" y1="385.0" x2="893.0" y2="385.0" stroke="#142544" stroke-width="3"/><circle cx="893.0" cy="385.0" r="8" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="920.8" y1="371.0" x2="900.0" y2="359.0" stroke="#142544" stroke-width="3"/><circle cx="900.0" cy="359.0" r="8" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="931.0" y1="360.8" x2="919.0" y2="340.0" stroke="#142544" stroke-width="3"/><circle cx="919.0" cy="340.0" r="8" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="945.0" y1="357.0" x2="945.0" y2="333.0" stroke="#142544" stroke-width="3"/><circle cx="945.0" cy="333.0" r="8" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="959.0" y1="360.8" x2="971.0" y2="340.0" stroke="#142544" stroke-width="3"/><circle cx="971.0" cy="340.0" r="8" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><line x1="969.2" y1="371.0" x2="990.0" y2="359.0" stroke="#142544" stroke-width="3"/><circle cx="990.0" cy="359.0" r="8" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/>
+<text class="muted small" x="945" y="485" text-anchor="middle">micelles</text>
+
+<rect class="panel" x="290" y="615" width="520" height="62" rx="16"/>
+<text class="muted body" x="550" y="654" text-anchor="middle">Au-dessus de la CMC, les molécules ajoutées forment surtout des micelles.</text>
+
 </svg>

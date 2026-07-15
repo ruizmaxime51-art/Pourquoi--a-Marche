@@ -1,46 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
-<title id="title">Le mouillage : pourquoi l’eau s’étale mieux ?</title><desc id="desc">Schéma scientifique pédagogique.</desc>
-<defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
 <style>
-.title{font:700 46px Roboto,Arial,sans-serif;fill:#0b1d3a;letter-spacing:-.8px}
-.subtitle{font:400 21px Roboto,Arial,sans-serif;fill:#2f3a49}
-.h2{font:700 30px Roboto,Arial,sans-serif;fill:#0b1d3a}
-.label{font:600 20px Roboto,Arial,sans-serif;fill:#0b1d3a}
-.small{font:400 17px Roboto,Arial,sans-serif;fill:#273449}
-.tiny{font:400 14px Roboto,Arial,sans-serif;fill:#4b5563}
-.mono{font:500 19px Roboto,Arial,sans-serif;fill:#111827}
-.box{fill:#fff;stroke:#d7dce3;stroke-width:2}
-.info{fill:#f7fbff;stroke:#1769d1;stroke-width:2}
-.warn{fill:#fff9ed;stroke:#d88112;stroke-width:2}
-.blue{fill:#1769d1}.orange{fill:#d88112}.green{fill:#237047}.purple{fill:#6a3aa8}.red{fill:#b84b3f}.muted{fill:#667085}
-.tail{fill:none;stroke:#111827;stroke-width:4;stroke-linecap:round}
-.line{stroke:#d7dce3;stroke-width:2}
+  .bg { fill:#FBFAF7; }
+  .panel { fill:#F7F5F0; stroke:#D2C8B8; stroke-width:2; }
+  .panelBlue { fill:#F1F6FD; stroke:#2B6CCF; stroke-width:2; }
+  .panelOrange { fill:#FCF5E8; stroke:#D98310; stroke-width:2; }
+  .panelGreen { fill:#EFF7F1; stroke:#2C7A48; stroke-width:2; }
+  .ink { fill:#142544; font-family:Roboto,Arial,sans-serif; }
+  .muted { fill:#4B5563; font-family:Roboto,Arial,sans-serif; }
+  .small { font-size:22px; }
+  .body { font-size:26px; }
+  .h1 { font-size:54px; font-weight:800; }
+  .h2 { font-size:34px; font-weight:700; }
+  .h3 { font-size:30px; font-weight:700; }
+  .note { font-size:20px; }
+  .caption { font-size:24px; }
+  .blue { fill:#2B6CCF; }
+  .orange { fill:#D98310; }
+  .green { fill:#2C7A48; }
+  .darkstroke { stroke:#142544; stroke-width:4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .bluestroke { stroke:#2B6CCF; stroke-width:4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .orangestroke { stroke:#D98310; stroke-width:4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .redstroke { stroke:#D1495B; stroke-width:3.5; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .dash { stroke-dasharray:9 9; }
 </style>
-<radialGradient id="headBlue" cx="35%" cy="30%"><stop offset="0" stop-color="#9fd7ff"/><stop offset="1" stop-color="#1769d1"/></radialGradient>
-<radialGradient id="headOrange" cx="35%" cy="30%"><stop offset="0" stop-color="#ffe19a"/><stop offset="1" stop-color="#d88112"/></radialGradient>
-<marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#111827"/></marker>
-<marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#1769d1"/></marker>
-<marker id="arrowOrange" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#d88112"/></marker>
+<defs>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+    <path d="M0,0 L12,6 L0,12 z" fill="#142544"/>
+  </marker>
+  <marker id="blueArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+    <path d="M0,0 L12,6 L0,12 z" fill="#2B6CCF"/>
+  </marker>
+  <marker id="orangeArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+    <path d="M0,0 L12,6 L0,12 z" fill="#D98310"/>
+  </marker>
+  <marker id="redArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 z" fill="#D1495B"/>
+  </marker>
 </defs>
-<rect width="100%" height="100%" fill="#fbfaf6"/>
-<text x="600.0" y="72" text-anchor="middle" class="title">Le mouillage : pourquoi l’eau s’étale mieux ?</text>
-<text x="600.0" y="112" text-anchor="middle" class="subtitle">Un tensioactif abaisse la tension superficielle.</text>
+<rect class="bg" x="0" y="0" width="1200" height="760" rx="18"/>
 
-<line x1="600" y1="180" x2="600" y2="680" class="line"/>
-<text x="300" y="220" class="h2 blue" text-anchor="middle">Sans tensioactif</text>
-<text x="900" y="220" class="h2 orange" text-anchor="middle">Avec tensioactif</text>
-<rect x="130" y="520" width="380" height="34" fill="#e8e5dd" stroke="#b7b3a8"/>
-<path d="M235 520 C260 420 395 420 420 520 Z" fill="#9fd7ff" stroke="#1769d1" stroke-width="4"/>
-<path d="M170 520 A95 95 0 0 1 235 430" fill="none" stroke="#111827" stroke-width="4"/>
-<text x="320" y="600" text-anchor="middle" class="label blue">goutte qui perle</text>
-<text x="320" y="635" text-anchor="middle" class="small">tension superficielle élevée</text>
-<rect x="700" y="520" width="380" height="34" fill="#e8e5dd" stroke="#b7b3a8"/>
-<path d="M715 520 C785 475 1005 475 1070 520 Z" fill="#9fd7ff" opacity=".75" stroke="#1769d1" stroke-width="4"/>
-<circle cx="780" cy="515" r="7.56" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="0.84"/><path d="M780 525.08 C770.76 540.2 789.24 553.64 780 568.76" class="tail" stroke-width="1.68"/><circle cx="830" cy="515" r="7.56" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="0.84"/><path d="M830 525.08 C820.76 540.2 839.24 553.64 830 568.76" class="tail" stroke-width="1.68"/><circle cx="880" cy="515" r="7.56" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="0.84"/><path d="M880 525.08 C870.76 540.2 889.24 553.64 880 568.76" class="tail" stroke-width="1.68"/><circle cx="930" cy="515" r="7.56" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="0.84"/><path d="M930 525.08 C920.76 540.2 939.24 553.64 930 568.76" class="tail" stroke-width="1.68"/><circle cx="980" cy="515" r="7.56" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="0.84"/><path d="M980 525.08 C970.76 540.2 989.24 553.64 980 568.76" class="tail" stroke-width="1.68"/><circle cx="1030" cy="515" r="7.56" fill="url(#headBlue)" stroke="#0b4fa3" stroke-width="0.84"/><path d="M1030 525.08 C1020.76 540.2 1039.24 553.64 1030 568.76" class="tail" stroke-width="1.68"/>
-<path d="M715 520 A70 70 0 0 1 760 490" fill="none" stroke="#111827" stroke-width="4"/>
-<text x="890" y="600" text-anchor="middle" class="label orange">goutte qui s’étale</text>
-<text x="890" y="635" text-anchor="middle" class="small">tension superficielle abaissée</text>
-<rect x="220" y="725" width="760" height="80" rx="18" class="info"/>
-<text x="260" y="775" class="small">Un meilleur mouillage aide l’eau à pénétrer les fibres, pores et irrégularités d’une surface sale.</text>
+<rect class="panel" x="40" y="40" width="1120" height="680" rx="22"/>
+<text class="ink h1" x="600" y="110" text-anchor="middle">Le mouillage : pourquoi l’eau s’étale mieux ?</text>
+<text class="muted body" x="600" y="155" text-anchor="middle">Un tensioactif abaisse la tension superficielle et réduit l’angle de contact.</text>
+<line x1="600" y1="200" x2="600" y2="570" stroke="#D2C8B8" stroke-width="3"/>
+<text class="ink h2 blue" x="250" y="220">Sans tensioactif</text>
+<text class="ink h2 orange" x="760" y="220">Avec tensioactif</text>
+
+<rect x="170" y="430" width="250" height="34" fill="#E3DED5" stroke="#C7C0B5"/>
+<path d="M240 430 C260 330, 360 330, 380 430 Z" fill="#9AC7F0" stroke="#2B6CCF" stroke-width="4"/>
+<path d="M240 430 A55 55 0 0 1 292 376" class="darkstroke"/>
+<text class="muted body" x="206" y="410">θ grand</text>
+<text class="ink body blue" x="245" y="500">goutte qui perle</text>
+<text class="muted small" x="210" y="535">mouillage faible · tension superficielle élevée</text>
+
+<rect x="680" y="430" width="250" height="34" fill="#E3DED5" stroke="#C7C0B5"/>
+<path d="M725 430 C735 395, 885 395, 895 430 Z" fill="#B7D7F3" stroke="#4A86D9" stroke-width="4"/>
+<path d="M725 430 A33 33 0 0 1 760 401" class="darkstroke"/>
+<text class="muted body" x="705" y="410">θ petit</text>
+<circle cx="740" cy="425" r="8" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M740 433 C734 450, 746 462, 740 485" class="darkstroke" stroke-width="3"/><circle cx="780" cy="425" r="8" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M780 433 C774 450, 786 462, 780 485" class="darkstroke" stroke-width="3"/><circle cx="820" cy="425" r="8" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M820 433 C814 450, 826 462, 820 485" class="darkstroke" stroke-width="3"/><circle cx="860" cy="425" r="8" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M860 433 C854 450, 866 462, 860 485" class="darkstroke" stroke-width="3"/>
+<text class="ink body orange" x="742" y="500">goutte qui s’étale</text>
+<text class="muted small" x="690" y="535">mouillage meilleur · l’eau pénètre mieux les pores</text>
+
+<rect class="panelBlue" x="275" y="585" width="650" height="78" rx="18"/>
+<text class="muted body" x="600" y="635" text-anchor="middle">Moins l’angle de contact est grand, plus le mouillage est efficace.</text>
 
 </svg>

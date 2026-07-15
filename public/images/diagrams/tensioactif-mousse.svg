@@ -1,18 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="980" viewBox="0 0 1000 980" role="img" aria-labelledby="title desc">
-<title id="title">Mousse et tensioactifs</title><desc id="desc">Coupe d’une lamelle de mousse stabilisée par des tensioactifs.</desc><defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
 <style>
-.title{font:700 54px Roboto,Arial,sans-serif;fill:#0b1d3a;letter-spacing:-1px}.subtitle{font:400 23px Roboto,Arial,sans-serif;fill:#2f3a49}.h2{font:700 34px Roboto,Arial,sans-serif;fill:#0b1d3a}.label{font:600 22px Roboto,Arial,sans-serif;fill:#0b1d3a}.small{font:400 19px Roboto,Arial,sans-serif;fill:#26313f}.tiny{font:400 16px Roboto,Arial,sans-serif;fill:#415063}.blue{fill:#1769d1}.orange{fill:#d88112}.green{fill:#237047}.purple{fill:#6a3aa8}.ink{fill:#111827}.muted{fill:#4b5563}.line{stroke:#d7dce3;stroke-width:2}.box{fill:#fff;stroke:#d7dce3;stroke-width:2}.info{fill:#f7fbff;stroke:#1769d1;stroke-width:2}.warn{fill:#fff9ed;stroke:#d88112;stroke-width:2}.water{fill:#dcefff;stroke:#68aee8;stroke-width:2}.oil{fill:#ffe1a3;stroke:#e0a144;stroke-width:2}.surface{fill:#e8e5dd;stroke:#b7b3a8;stroke-width:1}.tail{fill:none;stroke:#111827;stroke-width:4;stroke-linecap:round}.dash{stroke-dasharray:8 8}.mono{font:500 20px Roboto,Arial,sans-serif;fill:#111827}
+  .bg { fill:#FBFAF7; }
+  .panel { fill:#F7F5F0; stroke:#D2C8B8; stroke-width:2; }
+  .panelBlue { fill:#F1F6FD; stroke:#2B6CCF; stroke-width:2; }
+  .panelOrange { fill:#FCF5E8; stroke:#D98310; stroke-width:2; }
+  .panelGreen { fill:#EFF7F1; stroke:#2C7A48; stroke-width:2; }
+  .ink { fill:#142544; font-family:Roboto,Arial,sans-serif; }
+  .muted { fill:#4B5563; font-family:Roboto,Arial,sans-serif; }
+  .small { font-size:22px; }
+  .body { font-size:26px; }
+  .h1 { font-size:54px; font-weight:800; }
+  .h2 { font-size:34px; font-weight:700; }
+  .h3 { font-size:30px; font-weight:700; }
+  .note { font-size:20px; }
+  .caption { font-size:24px; }
+  .blue { fill:#2B6CCF; }
+  .orange { fill:#D98310; }
+  .green { fill:#2C7A48; }
+  .darkstroke { stroke:#142544; stroke-width:4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .bluestroke { stroke:#2B6CCF; stroke-width:4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .orangestroke { stroke:#D98310; stroke-width:4; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .redstroke { stroke:#D1495B; stroke-width:3.5; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+  .dash { stroke-dasharray:9 9; }
 </style>
-<radialGradient id="blueHead" cx="35%" cy="30%"><stop offset="0" stop-color="#9fd7ff"/><stop offset="1" stop-color="#1769d1"/></radialGradient>
-<radialGradient id="oilDrop" cx="35%" cy="30%"><stop offset="0" stop-color="#ffe19a"/><stop offset="1" stop-color="#d88112"/></radialGradient>
-<marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#1769d1"/></marker>
-<marker id="arrowOrange" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#d88112"/></marker>
-<marker id="arrowDark" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#111827"/></marker>
-</defs><rect width="100%" height="100%" fill="#fbfaf6"/>
-<text x="150" y="92" class="title">Pourquoi ça mousse ?</text><text x="95" y="145" class="subtitle">La mousse est une dispersion d’air dans un liquide, stabilisée par des tensioactifs.</text>
-<text x="120" y="425" class="h2">air</text><text x="810" y="425" class="h2">air</text><rect x="430" y="250" width="140" height="300" rx="18" fill="#dcefff" stroke="#8ec5f5" stroke-width="2"/><circle cx="430" cy="280" r="12" fill="url(#blueHead)" stroke="#0b4fa3"/><path d="M418 280 C370 265 340 295 300 280" class="tail" stroke-width="3"/><circle cx="430" cy="318" r="12" fill="url(#blueHead)" stroke="#0b4fa3"/><path d="M418 318 C370 303 340 333 300 318" class="tail" stroke-width="3"/><circle cx="430" cy="356" r="12" fill="url(#blueHead)" stroke="#0b4fa3"/><path d="M418 356 C370 341 340 371 300 356" class="tail" stroke-width="3"/><circle cx="430" cy="394" r="12" fill="url(#blueHead)" stroke="#0b4fa3"/><path d="M418 394 C370 379 340 409 300 394" class="tail" stroke-width="3"/><circle cx="430" cy="432" r="12" fill="url(#blueHead)" stroke="#0b4fa3"/><path d="M418 432 C370 417 340 447 300 432" class="tail" stroke-width="3"/><circle cx="430" cy="470" r="12" fill="url(#blueHead)" stroke="#0b4fa3"/><path d="M418 470 C370 455 340 485 300 470" class="tail" stroke-width="3"/><circle cx="430" cy="508" r="12" fill="url(#blueHead)" stroke="#0b4fa3"/><path d="M418 508 C370 493 340 523 300 508" class="tail" stroke-width="3"/><circle cx="570" cy="280" r="12" fill="url(#blueHead)" stroke="#0b4fa3"/><path d="M582 280 C630 265 660 295 700 280" class="tail" stroke-width="3"/><circle cx="570" cy="318" r="12" fill="url(#blueHead)" stroke="#0b4fa3"/><path d="M582 318 C630 303 660 333 700 318" class="tail" stroke-width="3"/><circle cx="570" cy="356" r="12" fill="url(#blueHead)" stroke="#0b4fa3"/><path d="M582 356 C630 341 660 371 700 356" class="tail" stroke-width="3"/><circle cx="570" cy="394" r="12" fill="url(#blueHead)" stroke="#0b4fa3"/><path d="M582 394 C630 379 660 409 700 394" class="tail" stroke-width="3"/><circle cx="570" cy="432" r="12" fill="url(#blueHead)" stroke="#0b4fa3"/><path d="M582 432 C630 417 660 447 700 432" class="tail" stroke-width="3"/><circle cx="570" cy="470" r="12" fill="url(#blueHead)" stroke="#0b4fa3"/><path d="M582 470 C630 455 660 485 700 470" class="tail" stroke-width="3"/><circle cx="570" cy="508" r="12" fill="url(#blueHead)" stroke="#0b4fa3"/><path d="M582 508 C630 493 660 523 700 508" class="tail" stroke-width="3"/>
-<text x="420" y="215" class="label blue">film d’eau / lamelle</text><line x1="500" y1="225" x2="500" y2="250" stroke="#1769d1" stroke-width="3"/><text x="720" y="295" class="label blue">têtes hydrophiles</text><text x="720" y="325" class="small blue">dans l’eau</text><line x1="705" y1="300" x2="570" y2="315" stroke="#1769d1" stroke-width="3"/><text x="735" y="470" class="label orange">queues hydrophobes</text><text x="735" y="500" class="small orange">vers l’air</text><line x1="720" y1="475" x2="640" y2="435" stroke="#d88112" stroke-width="3"/>
-<rect x="80" y="620" width="390" height="150" rx="16" class="info"/><text x="105" y="710" class="label blue">drainage</text><line x1="340" y1="650" x2="340" y2="730" stroke="#1769d1" stroke-width="5" marker-end="url(#arrowBlue)"/><text x="205" y="680" class="small">le liquide s’écoule,</text><text x="205" y="710" class="small">le film s’amincit</text><g transform="translate(145 650) scale(.45)"><circle cx="430" cy="280" r="12" fill="url(#blueHead)" stroke="#0b4fa3"/><path d="M418 280 C370 265 340 295 300 280" class="tail" stroke-width="3"/><circle cx="430" cy="318" r="12" fill="url(#blueHead)" stroke="#0b4fa3"/><path d="M418 318 C370 303 340 333 300 318" class="tail" stroke-width="3"/><circle cx="430" cy="356" r="12" fill="url(#blueHead)" stroke="#0b4fa3"/><path d="M418 356 C370 341 340 371 300 356" class="tail" stroke-width="3"/><circle cx="430" cy="394" r="12" fill="url(#blueHead)" stroke="#0b4fa3"/><path d="M418 394 C370 379 340 409 300 394" class="tail" stroke-width="3"/><circle cx="430" cy="432" r="12" fill="url(#blueHead)" stroke="#0b4fa3"/><path d="M418 432 C370 417 340 447 300 432" class="tail" stroke-width="3"/><circle cx="430" cy="470" r="12" fill="url(#blueHead)" stroke="#0b4fa3"/><path d="M418 470 C370 455 340 485 300 470" class="tail" stroke-width="3"/><circle cx="430" cy="508" r="12" fill="url(#blueHead)" stroke="#0b4fa3"/><path d="M418 508 C370 493 340 523 300 508" class="tail" stroke-width="3"/><circle cx="570" cy="280" r="12" fill="url(#blueHead)" stroke="#0b4fa3"/><path d="M582 280 C630 265 660 295 700 280" class="tail" stroke-width="3"/><circle cx="570" cy="318" r="12" fill="url(#blueHead)" stroke="#0b4fa3"/><path d="M582 318 C630 303 660 333 700 318" class="tail" stroke-width="3"/><circle cx="570" cy="356" r="12" fill="url(#blueHead)" stroke="#0b4fa3"/><path d="M582 356 C630 341 660 371 700 356" class="tail" stroke-width="3"/><circle cx="570" cy="394" r="12" fill="url(#blueHead)" stroke="#0b4fa3"/><path d="M582 394 C630 379 660 409 700 394" class="tail" stroke-width="3"/><circle cx="570" cy="432" r="12" fill="url(#blueHead)" stroke="#0b4fa3"/><path d="M582 432 C630 417 660 447 700 432" class="tail" stroke-width="3"/><circle cx="570" cy="470" r="12" fill="url(#blueHead)" stroke="#0b4fa3"/><path d="M582 470 C630 455 660 485 700 470" class="tail" stroke-width="3"/><circle cx="570" cy="508" r="12" fill="url(#blueHead)" stroke="#0b4fa3"/><path d="M582 508 C630 493 660 523 700 508" class="tail" stroke-width="3"/></g>
-<rect x="520" y="620" width="400" height="150" rx="16" class="warn"/><text x="575" y="665" class="h2 orange">Mousse ≠ pouvoir lavant</text><line x1="560" y1="690" x2="880" y2="690" stroke="#d88112"/><text x="560" y="728" class="small">La mousse renseigne surtout sur la stabilité</text><text x="560" y="758" class="small">des bulles, pas sur l’efficacité de nettoyage.</text>
-<rect x="80" y="830" width="840" height="80" rx="16" class="info"/><circle cx="120" cy="870" r="24" fill="#eaf1ff" stroke="#1769d1" stroke-width="2"/><text x="112" y="882" font-size="32" font-weight="700" fill="#1769d1">i</text><text x="165" y="862" class="small">Les tensioactifs abaissent la tension superficielle</text><text x="165" y="892" class="small">et aident à stabiliser les films de mousse.</text>
+<defs>
+  <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+    <path d="M0,0 L12,6 L0,12 z" fill="#142544"/>
+  </marker>
+  <marker id="blueArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+    <path d="M0,0 L12,6 L0,12 z" fill="#2B6CCF"/>
+  </marker>
+  <marker id="orangeArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+    <path d="M0,0 L12,6 L0,12 z" fill="#D98310"/>
+  </marker>
+  <marker id="redArrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+    <path d="M0,0 L10,5 L0,10 z" fill="#D1495B"/>
+  </marker>
+</defs>
+<rect class="bg" x="0" y="0" width="1200" height="760" rx="18"/>
+
+<rect class="panel" x="40" y="40" width="1120" height="680" rx="22"/>
+<text class="ink h1" x="600" y="110" text-anchor="middle">Pourquoi ça mousse ?</text>
+<text class="muted body" x="600" y="155" text-anchor="middle">Une mousse est une dispersion d’air stabilisée par un film d’eau tapissé de tensioactifs.</text>
+
+<text class="ink h2" x="205" y="360">air</text>
+<text class="ink h2" x="940" y="360">air</text>
+<rect x="470" y="220" width="170" height="230" rx="85" fill="#D9EAFB" stroke="#5AA0E6" stroke-width="3"/>
+<circle cx="470" cy="250" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M463 250 C440 240, 430 258, 410 246" class="darkstroke" stroke-width="3"/><circle cx="640" cy="250" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M647 250 C670 240, 680 258, 700 246" class="darkstroke" stroke-width="3"/><circle cx="470" cy="290" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M463 290 C440 280, 430 298, 410 286" class="darkstroke" stroke-width="3"/><circle cx="640" cy="290" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M647 290 C670 280, 680 298, 700 286" class="darkstroke" stroke-width="3"/><circle cx="470" cy="330" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M463 330 C440 320, 430 338, 410 326" class="darkstroke" stroke-width="3"/><circle cx="640" cy="330" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M647 330 C670 320, 680 338, 700 326" class="darkstroke" stroke-width="3"/><circle cx="470" cy="370" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M463 370 C440 360, 430 378, 410 366" class="darkstroke" stroke-width="3"/><circle cx="640" cy="370" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M647 370 C670 360, 680 378, 700 366" class="darkstroke" stroke-width="3"/><circle cx="470" cy="410" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M463 410 C440 400, 430 418, 410 406" class="darkstroke" stroke-width="3"/><circle cx="640" cy="410" r="7" fill="#4A86D9" stroke="#2B6CCF" stroke-width="2"/><path d="M647 410 C670 400, 680 418, 700 406" class="darkstroke" stroke-width="3"/>
+<text class="muted body blue" x="600" y="205" text-anchor="middle">film d’eau / lamelle</text>
+<text class="muted body blue" x="705" y="275">têtes dans l’eau</text>
+<text class="muted body orange" x="705" y="320">queues vers l’air</text>
+<line x1="642" y1="258" x2="690" y2="266" class="bluestroke" marker-end="url(#blueArrow)"/>
+<line x1="680" y1="306" x2="722" y2="314" class="orangestroke" marker-end="url(#orangeArrow)"/>
+
+<rect class="panelBlue" x="165" y="525" width="330" height="92" rx="18"/>
+<text class="ink body blue" x="200" y="565" font-weight="700">drainage</text>
+<text class="muted body" x="315" y="565">le liquide s’écoule,</text>
+<text class="muted body" x="315" y="600">le film s’amincit.</text>
+<line x1="335" y1="490" x2="335" y2="515" class="bluestroke" stroke-width="10" marker-end="url(#blueArrow)"/>
+
+<rect class="panelOrange" x="625" y="525" width="380" height="92" rx="18"/>
+<text class="ink h2 orange" x="815" y="570" text-anchor="middle">Mousse ≠ pouvoir lavant</text>
+<text class="muted body" x="815" y="607" text-anchor="middle">La mousse renseigne surtout sur la stabilité des bulles.</text>
+
 </svg>
