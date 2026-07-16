@@ -11,6 +11,7 @@ export default function CategoryPage({ slug }) {
   const reperes = guides.filter((article) => article.type === 'repere');
   const deepNotions = guides.filter((article) => article.type === 'notion');
   const practicalGuides = guides.filter((article) => article.type === 'guide');
+  const comparisons = guides.filter((article) => article.type === 'comparatif');
 
   return (
     <main>
@@ -43,15 +44,22 @@ export default function CategoryPage({ slug }) {
             )}
           </>
         ) : isEquipmentCat ? (
-          <ContentSection kicker="Guides d’achat" title="Choisir du matériel réellement utile" articles={practicalGuides} />
+          <>
+            {comparisons.length > 0 && (
+              <ContentSection kicker="Comparatifs" title="Choisir un modèle selon votre usage" articles={comparisons} />
+            )}
+            {practicalGuides.length > 0 && (
+              <ContentSection kicker="Guides d’équipement" title="Construire votre matériel sans achats inutiles" articles={practicalGuides} />
+            )}
+          </>
         ) : (
           <>
-            {practicalGuides.length > 0 && (
-              <ContentSection kicker="Résoudre un problème" title="Guides pratiques" articles={practicalGuides} />
-            )}
-            {others.length > 0 ? (
+            {others.length > 0 && (
               <ContentSection kicker="Les recettes" title="Fabriquer avec méthode" articles={others} />
-            ) : practicalGuides.length === 0 ? (
+            )}
+            {practicalGuides.length > 0 ? (
+              <ContentSection kicker="Résoudre un problème" title="Guides pratiques" articles={practicalGuides} />
+            ) : others.length === 0 ? (
               <div className="empty-state">
                 <h3>Premiers articles à venir.</h3>
                 <p>Cette rubrique est prête dans l’architecture, mais les contenus ne sont pas encore publiés.</p>

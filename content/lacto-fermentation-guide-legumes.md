@@ -5,7 +5,7 @@ type: guide
 excerpt: Le guide pratique pour choisir les bons légumes, décider entre salage à sec et saumure, ajouter des aromates
   et éviter les erreurs classiques.
 formula: légumes + sel + bocal fermé + immersion
-image: /images/lacto-etape2-versement-saumure.webp
+image: /images/lacto-guide-legumes.webp
 date: '2026-07-14'
 sommaire: true
 takeaways:

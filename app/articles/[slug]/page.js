@@ -13,22 +13,23 @@ export async function generateMetadata({ params }) {
   const image = article.image || DEFAULT_OG_IMAGE;
   const url = `${SITE_URL}/articles/${article.slug}`;
   return {
-    title: article.title,
-    description: article.excerpt,
+    title: article.seoTitle || article.title,
+    description: article.seoDescription || article.excerpt,
+    keywords: article.keywords || undefined,
     alternates: { canonical: url },
     openGraph: {
       type: 'article',
       url,
-      title: article.title,
-      description: article.excerpt,
+      title: article.seoTitle || article.title,
+      description: article.seoDescription || article.excerpt,
       images: [{ url: image, width: 1200, height: 800, alt: article.title }],
       publishedTime: article.date || undefined,
       modifiedTime: article.updated || article.date || undefined,
     },
     twitter: {
       card: 'summary_large_image',
-      title: article.title,
-      description: article.excerpt,
+      title: article.seoTitle || article.title,
+      description: article.seoDescription || article.excerpt,
       images: [image],
     },
   };
@@ -67,7 +68,9 @@ export default async function ArticlePage({ params }) {
 
 function buildStructuredData(article, url, image) {
   const howtos = Array.isArray(article.howtos) ? article.howtos : [];
+  const faqs = Array.isArray(article.faq) ? article.faq : [];
   const howToIds = howtos.map((_, index) => `${url}#howto-${index + 1}`);
+  const faqId = faqs.length ? `${url}#faq` : null;
 
   const articleEntity = {
     '@type': 'Article',
@@ -82,7 +85,7 @@ function buildStructuredData(article, url, image) {
     author: { '@type': 'Organization', name: SITE_NAME },
     publisher: { '@type': 'Organization', name: SITE_NAME },
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
-    mainEntity: howToIds.map((id) => ({ '@id': id })),
+    mainEntity: [...howToIds.map((id) => ({ '@id': id })), ...(faqId ? [{ '@id': faqId }] : [])],
   };
 
   const howToEntities = howtos.map((howto, index) => ({
@@ -106,9 +109,24 @@ function buildStructuredData(article, url, image) {
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
   }));
 
+  const faqEntity = faqs.length
+    ? {
+        '@type': 'FAQPage',
+        '@id': faqId,
+        mainEntity: faqs.map((item) => ({
+          '@type': 'Question',
+          name: item.question,
+          acceptedAnswer: {
+            '@type': 'Answer',
+            text: item.answer,
+          },
+        })),
+      }
+    : null;
+
   return {
     '@context': 'https://schema.org',
-    '@graph': [articleEntity, ...howToEntities],
+    '@graph': [articleEntity, ...howToEntities, ...(faqEntity ? [faqEntity] : [])],
   };
 }
 

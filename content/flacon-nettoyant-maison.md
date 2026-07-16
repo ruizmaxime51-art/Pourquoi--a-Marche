@@ -54,6 +54,11 @@ Inscrivez le nom de la préparation, les ingrédients principaux, la concentrati
 surfaces interdites et les mélanges à éviter. Pour un détartrant acide, indiquez explicitement :
 **ne pas mélanger avec de la Javel**{{ref:wa-doh-bleach-mixing}}.
 
+{{affil:etiquettes-autocollantes}}
+
+Utilisez une étiquette suffisamment grande pour rester lisible même après plusieurs
+manipulations. Remplacez-la dès qu’elle se décolle, s’efface ou ne correspond plus au contenu.
+
 ## Un flacon par famille chimique
 
 Ne remplissez pas successivement le même spray avec un dégraissant basique puis un détartrant

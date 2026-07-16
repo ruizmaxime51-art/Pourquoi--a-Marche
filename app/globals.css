@@ -1387,3 +1387,376 @@ nav.main-nav { align-items: center; flex-wrap: nowrap; }
 .type-badge.notion { background:#EEE8FF; color:#5942A8; border-color:#CFC2F3; }
 .article-meta-line span:first-child { font-weight:700; }
 .category-content .section-headline:not(:first-child) { margin-top:48px; }
+
+
+/* v25 — comparatifs d'équipement et intention d'achat */
+.affiliate-disclosure {
+  margin: 22px 0 28px;
+  padding: 11px 14px;
+  border-left: 4px solid var(--amber);
+  background: #fff8e9;
+  color: var(--ink-soft);
+  font-size: .92rem;
+}
+.verdict-box {
+  margin: 24px 0 34px;
+  padding: 20px 22px;
+  border: 1px solid #c7d8cf;
+  border-left: 6px solid var(--green);
+  border-radius: 14px;
+  background: #f7fbf8;
+}
+.product-compare td:first-child { min-width: 190px; }
+.product-compare a {
+  color: var(--green-deep);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+@media (max-width: 720px) {
+  .post-body table.compare {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .post-body table.compare th,
+  .post-body table.compare td {
+    min-width: 150px;
+  }
+}
+
+
+/* v25 — FAQ visible, alignée avec les données structurées */
+.faq-section { margin: 46px 0 20px; }
+.faq-section h2 { margin-bottom: 18px; }
+.faq-item {
+  border-top: 1px solid var(--line);
+  background: #fffdf8;
+}
+.faq-item:last-child { border-bottom: 1px solid var(--line); }
+.faq-item summary {
+  cursor: pointer;
+  padding: 17px 42px 17px 0;
+  font-weight: 800;
+  color: var(--green-deep);
+  position: relative;
+}
+.faq-item summary::after {
+  content: '+';
+  position: absolute;
+  right: 12px;
+  font-size: 1.35rem;
+  line-height: 1;
+}
+.faq-item[open] summary::after { content: '–'; }
+.faq-item p { margin: 0; padding: 0 42px 18px 0; }
+
+/* ─────────────────────────────────────────────────────────────
+   v27 — Palette plus vive : naturel + science + conversion
+   Références de marché : Aroma-Zone, La Fourche, MyCosmetik,
+   Compagnie du Bicarbonate. La palette reste propre à Chimie Maison.
+   ───────────────────────────────────────────────────────────── */
+:root {
+  --paper: #FFF8ED;
+  --paper-2: #F5EBDD;
+  --surface: #FFFFFF;
+  --ink: #14231B;
+  --ink-soft: #45564D;
+  --line: #D9CBB9;
+  --line-soft: #EEE2D3;
+
+  --green: #07835F;
+  --green-deep: #07543B;
+  --green-mid: #39725E;
+  --green-soft: #DDF3E8;
+
+  --amber: #F2A23A;
+  --amber-deep: #B85B0C;
+  --amber-wash: #FFF0D5;
+
+  --coral: #E85D3F;
+  --coral-deep: #A93D27;
+  --coral-soft: #FCE3DC;
+
+  --blue: #2E6FD2;
+  --blue-deep: #1E4F9B;
+  --blue-soft: #E7F0FF;
+
+  --purple: #6B52B7;
+  --purple-deep: #49348E;
+  --purple-soft: #EEE9FF;
+
+  --danger: #B9382B;
+  --shadow: 0 14px 34px rgba(20, 35, 27, .10);
+}
+
+body {
+  background:
+    radial-gradient(circle at 5% 0%, rgba(7,131,95,.12), transparent 29rem),
+    radial-gradient(circle at 96% 6%, rgba(242,162,58,.14), transparent 30rem),
+    linear-gradient(180deg, #FFFDF8 0, var(--paper) 520px);
+}
+
+a { color: var(--green-deep); }
+a:hover { color: var(--coral-deep); }
+
+.reading-progress {
+  height: 4px;
+  background: linear-gradient(90deg, var(--green), var(--amber), var(--coral), var(--blue));
+}
+
+.site-header {
+  background: rgba(255,253,248,.96);
+  border-bottom: 2px solid rgba(7,131,95,.22);
+  box-shadow: 0 8px 24px rgba(20,35,27,.07);
+}
+.logo { color: var(--green-deep); }
+.logo em { color: var(--coral-deep); }
+nav.main-nav a,
+.nav-dropdown summary {
+  color: #28493C;
+  font-weight: 700;
+}
+nav.main-nav a {
+  padding: 7px 9px;
+  border-bottom: 0;
+}
+nav.main-nav a:hover,
+.nav-dropdown summary:hover {
+  color: var(--green-deep);
+  background: var(--green-soft);
+}
+.nav-dropdown summary { padding: 7px 24px 7px 9px; border-radius: 9px; }
+.nav-dropdown summary::after { right: 8px; color: var(--coral-deep); }
+.nav-dropdown-panel {
+  background: #fff;
+  border-color: rgba(7,131,95,.28);
+  box-shadow: 0 20px 46px rgba(20,35,27,.16);
+}
+.nav-dropdown-panel a:hover { background: var(--green-soft); color: var(--green-deep); }
+
+.formula-eyebrow {
+  color: var(--amber-deep);
+  border-bottom: 3px solid var(--amber);
+  background: var(--amber-wash);
+  padding: 5px 9px;
+  border-radius: 7px 7px 0 0;
+  font-weight: 800;
+}
+
+.home-hero-panel {
+  background: linear-gradient(145deg, #FFFFFF 0%, var(--green-soft) 70%, var(--amber-wash) 100%);
+  border: 1px solid rgba(7,131,95,.28);
+  border-left: 8px solid var(--green);
+  box-shadow: var(--shadow);
+}
+.panel-formula {
+  background: #fff;
+  border-color: rgba(184,91,12,.35);
+  color: var(--amber-deep);
+}
+.home-hero-panel li::before { color: var(--coral-deep); }
+
+.primary-pill {
+  background: var(--green);
+  color: #fff;
+  box-shadow: 0 10px 22px rgba(7,131,95,.24) !important;
+}
+.primary-pill:hover {
+  background: var(--green-deep);
+  color: #fff;
+  transform: translateY(-1px);
+}
+.secondary-pill {
+  color: var(--green-deep);
+  border: 2px solid rgba(7,131,95,.40);
+  background: #fff;
+}
+.secondary-pill:hover {
+  color: var(--green-deep);
+  border-color: var(--green);
+  background: var(--green-soft);
+  transform: translateY(-1px);
+}
+.cta-button,
+.recap-item a {
+  background: var(--amber-deep);
+  color: #fff;
+  box-shadow: 0 8px 18px rgba(184,91,12,.20) !important;
+}
+.cta-button:hover,
+.recap-item a:hover { background: #8D4307; color:#fff; }
+.jump-to-recipe {
+  background: var(--coral-deep) !important;
+  color: #fff !important;
+  border-color: var(--coral-deep) !important;
+}
+
+.path-card,
+.category-card,
+.article-card,
+.category-hero-card,
+.tool-card,
+.article-links-block,
+.materials-early {
+  background: #fff !important;
+  border-color: rgba(7,131,95,.20) !important;
+}
+.path-card { border-left-color: var(--green) !important; }
+.path-card:nth-child(2) { border-left-color: var(--amber) !important; }
+.path-card:nth-child(3) { border-left-color: var(--blue) !important; }
+.path-card:hover,
+.category-card:hover,
+.article-card:hover {
+  background: #fff !important;
+  border-color: rgba(7,131,95,.55) !important;
+  box-shadow: var(--shadow) !important;
+  transform: translateY(-3px);
+}
+
+.article-card {
+  border-top-width: 5px !important;
+}
+.article-card.type-recette { border-top-color: var(--coral) !important; }
+.article-card.type-guide { border-top-color: var(--amber) !important; }
+.article-card.type-repere { border-top-color: var(--green) !important; }
+.article-card.type-notion { border-top-color: var(--purple) !important; }
+.article-card.type-comparatif { border-top-color: var(--blue) !important; }
+.article-card-media { background: linear-gradient(135deg, var(--green-soft), var(--amber-wash)) !important; }
+.card-formula { color: var(--amber-deep); border-top-color: rgba(184,91,12,.22); }
+.card-meta { color: var(--green-mid); }
+
+.type-badge,
+.article-type-label {
+  border: 1px solid transparent !important;
+  font-weight: 900 !important;
+}
+.type-badge.recette,
+.article-type-label.recette {
+  background: var(--coral-soft) !important;
+  color: var(--coral-deep) !important;
+  border-color: #F0AE9F !important;
+}
+.type-badge.guide,
+.article-type-label.guide {
+  background: var(--amber-wash) !important;
+  color: var(--amber-deep) !important;
+  border-color: #F2C477 !important;
+}
+.type-badge.repere,
+.article-type-label.repere {
+  background: var(--green-soft) !important;
+  color: var(--green-deep) !important;
+  border-color: #A9DCC8 !important;
+}
+.type-badge.notion,
+.article-type-label.notion {
+  background: var(--purple-soft) !important;
+  color: var(--purple-deep) !important;
+  border-color: #C6B7F4 !important;
+}
+.type-badge.comparatif,
+.article-type-label.comparatif {
+  background: var(--blue-soft) !important;
+  color: var(--blue-deep) !important;
+  border-color: #B5CCF3 !important;
+}
+
+.section-kicker {
+  color: var(--green-deep);
+  position: relative;
+  padding-left: 15px;
+}
+.section-kicker::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: .15em;
+  bottom: .15em;
+  width: 5px;
+  border-radius: 5px;
+  background: linear-gradient(var(--green), var(--amber));
+}
+
+.category-hero-card {
+  background: linear-gradient(140deg, #fff 15%, var(--green-soft) 100%) !important;
+  border-left: 7px solid var(--green) !important;
+  box-shadow: 0 12px 28px rgba(7,131,95,.10) !important;
+}
+.category-hero-card strong { color: var(--green-deep); }
+
+.article-hero-visual,
+.post-body img {
+  border-color: rgba(7,131,95,.24);
+  box-shadow: 0 14px 34px rgba(20,35,27,.10);
+}
+.article-meta-line span { background:#fff; border-color:rgba(7,131,95,.20); }
+
+.takeaway-box,
+.notion-link {
+  background: linear-gradient(135deg, #fff, var(--green-soft)) !important;
+  border-color: rgba(7,131,95,.32) !important;
+  border-left: 6px solid var(--green) !important;
+}
+.article-links-block,
+.tool-card {
+  background: linear-gradient(135deg, #fff, var(--blue-soft)) !important;
+  border-left: 6px solid var(--blue) !important;
+}
+.notice-box,
+.materials-early {
+  background: linear-gradient(135deg, #fff, var(--amber-wash)) !important;
+  border-left: 6px solid var(--amber) !important;
+}
+.expert-block,
+.theory-block {
+  background: linear-gradient(135deg, #fff, var(--purple-soft)) !important;
+  border-left-color: var(--purple) !important;
+}
+.cta-block {
+  border: 1px solid rgba(184,91,12,.28) !important;
+  background: linear-gradient(135deg, #fff, var(--amber-wash)) !important;
+}
+
+.compare thead th {
+  background: var(--green-deep) !important;
+  color: #fff !important;
+}
+.compare tbody tr:nth-child(even) { background: rgba(221,243,232,.45); }
+.compare tbody tr:hover { background: var(--amber-wash); }
+
+.science-method,
+.trust-footer {
+  background: linear-gradient(135deg, #063E2C, #07543B 58%, #0A6B4E) !important;
+  border-top-color: var(--amber) !important;
+}
+.science-method .section-kicker { color: #BFEBD8; }
+.method-grid div,
+.trust-mini-grid span {
+  background: rgba(255,255,255,.10);
+  border-color: rgba(255,255,255,.18);
+}
+.trust-footer .label { color: #FFC46B; }
+
+.site-footer {
+  background: #10271E;
+  border-top-color: rgba(255,255,255,.12);
+}
+.site-footer a,
+.site-footer .colophon { color: #D7E6DF; }
+.site-footer a:hover { color: #FFC46B; }
+.affiliate-disclosure {
+  max-width: none;
+  background: #10271E;
+  color: #B9CEC4;
+  padding-left: max(24px, calc((100% - var(--wide))/2 + 24px));
+  padding-right: max(24px, calc((100% - var(--wide))/2 + 24px));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .path-card:hover,
+  .category-card:hover,
+  .article-card:hover,
+  .primary-pill:hover,
+  .secondary-pill:hover { transform: none; }
+}

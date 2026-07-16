@@ -6,7 +6,7 @@ export default function ArticleHero({ article }) {
     <header className="article-hero">
       <div className="article-hero-copy">
         <div className="article-meta-line">
-          <span>{typeLabel(article.type)}</span>
+          <span className={`article-type-label ${typeClass(article.type)}`}>{typeLabel(article.type)}</span>
           {article.readingTime && <span>{article.readingTime} min de lecture</span>}
           {article.date && <span>{formatDate(article.date)}</span>}
         </div>
@@ -31,6 +31,14 @@ export default function ArticleHero({ article }) {
       )}
     </header>
   );
+}
+
+function typeClass(type) {
+  if (type === 'repere') return 'repere';
+  if (type === 'notion') return 'notion';
+  if (type === 'guide') return 'guide';
+  if (type === 'comparatif') return 'comparatif';
+  return 'recette';
 }
 
 function typeLabel(type) {

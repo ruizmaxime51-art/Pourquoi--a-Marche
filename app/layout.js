@@ -3,6 +3,8 @@ import { Analytics } from '@vercel/analytics/next';
 import './globals.css';
 import { SITE_URL, SITE_NAME, SITE_DESCRIPTION, DEFAULT_OG_IMAGE } from '@/lib/site';
 
+export const viewport = { themeColor: '#07543B' };
+
 export const metadata = {
   metadataBase: new URL(SITE_URL),
   title: {

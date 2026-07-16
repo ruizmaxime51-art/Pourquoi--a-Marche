@@ -5,7 +5,7 @@ type: guide
 excerpt: 'Bulles sans volume, température trop basse, farine peu fermentescible ou rafraîchis mal rythmés : remettre
   un levain en activité sans repartir au hasard.'
 formula: bulles ≠ forcément doublement du volume
-image: /images/levain-rafraichi.webp
+image: /images/levain-probleme-guide.webp
 date: '2026-07-16'
 takeaways:
 - Distinguer production de gaz et capacité du mélange à retenir ce gaz

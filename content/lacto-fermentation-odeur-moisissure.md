@@ -5,7 +5,7 @@ type: guide
 excerpt: 'Bulles, saumure trouble, levures de surface ou moisissure colorée : distinguer les phénomènes normaux
   des signes d’altération d’un bocal.'
 formula: 'normal : acide + bulles · alerte : duvet + couleur'
-image: /images/lacto-etape2-versement-saumure.webp
+image: /images/lacto-inspection-bocal.webp
 date: '2026-07-16'
 takeaways:
 - Reconnaître les signes ordinaires d’une fermentation active

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function ArticleCard({ article, variant = 'default' }) {
   return (
-    <Link href={`/articles/${article.slug}`} className={`article-card ${variant}`}>
+    <Link href={`/articles/${article.slug}`} className={`article-card type-${badgeClass(article.type)} ${variant}`}>
       <div className="article-card-media">
         {article.image ? (
           <Image

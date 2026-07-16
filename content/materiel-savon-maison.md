@@ -35,6 +35,13 @@ accessoires.
 </div>
 </div>
 
+<div class="article-links-block">
+<h4>Protection avant tout</h4>
+<ul>
+<li><a href="/articles/gants-lunettes-risque-chimique">Choisir les gants et les lunettes adaptés à la soude</a></li>
+</ul>
+</div>
+
 ## La liste indispensable
 
 <table class="compare">
