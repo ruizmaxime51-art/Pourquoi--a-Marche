@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default function ArticleCard({ article, variant = 'default' }) {
@@ -5,7 +6,12 @@ export default function ArticleCard({ article, variant = 'default' }) {
     <Link href={`/articles/${article.slug}`} className={`article-card ${variant}`}>
       <div className="article-card-media">
         {article.image ? (
-          <img src={article.image} alt={article.title} loading="lazy" />
+          <Image
+            src={article.image}
+            alt={article.title}
+            fill
+            sizes={variant === 'wide' ? '(max-width: 760px) 100vw, 42vw' : '(max-width: 760px) 100vw, 33vw'}
+          />
         ) : (
           <div className="article-card-media-fallback" aria-hidden="true" />
         )}

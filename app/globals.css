@@ -1234,3 +1234,95 @@ h1, h2, h3, h4,
   min-height: 170px;
   background: linear-gradient(135deg, #E8EDE5, #F3E5C9);
 }
+
+
+/* v17 rollback visuels : aucune image d'article ne doit être rognée */
+.article-figure {
+  max-width: min(100%, 1100px) !important;
+}
+.article-figure img {
+  width: 100% !important;
+  height: auto !important;
+  object-fit: contain !important;
+  max-height: none !important;
+}
+.post-body img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* v20 — navigation simplifiée */
+nav.main-nav { align-items: center; flex-wrap: nowrap; }
+.nav-dropdown { position: relative; }
+.nav-dropdown summary {
+  list-style: none;
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  padding: 4px 16px 4px 0;
+  user-select: none;
+}
+.nav-dropdown summary::-webkit-details-marker { display: none; }
+.nav-dropdown summary::after {
+  content: "⌄";
+  position: absolute;
+  right: 0;
+  color: var(--amber-deep);
+}
+.nav-dropdown[open] summary { color: var(--green-deep); }
+.nav-dropdown-panel {
+  position: absolute;
+  top: calc(100% + 12px);
+  left: -18px;
+  z-index: 40;
+  min-width: 230px;
+  display: grid;
+  gap: 2px;
+  padding: 12px;
+  background: #fffdf8;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  box-shadow: 0 16px 36px rgba(23, 27, 23, .14);
+}
+.nav-dropdown-panel a {
+  display: block;
+  padding: 9px 10px;
+  border: 0 !important;
+  border-radius: 8px;
+}
+.nav-dropdown-panel a:hover { background: var(--green-soft); }
+@media (max-width: 820px) {
+  .site-header .wrap-inner { align-items: flex-start; }
+  nav.main-nav { gap: 12px; flex-wrap: wrap; justify-content: flex-end; }
+  .nav-dropdown-panel { left: auto; right: 0; }
+}
+
+/* v20 — next/image et stabilité visuelle */
+.article-card-media {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 4 / 3;
+  min-height: 0 !important;
+}
+.article-card-media img { object-fit: cover; }
+.article-card.compact .article-card-media,
+.article-card.wide .article-card-media { min-height: 0 !important; }
+.article-card.wide .article-card-media {
+  aspect-ratio: auto;
+  min-height: 240px !important;
+}
+.article-hero-visual {
+  position: relative;
+  min-height: 520px;
+}
+.article-hero-visual img {
+  object-fit: cover;
+  aspect-ratio: auto !important;
+}
+@media (max-width: 780px) {
+  .article-hero-visual { min-height: 360px; }
+}

@@ -50,14 +50,20 @@ export default function RootLayout({ children }) {
               chimie <em>maison</em>
             </Link>
             <nav className="main-nav" aria-label="Navigation principale">
-              <Link href="/recettes">Recettes</Link>
-              <Link href="/cosmetique">Cosmétique</Link>
-              <Link href="/entretien">Entretien</Link>
-              <Link href="/conservation">Conservation</Link>
-              <Link href="/fermentation">Fermentation</Link>
+              <details className="nav-dropdown">
+                <summary>Recettes</summary>
+                <div className="nav-dropdown-panel">
+                  <Link href="/recettes"><strong>Toutes les recettes</strong></Link>
+                  <Link href="/cosmetique">Cosmétique</Link>
+                  <Link href="/entretien">Entretien</Link>
+                  <Link href="/conservation">Conservation</Link>
+                  <Link href="/fermentation">Fermentation</Link>
+                </div>
+              </details>
               <Link href="/comprendre" className="nav-accent">Comprendre</Link>
-              <Link href="/bien-sequiper" className="nav-accent">Bien s'équiper</Link>
               <Link href="/outils" className="nav-accent">Outils</Link>
+              <Link href="/bien-sequiper" className="nav-accent">Bien s'équiper</Link>
+              <Link href="/a-propos">À propos</Link>
             </nav>
           </div>
         </header>

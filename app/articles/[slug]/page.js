@@ -23,6 +23,7 @@ export async function generateMetadata({ params }) {
       description: article.excerpt,
       images: [{ url: image, width: 1200, height: 800, alt: article.title }],
       publishedTime: article.date || undefined,
+      modifiedTime: article.updated || article.date || undefined,
     },
     twitter: {
       card: 'summary_large_image',
@@ -38,26 +39,13 @@ export default async function ArticlePage({ params }) {
   const related = getRelatedArticles(article);
   const image = article.image || DEFAULT_OG_IMAGE;
   const url = `${SITE_URL}/articles/${article.slug}`;
-
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@type': article.type === 'recette' ? 'HowTo' : 'Article',
-    headline: article.title,
-    name: article.title,
-    description: article.excerpt,
-    image: [`${SITE_URL}${image}`],
-    datePublished: article.date || undefined,
-    dateModified: article.date || undefined,
-    author: { '@type': 'Organization', name: SITE_NAME },
-    publisher: { '@type': 'Organization', name: SITE_NAME },
-    mainEntityOfPage: { '@type': 'WebPage', '@id': url },
-  };
+  const jsonLd = buildStructuredData(article, url, image);
 
   return (
     <main>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }}
       />
       <ArticleHero article={article} />
       <div className="article-shell" id="lecture">
@@ -75,4 +63,58 @@ export default async function ArticlePage({ params }) {
       </div>
     </main>
   );
+}
+
+function buildStructuredData(article, url, image) {
+  const howtos = Array.isArray(article.howtos) ? article.howtos : [];
+  const howToIds = howtos.map((_, index) => `${url}#howto-${index + 1}`);
+
+  const articleEntity = {
+    '@type': 'Article',
+    '@id': `${url}#article`,
+    headline: article.title,
+    name: article.title,
+    description: article.excerpt,
+    image: [`${SITE_URL}${image}`],
+    datePublished: article.date || undefined,
+    dateModified: article.updated || article.date || undefined,
+    inLanguage: 'fr-FR',
+    author: { '@type': 'Organization', name: SITE_NAME },
+    publisher: { '@type': 'Organization', name: SITE_NAME },
+    mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+    mainEntity: howToIds.map((id) => ({ '@id': id })),
+  };
+
+  const howToEntities = howtos.map((howto, index) => ({
+    '@type': 'HowTo',
+    '@id': howToIds[index],
+    name: howto.name,
+    description: howto.description || article.excerpt,
+    image: [`${SITE_URL}${howto.image || image}`],
+    totalTime: howto.totalTime,
+    yield: howto.yield,
+    inLanguage: 'fr-FR',
+    supply: normalizeItems(howto.supplies, 'HowToSupply'),
+    tool: normalizeItems(howto.tools, 'HowToTool'),
+    step: (howto.steps || []).map((step, stepIndex) => ({
+      '@type': 'HowToStep',
+      position: stepIndex + 1,
+      name: step.name,
+      text: step.text,
+      image: step.image ? `${SITE_URL}${step.image}` : undefined,
+    })),
+    mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+  }));
+
+  return {
+    '@context': 'https://schema.org',
+    '@graph': [articleEntity, ...howToEntities],
+  };
+}
+
+function normalizeItems(items, type) {
+  return (items || []).map((item) => ({
+    '@type': type,
+    name: typeof item === 'string' ? item : item.name,
+  }));
 }

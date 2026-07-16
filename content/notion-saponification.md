@@ -4,7 +4,7 @@ category: "comprendre"
 type: "notion"
 excerpt: "La réaction qui transforme une huile en savon, expliquée à deux niveaux : le principe accessible à tous, et le mécanisme détaillé pour les curieux de chimie."
 formula: "triglycéride + 3 base → 3 savons + glycérol"
-image: "/images/diagrams/sapo-reaction-v6.svg"
+image: "/images/notion-sapo-1-reaction.webp"
 date: "2026-07-09"
 sommaire: true
 takeaways:
@@ -46,7 +46,7 @@ Sous l'action d'une **base forte** — la soude (hydroxyde de sodium, NaOH) ou l
 
 Ce rapport de **3 pour 1** est important : comme chaque triglycéride porte trois chaînes, il faut exactement trois molécules de base pour toutes les détacher. Cette proportion exacte est ce qui permettra, plus loin, de calculer la juste quantité de soude à utiliser.
 
-![Schéma de la réaction de saponification : un triglycéride réagit avec trois molécules de soude pour donner trois savons et du glycérol](/images/diagrams/sapo-reaction-v6.svg)
+![Schéma de la réaction de saponification : un triglycéride réagit avec trois molécules de soude pour donner trois savons et du glycérol](/images/notion-sapo-1-reaction.webp)
 
 <div class="expert-block">
 
@@ -64,7 +64,7 @@ Ce qui se passe réellement à l'échelle moléculaire mérite qu'on s'y arrête
 
 En termes simples, la base vient « attaquer » le point d'accroche entre une chaîne d'acide gras et le glycérol, le rompt, et récupère la chaîne sous forme de savon. Cette opération se répète **trois fois**, une pour chaque chaîne, jusqu'à libérer complètement le glycérol.
 
-![Mécanisme de la saponification en trois étapes : addition nucléophile de l'ion hydroxyde, élimination de l'alcoolate, puis réaction acido-basique totale](/images/diagrams/sapo-mecanisme-v6.svg)
+![Mécanisme de la saponification en trois étapes : addition nucléophile de l'ion hydroxyde, élimination de l'alcoolate, puis réaction acido-basique totale](/images/notion-sapo-2-mecanisme.webp)
 
 <div class="expert-block">
 
@@ -94,7 +94,7 @@ Le surgraissage consiste à laisser volontairement une petite fraction de corps 
 
 **Deux méthodes** permettent d'obtenir ce surgras, pour un **même résultat** : la **réduction de soude** (on retire volontairement un pourcentage de la soude nécessaire) ou l'**ajout d'un excès d'huile** (on met plus d'huile que la soude ne peut en saponifier). Un savon « à 5 % de réduction de soude » et un savon « à 5 % d'huile en excès » contiennent la même proportion de gras libre{{ref:dunn-superfat}}.
 
-![Comparaison entre un savon à 0 % de surgras et à 5 % : le surgras offre une marge de sécurité face aux petites erreurs de dosage](/images/diagrams/sapo-surgraissage-v6.svg)
+![Comparaison entre un savon à 0 % de surgras et à 5 % : le surgras offre une marge de sécurité face aux petites erreurs de dosage](/images/notion-sapo-3-surgraissage.webp)
 
 <div class="expert-block">
 
@@ -206,7 +206,7 @@ Deux facteurs distincts déterminent la fermeté d'un savon, à **deux niveaux d
 
 **Premier niveau — la base.** La **soude** (NaOH) produit un savon **dur** en pain solide ; la **potasse** (KOH) un savon **mou** ou **liquide**{{ref:pubmed-soap}}.
 
-![Comparaison NaOH et KOH : la soude donne un savon dur, la potasse un savon mou ou liquide](/images/diagrams/sapo-naoh-koh-v6.svg)
+![Comparaison NaOH et KOH : la soude donne un savon dur, la potasse un savon mou ou liquide](/images/notion-sapo-5-naoh-koh.webp)
 
 <div class="expert-block">
 
@@ -226,7 +226,7 @@ D'où vient cette différence ? De l'**hydratation** de l'ion. L'ion K⁺, plus 
 
 La saponification libère aussi du **glycérol** (glycérine), à raison d'une molécule par triglycéride. C'est un **humectant** : il attire et retient l'eau, laissant la peau souple après lavage.
 
-![La molécule de glycérol et ses trois groupes hydroxyle qui forment des liaisons hydrogène avec l'eau](/images/diagrams/sapo-glycerol-v6.svg)
+![La molécule de glycérol et ses trois groupes hydroxyle qui forment des liaisons hydrogène avec l'eau](/images/notion-sapo-6-glycerol.webp)
 
 <div class="expert-block">
 
@@ -244,7 +244,7 @@ La réaction n'a lieu qu'à l'**interface** entre les huiles (apolaires) et la s
 
 **La température** agit sur la **cinétique** de la réaction : plus c'est chaud, plus les chocs entre molécules sont fréquents. **L'émulsification** (mixeur plongeant) n'accélère pas la réaction elle-même : elle **augmente la surface de contact** entre les phases en les fragmentant en fines gouttelettes, ce qui fait atteindre la **trace** bien plus vite.
 
-![Sans émulsion, les phases sont séparées avec une petite interface ; avec le mixeur, l'émulsion crée une grande surface de contact](/images/diagrams/sapo-emulsion-v6.svg)
+![Sans émulsion, les phases sont séparées avec une petite interface ; avec le mixeur, l'émulsion crée une grande surface de contact](/images/notion-sapo-7-emulsion.webp)
 
 <div class="expert-block">
 
@@ -256,7 +256,7 @@ La **trace** est le moment où le mélange s'épaissit assez pour qu'une coulée
 
 ## Saponification à froid ou à chaud : deux procédés, deux résultats
 
-![Comparaison des procédés à froid et à chaud : température, glycérol, surgras, cure et aspect final](/images/diagrams/sapo-froid-chaud-v6.svg)
+![Comparaison des procédés à froid et à chaud : température, glycérol, surgras, cure et aspect final](/images/notion-sapo-8-froid-chaud.webp)
 
 **À froid**, les huiles et la base sont mélangées à basse température ; la réaction se poursuit lentement dans le moule (24–48 h), puis le savon **mûrit** 4 à 6 semaines. Ce procédé **conserve le glycérol**, préserve les composés thermosensibles, mais demande une cure longue.
 

@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function ArticleHero({ article }) {
   return (
     <header className="article-hero">
@@ -17,7 +19,13 @@ export default function ArticleHero({ article }) {
       </div>
       {article.image && (
         <div className="article-hero-visual">
-          <img src={article.image} alt="" />
+          <Image
+            src={article.image}
+            alt=""
+            fill
+            priority
+            sizes="(max-width: 780px) 100vw, 38vw"
+          />
         </div>
       )}
     </header>
@@ -25,7 +33,8 @@ export default function ArticleHero({ article }) {
 }
 
 function typeLabel(type) {
-  if (type === 'notion' || type === 'guide') return 'Notion chimique';
+  if (type === 'notion') return 'Notion chimique';
+  if (type === 'guide') return 'Guide';
   if (type === 'comparatif') return 'Comparatif';
   if (type === 'recette') return 'Recette expliquée';
   return 'Article';

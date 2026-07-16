@@ -1,19 +1,62 @@
 ---
-title: "Savon surgras maison : recette sécurisée à l’huile d’olive"
-category: "cosmetique"
-excerpt: "Un protocole pratique pour fabriquer un savon surgras : matériel, sécurité, quantités précises, trace, cure et erreurs à éviter."
-formula: "500 g d’huiles · 69,5 g NaOH · 8 % surgras"
-image: "/images/savon-etape6-decoupe.jpg"
-date: "2026-07-01"
-type: "recette"
+title: 'Savon surgras maison : recette sécurisée à l’huile d’olive'
+category: cosmetique
+excerpt: 'Un protocole pratique pour fabriquer un savon surgras : matériel, sécurité, quantités précises, trace,
+  cure et erreurs à éviter.'
+formula: 500 g d’huiles · 69,5 g NaOH · 8 % surgras
+image: /images/savon-etape6-decoupe.webp
+date: '2026-07-01'
+type: recette
 takeaways:
-  - "Préparer un savon surgras avec des quantités précises"
-  - "Manipuler la soude avec les bonnes règles de sécurité"
-  - "Reconnaître la trace, démouler et respecter la cure"
+- Préparer un savon surgras avec des quantités précises
+- Manipuler la soude avec les bonnes règles de sécurité
+- Reconnaître la trace, démouler et respecter la cure
 related:
-  - "notion-saponification"
-  - "notion-tensioactifs"
-  - "nettoyant-ph-melanges-dangereux"
+- notion-saponification
+- notion-tensioactifs
+- nettoyant-ph-melanges-dangereux
+- materiel-savon-maison
+- quelle-balance-recettes-maison
+howtos:
+- name: Fabriquer un savon surgras à l’huile d’olive
+  description: Préparer environ 6 à 8 pains de savon surgras par saponification à froid.
+  totalTime: P28D
+  yield: 6 à 8 pains de savon
+  supplies:
+  - 300 g d’huile d’olive
+  - 150 g d’huile de coco
+  - 50 g d’huile de colza
+  - 69,5 g de soude caustique NaOH
+  - 165 g d’eau déminéralisée
+  tools:
+  - Lunettes de protection
+  - Gants résistants
+  - Balance à 0,1 g
+  - Récipient compatible avec la soude
+  - Mixeur plongeant dédié
+  - Thermomètre
+  - Moule à savon
+  steps:
+  - name: Préparer et peser
+    text: Mettre les protections, préparer le poste et peser séparément les huiles, l’eau et la soude.
+    image: /images/savon-etape1-pesee-soude.webp
+  - name: Préparer la solution de soude
+    text: Verser lentement la soude dans l’eau, jamais l’inverse, puis laisser refroidir en zone ventilée.
+    image: /images/savon-etape2-dissolution-soude.webp
+  - name: Préparer les huiles
+    text: Mélanger les huiles et les amener dans une plage de température compatible avec la solution de soude.
+    image: /images/savon-etape3-melange-huiles.webp
+  - name: Émulsionner jusqu’à la trace
+    text: Verser la solution de soude dans les huiles et mixer par impulsions jusqu’à une trace légère et homogène.
+    image: /images/savon-etape4-trace.webp
+  - name: Couler dans le moule
+    text: Verser la pâte dans le moule, chasser les bulles et laisser reposer 24 à 48 heures.
+    image: /images/savon-etape5-versement-moule.webp
+  - name: Démouler et découper
+    text: Démouler lorsque le savon est ferme, puis découper les pains.
+    image: /images/savon-etape6-decoupe.webp
+  - name: Laisser curer
+    text: Espacer les pains et les laisser sécher au minimum quatre semaines dans un endroit ventilé.
 ---
 
 Cette page est la version **recette** : quantités, ordre des étapes, sécurité et points de
@@ -47,7 +90,6 @@ dans la notion dédiée, pour ne pas alourdir le protocole.
 <li><a href="#mat-thermo">Thermomètre à sonde digital</a> — suivre le refroidissement de la soude</li>
 <li><a href="#mat-mixeur">Mixeur plongeant</a> — atteindre la trace en quelques minutes</li>
 <li><a href="#mat-moule">Moule à savon + outils de découpe</a> — mise en forme et démoulage</li>
-<li><a href="#mat-ph">Bandelettes de pH</a> — vérifier le savon avant la première utilisation</li>
 </ul>
 </div>
 
@@ -111,37 +153,45 @@ Rendement : environ 700 g de savon, à découper en 6-8 pains après démoulage.
 
 **Étapes détaillées**
 
-![Pesée précise de 69,5g de soude caustique sur une balance 0,1g](/images/savon-etape1-pesee-soude.jpg)
+![Pesée précise de 69,5g de soude caustique sur une balance 0,1g](/images/savon-etape1-pesee-soude.webp)
 
 1. **Peser avec la balance de précision (0,1g)** : 69,5 g de soude dans un premier contenant, 174 g d'eau dans un second. C'est l'étape où la précision compte le plus — quelques grammes de soude en trop et le savon reste irritant pour la peau (soude libre résiduelle)&nbsp;; quelques grammes en moins et le surgraissage change, le savon devient plus mou et se conserve moins bien. Une balance de cuisine classique au gramme près n'est pas suffisante ici.
 
-![Dissolution de la soude dans l'eau, vapeur visible due à la réaction exothermique](/images/savon-etape2-dissolution-soude.jpg)
+![Dissolution de la soude dans l'eau, vapeur visible due à la réaction exothermique](/images/savon-etape2-dissolution-soude.webp)
 
 2. Verser les **perles/poudre de soude caustique (solide)** dans l'eau — jamais l'inverse, verser de l'eau sur de la soude peut provoquer une projection violente. Gants nitrile et lunettes de protection portées, dehors ou en pièce très ventilée. **Sur la température : ce n'est pas nous qui chauffons.** Dissoudre la soude dans l'eau est une réaction chimique qui dégage de la chaleur toute seule (réaction exothermique). La température grimpe spontanément à 70-90°C en quelques secondes, sans plaque chauffante. Utiliser le **thermomètre à sonde** pour suivre la redescente jusqu'à 40-45°C avant de continuer (15-30 minutes&nbsp;; poser le contenant dans un bac d'eau froide accélère le refroidissement).
 
-![Mélange de l'huile d'olive avec les autres huiles de la recette](/images/savon-etape3-melange-huiles.jpg)
+![Mélange de l'huile d'olive avec les autres huiles de la recette](/images/savon-etape3-melange-huiles.webp)
 
 3. Pendant ce temps, faire fondre l'huile de coco (bain-marie doux), mélanger avec l'huile d'olive et l'huile d'amande douce. Vérifier avec le même thermomètre : viser aussi 40-45°C pour que les deux mélanges (soude et huiles) soient à température proche avant de les combiner — un trop grand écart donne une saponification irrégulière.
 
-![La trace : le mélange épaissit et laisse une marque visible](/images/savon-etape4-trace.jpg)
+![La trace : le mélange épaissit et laisse une marque visible](/images/savon-etape4-trace.webp)
 
 4. Verser la solution de soude dans les huiles. Utiliser le **mixeur plongeant** par impulsions de 10-15 secondes, en alternant avec un mélange à la spatule, jusqu'à la **trace** (voir lexique) — 3 à 8 minutes selon les huiles.
 
-![Versement de la pâte à savon dans le moule](/images/savon-etape5-versement-moule.jpg)
+![Versement de la pâte à savon dans le moule](/images/savon-etape5-versement-moule.webp)
 
 5. Verser dans le **moule à savon**, tapoter pour chasser les bulles, couvrir d'un linge, laisser 24-48h dans un endroit à température stable.
 
-![Démoulage et découpe des pains de savon](/images/savon-etape6-decoupe.jpg)
+![Démoulage et découpe des pains de savon](/images/savon-etape6-decoupe.webp)
 
 6. Démouler (le savon doit être ferme au toucher), découper en pains avec les **outils de découpe**.
 
-7. Cure de 4 semaines minimum, pains espacés, endroit sec et ventilé, à l'abri de la lumière. **Avant la première utilisation**, vérifier le pH avec les **bandelettes** : viser un pH entre 8 et 10 — un savon fini est légèrement basique&nbsp;; un pH supérieur à 11 signale de la soude libre résiduelle, dans ce cas ne pas utiliser le savon.
+7. Laisser curer au minimum 4 semaines, pains espacés, dans un endroit sec et ventilé.
+Une bandelette de pH peut signaler une anomalie grossière, mais elle **ne prouve pas l’absence de
+soude libre**. Les méthodes normalisées de détermination de l’alcali caustique libre reposent sur
+un titrage spécifique, pas sur une simple lecture de pH{{ref:iso-soap-free-caustic}}. Si le lot
+s’est séparé, présente des poches liquides, des cristaux suspects ou provoque une sensation de
+brûlure, ne pas l’utiliser.
 
 ## Après démoulage : cure et patience
 
 Cette recette suit la méthode à froid. Après découpe, les savons doivent sécher plusieurs semaines
-dans un endroit ventilé. La cure laisse le savon durcir, perdre de l'eau et devenir plus agréable
-à l'usage. Pour la comparaison détaillée entre méthode à froid et méthode à chaud, voir :
+dans un endroit ventilé. La cure sert surtout à **faire perdre de l’eau au savon**, à augmenter sa
+dureté et à stabiliser progressivement ses propriétés d’usage ; la perte d’humidité et le
+durcissement évoluent ensemble pendant cette période{{ref:soap-curing-hardening-study}}. Si la
+formulation et l’émulsion sont correctes, l’essentiel de la saponification est déjà réalisé avant
+la fin de la cure. Pour la comparaison détaillée entre méthode à froid et méthode à chaud, voir :
 [la notion saponification](/articles/notion-saponification).
 
 ## Le matériel, en détail
@@ -186,13 +236,6 @@ dans un endroit ventilé. La cure laisse le savon durcir, perdre de l'eau et dev
 </div>
 </div>
 
-<div class="cta-block" id="mat-ph">
-<div class="cta-text"><strong>Bandelettes de pH, rouleau</strong><span>Vérifier le savon avant la première utilisation</span></div>
-<div class="cta-action">
-<a class="cta-button" href="https://www.amazon.fr/Universal-pH-Test-Strips-Roll/dp/B079K71HJM?linkCode=ll2&tag=maxscience06-21&linkId=9e985d19e995714722739527a0691d9b&ref_=as_li_ss_tl" rel="sponsored noopener" target="_blank">Voir le prix →</a>
-<span class="cta-reassurance">Expédié par Amazon</span>
-</div>
-</div>
 
 ## Petit lexique
 
@@ -200,24 +243,14 @@ dans un endroit ventilé. La cure laisse le savon durcir, perdre de l'eau et dev
 - **Corps gras / triglycéride** — la molécule d'huile végétale, composée de trois acides gras
 - **Trace** — le moment où le mélange épaissit assez pour laisser une marque visible à la surface quand on soulève le mixeur — signal qu'on peut couler dans le moule
 - **Surgraissage** — pourcentage d'huile volontairement laissé en excès, non transformé en savon, pour adoucir le produit fini
-- **Cure** — période de repos après démoulage, pendant laquelle la réaction se termine et l'eau s'évapore
+- **Cure** — période de séchage et de maturation physique pendant laquelle le savon perd de l’eau, durcit et stabilise ses propriétés
 - **Exothermique** — qui dégage de la chaleur tout seul, sans apport extérieur
 - **Indice de saponification (SAP)** — quantité de soude nécessaire pour transformer 1g d'une huile donnée en savon&nbsp;; propre à chaque huile
 
 ## En résumé
 
-Un savon surgras réussi, c'est un calcul de saponification correct, un dosage précis, et un
-temps de cure d'au moins 4 semaines pour laisser la réaction se terminer complètement. Rien de
-tout ça n'est négociable si vous voulez un produit sûr pour la peau.
+Un savon surgras réussi repose sur un calcul de saponification correct, une pesée précise, une
+émulsion homogène et une cure suffisamment longue pour perdre de l’eau et durcir. Une bandelette
+de pH ne constitue pas, à elle seule, un certificat d’absence de soude libre.
 
-<div class="materials-recap">
-<h3>Tout le matériel de cet article</h3>
-<div class="recap-grid">
-<div class="recap-item"><span>Soude caustique poudre &gt;99%</span><a href="#mat-soude">Voir →</a></div>
-<div class="recap-item"><span>Balance de précision 0,1g</span><a href="#mat-balance">Voir →</a></div>
-<div class="recap-item"><span>Thermomètre à sonde 300°C</span><a href="#mat-thermo">Voir →</a></div>
-<div class="recap-item"><span>Mixeur plongeant inox</span><a href="#mat-mixeur">Voir →</a></div>
-<div class="recap-item"><span>Moule 1200ml + outils</span><a href="#mat-moule">Voir →</a></div>
-<div class="recap-item"><span>Bandelettes de pH</span><a href="#mat-ph">Voir →</a></div>
-</div>
-</div>
+{{references}}

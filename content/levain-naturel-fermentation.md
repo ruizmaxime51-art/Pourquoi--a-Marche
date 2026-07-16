@@ -1,20 +1,46 @@
 ---
-title: "Levain naturel : créer, nourrir et lire son activité"
-category: "fermentation"
-excerpt: "Une méthode pratique pour démarrer un levain, choisir la bonne farine, suivre la montée et éviter les erreurs classiques."
-formula: "farine + eau → bulles + acidité"
-image: "/images/levain-rafraichi.jpg"
-type: "recette"
-date: "2026-07-02"
+title: 'Levain naturel : créer, nourrir et lire son activité'
+category: fermentation
+excerpt: Une méthode pratique pour démarrer un levain, choisir la bonne farine, suivre la montée et éviter les erreurs
+  classiques.
+formula: farine + eau → bulles + acidité
+image: /images/levain-rafraichi.webp
+type: recette
+date: '2026-07-02'
 takeaways:
-  - "Créer un levain en 5 à 7 jours avec un protocole simple"
-  - "Savoir quand le nourrir et quand l’utiliser"
-  - "Choisir une farine fiable pour démarrer"
+- Créer un levain en 5 à 7 jours avec un protocole simple
+- Savoir quand le nourrir et quand l’utiliser
+- Choisir une farine fiable pour démarrer
 related:
-  - "notion-fermentation-maison"
-  - "lacto-fermentation-legumes-securite"
-  - "notion-saponification"
-  - "nettoyant-ph-melanges-dangereux"
+- notion-fermentation-maison
+- lacto-fermentation-legumes-securite
+- notion-saponification
+- nettoyant-ph-melanges-dangereux
+howtos:
+- name: Créer un levain naturel
+  description: Démarrer et entretenir un levain de farine et d’eau jusqu’à son pic d’activité.
+  totalTime: P7D
+  yield: 1 levain actif
+  supplies:
+  - Farine de seigle ou farine complète
+  - Eau non chlorée
+  tools:
+  - Bocal propre
+  - Balance
+  - Cuillère ou spatule
+  - Élastique de repère
+  steps:
+  - name: Mélange initial
+    text: Mélanger une masse égale de farine et d’eau dans un bocal propre.
+  - name: Observer
+    text: Laisser à température régulière et observer bulles, odeur et augmentation de volume.
+  - name: Rafraîchir
+    text: Conserver une portion du levain puis ajouter de nouveau farine et eau en masses égales.
+    image: /images/levain-rafraichi.webp
+  - name: Répéter
+    text: Répéter les rafraîchis jusqu’à obtenir une montée régulière et prévisible.
+  - name: Utiliser au pic
+    text: Utiliser le levain lorsqu’il a fortement augmenté de volume et avant sa redescente.
 ---
 
 Le levain naturel se réussit mieux quand on arrête de deviner : on pèse, on observe le volume,
@@ -56,7 +82,7 @@ devient trop piquante / proche du dissolvant.
 À température ambiante, un rafraîchi toutes les 12 à 24 h est courant. Au réfrigérateur,
 l'activité ralentit fortement : un entretien hebdomadaire suffit souvent.
 
-![Rafraîchi d'un levain actif, ajout de farine fraîche sur un levain bien bullé](/images/levain-rafraichi.jpg)
+![Rafraîchi d'un levain actif, ajout de farine fraîche sur un levain bien bullé](/images/levain-rafraichi.webp)
 
 
 ## Suivre l'activité sans deviner
@@ -173,10 +199,3 @@ réussit presque toujours du premier coup.
 Un levain qui ne lève plus n'est presque jamais "mort" — c'est un déséquilibre entre populations
 microbiennes, corrigible par un rafraîchi régulier et un suivi de volume plutôt qu'à l'instinct.
 
-<div class="materials-recap">
-<h3>Tout le matériel de cet article</h3>
-<div class="recap-grid">
-<div class="recap-item"><span>Kit de démarrage levain</span><a href="#mat-bocal">Voir →</a></div>
-<div class="recap-item"><span>Balance de précision</span><a href="#mat-balance">Voir →</a></div>
-</div>
-</div>

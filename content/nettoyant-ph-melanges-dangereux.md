@@ -1,20 +1,66 @@
 ---
-title: "Nettoyants maison : un détartrant et un dégraissant qui ne se mélangent pas"
-category: "entretien"
-excerpt: "Deux recettes séparées et efficaces : un détartrant à l’acide citrique et un dégraissant aux cristaux de soude, avec les surfaces à éviter."
-formula: "acide pour calcaire · base pour graisse"
-image: "/images/nettoyant-detartrant-flacon.jpg"
-type: "recette"
-date: "2026-07-01"
+title: 'Nettoyants maison : un détartrant et un dégraissant qui ne se mélangent pas'
+category: entretien
+excerpt: 'Deux recettes séparées et efficaces : un détartrant à l’acide citrique et un dégraissant aux cristaux
+  de soude, avec les surfaces à éviter.'
+formula: acide pour calcaire · base pour graisse
+image: /images/nettoyant-detartrant-flacon.webp
+type: recette
+date: '2026-07-01'
 takeaways:
-  - "Préparer un détartrant acide et un dégraissant basique"
-  - "Savoir quelle surface éviter avec chaque produit"
-  - "Ne jamais mélanger javel, acides et bases au hasard"
+- Préparer un détartrant acide et un dégraissant basique
+- Savoir quelle surface éviter avec chaque produit
+- Ne jamais mélanger javel, acides et bases au hasard
 related:
-  - "notion-ph-nettoyants"
-  - "notion-tensioactifs"
-  - "savon-surgras-saponification"
-  - "lacto-fermentation-legumes-securite"
+- notion-ph-nettoyants
+- notion-tensioactifs
+- savon-surgras-saponification
+- lacto-fermentation-legumes-securite
+howtos:
+- name: Préparer un détartrant à l’acide citrique
+  description: Préparer un litre de détartrant pour la robinetterie et les dépôts calcaires.
+  totalTime: PT20M
+  yield: 1 litre
+  supplies:
+  - 100 g d’acide citrique
+  - 1 L d’eau tiède
+  tools:
+  - Balance
+  - Récipient de mélange
+  - Entonnoir
+  - Flacon spray
+  steps:
+  - name: Peser
+    text: Peser 100 g d’acide citrique.
+  - name: Dissoudre
+    text: Ajouter l’acide citrique à un litre d’eau tiède et mélanger jusqu’à dissolution.
+  - name: Transvaser
+    text: Transvaser dans un flacon identifié à l’aide d’un entonnoir.
+    image: /images/nettoyant-detartrant-flacon.webp
+  - name: Utiliser
+    text: Vaporiser sur le calcaire, laisser agir, essuyer puis rincer.
+- name: Préparer un dégraissant aux cristaux de soude
+  description: Préparer un litre de dégraissant alcalin pour plaques, hottes et surfaces compatibles.
+  totalTime: PT15M
+  yield: 1 litre
+  supplies:
+  - 15 g de cristaux de soude
+  - 1 L d’eau chaude
+  tools:
+  - Gants
+  - Balance
+  - Récipient de mélange
+  - Éponge
+  steps:
+  - name: Peser
+    text: Peser 15 g de cristaux de soude en évitant les poussières.
+  - name: Dissoudre
+    text: Dissoudre les cristaux dans un litre d’eau chaude.
+    image: /images/nettoyant-degraissant-dissolution.webp
+  - name: Appliquer
+    text: Appliquer avec des gants sur une surface compatible, sans utiliser sur l’aluminium non traité.
+  - name: Rincer
+    text: Rincer systématiquement la surface à l’eau claire.
 ---
 
 Cette page est la version **recette** : deux produits séparés, simples et efficaces. Le
@@ -89,9 +135,11 @@ si nécessaire.</p>
 **Point de vigilance sur les noms** : les cristaux de soude (carbonate de sodium, Na₂CO₃) ne
 sont **pas** de la soude caustique (hydroxyde de sodium, NaOH) utilisée en savonnerie — malgré
 le nom commun "soude", ce sont deux produits chimiques différents. Les cristaux de soude sont
-une base bien plus douce, en vente libre en grande surface, avec des précautions standard
-(gants recommandés, pas obligatoires) — la soude caustique, elle, est corrosive et nécessite
-gants, lunettes et pièce ventilée.
+moins corrosifs que la soude caustique, mais ils restent irritants. Le carbonate de sodium
+peut notamment provoquer une forte irritation oculaire et irriter la peau ou les voies
+respiratoires{{ref:pubchem-sodium-carbonate}}. Porter des gants pendant la préparation et
+l’application, éviter les poussières et les projections, puis se laver les mains. La soude
+caustique, elle, est corrosive et impose en plus lunettes, ventilation et protection renforcée.
 
 <a id="recettes"></a>
 ## Les deux recettes, prêtes à l'emploi
@@ -106,7 +154,7 @@ gants, lunettes et pièce ventilée.
 </tbody>
 </table>
 
-![Versement de l'acide citrique dissous dans un flacon spray via un entonnoir](/images/nettoyant-detartrant-flacon.jpg)
+![Versement de l'acide citrique dissous dans un flacon spray via un entonnoir](/images/nettoyant-detartrant-flacon.webp)
 
 1. **Peser 100g d'acide citrique avec la balance de précision** — un dosage à la cuillère "à l'œil" manque de constance d'une préparation à l'autre.
 2. Chauffer 1L d'eau (tiède suffit, pas besoin de faire bouillir — juste pour accélérer la dissolution).
@@ -125,11 +173,13 @@ gants, lunettes et pièce ventilée.
 </tbody>
 </table>
 
-![Dissolution des cristaux de soude dans l'eau chaude, vapeur visible](/images/nettoyant-degraissant-dissolution.jpg)
+![Dissolution des cristaux de soude dans l'eau chaude, vapeur visible](/images/nettoyant-degraissant-dissolution.webp)
 
 1. **Peser 15g de cristaux de soude avec la balance de précision** — plus fiable qu'une cuillère à soupe rase approximative.
 2. Dissoudre dans 1L d'eau chaude (le chaud accélère nettement la dissolution des cristaux).
-3. **Gants recommandés** pour l'application — les cristaux de soude ne sont pas dangereux comme la soude caustique mais restent irritants en contact prolongé et répété avec la peau nue.
+3. Porter des **gants** pendant la préparation et l’application, éviter les projections dans
+les yeux et ne pas respirer la poussière. Les cristaux de soude sont moins corrosifs que NaOH,
+mais restent irritants{{ref:pubchem-sodium-carbonate}}.
 4. Appliquer à l'éponge sur la surface grasse (plaques, hotte, four — jamais sur aluminium non traité), laisser agir quelques minutes sur les graisses cuites/incrustées.
 5. **Toujours rincer à l'eau claire après usage**, surtout sur une surface qui sera en contact avec de la nourriture — ne jamais laisser sécher sans rincer.
 
@@ -181,12 +231,4 @@ gants, lunettes et pièce ventilée.
 Le pH n'est pas un détail théorique : c'est ce qui détermine si votre nettoyant fait réellement
 le travail, et ce qui rend certains mélanges dangereux plutôt que juste inefficaces.
 
-<div class="materials-recap">
-<h3>Tout le matériel de cet article</h3>
-<div class="recap-grid">
-<div class="recap-item"><span>Acide citrique alimentaire</span><a href="#mat-acide">Voir →</a></div>
-<div class="recap-item"><span>Cristaux de soude</span><a href="#mat-cristaux">Voir →</a></div>
-<div class="recap-item"><span>Flacon spray vide</span><a href="#mat-flacon">Voir →</a></div>
-<div class="recap-item"><span>Balance de précision</span><a href="#mat-balance">Voir →</a></div>
-</div>
-</div>
+{{references}}

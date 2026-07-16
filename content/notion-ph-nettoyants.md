@@ -4,7 +4,7 @@ category: "comprendre"
 type: "notion"
 excerpt: "Comprendre pourquoi un acide enlève le calcaire, pourquoi une base dégraisse, et pourquoi certains mélanges maison sont inefficaces ou dangereux."
 formula: "CaCO₃ + acide → CO₂ ; javel + acide → Cl₂"
-image: "/images/diagrams/ph-nettoyants-v6.svg"
+image: "/images/nettoyant-echelle-ph.webp"
 date: "2026-07-13"
 takeaways:
   - "Choisir un nettoyant acide ou basique selon la salissure"
@@ -48,7 +48,7 @@ domestiques, il sert surtout à choisir la bonne famille de nettoyant :
 Ce n'est donc pas une question de « naturel » ou de « chimique ». Un produit efficace est un
 produit dont la chimie correspond à ce qu'il doit enlever.
 
-![Échelle de pH appliquée aux nettoyants maison : acide pour le calcaire, basique pour les graisses](/images/diagrams/ph-nettoyants-v6.svg)
+![Échelle de pH appliquée aux nettoyants maison : acide pour le calcaire, basique pour les graisses](/images/nettoyant-echelle-ph.webp)
 
 ## Pourquoi un acide enlève le calcaire
 

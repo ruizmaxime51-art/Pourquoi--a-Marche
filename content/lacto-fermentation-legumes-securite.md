@@ -1,21 +1,53 @@
 ---
-title: "Carottes lacto-fermentées : réussir la saumure et éviter les échecs"
-category: "conservation"
-excerpt: "Une recette pratique pour des carottes lacto-fermentées : bon taux de sel, immersion, aromates, conservation et signes normaux ou inquiétants."
-formula: "carottes + sel + immersion → acidification"
-image: "/images/lacto-etape2-versement-saumure.jpg"
-type: "recette"
-date: "2026-07-02"
+title: 'Carottes lacto-fermentées : réussir la saumure et éviter les échecs'
+category: conservation
+excerpt: 'Une recette pratique pour des carottes lacto-fermentées : bon taux de sel, immersion, aromates, conservation
+  et signes normaux ou inquiétants.'
+formula: carottes + sel + immersion → acidification
+image: /images/lacto-etape2-versement-saumure.webp
+type: recette
+date: '2026-07-02'
 takeaways:
-  - "Choisir entre salage à sec et saumure externe"
-  - "Maintenir les légumes immergés pour éviter les échecs"
-  - "Reconnaître les signes normaux et les vrais signaux d’alerte"
+- Choisir entre salage à sec et saumure externe
+- Maintenir les légumes immergés pour éviter les échecs
+- Reconnaître les signes normaux et les vrais signaux d’alerte
 related:
-  - "lacto-fermentation-guide-legumes"
-  - "notion-fermentation-maison"
-  - "levain-naturel-fermentation"
-  - "nettoyant-ph-melanges-dangereux"
-  - "notion-tensioactifs"
+- lacto-fermentation-guide-legumes
+- notion-fermentation-maison
+- levain-naturel-fermentation
+- nettoyant-ph-melanges-dangereux
+- notion-tensioactifs
+- bocal-lacto-fermentation
+howtos:
+- name: Préparer des carottes lacto-fermentées
+  description: Fermenter des bâtonnets de carottes dans une saumure mesurée et sous immersion.
+  totalTime: P7D
+  yield: 1 bocal d’environ 1 litre
+  supplies:
+  - Carottes
+  - Eau
+  - Sel non iodé
+  - Ail et aromates facultatifs
+  tools:
+  - Bocal propre
+  - Couvercle à valve
+  - Poids de fermentation
+  - Balance
+  steps:
+  - name: Préparer les carottes
+    text: Laver, éplucher si nécessaire et couper les carottes en bâtonnets.
+  - name: Tasser
+    text: Tasser les carottes et les aromates dans le bocal.
+    image: /images/lacto-etape1-tassage-carottes.webp
+  - name: Préparer la saumure
+    text: Peser l’eau et le sel pour obtenir la concentration indiquée dans la recette.
+  - name: Immerger
+    text: Verser la saumure et placer le poids pour maintenir toutes les carottes sous le liquide.
+    image: /images/lacto-etape2-versement-saumure.webp
+  - name: Fermenter
+    text: Fermer avec le couvercle à valve, laisser à température ambiante et surveiller l’immersion.
+  - name: Réfrigérer
+    text: Quand l’acidité et la texture conviennent, placer le bocal au réfrigérateur.
 ---
 
 Cette page reste volontairement une **recette de carottes lacto-fermentées**. Les principes
@@ -97,11 +129,11 @@ en surface est plus exposé à l'air et augmente le risque de moisissure.
 
 1. Préparer la saumure : **peser 15g de sel avec la balance de précision**, dissoudre dans les 500 ml d'eau tiède, laisser refroidir à température ambiante.
 
-![Tassage des bâtonnets de carottes dans le bocal gradué avec ail et aneth](/images/lacto-etape1-tassage-carottes.jpg)
+![Tassage des bâtonnets de carottes dans le bocal gradué avec ail et aneth](/images/lacto-etape1-tassage-carottes.webp)
 
 2. Laver les carottes, les couper en bâtonnets, tasser dans le **bocal à valve** avec les aromates.
 
-![Versement de la saumure dans le bocal jusqu'à immersion totale des carottes](/images/lacto-etape2-versement-saumure.jpg)
+![Versement de la saumure dans le bocal jusqu'à immersion totale des carottes](/images/lacto-etape2-versement-saumure.webp)
 
 3. Verser la saumure jusqu'à immersion totale des légumes, puis poser le **poids de fermentation** dessus pour les maintenir sous la surface.
 4. Fermer avec le couvercle à valve — le CO₂ s'échappera automatiquement sans intervention.
@@ -145,11 +177,3 @@ en surface est plus exposé à l'air et augmente le risque de moisissure.
 
 Pour cette recette, tout repose sur trois gestes : peser la saumure, garder les carottes immergées et passer au froid quand le goût convient. Pour varier les légumes, utilisez le guide général.
 
-<div class="materials-recap">
-<h3>Tout le matériel de cet article</h3>
-<div class="recap-grid">
-<div class="recap-item"><span>Bocal à valve 1L</span><a href="#mat-bocal">Voir →</a></div>
-<div class="recap-item"><span>Poids de fermentation</span><a href="#mat-poids">Voir →</a></div>
-<div class="recap-item"><span>Balance de précision</span><a href="#mat-balance">Voir →</a></div>
-</div>
-</div>

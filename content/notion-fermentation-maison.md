@@ -4,7 +4,7 @@ category: "comprendre"
 type: "notion"
 excerpt: "Les bases scientifiques communes au levain et à la lacto-fermentation : populations microbiennes, acidification, sel, température et sécurité."
 formula: "sucres → acides + CO₂"
-image: "/images/diagrams/fermentation-ph-v6.svg"
+image: "/images/lacto-fermentation-ph.webp"
 date: "2026-07-13"
 takeaways:
   - "Comprendre pourquoi l'acidification sécurise une fermentation"
@@ -83,7 +83,7 @@ milieu moins favorable à de nombreux microorganismes indésirables. Pour la sé
 le seuil de **pH 4,6** est particulièrement important : l'USDA rappelle que *Clostridium
 botulinum* ne peut pas se développer sous ce pH{{ref:usda-botulism-ph}}.
 
-![Chute du pH pendant une fermentation lactique](/images/diagrams/fermentation-ph-v6.svg)
+![Chute du pH pendant une fermentation lactique](/images/lacto-fermentation-ph.webp)
 
 Cela ne veut pas dire que tout aliment sous pH 4,6 est automatiquement parfait, ni qu'une
 fermentation ratée devient sûre par magie. Mais cela explique pourquoi l'acidification est un
@@ -130,7 +130,7 @@ saumure. Les revues sur la fermentation végétale décrivent d'ailleurs ces suc
 microbiennes comme des écosystèmes dynamiques, influencés par la matière première et les
 conditions du procédé{{ref:vegetable-fermentation-review}}.
 
-![Cycle d'un levain naturel : rafraîchi, fermentation, pic d'activité](/images/diagrams/levain-cycle-v6.svg)
+![Cycle d'un levain naturel : rafraîchi, fermentation, pic d'activité](/images/levain-cycle.webp)
 
 Leur point commun est plus profond : dans les deux cas, on ne suit pas une recette au hasard. On
 pilote un milieu vivant par les apports nutritifs, la température, l'acidité et le temps.
