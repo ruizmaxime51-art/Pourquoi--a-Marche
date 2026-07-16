@@ -17,6 +17,10 @@ related:
 - nettoyant-ph-melanges-dangereux
 - materiel-savon-maison
 - quelle-balance-recettes-maison
+- savon-maison-trop-mou
+- notion-ph-nettoyants
+- bandelettes-ph-ou-phmetre
+- gants-lunettes-risque-chimique
 howtos:
 - name: Fabriquer un savon surgras à l’huile d’olive
   description: Préparer environ 6 à 8 pains de savon surgras par saponification à froid.

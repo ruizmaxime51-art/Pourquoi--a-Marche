@@ -16,6 +16,13 @@ related:
 - notion-tensioactifs
 - savon-surgras-saponification
 - lacto-fermentation-legumes-securite
+- lessive-maison-traces-blanches
+- flacon-nettoyant-maison
+- bandelettes-ph-ou-phmetre
+- notion-saponification
+- levain-naturel-fermentation
+- quelle-balance-recettes-maison
+- gants-lunettes-risque-chimique
 howtos:
 - name: Préparer un détartrant à l’acide citrique
   description: Préparer un litre de détartrant pour la robinetterie et les dépôts calcaires.

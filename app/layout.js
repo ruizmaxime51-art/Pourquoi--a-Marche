@@ -1,15 +1,7 @@
 import Link from 'next/link';
-import { Roboto } from 'next/font/google';
 import { Analytics } from '@vercel/analytics/next';
 import './globals.css';
 import { SITE_URL, SITE_NAME, SITE_DESCRIPTION, DEFAULT_OG_IMAGE } from '@/lib/site';
-
-const roboto = Roboto({
-  subsets: ['latin'],
-  weight: ['300', '400', '500', '700', '900'],
-  display: 'swap',
-  variable: '--font-roboto',
-});
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),
@@ -25,7 +17,7 @@ export const metadata = {
     siteName: SITE_NAME,
     title: `${SITE_NAME} — la chimie derrière le fait maison`,
     description: SITE_DESCRIPTION,
-    images: [{ url: DEFAULT_OG_IMAGE, width: 1200, height: 800, alt: SITE_NAME }],
+    images: [{ url: DEFAULT_OG_IMAGE, width: 1200, height: 630, alt: `${SITE_NAME} — recettes fiables expliquées par la chimie` }],
   },
   twitter: {
     card: 'summary_large_image',
@@ -42,7 +34,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
-      <body className={roboto.variable}>
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
+      </head>
+      <body>
         <div className="reading-progress" aria-hidden="true" />
         <header className="site-header">
           <div className="wrap-inner">

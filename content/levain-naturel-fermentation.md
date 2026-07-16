@@ -16,6 +16,9 @@ related:
 - lacto-fermentation-legumes-securite
 - notion-saponification
 - nettoyant-ph-melanges-dangereux
+- levain-ne-monte-pas
+- quelle-balance-recettes-maison
+- lacto-fermentation-guide-legumes
 howtos:
 - name: Créer un levain naturel
   description: Démarrer et entretenir un levain de farine et d’eau jusqu’à son pic d’activité.

@@ -1,19 +1,24 @@
 ---
-title: "Fermentation maison : pH, sel et sélection microbienne"
-category: "comprendre"
-type: "notion"
-excerpt: "Les bases scientifiques communes au levain et à la lacto-fermentation : populations microbiennes, acidification, sel, température et sécurité."
-formula: "sucres → acides + CO₂"
-image: "/images/lacto-fermentation-ph.webp"
-date: "2026-07-13"
+title: 'Fermentation maison : pH, sel et sélection microbienne'
+category: comprendre
+type: repere
+excerpt: 'Les bases scientifiques communes au levain et à la lacto-fermentation : populations microbiennes, acidification,
+  sel, température et sécurité.'
+formula: sucres → acides + CO₂
+image: /images/lacto-fermentation-ph.webp
+date: '2026-07-13'
 takeaways:
-  - "Comprendre pourquoi l'acidification sécurise une fermentation"
-  - "Savoir ce que le sel sélectionne dans une lacto-fermentation"
-  - "Relier levain, légumes fermentés et suivi du pH"
+- Comprendre pourquoi l'acidification sécurise une fermentation
+- Savoir ce que le sel sélectionne dans une lacto-fermentation
+- Relier levain, légumes fermentés et suivi du pH
 related:
-  - "lacto-fermentation-legumes-securite"
-  - "levain-naturel-fermentation"
-  - "notion-ph-nettoyants"
+- lacto-fermentation-legumes-securite
+- levain-naturel-fermentation
+- notion-ph-nettoyants
+- levain-ne-monte-pas
+- lacto-fermentation-odeur-moisissure
+- lacto-fermentation-guide-legumes
+- bocal-lacto-fermentation
 ---
 
 Fermenter un aliment, ce n'est pas le laisser « pourrir gentiment ». C'est orienter un
@@ -154,5 +159,15 @@ Cette notion sert de base aux deux recettes suivantes :
 - [Lacto-fermentation des légumes : choisir les légumes et les aromates](/articles/lacto-fermentation-guide-legumes)
 - [Carottes lacto-fermentées : recette pratique](/articles/lacto-fermentation-legumes-securite)
 - [Levain naturel : la fermentation en deux populations](/articles/levain-naturel-fermentation)
+
+
+<div class="article-links-block">
+<h4>Diagnostiquer une fermentation réelle</h4>
+<ul>
+<li><a href="/articles/levain-ne-monte-pas">Pourquoi mon levain ne monte pas ?</a></li>
+<li><a href="/articles/lacto-fermentation-odeur-moisissure">Odeur, voile blanc ou moisissure : faut-il jeter ?</a></li>
+<li><a href="/articles/lacto-fermentation-legumes-securite">Recette de carottes lacto-fermentées</a></li>
+</ul>
+</div>
 
 {{references}}

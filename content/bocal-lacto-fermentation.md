@@ -1,19 +1,22 @@
 ---
-title: "Quel bocal et quel couvercle choisir pour la lacto-fermentation ?"
-category: "bien-sequiper"
-type: "guide"
-excerpt: "Volume, valve, poids et garde d’air : les critères qui évitent les légumes flottants, les débordements et les ouvertures inutiles."
-formula: "immersion + dégazage + marge libre"
-image: "/images/lacto-etape2-versement-saumure.webp"
-date: "2026-07-16"
+title: Quel bocal et quel couvercle choisir pour la lacto-fermentation ?
+category: bien-sequiper
+type: guide
+excerpt: 'Volume, valve, poids et garde d’air : les critères qui évitent les légumes flottants, les débordements
+  et les ouvertures inutiles.'
+formula: immersion + dégazage + marge libre
+image: /images/lacto-etape2-versement-saumure.webp
+date: '2026-07-16'
 takeaways:
-  - "Choisir un volume adapté à la quantité de légumes"
-  - "Comprendre l’intérêt d’un couvercle à valve"
-  - "Maintenir les légumes sous saumure avec un poids"
+- Choisir un volume adapté à la quantité de légumes
+- Comprendre l’intérêt d’un couvercle à valve
+- Maintenir les légumes sous saumure avec un poids
 related:
-  - "lacto-fermentation-guide-legumes"
-  - "lacto-fermentation-legumes-securite"
-  - "notion-fermentation-maison"
+- lacto-fermentation-guide-legumes
+- lacto-fermentation-legumes-securite
+- notion-fermentation-maison
+- lacto-fermentation-odeur-moisissure
+- quelle-balance-recettes-maison
 ---
 
 Le bocal ne crée pas la fermentation, mais il détermine si les légumes restent immergés, si le

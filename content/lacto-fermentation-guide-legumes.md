@@ -1,10 +1,9 @@
 ---
-title: 'Lacto-fermentation des légumes : lesquels choisir, quoi ajouter et comment
-  faire'
+title: 'Lacto-fermentation des légumes : lesquels choisir, quoi ajouter et comment faire'
 category: conservation
 type: guide
-excerpt: Le guide pratique pour choisir les bons légumes, décider entre salage à sec
-  et saumure, ajouter des aromates et éviter les erreurs classiques.
+excerpt: Le guide pratique pour choisir les bons légumes, décider entre salage à sec et saumure, ajouter des aromates
+  et éviter les erreurs classiques.
 formula: légumes + sel + bocal fermé + immersion
 image: /images/lacto-etape2-versement-saumure.webp
 date: '2026-07-14'
@@ -18,6 +17,8 @@ related:
 - lacto-fermentation-legumes-securite
 - levain-naturel-fermentation
 - bocal-lacto-fermentation
+- lacto-fermentation-odeur-moisissure
+- quelle-balance-recettes-maison
 ---
 
 La lacto-fermentation des légumes devient simple quand on sépare trois questions : **quel légume

@@ -1,6 +1,7 @@
 import Image from 'next/image';
 
 export default function ArticleHero({ article }) {
+  const visualMode = article.heroFit || (article.type === 'notion' || article.type === 'repere' ? 'contain' : 'cover');
   return (
     <header className="article-hero">
       <div className="article-hero-copy">
@@ -18,7 +19,7 @@ export default function ArticleHero({ article }) {
         </div>
       </div>
       {article.image && (
-        <div className="article-hero-visual">
+        <div className={`article-hero-visual ${visualMode === 'contain' ? 'is-contain' : 'is-cover'}`}>
           <Image
             src={article.image}
             alt=""
@@ -33,8 +34,9 @@ export default function ArticleHero({ article }) {
 }
 
 function typeLabel(type) {
-  if (type === 'notion') return 'Notion chimique';
-  if (type === 'guide') return 'Guide';
+  if (type === 'repere') return 'Repère pratique';
+  if (type === 'notion') return 'Notion approfondie';
+  if (type === 'guide') return 'Guide pratique';
   if (type === 'comparatif') return 'Comparatif';
   if (type === 'recette') return 'Recette expliquée';
   return 'Article';

@@ -1,19 +1,24 @@
 ---
-title: "Quelle balance choisir pour les recettes maison ?"
-category: "bien-sequiper"
-type: "guide"
-excerpt: "Résolution, capacité, tare et stabilité : les critères qui comptent réellement pour peser la soude, le sel, les acides et les petites quantités."
-formula: "précision utile ≠ capacité maximale"
-image: "/images/savon-etape1-pesee-soude.webp"
-date: "2026-07-16"
+title: Quelle balance choisir pour les recettes maison ?
+category: bien-sequiper
+type: guide
+excerpt: 'Résolution, capacité, tare et stabilité : les critères qui comptent réellement pour peser la soude, le
+  sel, les acides et les petites quantités.'
+formula: précision utile ≠ capacité maximale
+image: /images/savon-etape1-pesee-soude.webp
+date: '2026-07-16'
 takeaways:
-  - "Choisir entre une balance à 1 g et une balance à 0,1 g"
-  - "Comprendre pourquoi la résolution compte pour la soude et le sel"
-  - "Éviter les balances instables ou qui s’éteignent trop vite"
+- Choisir entre une balance à 1 g et une balance à 0,1 g
+- Comprendre pourquoi la résolution compte pour la soude et le sel
+- Éviter les balances instables ou qui s’éteignent trop vite
 related:
-  - "materiel-savon-maison"
-  - "bocal-lacto-fermentation"
-  - "savon-surgras-saponification"
+- materiel-savon-maison
+- bocal-lacto-fermentation
+- savon-surgras-saponification
+- levain-ne-monte-pas
+- lacto-fermentation-guide-legumes
+- levain-naturel-fermentation
+- savon-maison-trop-mou
 ---
 
 Une balance de cuisine classique suffit pour peser 500 g de farine. Elle devient moins adaptée

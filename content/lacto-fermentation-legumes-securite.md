@@ -18,6 +18,7 @@ related:
 - nettoyant-ph-melanges-dangereux
 - notion-tensioactifs
 - bocal-lacto-fermentation
+- lacto-fermentation-odeur-moisissure
 howtos:
 - name: Préparer des carottes lacto-fermentées
   description: Fermenter des bâtonnets de carottes dans une saumure mesurée et sous immersion.

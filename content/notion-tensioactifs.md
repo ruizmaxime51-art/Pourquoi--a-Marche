@@ -1,20 +1,24 @@
 ---
-title: "Les tensioactifs : comment ça lave"
-category: "comprendre"
-type: "notion"
-excerpt: "Savon, lessive, shampoing, liquide vaisselle : tous reposent sur les mêmes molécules. Comment un tensioactif décroche la graisse, pourquoi ça mousse, et pourquoi le calcaire pose problème."
-formula: "tête hydrophile + queue hydrophobe = amphiphile"
-image: "/images/notion-tensio-1-definition.webp"
-date: "2026-07-09"
+title: 'Les tensioactifs : comment ça lave'
+category: comprendre
+type: notion
+excerpt: 'Savon, lessive, shampoing, liquide vaisselle : tous reposent sur les mêmes molécules. Comment un tensioactif
+  décroche la graisse, pourquoi ça mousse, et pourquoi le calcaire pose problème.'
+formula: tête hydrophile + queue hydrophobe = amphiphile
+image: /images/notion-tensio-1-definition.webp
+date: '2026-07-09'
 sommaire: true
 takeaways:
-  - "Pourquoi une molécule amphiphile se place aux interfaces"
-  - "Comment micelles, CMC et mouillage expliquent le nettoyage"
-  - "Pourquoi mousse, eau dure et type de tensioactif changent tout"
+- Pourquoi une molécule amphiphile se place aux interfaces
+- Comment micelles, CMC et mouillage expliquent le nettoyage
+- Pourquoi mousse, eau dure et type de tensioactif changent tout
 related:
-  - "notion-saponification"
-  - "nettoyant-ph-melanges-dangereux"
-  - "savon-surgras-saponification"
+- notion-saponification
+- nettoyant-ph-melanges-dangereux
+- savon-surgras-saponification
+- lessive-maison-traces-blanches
+- notion-ph-nettoyants
+- lacto-fermentation-legumes-securite
 ---
 
 Derrière un savon, un shampoing, une lessive, un liquide vaisselle ou même une crème cosmétique, on retrouve souvent le même principe : des molécules capables de faire le lien entre l'eau, l'huile, l'air ou les salissures. Ces molécules, ce sont les **tensioactifs**. Comprendre comment elles fonctionnent, c'est comprendre le nettoyage lui-même.
@@ -262,5 +266,15 @@ Les pains dermatologiques « sans savon » (syndets solides) contournent deux li
 **« Tous les tensioactifs sont antibactériens. »** *Faux.* Seuls certains cationiques le sont, selon la molécule et la concentration.
 
 **« Une lessive au savon marche partout pareil. »** *Faux.* Son efficacité dépend fortement de la **dureté de l'eau** : meilleure en eau douce, décevante et encrassante en eau dure sans adaptation.
+
+
+<div class="article-links-block">
+<h4>Appliquer cette notion à un problème réel</h4>
+<ul>
+<li><a href="/articles/lessive-maison-traces-blanches">Pourquoi une lessive maison laisse des traces blanches</a></li>
+<li><a href="/outils/lessive-eau-dure">Tester le risque de dépôt avec votre eau</a></li>
+<li><a href="/articles/savon-surgras-saponification">Comprendre le savon dans une recette concrète</a></li>
+</ul>
+</div>
 
 {{references}}

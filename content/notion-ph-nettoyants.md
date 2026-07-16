@@ -1,19 +1,24 @@
 ---
-title: "pH des nettoyants maison : acide, basique et mélanges dangereux"
-category: "comprendre"
-type: "notion"
-excerpt: "Comprendre pourquoi un acide enlève le calcaire, pourquoi une base dégraisse, et pourquoi certains mélanges maison sont inefficaces ou dangereux."
-formula: "CaCO₃ + acide → CO₂ ; javel + acide → Cl₂"
-image: "/images/nettoyant-echelle-ph.webp"
-date: "2026-07-13"
+title: 'pH des nettoyants maison : acide, basique et mélanges dangereux'
+category: comprendre
+type: repere
+excerpt: Comprendre pourquoi un acide enlève le calcaire, pourquoi une base dégraisse, et pourquoi certains mélanges
+  maison sont inefficaces ou dangereux.
+formula: CaCO₃ + acide → CO₂ ; javel + acide → Cl₂
+image: /images/nettoyant-echelle-ph.webp
+date: '2026-07-13'
 takeaways:
-  - "Choisir un nettoyant acide ou basique selon la salissure"
-  - "Comprendre pourquoi vinaigre + bicarbonate s'annulent"
-  - "Identifier les mélanges dangereux, notamment javel + acide"
+- Choisir un nettoyant acide ou basique selon la salissure
+- Comprendre pourquoi vinaigre + bicarbonate s'annulent
+- Identifier les mélanges dangereux, notamment javel + acide
 related:
-  - "nettoyant-ph-melanges-dangereux"
-  - "notion-tensioactifs"
-  - "savon-surgras-saponification"
+- nettoyant-ph-melanges-dangereux
+- notion-tensioactifs
+- savon-surgras-saponification
+- lessive-maison-traces-blanches
+- bandelettes-ph-ou-phmetre
+- notion-fermentation-maison
+- flacon-nettoyant-maison
 ---
 
 On présente souvent les nettoyants maison comme une liste d'ingrédients : vinaigre, bicarbonate,
@@ -131,5 +136,15 @@ usages :
 </table>
 
 La recette pratique complète est ici : [Nettoyant maison : ce que le pH change vraiment](/articles/nettoyant-ph-melanges-dangereux).
+
+
+<div class="article-links-block">
+<h4>Passer du repère à l’action</h4>
+<ul>
+<li><a href="/articles/nettoyant-ph-melanges-dangereux">Préparer deux nettoyants sans mélanges dangereux</a></li>
+<li><a href="/articles/bandelettes-ph-ou-phmetre">Choisir entre bandelettes et pH-mètre</a></li>
+<li><a href="/articles/flacon-nettoyant-maison">Choisir et étiqueter le bon flacon</a></li>
+</ul>
+</div>
 
 {{references}}

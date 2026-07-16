@@ -30,13 +30,16 @@ export default function ArticleCard({ article, variant = 'default' }) {
 }
 
 function badgeClass(type) {
-  if (type === 'notion' || type === 'guide') return 'notion';
+  if (type === 'repere') return 'repere';
+  if (type === 'notion') return 'notion';
+  if (type === 'guide') return 'guide';
   if (type === 'comparatif') return 'comparatif';
   return 'recette';
 }
 function badgeLabel(type) {
-  if (type === 'notion') return 'Notion';
-  if (type === 'guide') return 'Guide';
+  if (type === 'repere') return 'Repère pratique';
+  if (type === 'notion') return 'Notion approfondie';
+  if (type === 'guide') return 'Guide pratique';
   if (type === 'comparatif') return 'Comparatif';
   return 'Recette';
 }

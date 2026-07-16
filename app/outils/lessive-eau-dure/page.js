@@ -16,6 +16,18 @@ export default function HardWaterToolPage() {
         <HardWaterLaundryTool />
       </section>
 
+
+      <section className="wrap">
+        <div className="article-links-block">
+          <h4>Comprendre le résultat et corriger le problème</h4>
+          <ul>
+            <li><a href="/articles/lessive-maison-traces-blanches">Pourquoi la lessive maison laisse des traces blanches</a></li>
+            <li><a href="/articles/notion-tensioactifs">Pourquoi le savon précipite dans l’eau dure</a></li>
+            <li><a href="/articles/quelle-balance-recettes-maison">Choisir une balance pour doser correctement</a></li>
+          </ul>
+        </div>
+      </section>
+
       <section className="wrap">
         <div className="cta-block" id="mat-testeur-durete">
           <div className="cta-text">

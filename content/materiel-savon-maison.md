@@ -1,19 +1,22 @@
 ---
-title: "Quel matériel faut-il vraiment pour fabriquer du savon maison ?"
-category: "bien-sequiper"
-type: "guide"
-excerpt: "La liste du matériel indispensable pour la saponification à froid, les matériaux compatibles avec la soude et les accessoires réellement utiles."
-formula: "sécurité + pesée + mélange + cure"
-image: "/images/savon-etape5-versement-moule.webp"
-date: "2026-07-16"
+title: Quel matériel faut-il vraiment pour fabriquer du savon maison ?
+category: bien-sequiper
+type: guide
+excerpt: La liste du matériel indispensable pour la saponification à froid, les matériaux compatibles avec la soude
+  et les accessoires réellement utiles.
+formula: sécurité + pesée + mélange + cure
+image: /images/savon-etape5-versement-moule.webp
+date: '2026-07-16'
 takeaways:
-  - "Séparer le matériel indispensable des accessoires facultatifs"
-  - "Choisir des récipients compatibles avec la soude"
-  - "Éviter l’aluminium et le matériel alimentaire réutilisé"
+- Séparer le matériel indispensable des accessoires facultatifs
+- Choisir des récipients compatibles avec la soude
+- Éviter l’aluminium et le matériel alimentaire réutilisé
 related:
-  - "quelle-balance-recettes-maison"
-  - "savon-surgras-saponification"
-  - "notion-saponification"
+- quelle-balance-recettes-maison
+- savon-surgras-saponification
+- notion-saponification
+- savon-maison-trop-mou
+- gants-lunettes-risque-chimique
 ---
 
 Fabriquer du savon à froid ne demande pas un atelier complet. En revanche, le matériel doit être
