@@ -3,7 +3,11 @@ import { Analytics } from '@vercel/analytics/next';
 import './globals.css';
 import { SITE_URL, SITE_NAME, SITE_DESCRIPTION, DEFAULT_OG_IMAGE } from '@/lib/site';
 
-export const viewport = { themeColor: '#07543B' };
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  themeColor: '#07543B',
+};
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),
@@ -13,8 +17,10 @@ export const metadata = {
   },
   description: SITE_DESCRIPTION,
   applicationName: SITE_NAME,
+  alternates: { canonical: SITE_URL },
   openGraph: {
     type: 'website',
+    url: SITE_URL,
     locale: 'fr_FR',
     siteName: SITE_NAME,
     title: `${SITE_NAME} — la chimie derrière le fait maison`,
@@ -48,7 +54,7 @@ export default function RootLayout({ children }) {
             <Link href="/" className="logo" aria-label="Chimie Maison — accueil">
               chimie <em>maison</em>
             </Link>
-            <nav className="main-nav" aria-label="Navigation principale">
+            <nav className="main-nav desktop-nav" aria-label="Navigation principale">
               <details className="nav-dropdown">
                 <summary>Recettes</summary>
                 <div className="nav-dropdown-panel">
@@ -64,6 +70,21 @@ export default function RootLayout({ children }) {
               <Link href="/bien-sequiper" className="nav-accent">Bien s'équiper</Link>
               <Link href="/a-propos">À propos</Link>
             </nav>
+
+            <details className="mobile-nav">
+              <summary aria-label="Ouvrir le menu">Menu</summary>
+              <nav className="mobile-nav-panel" aria-label="Navigation mobile">
+                <Link href="/recettes"><strong>Recettes</strong></Link>
+                <Link href="/cosmetique">Cosmétique</Link>
+                <Link href="/entretien">Entretien</Link>
+                <Link href="/conservation">Conservation</Link>
+                <Link href="/fermentation">Fermentation</Link>
+                <Link href="/comprendre"><strong>Comprendre</strong></Link>
+                <Link href="/outils">Outils</Link>
+                <Link href="/bien-sequiper"><strong>Bien s’équiper</strong></Link>
+                <Link href="/a-propos">À propos</Link>
+              </nav>
+            </details>
           </div>
         </header>
 
@@ -100,7 +121,7 @@ export default function RootLayout({ children }) {
           </div>
         </footer>
 
-        <p className="affiliate-disclosure">
+        <p className="site-affiliate-disclosure">
           Certains liens sont affiliés. En achetant via ces liens, vous ne payez pas plus cher
           et vous soutenez le site — sans influence sur les recommandations scientifiques.
         </p>

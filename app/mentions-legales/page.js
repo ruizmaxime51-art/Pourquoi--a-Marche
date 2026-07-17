@@ -1,7 +1,12 @@
 export const metadata = {
   title: 'Mentions légales',
   description: "Mentions légales du site Chimie Maison.",
-  robots: { index: false, follow: true },
+  alternates: { canonical: '/mentions-legales' },
+  robots: {
+    index: false,
+    follow: true,
+    googleBot: { index: false, follow: true },
+  },
 };
 
 export default function MentionsLegales() {
