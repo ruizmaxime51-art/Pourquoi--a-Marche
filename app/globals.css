@@ -1760,3 +1760,248 @@ nav.main-nav a:hover,
   .primary-pill:hover,
   .secondary-pill:hover { transform: none; }
 }
+
+/* ─────────────────────────────────────────────────────────────
+   v28 — Lisibilité éditoriale renforcée
+   Objectif : lecture confortable sur ordinateur et mobile sans
+   agrandir artificiellement les titres ni alourdir la navigation.
+   ───────────────────────────────────────────────────────────── */
+:root {
+  --reading-width: 720px;
+}
+
+body {
+  font-size: 20px;
+  line-height: 1.72;
+}
+
+/* Navigation : éviter l'effet menu minuscule en capitales */
+nav.main-nav a,
+.nav-dropdown summary {
+  font-size: 16px;
+  line-height: 1.35;
+  letter-spacing: .035em;
+}
+.nav-dropdown-panel a {
+  font-size: 15.5px;
+  line-height: 1.4;
+}
+
+/* Accueil et pages catégories */
+.home-hero .lede,
+.category-hero .lede {
+  font-size: clamp(20px, 1.8vw, 23px);
+  line-height: 1.62;
+}
+.category-hero-card p,
+.path-card p,
+.category-card p,
+.method-grid p,
+.transversal-card p {
+  font-size: 17.5px;
+  line-height: 1.62;
+}
+.section-kicker,
+.home-hero .kicker {
+  font-size: 14px;
+  line-height: 1.35;
+  letter-spacing: .075em;
+}
+
+/* Cartes : titres, résumés et informations secondaires */
+.article-card h3 {
+  font-size: 21px;
+  line-height: 1.28;
+  letter-spacing: -.01em;
+}
+.article-card p {
+  font-size: 17.5px;
+  line-height: 1.62;
+  color: #35463D;
+}
+.card-meta,
+.card-formula,
+.type-badge,
+.article-type-label {
+  font-size: 13.5px;
+  line-height: 1.35;
+  letter-spacing: .045em;
+}
+.article-card-body {
+  padding: 22px;
+}
+
+/* En-tête des articles */
+.article-meta-line {
+  font-size: 14px;
+  line-height: 1.35;
+  letter-spacing: .045em;
+}
+.formula-eyebrow {
+  font-size: 15px;
+  line-height: 1.4;
+}
+.article-hero .standfirst {
+  font-size: clamp(21px, 2vw, 24px);
+  line-height: 1.62;
+  color: #35463D;
+}
+.article-hero-actions a,
+.primary-pill,
+.secondary-pill,
+.cta-button,
+.jump-to-recipe {
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+/* Corps éditorial : le point principal de la correction */
+.article-shell {
+  grid-template-columns: minmax(0, var(--reading-width));
+}
+article.post {
+  max-width: var(--reading-width);
+}
+.post-body {
+  font-size: 21px;
+  line-height: 1.76;
+  color: var(--ink);
+}
+.post-body p,
+.post-body li {
+  max-width: 70ch;
+}
+.post-body p {
+  margin-bottom: 1.22em;
+}
+.post-body li {
+  margin-bottom: .48em;
+}
+.post-body h2 {
+  font-size: clamp(29px, 3vw, 35px);
+  line-height: 1.2;
+  margin-top: 1.85em;
+  margin-bottom: .72em;
+}
+.post-body h3 {
+  font-size: clamp(23px, 2.2vw, 27px);
+  line-height: 1.28;
+  margin-top: 1.55em;
+  margin-bottom: .6em;
+}
+.post-body h4 {
+  font-size: 21px;
+  line-height: 1.35;
+}
+
+/* Sommaires, encarts et FAQ */
+.sommaire li,
+.notion-link p,
+.post-body .expert-block p,
+.post-body .theory-block p,
+.notice-box p,
+.materials-early li,
+.article-links-block li,
+.verdict-box,
+.affiliate-disclosure,
+.faq-item p {
+  font-size: 18px;
+  line-height: 1.66;
+}
+.sommaire-title,
+.takeaway-title,
+.notion-link .nl-label {
+  font-size: 14px;
+  line-height: 1.4;
+}
+.faq-item summary {
+  font-size: 19px;
+  line-height: 1.45;
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+/* Tableaux : conserver la densité tout en restant réellement lisible */
+.post-body table,
+table.compare {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.post-body table thead th,
+table.compare thead th {
+  font-size: 15px;
+  line-height: 1.4;
+  letter-spacing: .04em;
+}
+.post-body table td,
+.post-body table th,
+table.compare td,
+table.compare th {
+  padding: 14px 15px;
+}
+
+/* Pied de page et mentions secondaires */
+.site-footer,
+.site-footer a,
+.affiliate-disclosure {
+  font-size: 15.5px;
+}
+.site-footer .colophon,
+.trust-mini-grid span {
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+
+@media (max-width: 780px) {
+  body {
+    font-size: 18px;
+    line-height: 1.68;
+  }
+  nav.main-nav a,
+  .nav-dropdown summary {
+    font-size: 15px;
+  }
+  .article-card h3 {
+    font-size: 20px;
+  }
+  .article-card p {
+    font-size: 17px;
+  }
+  .card-meta,
+  .card-formula,
+  .type-badge,
+  .article-type-label,
+  .article-meta-line {
+    font-size: 13px;
+  }
+  .post-body {
+    font-size: 19px;
+    line-height: 1.72;
+  }
+  .post-body h2 {
+    font-size: 28px;
+  }
+  .post-body h3 {
+    font-size: 23px;
+  }
+  .post-body table,
+  table.compare {
+    font-size: 16.5px;
+  }
+  .post-body table thead th,
+  table.compare thead th {
+    font-size: 14px;
+  }
+  .sommaire li,
+  .notion-link p,
+  .post-body .expert-block p,
+  .post-body .theory-block p,
+  .notice-box p,
+  .materials-early li,
+  .article-links-block li,
+  .verdict-box,
+  .affiliate-disclosure,
+  .faq-item p {
+    font-size: 17px;
+  }
+}
