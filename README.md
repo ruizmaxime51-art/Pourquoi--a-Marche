@@ -31,6 +31,13 @@ npm install
 npm run dev
 ```
 
+## Domaine public
+
+Domaine canonique : `https://www.chimiemaison.fr`
+
+Le domaine racine `https://chimiemaison.fr` redirige de manière permanente vers la version `www`.
+Toutes les URL absolues sont centralisées dans `lib/site.js`.
+
 ## Déploiement Vercel
 
 1. Pousser le dossier sur GitHub.
