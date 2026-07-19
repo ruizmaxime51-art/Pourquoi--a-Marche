@@ -19,6 +19,8 @@ related:
 - lacto-fermentation-odeur-moisissure
 - lacto-fermentation-guide-legumes
 - bocal-lacto-fermentation
+- kimchi-classique-maison
+- kimchi-vegetarien-maison
 ---
 
 Fermenter un aliment, ce n'est pas le laisser « pourrir gentiment ». C'est orienter un
@@ -32,6 +34,8 @@ progressive du **pH**.
 <h4>Applications pratiques</h4>
 <ul>
 <li><a href="/articles/lacto-fermentation-legumes-securite">Recette : légumes lacto-fermentés en sécurité</a></li>
+<li><a href="/articles/kimchi-classique-maison">Recette : kimchi classique au chou chinois</a></li>
+<li><a href="/articles/kimchi-vegetarien-maison">Recette : kimchi végétarien au miso</a></li>
 <li><a href="/articles/levain-naturel-fermentation">Recette : créer et entretenir un levain naturel</a></li>
 </ul>
 </div>

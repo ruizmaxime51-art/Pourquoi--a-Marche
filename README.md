@@ -77,3 +77,27 @@ related:
 
 Le fichier `package-lock.json` pointe vers le registre public npm (`https://registry.npmjs.org/`).
 Le fichier `.npmrc` force également ce registre afin d’éviter les erreurs de build si un lockfile a été généré dans un environnement avec registre npm privé.
+
+## Version 32 — comparatif bocaux de fermentation
+
+La page `/articles/bocal-lacto-fermentation` est devenue un comparatif complet : bocal mécanique,
+valve, sas, poids et formats de 0,75 à 2 L. Les liens produits restent centralisés dans
+`lib/affiliations.js`.
+
+
+## Version 33 — comparatif flacons et étiquettes
+
+La page `/articles/flacon-nettoyant-maison` compare désormais cinq formats : spray PEHD, spray PET,
+flacon pompe, grand récipient de lessive et verre ambré. Le contenu distingue clairement les
+matériaux annoncés, les usages adaptés et les limites de compatibilité chimique.
+
+
+## Version 34 — deux recettes de kimchi
+
+Deux pages distinctes ont été ajoutées :
+
+- `/articles/kimchi-classique-maison` : chou chinois, gochugaru et sauce de poisson ;
+- `/articles/kimchi-vegetarien-maison` : version vegan au miso, tamari et kombu.
+
+Les deux pages comprennent une fiche imprimable, un balisage structuré `Recipe`, une FAQ,
+le suivi du pH, les signes d'altération et un maillage vers les guides de fermentation et de matériel.

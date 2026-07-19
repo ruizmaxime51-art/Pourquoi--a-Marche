@@ -3,6 +3,7 @@ import { SITE_URL, SITE_NAME, DEFAULT_OG_IMAGE } from '@/lib/site';
 import ArticleHero from '@/app/_components/ArticleHero';
 import RelatedArticles from '@/app/_components/RelatedArticles';
 import TakeawayBox from '@/app/_components/TakeawayBox';
+import PrintRecipeButton from '@/app/_components/PrintRecipeButton';
 
 export async function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
@@ -52,6 +53,7 @@ export default async function ArticlePage({ params }) {
       <div className="article-shell" id="lecture">
         <article className="post">
           <TakeawayBox items={article.takeaways} />
+          {article.recipe && <PrintRecipeButton />}
           <div className="post-body" dangerouslySetInnerHTML={{ __html: article.contentHtml }} />
           <p className="trust-note">
             Chaque recette et notion publiée sur ce site est relue manuellement : dosages,
@@ -70,6 +72,7 @@ function buildStructuredData(article, url, image) {
   const howtos = Array.isArray(article.howtos) ? article.howtos : [];
   const faqs = Array.isArray(article.faq) ? article.faq : [];
   const howToIds = howtos.map((_, index) => `${url}#howto-${index + 1}`);
+  const recipeId = article.recipe ? `${url}#recipe` : null;
   const faqId = faqs.length ? `${url}#faq` : null;
 
   const articleEntity = {
@@ -85,7 +88,11 @@ function buildStructuredData(article, url, image) {
     author: { '@type': 'Organization', name: SITE_NAME },
     publisher: { '@type': 'Organization', name: SITE_NAME },
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
-    mainEntity: [...howToIds.map((id) => ({ '@id': id })), ...(faqId ? [{ '@id': faqId }] : [])],
+    mainEntity: [
+      ...(recipeId ? [{ '@id': recipeId }] : []),
+      ...howToIds.map((id) => ({ '@id': id })),
+      ...(faqId ? [{ '@id': faqId }] : []),
+    ],
   };
 
   const howToEntities = howtos.map((howto, index) => ({
@@ -109,6 +116,35 @@ function buildStructuredData(article, url, image) {
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
   }));
 
+  const recipeEntity = article.recipe
+    ? {
+        '@type': 'Recipe',
+        '@id': recipeId,
+        name: article.recipe.name || article.title,
+        description: article.recipe.description || article.excerpt,
+        image: [`${SITE_URL}${article.recipe.image || image}`],
+        author: { '@type': 'Organization', name: SITE_NAME },
+        datePublished: article.date || undefined,
+        dateModified: article.updated || article.date || undefined,
+        prepTime: article.recipe.prepTime,
+        totalTime: article.recipe.totalTime,
+        recipeYield: article.recipe.yield,
+        recipeCategory: article.recipe.category,
+        recipeCuisine: article.recipe.cuisine,
+        suitableForDiet: article.recipe.suitableForDiet,
+        keywords: Array.isArray(article.keywords) ? article.keywords.join(', ') : article.keywords,
+        recipeIngredient: article.recipe.ingredients || [],
+        recipeInstructions: (article.recipe.steps || []).map((step, index) => ({
+          '@type': 'HowToStep',
+          position: index + 1,
+          name: step.name,
+          text: step.text,
+          image: step.image ? `${SITE_URL}${step.image}` : undefined,
+        })),
+        mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+      }
+    : null;
+
   const faqEntity = faqs.length
     ? {
         '@type': 'FAQPage',
@@ -126,7 +162,12 @@ function buildStructuredData(article, url, image) {
 
   return {
     '@context': 'https://schema.org',
-    '@graph': [articleEntity, ...howToEntities, ...(faqEntity ? [faqEntity] : [])],
+    '@graph': [
+      articleEntity,
+      ...(recipeEntity ? [recipeEntity] : []),
+      ...howToEntities,
+      ...(faqEntity ? [faqEntity] : []),
+    ],
   };
 }
 

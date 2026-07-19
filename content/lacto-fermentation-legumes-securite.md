@@ -18,6 +18,8 @@ related:
 - nettoyant-ph-melanges-dangereux
 - notion-tensioactifs
 - bocal-lacto-fermentation
+- kimchi-classique-maison
+- kimchi-vegetarien-maison
 - lacto-fermentation-odeur-moisissure
 howtos:
 - name: Préparer des carottes lacto-fermentées

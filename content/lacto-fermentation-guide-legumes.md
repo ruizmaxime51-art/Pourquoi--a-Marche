@@ -17,6 +17,8 @@ related:
 - lacto-fermentation-legumes-securite
 - levain-naturel-fermentation
 - bocal-lacto-fermentation
+- kimchi-classique-maison
+- kimchi-vegetarien-maison
 - lacto-fermentation-odeur-moisissure
 - quelle-balance-recettes-maison
 ---
@@ -40,6 +42,8 @@ dédiée ; ce guide sert à passer de la théorie au choix concret des légumes 
 <h4>À utiliser avec ce guide</h4>
 <ul>
 <li><a href="/articles/lacto-fermentation-legumes-securite">Recette prête à faire : carottes lacto-fermentées</a></li>
+<li><a href="/articles/kimchi-classique-maison">Recette : kimchi classique au chou chinois</a></li>
+<li><a href="/articles/kimchi-vegetarien-maison">Recette : kimchi végétarien sans sauce de poisson</a></li>
 <li><a href="/articles/levain-naturel-fermentation">Autre fermentation maison : créer un levain naturel</a></li>
 </ul>
 </div>
