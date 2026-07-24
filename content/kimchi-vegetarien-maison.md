@@ -160,6 +160,7 @@ alimentaire indiquent qu’un starter n’est pas nécessaire pour le kimchi.{{r
 </div>
 
 <h4>Ingrédients</h4>
+<div class="recipe-table-scroll" role="region" aria-label="Tableau des ingrédients" tabindex="0">
 <table class="compare">
 <thead><tr><th>Élément</th><th>Quantité</th><th>Rôle</th></tr></thead>
 <tbody>
@@ -180,6 +181,7 @@ alimentaire indiquent qu’un starter n’est pas nécessaire pour le kimchi.{{r
 <tr><td>Tamari ou sauce soja</td><td>15 g</td><td>Umami et salinité</td></tr>
 </tbody>
 </table>
+</div>
 
 <h4>Étapes</h4>
 <ol>

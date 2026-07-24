@@ -18,6 +18,7 @@ related:
 - savon-surgras-saponification
 - lessive-maison-traces-blanches
 - notion-ph-nettoyants
+- percarbonate-de-soude-linge
 - lacto-fermentation-legumes-securite
 ---
 
@@ -272,6 +273,7 @@ Les pains dermatologiques « sans savon » (syndets solides) contournent deux li
 <h4>Appliquer cette notion à un problème réel</h4>
 <ul>
 <li><a href="/articles/lessive-maison-traces-blanches">Pourquoi une lessive maison laisse des traces blanches</a></li>
+<li><a href="/articles/percarbonate-de-soude-linge">Percarbonate : quelles taches répondent à un oxydant ?</a></li>
 <li><a href="/outils/lessive-eau-dure">Tester le risque de dépôt avec votre eau</a></li>
 <li><a href="/articles/savon-surgras-saponification">Comprendre le savon dans une recette concrète</a></li>
 </ul>

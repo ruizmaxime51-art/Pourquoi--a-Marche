@@ -16,6 +16,7 @@ related:
 - notion-tensioactifs
 - savon-surgras-saponification
 - lessive-maison-traces-blanches
+- percarbonate-de-soude-linge
 - bandelettes-ph-ou-phmetre
 - notion-fermentation-maison
 - flacon-nettoyant-maison
@@ -38,6 +39,7 @@ un mélange très spectaculaire peut être chimiquement presque inutile.
 <ul>
 <li><a href="/articles/nettoyant-ph-melanges-dangereux">Recette pratique : détartrant acide et dégraissant basique</a></li>
 <li><a href="/articles/notion-tensioactifs">Notion complémentaire : tensioactifs, mouillage et détergence</a></li>
+<li><a href="/articles/percarbonate-de-soude-linge">Application au linge : percarbonate, taches et précautions</a></li>
 </ul>
 </div>
 

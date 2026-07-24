@@ -101,3 +101,13 @@ Deux pages distinctes ont été ajoutées :
 
 Les deux pages comprennent une fiche imprimable, un balisage structuré `Recipe`, une FAQ,
 le suivi du pH, les signes d'altération et un maillage vers les guides de fermentation et de matériel.
+
+## Version 38 — guide percarbonate et SEO par tache
+
+La page `/articles/percarbonate-de-soude-linge` répond aux recherches par type de tache
+(linge jauni, café, vin, sang, graisse, rouille, calcaire) et distingue les usages pertinents,
+conditionnels ou déconseillés. Elle comprend les dosages en grammes, les limites scientifiques,
+les précautions ICSC, un schéma pédagogique, une photo éditoriale et une épingle Pinterest.
+
+Le dossier `docs/pack-seo-percarbonate-v38.md` regroupe la cible SEO, les requêtes observées,
+le maillage, les textes Pinterest, les prompts visuels et les prochaines pages à produire.

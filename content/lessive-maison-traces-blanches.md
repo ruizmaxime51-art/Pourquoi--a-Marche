@@ -16,6 +16,7 @@ related:
 - notion-tensioactifs
 - notion-ph-nettoyants
 - nettoyant-ph-melanges-dangereux
+- percarbonate-de-soude-linge
 ---
 
 Les traces blanches proviennent souvent d’un mélange de trois facteurs : **savon**, **eau dure**
@@ -29,6 +30,7 @@ insolubles qui se déposent sur les fibres au lieu de rester disponibles pour la
 <ul>
 <li><a href="/outils/lessive-eau-dure">Utiliser l’outil “lessive au savon et eau dure”</a></li>
 <li><a href="/articles/notion-tensioactifs">Comprendre pourquoi le savon précipite avec Ca²⁺ et Mg²⁺</a></li>
+<li><a href="/articles/percarbonate-de-soude-linge">Vérifier si le percarbonate répond vraiment à la tache</a></li>
 </ul>
 </div>
 

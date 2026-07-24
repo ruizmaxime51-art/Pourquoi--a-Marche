@@ -153,6 +153,7 @@ composés aromatiques et de l’umami. Elle constitue aussi un **allergène pois
 </div>
 
 <h4>Ingrédients</h4>
+<div class="recipe-table-scroll" role="region" aria-label="Tableau des ingrédients" tabindex="0">
 <table class="compare">
 <thead><tr><th>Élément</th><th>Quantité</th><th>Rôle</th></tr></thead>
 <tbody>
@@ -171,6 +172,7 @@ composés aromatiques et de l’umami. Elle constitue aussi un **allergène pois
 <tr><td>Sauce de poisson</td><td>20 g</td><td>Sel et umami</td></tr>
 </tbody>
 </table>
+</div>
 
 <h4>Étapes</h4>
 <ol>
