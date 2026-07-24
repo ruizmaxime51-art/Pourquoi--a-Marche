@@ -11,7 +11,7 @@ export default function ArticleHero({ article }) {
           {article.date && <span>{formatDate(article.date)}</span>}
         </div>
         {article.formula && <span className="formula-eyebrow">{article.formula}</span>}
-        <h1>{article.title}</h1>
+        <h1>{article.h1 || article.title}</h1>
         <p className="standfirst">{article.excerpt}</p>
         <div className="article-hero-actions">
           <a href="#lecture" className="primary-pill">Lire l'article</a>

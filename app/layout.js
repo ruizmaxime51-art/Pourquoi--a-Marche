@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import MobileNavigation from './components/MobileNavigation';
 import { Analytics } from '@vercel/analytics/next';
 import './globals.css';
 import { SITE_URL, SITE_NAME, SITE_DESCRIPTION, DEFAULT_OG_IMAGE } from '@/lib/site';
@@ -7,6 +8,7 @@ export const viewport = {
   width: 'device-width',
   initialScale: 1,
   themeColor: '#07543B',
+  viewportFit: 'cover',
 };
 
 export const metadata = {
@@ -71,20 +73,7 @@ export default function RootLayout({ children }) {
               <Link href="/a-propos">À propos</Link>
             </nav>
 
-            <details className="mobile-nav">
-              <summary aria-label="Ouvrir le menu">Menu</summary>
-              <nav className="mobile-nav-panel" aria-label="Navigation mobile">
-                <Link href="/recettes"><strong>Recettes</strong></Link>
-                <Link href="/cosmetique">Cosmétique</Link>
-                <Link href="/entretien">Entretien</Link>
-                <Link href="/conservation">Conservation</Link>
-                <Link href="/fermentation">Fermentation</Link>
-                <Link href="/comprendre"><strong>Comprendre</strong></Link>
-                <Link href="/outils">Outils</Link>
-                <Link href="/bien-sequiper"><strong>Bien s’équiper</strong></Link>
-                <Link href="/a-propos">À propos</Link>
-              </nav>
-            </details>
+            <MobileNavigation />
           </div>
         </header>
 
