@@ -15,14 +15,14 @@ secondaryCategories:
 excerpt: 'Un kimchi entièrement végétal, construit avec du miso, du tamari et une légère infusion de kombu pour conserver une vraie profondeur aromatique.'
 formula: 'chou + miso + fermentation lactique → acidité + umami'
 image: '/images/kimchi-vegan-etape7-bocal-pov.webp'
-imageAlt: 'Kimchi végétarien au miso tassé dans un bocal, vu depuis la personne qui cuisine'
+imageAlt: 'Kimchi végétarien au miso tassé avec un pilon en bois dans un bocal tenu uniquement par l’extérieur'
 pinterestImage: '/images/pinterest/kimchi-vegan-pinterest.jpg'
 pinterestTitle: 'Kimchi végétarien au miso et kombu'
 pinterestDescription: 'Une recette de kimchi vegan au chou chinois avec miso, tamari et kombu : salage, pâte végétale, fermentation et pH final.'
 pinterestAlt: 'Bocal de kimchi végétarien avec un bol de dégustation, du miso et du kombu'
 type: recette
 date: '2026-07-18'
-updated: '2026-07-24'
+updated: '2026-07-27'
 sommaire: true
 takeaways:
 - Remplacer la sauce de poisson par un assemblage miso, tamari et kombu
@@ -95,7 +95,7 @@ recipe:
   - name: 'Ajouter les légumes'
     text: 'Incorporer le daikon, la carotte et les oignons nouveaux à la pâte.'
   - name: 'Enrober et mettre en bocal'
-    text: 'Mélanger avec le chou, tasser dans un bocal propre et laisser environ 5 cm d’espace libre.'
+    text: 'Mélanger avec le chou, tasser avec un pilon alimentaire propre dans un bocal propre et laisser environ 5 cm d’espace libre.'
     image: '/images/kimchi-vegan-etape7-bocal-pov.webp'
   - name: 'Fermenter'
     text: 'Fermer avec un système laissant évacuer le gaz et laisser 24 à 48 heures autour de 20 °C en contrôlant quotidiennement le pH.'
@@ -134,6 +134,7 @@ chou.
 <li>Bocal alimentaire de 2 L avec valve ou couvercle gérant l’évacuation du gaz</li>
 <li>Balance de cuisine</li>
 <li>Casserole, bassine, passoire et ustensiles propres</li>
+<li>Pilon alimentaire propre pour tasser sans introduire la main dans le bocal</li>
 <li>Gants alimentaires pour manipuler la pâte pimentée</li>
 <li>pH-mètre alimentaire correctement étalonné ; une bandelette universelle ne suffit pas pour décider précisément autour de pH 4,6</li>
 </ul>
@@ -209,7 +210,7 @@ alimentaire indiquent qu’un starter n’est pas nécessaire pour le kimchi.{{r
 <li><strong>Faire la base.</strong> Cuire l’infusion avec 15 g de farine de riz en remuant. Retirer du feu dès léger épaississement, ajouter le sucre et laisser refroidir complètement.</li>
 <li><strong>Construire la pâte.</strong> Mélanger la base froide avec le gochugaru, l’ail, le gingembre, le miso et le tamari. Ajouter daikon, carotte et oignons nouveaux.<img src="/images/kimchi-vegan-etape5-pate-pov.webp" alt="Pâte végétale au miso, tamari et gochugaru avec les légumes émincés" /></li>
 <li><strong>Enrober.</strong> Avec des gants alimentaires propres réservés à cette étape pimentée, répartir la pâte sur tout le chou.<img src="/images/kimchi-vegan-etape6-enrobage-pov.webp" alt="Enrobage du chou avec la pâte végétale pimentée, mains gantées vues à la première personne" /></li>
-<li><strong>Mettre en bocal.</strong> Tasser pour réduire les poches d’air, laisser environ 5 cm d’espace libre et nettoyer le bord.<img src="/images/kimchi-vegan-etape7-bocal-pov.webp" alt="Tassage du kimchi végétarien dans un bocal en gardant cinq centimètres d’espace libre" /></li>
+<li><strong>Mettre en bocal.</strong> Tasser avec un pilon alimentaire propre pour réduire les poches d’air, laisser environ 5 cm d’espace libre et nettoyer le bord.<img src="/images/kimchi-vegan-etape7-bocal-pov.webp" alt="Tassage du kimchi végétarien avec un pilon en bois dans un bocal tenu par l’extérieur" /></li>
 <li><strong>Fermenter et réfrigérer.</strong> Laisser 24 à 48 heures autour de 20 °C et contrôler le pH chaque jour. Ne goûter qu’après avoir vérifié un pH inférieur ou égal à 4,60 ; si l’aspect et l’odeur restent normaux, ajuster alors la durée au goût et placer au réfrigérateur.<img src="/images/kimchi-vegan-etape8-ph-pov.webp" alt="Mesure du pH final du kimchi végétarien avec une sonde alimentaire étalonnée" /></li>
 </ol>
 

@@ -14,7 +14,7 @@ pinterestDescription: 'Farine, eau, repère de niveau et rafraîchis pesés : un
 pinterestAlt: 'Levain naturel actif dans un bocal avec farine, eau et pain au levain'
 type: recette
 date: '2026-07-02'
-updated: '2026-07-24'
+updated: '2026-07-27'
 takeaways:
 - Créer un levain en 5 à 7 jours avec un protocole simple
 - Savoir quand le nourrir et quand l’utiliser
@@ -27,33 +27,32 @@ related:
 - levain-ne-monte-pas
 - quelle-balance-recettes-maison
 - lacto-fermentation-guide-legumes
-howtos:
-- name: Créer un levain naturel
+recipe:
+  name: Créer un levain naturel
   description: Démarrer et entretenir un levain de farine et d’eau jusqu’à son pic d’activité.
+  prepTime: PT15M
   totalTime: P7D
   yield: 1 levain actif
-  supplies:
-  - Farine de seigle ou farine complète
-  - Eau non chlorée
-  tools:
-  - Bocal propre
-  - Balance
-  - Cuillère ou spatule
-  - Élastique de repère
+  category: Ferment pour boulangerie
+  ingredients:
+  - 50 g de farine de seigle ou de blé T80 pour le mélange initial
+  - 50 g d’eau non chlorée pour le mélange initial
+  - 50 g de la même farine par rafraîchi
+  - 50 g d’eau non chlorée par rafraîchi
   steps:
   - name: Mélange initial
-    text: Mélanger une masse égale de farine et d’eau dans un bocal propre.
+    text: Mélanger 50 g de farine et 50 g d’eau dans un bocal propre, marquer le niveau et couvrir sans fermer hermétiquement.
     image: /images/levain-etape1-melange-pov.webp
   - name: Observer
-    text: Laisser à température régulière et observer bulles, odeur et augmentation de volume.
+    text: Laisser à température régulière pendant deux à trois jours et observer les bulles, l’odeur et l’augmentation de volume.
     image: /images/levain-etape2-observation-pov.webp
   - name: Rafraîchir
-    text: Conserver une portion du levain puis ajouter de nouveau farine et eau en masses égales.
+    text: Retirer la moitié du mélange, puis ajouter 50 g de farine et 50 g d’eau non chlorée. Marquer le nouveau niveau.
     image: /images/levain-etape3-rafraichi-pov.webp
   - name: Répéter
-    text: Répéter les rafraîchis jusqu’à obtenir une montée régulière et prévisible.
+    text: Répéter le rafraîchi toutes les 24 heures jusqu’à obtenir une montée régulière et prévisible.
   - name: Utiliser au pic
-    text: Utiliser le levain lorsqu’il a fortement augmenté de volume et avant sa redescente.
+    text: Utiliser le levain lorsqu’il double régulièrement en moins de huit heures après un rafraîchi et avant sa redescente.
     image: /images/levain-etape4-actif-pov.webp
 ---
 
@@ -122,27 +121,51 @@ doublement en 4 à 8 h est un repère pratique, pas une règle universelle.
 <a id="recette"></a>
 ## La recette : créer un levain à partir de rien (5-7 jours)
 
-![Premier mélange de farine et d’eau dans un bocal propre, vue à la première personne](/images/levain-etape1-melange-pov.webp)
+<div class="recipe-card">
+<div class="recipe-card-head">
+<div>
+<span class="recipe-card-kicker">Fiche recette imprimable</span>
+<h3>Créer un levain naturel</h3>
+<p class="recipe-card-summary">Une méthode pesée, sans horaire rigide, pour obtenir un levain actif et lire son pic d’activité.</p>
+</div>
+<div class="recipe-facts">
+<div class="recipe-fact"><strong>Préparation</strong><span>15 min</span></div>
+<div class="recipe-fact"><strong>Rafraîchi</strong><span>≈ 5 min</span></div>
+<div class="recipe-fact"><strong>Démarrage</strong><span>5 à 7 jours</span></div>
+<div class="recipe-fact"><strong>Rendement</strong><span>1 levain actif</span></div>
+</div>
+</div>
 
+<h4>Ingrédients</h4>
+<div class="recipe-table-scroll" role="region" aria-label="Tableau des ingrédients du levain" tabindex="0">
 <table class="compare">
-<thead><tr><th>Jour</th><th>Action</th></tr></thead>
+<thead><tr><th>Élément</th><th>Quantité</th><th>Rôle</th></tr></thead>
 <tbody>
-<tr><td>Jour 1</td><td>Peser 50 g de farine de seigle ou T80 + 50 g d'eau tiède non chlorée avec la <strong>balance de précision</strong>, mélanger dans le <strong>bocal gradué</strong>. Marquer le niveau de départ. Couvrir sans fermer hermétiquement.</td></tr>
-<tr><td>Jour 2-3</td><td>De petites bulles peuvent apparaître puis disparaître (fermentation de départ, normale). Ne rien ajouter, observer.</td></tr>
-<tr><td>Jour 3-4</td><td>Premier rafraîchi : retirer la moitié du mélange, peser et ajouter 50 g de farine + 50 g d'eau tiède. Marquer le nouveau niveau. Répéter toutes les 24h.</td></tr>
-<tr><td>Jour 5-7</td><td>Le levain double de volume en moins de 8h après un rafraîchi (visible grâce aux graduations) : il est prêt à panifier. Si ce n'est pas encore le cas au jour 7, continuer les rafraîchis quotidiens — certains levains prennent jusqu'à 10-14 jours selon la température de la pièce.</td></tr>
+<tr><td>Farine de seigle ou de blé T80</td><td>50 g au départ</td><td>Source d’amidon et de microorganismes</td></tr>
+<tr><td>Eau non chlorée</td><td>50 g au départ</td><td>Hydratation à parts égales</td></tr>
+<tr><td>Même farine</td><td>50 g par rafraîchi</td><td>Renouvellement des nutriments</td></tr>
+<tr><td>Eau non chlorée</td><td>50 g par rafraîchi</td><td>Maintien du rapport 1:1 farine/eau</td></tr>
 </tbody>
 </table>
+</div>
 
-![Observation de petites bulles et du repère de niveau sur le bocal de levain](/images/levain-etape2-observation-pov.webp)
+<h4>Étapes</h4>
+<ol>
+<li><strong>Jour 1 — mélanger.</strong> Peser 50 g de farine de seigle ou T80 et 50 g d’eau tiède non chlorée. Mélanger dans un bocal gradué propre, marquer le niveau de départ et couvrir sans fermer hermétiquement.<img src="/images/levain-etape1-melange-pov.webp" alt="Premier mélange de farine et d’eau dans un bocal propre, vue à la première personne" /></li>
+<li><strong>Jours 2 à 3 — observer.</strong> Laisser le bocal à température régulière. De petites bulles peuvent apparaître puis disparaître : cette activité de départ est normale. Observer sans ajouter d’ingrédient.<img src="/images/levain-etape2-observation-pov.webp" alt="Observation de petites bulles et du repère de niveau sur le bocal de levain" /></li>
+<li><strong>Jours 3 à 4 — commencer les rafraîchis.</strong> Retirer la moitié du mélange, puis ajouter 50 g de la même farine et 50 g d’eau tiède. Mélanger et marquer le nouveau niveau.<img src="/images/levain-etape3-rafraichi-pov.webp" alt="Rafraîchi du levain avec ajout de farine fraîche vu depuis la personne qui cuisine" /></li>
+<li><strong>Répéter toutes les 24 heures.</strong> Conserver le même rapport farine/eau et suivre la montée dans le bocal plutôt que de se fier uniquement aux bulles.</li>
+<li><strong>Jours 5 à 7 — vérifier l’activité.</strong> Le levain est utilisable lorsqu’il double régulièrement en moins de huit heures après un rafraîchi et avant sa redescente.<img src="/images/levain-etape4-actif-pov.webp" alt="Levain actif ayant doublé de volume après plusieurs rafraîchis réguliers" /></li>
+</ol>
+
+<p class="recipe-note"><strong>Au jour 7, il ne double pas encore ?</strong> Continuez les rafraîchis quotidiens : selon la farine et la température, certains levains demandent 10 à 14 jours. Jetez le mélange en présence de taches roses, orange, vertes ou noires, ou d’une moisissure duveteuse.</p>
+</div>
 
 **Entretien une fois le levain actif** : un rafraîchi 1:1:1 (poids égal de levain, farine, eau —
 par exemple 50 g + 50 g + 50 g, toujours pesés) donne un point de départ reproductible. Ajustez la
 fréquence d’après la température, le temps nécessaire pour atteindre le pic et votre calendrier de
 panification ; un levain réfrigéré doit être observé et rafraîchi avant usage plutôt que nourri
 selon une promesse universelle.
-
-![Levain actif ayant doublé de volume après plusieurs rafraîchis réguliers](/images/levain-etape4-actif-pov.webp)
 
 
 <a id="materiel"></a>

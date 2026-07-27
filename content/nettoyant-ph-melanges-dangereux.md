@@ -9,7 +9,7 @@ formula: acide pour calcaire · base pour graisse
 image: /images/nettoyant-detartrant-flacon.webp
 type: recette
 date: '2026-07-01'
-updated: '2026-07-24'
+updated: '2026-07-27'
 takeaways:
 - Préparer un détartrant acide et un dégraissant basique
 - Savoir quelle surface éviter avec chaque produit
@@ -159,56 +159,80 @@ caustique, elle, est corrosive et impose en plus lunettes, ventilation et protec
 <a id="recettes"></a>
 ## Les deux recettes, prêtes à l'emploi
 
-**Détartrant multi-usage (robinetterie, sanitaires, bouilloire)**
+<div class="recipe-card">
+<div class="recipe-card-head">
+<div>
+<span class="recipe-card-kicker">Fiche recette imprimable · 1 sur 2</span>
+<h3>Détartrant à l’acide citrique</h3>
+<p class="recipe-card-summary">Une solution acide à réserver aux dépôts calcaires et aux surfaces dont la notice autorise les acides.</p>
+</div>
+<div class="recipe-facts">
+<div class="recipe-fact"><strong>Préparation</strong><span>≈ 5 min</span></div>
+<div class="recipe-fact"><strong>Contact</strong><span>15 à 30 min</span></div>
+<div class="recipe-fact"><strong>Rendement</strong><span>1 litre</span></div>
+<div class="recipe-fact"><strong>Usage</strong><span>Calcaire</span></div>
+</div>
+</div>
 
+<h4>Ingrédients</h4>
+<div class="recipe-table-scroll" role="region" aria-label="Tableau des ingrédients du détartrant" tabindex="0">
 <table class="compare">
-<thead><tr><th>Ingrédient</th><th>Quantité</th></tr></thead>
+<thead><tr><th>Ingrédient</th><th>Quantité</th><th>Rôle</th></tr></thead>
 <tbody>
-<tr><td>Acide citrique (poudre alimentaire)</td><td>100 g</td></tr>
-<tr><td>Eau tiède</td><td>1 L</td></tr>
+<tr><td>Acide citrique en poudre</td><td>100 g</td><td>Dissolution des dépôts calcaires</td></tr>
+<tr><td>Eau tiède</td><td>1 L</td><td>Solvant et dilution</td></tr>
 </tbody>
 </table>
+</div>
 
-![Versement de l'acide citrique dissous dans un flacon spray via un entonnoir](/images/nettoyant-detartrant-flacon.webp)
+<h4>Étapes</h4>
+<ol>
+<li><strong>Peser.</strong> Peser 100 g d’acide citrique avec une balance : un dosage à la cuillère manque de constance.</li>
+<li><strong>Dissoudre.</strong> Ajouter la poudre à 1 L d’eau tiède et mélanger jusqu’à ce que le liquide redevienne transparent.</li>
+<li><strong>Transvaser et étiqueter.</strong> Verser la solution dans un flacon spray propre à l’aide d’un entonnoir, puis inscrire clairement sa composition et la date.<img src="/images/nettoyant-detartrant-flacon.webp" alt="Versement de l’acide citrique dissous dans un flacon spray via un entonnoir" /></li>
+<li><strong>Appliquer.</strong> Après un test discret et vérification de la notice de la surface, vaporiser sur le calcaire, laisser agir 15 à 30 minutes, essuyer avec une éponge non abrasive puis rincer.</li>
+<li><strong>Surveiller la préparation.</strong> Conserver hors de portée des enfants et jeter en cas de trouble, dépôt inhabituel, odeur ou changement d’aspect.</li>
+</ol>
 
-1. **Peser 100g d'acide citrique avec la balance de précision** — un dosage à la cuillère "à l'œil" manque de constance d'une préparation à l'autre.
-2. Chauffer 1L d'eau (tiède suffit, pas besoin de faire bouillir — juste pour accélérer la dissolution).
-3. Verser l'acide citrique dans l'eau tiède, mélanger jusqu'à dissolution complète (le liquide redevient transparent).
-4. Transvaser dans le **flacon spray** à l'aide d'un entonnoir.
-5. Pour le calcaire incrusté : vaporiser, laisser agir 15-30 minutes (plus la surface est incrustée, plus on laisse agir), essuyer avec une éponge non abrasive, rincer.
-6. Préparer de préférence un petit volume, étiqueter la composition et la date, conserver hors de
-portée des enfants et jeter en cas de trouble, dépôt inhabituel, odeur ou changement d’aspect. Sans
-étude de stabilité microbiologique du contenant et de l’eau utilisés, cette page ne promet plus
-une conservation de plusieurs mois.
+<p class="recipe-note"><strong>Surfaces à éviter.</strong> Ne pas utiliser sur la pierre naturelle calcaire ni sur un matériau ou revêtement dont la notice interdit les acides. Sans étude de stabilité microbiologique du contenant et de l’eau, aucune conservation de plusieurs mois n’est promise.</p>
+</div>
 
-**Solution alcaline dégraissante douce**
+<div class="recipe-card">
+<div class="recipe-card-head">
+<div>
+<span class="recipe-card-kicker">Fiche recette imprimable · 2 sur 2</span>
+<h3>Dégraissant au carbonate de sodium</h3>
+<p class="recipe-card-summary">Une solution alcaline destinée aux graisses sur des surfaces compatibles, suivie d’un rinçage systématique.</p>
+</div>
+<div class="recipe-facts">
+<div class="recipe-fact"><strong>Préparation</strong><span>≈ 15 min</span></div>
+<div class="recipe-fact"><strong>Contact</strong><span>Quelques min.</span></div>
+<div class="recipe-fact"><strong>Rendement</strong><span>1 litre</span></div>
+<div class="recipe-fact"><strong>Usage</strong><span>Graisses</span></div>
+</div>
+</div>
 
+<h4>Ingrédients</h4>
+<div class="recipe-table-scroll" role="region" aria-label="Tableau des ingrédients du dégraissant" tabindex="0">
 <table class="compare">
-<thead><tr><th>Ingrédient</th><th>Quantité</th></tr></thead>
+<thead><tr><th>Ingrédient</th><th>Quantité</th><th>Rôle</th></tr></thead>
 <tbody>
-<tr><td>Carbonate de sodium décahydraté, Na₂CO₃·10H₂O</td><td>15,0 g</td></tr>
-<tr><td>Eau chaude</td><td>1 L</td></tr>
+<tr><td>Carbonate de sodium décahydraté, Na₂CO₃·10H₂O</td><td>15,0 g</td><td>Agent alcalin dégraissant</td></tr>
+<tr><td>Eau chaude</td><td>1 L</td><td>Solvant et dilution</td></tr>
 </tbody>
 </table>
+</div>
 
-Cette formule correspond à **15,0 g de décahydrate**. Pour fournir la même quantité molaire de
-carbonate, il faudrait environ **6,5 g de monohydrate** ou **5,6 g de carbonate anhydre**. Un
-produit commercial peut aussi contenir d’autres ingrédients : si la forme chimique et la pureté ne
-sont pas explicites, suivez son étiquette et ne transposez pas ces masses.
+<h4>Étapes</h4>
+<ol>
+<li><strong>Identifier puis peser.</strong> Vérifier que le produit est bien du carbonate de sodium décahydraté, puis en peser 15,0 g en évitant les poussières. Ne pas reprendre cette masse pour une autre forme chimique.</li>
+<li><strong>Dissoudre.</strong> Ajouter les cristaux à 1 L d’eau chaude et mélanger jusqu’à dissolution.<img src="/images/nettoyant-degraissant-dissolution.webp" alt="Dissolution des cristaux de soude dans l’eau chaude" /></li>
+<li><strong>Appliquer avec des gants.</strong> Après un test discret, appliquer à l’éponge sur une surface compatible et laisser agir quelques minutes. Éviter les projections dans les yeux et l’inhalation des poussières.</li>
+<li><strong>Rincer.</strong> Rincer systématiquement à l’eau claire, en particulier sur toute surface en contact avec des aliments.</li>
+</ol>
 
-![Dissolution des cristaux de soude dans l'eau chaude, vapeur visible](/images/nettoyant-degraissant-dissolution.webp)
-
-1. **Peser 15,0 g de carbonate de sodium décahydraté avec la balance de précision** — une cuillère
-à soupe n’est pas une unité fiable et cette masse ne vaut pas pour les formes anhydre ou
-monohydratée.
-2. Dissoudre dans 1L d'eau chaude (le chaud accélère nettement la dissolution des cristaux).
-3. Porter des **gants** pendant la préparation et l’application, éviter les projections dans
-les yeux et ne pas respirer la poussière. Les cristaux de soude sont moins corrosifs que NaOH,
-mais restent irritants{{ref:pubchem-sodium-carbonate}}.
-4. Appliquer à l'éponge sur la surface grasse (plaques, hotte, four — jamais sur aluminium non traité), laisser agir quelques minutes sur les graisses cuites/incrustées.
-5. **Toujours rincer à l'eau claire après usage**, surtout sur une surface qui sera en contact avec de la nourriture — ne jamais laisser sécher sans rincer.
-
-<p style="font-size:0.85rem;color:var(--ink-soft)">Ces deux produits ne se mélangent pas entre eux non plus (acide + base = neutralisation, donc perte d'efficacité) — les utiliser séparément selon le type de salissure visé.</p>
+<p class="recipe-note"><strong>Forme chimique et incompatibilités.</strong> Cette masse vaut uniquement pour le décahydrate. Elle correspondrait à environ 6,5 g de monohydrate ou 5,6 g d’anhydre. N’utilisez jamais cette solution sur l’aluminium non traité et ne la mélangez ni avec le détartrant, ni avec de la Javel ou un autre nettoyant.{{ref:pubchem-sodium-carbonate}}</p>
+</div>
 
 <a id="materiel"></a>
 ## Le matériel, en détail

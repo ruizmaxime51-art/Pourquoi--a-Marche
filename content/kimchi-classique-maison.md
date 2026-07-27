@@ -15,14 +15,14 @@ secondaryCategories:
 excerpt: 'Une recette complète de kimchi au chou chinois, avec des quantités pesées, une fermentation courte et des critères clairs pour savoir quand réfrigérer.'
 formula: 'chou salé + bactéries lactiques → acides organiques + CO₂'
 image: '/images/kimchi-classique-etape6-bocal-pov.webp'
-imageAlt: 'Kimchi classique tassé dans un bocal de deux litres, vu depuis la personne qui cuisine'
+imageAlt: 'Kimchi classique tassé avec un pilon en bois dans un bocal tenu uniquement par l’extérieur'
 pinterestImage: '/images/pinterest/kimchi-classique-pinterest.jpg'
 pinterestTitle: 'Kimchi maison classique : la recette pas à pas'
 pinterestDescription: 'Chou chinois, saumure mesurée, pâte au gochugaru, mise en bocal et contrôle du pH : une recette de kimchi classique structurée étape par étape.'
 pinterestAlt: 'Bocal et bol de kimchi classique au chou chinois dans une cuisine lumineuse'
 type: recette
 date: '2026-07-18'
-updated: '2026-07-24'
+updated: '2026-07-27'
 sommaire: true
 takeaways:
 - Saler le chou dans une saumure mesurée puis le rincer avant l’assaisonnement
@@ -89,7 +89,7 @@ recipe:
     text: 'Mélanger la base refroidie avec le gochugaru, l’ail, le gingembre et la sauce de poisson, puis incorporer le radis, la carotte et les oignons nouveaux.'
     image: '/images/kimchi-classique-etape4-pate-pov.webp'
   - name: 'Enrober et mettre en bocal'
-    text: 'Mélanger soigneusement le chou avec la pâte, tasser dans un bocal alimentaire propre et laisser environ 5 cm d’espace libre.'
+    text: 'Mélanger soigneusement le chou avec la pâte, tasser avec un pilon alimentaire propre dans un bocal propre et laisser environ 5 cm d’espace libre.'
     image: '/images/kimchi-classique-etape6-bocal-pov.webp'
   - name: 'Fermenter'
     text: 'Fermer avec un système laissant évacuer le gaz et laisser 24 à 48 heures autour de 20 °C, sur une assiette, en contrôlant quotidiennement le pH.'
@@ -128,6 +128,7 @@ plutôt que des cuillères approximatives.
 <li>Un bocal alimentaire de 2 L avec valve ou couvercle posé sans serrage excessif</li>
 <li>Une balance lisible à 0,1 g ou 1 g</li>
 <li>Une grande bassine alimentaire, une passoire et des ustensiles propres</li>
+<li>Un pilon alimentaire propre pour tasser sans introduire la main dans le bocal</li>
 <li>Des gants alimentaires pour éviter l’irritation par le piment</li>
 <li>Un pH-mètre alimentaire étalonné pour suivre l’acidification ; une bandelette universelle ne suffit pas pour décider précisément autour de pH 4,6</li>
 </ul>
@@ -201,7 +202,7 @@ composés aromatiques et de l’umami. Elle constitue aussi un **allergène pois
 <li><strong>Faire la base de pâte.</strong> Chauffer 150 g d’eau avec 15 g de farine de riz en remuant. Dès que le mélange épaissit légèrement, retirer du feu, ajouter le sucre et laisser refroidir complètement.</li>
 <li><strong>Préparer l’assaisonnement.</strong> Mélanger la base froide, le gochugaru, l’ail, le gingembre et la sauce de poisson. Ajouter le daikon, la carotte et les oignons nouveaux.<img src="/images/kimchi-classique-etape4-pate-pov.webp" alt="Préparation de la pâte rouge du kimchi classique avec les légumes émincés" /></li>
 <li><strong>Enrober.</strong> Avec des gants alimentaires propres réservés à cette étape pimentée, répartir la pâte sur tous les morceaux de chou.<img src="/images/kimchi-classique-etape5-enrobage-pov.webp" alt="Enrobage du chou avec la pâte pimentée, mains gantées vues à la première personne" /></li>
-<li><strong>Mettre en bocal.</strong> Tasser progressivement pour réduire les poches d’air. Laisser environ 5 cm d’espace libre. Nettoyer le bord du bocal.<img src="/images/kimchi-classique-etape6-bocal-pov.webp" alt="Tassage du kimchi classique dans un bocal en gardant cinq centimètres d’espace libre" /></li>
+<li><strong>Mettre en bocal.</strong> Tasser progressivement avec un pilon alimentaire propre pour réduire les poches d’air. Laisser environ 5 cm d’espace libre. Nettoyer le bord du bocal.<img src="/images/kimchi-classique-etape6-bocal-pov.webp" alt="Tassage du kimchi classique avec un pilon en bois dans un bocal tenu par l’extérieur" /></li>
 <li><strong>Fermenter.</strong> Fermer avec une valve ou un couvercle non serré à bloc. Poser le bocal sur une assiette et laisser 24 à 48 heures autour de 20 °C, à l’abri du soleil.</li>
 <li><strong>Contrôler et réfrigérer.</strong> Mesurer le pH chaque jour avec une sonde alimentaire étalonnée. Ne goûter qu’après avoir vérifié un pH inférieur ou égal à 4,60 ; si l’aspect et l’odeur restent normaux, ajuster alors la durée au goût, fermer correctement et placer au réfrigérateur.<img src="/images/kimchi-classique-etape7-ph-pov.webp" alt="Mesure du pH final du kimchi classique avec une sonde alimentaire étalonnée" /></li>
 </ol>

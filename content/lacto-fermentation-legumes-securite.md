@@ -12,7 +12,7 @@ image: /images/lacto-etape2-versement-saumure.webp
 imageAlt: 'Versement d’une saumure à 3 % sur des carottes maintenues dans un bocal de fermentation'
 type: recette
 date: '2026-07-02'
-updated: '2026-07-24'
+updated: '2026-07-27'
 takeaways:
 - Choisir entre salage à sec et saumure externe
 - Maintenir les légumes immergés pour éviter les échecs
@@ -27,22 +27,18 @@ related:
 - kimchi-classique-maison
 - kimchi-vegetarien-maison
 - lacto-fermentation-odeur-moisissure
-howtos:
-- name: Préparer des carottes lacto-fermentées
+recipe:
+  name: Préparer des carottes lacto-fermentées
   description: Fermenter des bâtonnets de carottes dans une saumure mesurée et sous immersion.
+  prepTime: PT20M
   totalTime: P5D
   yield: 1 bocal d’environ 1 litre
-  supplies:
-  - Carottes
-  - Eau
-  - Sel non iodé
-  - Ail et aromates facultatifs
-  tools:
-  - Bocal propre
-  - Couvercle à valve
-  - Poids de fermentation
-  - Balance à 0,1 g
-  - pH-mètre alimentaire étalonné
+  category: Légumes fermentés
+  ingredients:
+  - 500 g de carottes
+  - 500 g d’eau non chlorée
+  - 15 g de sel non iodé
+  - 1 gousse d’ail, quelques grains de poivre et une branche d’aneth, facultatifs
   steps:
   - name: Préparer les carottes
     text: Laver, éplucher si nécessaire et couper les carottes en bâtonnets.
@@ -132,43 +128,46 @@ transformer cette recette en protocole industriel validé{{ref:lab-preservation-
 <a id="recette"></a>
 ## La recette : carottes lacto-fermentées (bocal de 1 L)
 
+<div class="recipe-card">
+<div class="recipe-card-head">
+<div>
+<span class="recipe-card-kicker">Fiche recette imprimable</span>
+<h3>Carottes lacto-fermentées en saumure</h3>
+<p class="recipe-card-summary">Des bâtonnets de carottes maintenus sous une saumure à 3 %, avec contrôle de l’acidification avant réfrigération.</p>
+</div>
+<div class="recipe-facts">
+<div class="recipe-fact"><strong>Préparation</strong><span>20 min</span></div>
+<div class="recipe-fact"><strong>Fermentation</strong><span>5 à 10 jours</span></div>
+<div class="recipe-fact"><strong>Contrôle</strong><span>pH ≤ 4,60</span></div>
+<div class="recipe-fact"><strong>Rendement</strong><span>1 bocal de 1 L</span></div>
+</div>
+</div>
+
+<h4>Ingrédients</h4>
+<div class="recipe-table-scroll" role="region" aria-label="Tableau des ingrédients des carottes lacto-fermentées" tabindex="0">
 <table class="compare">
-<thead><tr><th>Ingrédient</th><th>Quantité</th></tr></thead>
+<thead><tr><th>Ingrédient</th><th>Quantité</th><th>Rôle</th></tr></thead>
 <tbody>
-<tr><td>Carottes (en bâtonnets ou rondelles)</td><td>500 g environ</td></tr>
-<tr><td>Eau non chlorée (filtrée ou de source)</td><td>500 ml</td></tr>
-<tr><td>Sel non iodé (gros sel ou sel fin sans additif)</td><td>15 g (soit 3 % de l'eau)</td></tr>
-<tr><td>Aromates optionnels</td><td>1 gousse d'ail, quelques grains de poivre, une branche d'aneth</td></tr>
+<tr><td>Carottes en bâtonnets</td><td>500 g environ</td><td>Base végétale</td></tr>
+<tr><td>Eau non chlorée</td><td>500 g</td><td>Saumure externe</td></tr>
+<tr><td>Sel non iodé</td><td>15 g</td><td>Saumure à 3 % de la masse d’eau</td></tr>
+<tr><td>Aromates facultatifs</td><td>1 gousse d’ail, poivre, aneth</td><td>Arômes</td></tr>
 </tbody>
 </table>
+</div>
 
-**Étapes**
+<h4>Étapes</h4>
+<ol>
+<li><strong>Préparer la saumure.</strong> Peser 15 g de sel avec une balance à 0,1 g, le dissoudre dans 500 g d’eau tiède, puis laisser revenir à température ambiante. Peser l’eau est plus reproductible que lire 500 ml sur un verre doseur.<img src="/images/lacto-etape0-saumure-pov.webp" alt="Pesée de 15 g de sel et préparation de la saumure à 3 % vue depuis la personne qui cuisine" /></li>
+<li><strong>Préparer les carottes.</strong> Laver les carottes, les couper en bâtonnets et les tasser dans le bocal à valve avec les aromates facultatifs.<img src="/images/lacto-etape1-tassage-carottes.webp" alt="Tassage des bâtonnets de carottes dans le bocal gradué avec ail et aneth" /></li>
+<li><strong>Maintenir sous la saumure.</strong> Verser la saumure jusqu’à immersion totale des légumes, puis poser un poids de fermentation pour les maintenir sous la surface.<img src="/images/lacto-etape2-versement-saumure.webp" alt="Versement de la saumure dans le bocal jusqu’à immersion totale des carottes" /></li>
+<li><strong>Fermer.</strong> Installer le couvercle à valve pour laisser le CO₂ s’échapper sans ouvrir inutilement le bocal.</li>
+<li><strong>Fermenter.</strong> Laisser 5 à 10 jours entre 18 et 22 °C, à l’abri du soleil. Vérifier chaque jour l’immersion, l’absence de moisissure duveteuse ou colorée et l’absence d’odeur putride. Ne pas goûter un bocal suspect.</li>
+<li><strong>Contrôler puis réfrigérer.</strong> À partir du 5e jour, étalonner le pH-mètre avec des tampons pH 4 et 7 et mesurer un échantillon représentatif. Ne consommer et ne goûter qu’après avoir vérifié un pH inférieur ou égal à 4,60 et une production de gaz nettement ralentie. Passer ensuite au réfrigérateur.{{ref:umn-home-fermentation}}{{ref:umn-ph-meter}}<img src="/images/lacto-etape3-ph-pov.webp" alt="Mesure du pH final des carottes fermentées avec une sonde alimentaire étalonnée" /></li>
+</ol>
 
-![Pesée de 15 g de sel et préparation de la saumure à 3 % vue depuis la personne qui cuisine](/images/lacto-etape0-saumure-pov.webp)
-
-1. Préparer la saumure : **peser 15 g de sel avec la balance à 0,1 g**, dissoudre dans 500 g
-d’eau tiède, puis laisser revenir à température ambiante. Pour ce calcul, peser l’eau est plus
-reproductible que lire 500 ml sur un verre doseur.
-
-![Tassage des bâtonnets de carottes dans le bocal gradué avec ail et aneth](/images/lacto-etape1-tassage-carottes.webp)
-
-2. Laver les carottes, les couper en bâtonnets, tasser dans le **bocal à valve** avec les aromates.
-
-![Versement de la saumure dans le bocal jusqu'à immersion totale des carottes](/images/lacto-etape2-versement-saumure.webp)
-
-3. Verser la saumure jusqu'à immersion totale des légumes, puis poser le **poids de fermentation** dessus pour les maintenir sous la surface.
-4. Fermer avec le couvercle à valve — le CO₂ s'échappera automatiquement sans intervention.
-5. Laisser fermenter 5 à 10 jours à température ambiante (18-22 °C), à l'abri de la lumière
-directe. Vérifier chaque jour l’immersion, l’absence de moisissure duveteuse ou colorée et
-l’absence d’odeur putride. Ne goûtez pas un bocal suspect.
-
-![Mesure du pH final des carottes fermentées avec une sonde alimentaire étalonnée](/images/lacto-etape3-ph-pov.webp)
-
-6. À partir du 5e jour, étalonner le pH-mètre avec les tampons pH 4 et 7, puis mesurer un
-échantillon représentatif selon la notice de l’appareil. **Ne consommer et ne goûter qu’après
-avoir vérifié un pH final inférieur ou égal à 4,60 et une production de gaz nettement
-ralentie**{{ref:umn-home-fermentation}}{{ref:umn-ph-meter}}. Passer ensuite au réfrigérateur. Si le pH
-reste supérieur à 4,60 au 10e jour ou si un signe d’altération apparaît, ne pas consommer.
+<p class="recipe-note"><strong>Ne poursuivez pas au-delà du 10e jour si le pH reste supérieur à 4,60.</strong> Jetez également la préparation si une moisissure, une odeur putride ou un autre signe d’altération apparaît.</p>
+</div>
 
 Cette recette suit les mêmes points de contrôle que les deux recettes de kimchi du site :
 matériel propre, salage mesuré, légumes immergés, suivi de l’acidification et froid après
