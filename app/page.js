@@ -1,12 +1,46 @@
 import Link from 'next/link';
 import { usageCategories, transversalCategories } from '@/lib/categories';
 import { getFeaturedArticles } from '@/lib/articles';
+import { buildPageMetadata } from '@/lib/metadata';
+import { DEFAULT_OG_IMAGE, SITE_DESCRIPTION, SITE_NAME, SITE_URL } from '@/lib/site';
 import ArticleCard from './_components/ArticleCard';
+
+export const metadata = buildPageMetadata({
+  title: `${SITE_NAME} — recettes maison fiables, expliquées par la chimie`,
+  description: SITE_DESCRIPTION,
+  path: '/',
+  image: DEFAULT_OG_IMAGE,
+});
 
 export default function Home() {
   const featured = getFeaturedArticles(4);
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Organization',
+        '@id': `${SITE_URL}/#organization`,
+        name: SITE_NAME,
+        url: `${SITE_URL}/`,
+        logo: `${SITE_URL}/icon.svg`,
+      },
+      {
+        '@type': 'WebSite',
+        '@id': `${SITE_URL}/#website`,
+        name: SITE_NAME,
+        url: `${SITE_URL}/`,
+        description: SITE_DESCRIPTION,
+        inLanguage: 'fr-FR',
+        publisher: { '@id': `${SITE_URL}/#organization` },
+      },
+    ],
+  };
   return (
     <main>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }}
+      />
       <section className="home-hero">
         <div className="home-hero-copy">
           <div className="kicker">Chimie appliquée au fait maison</div>

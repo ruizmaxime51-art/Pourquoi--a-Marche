@@ -1,5 +1,6 @@
 import { getAllSlugs, getArticle, getRelatedArticles } from '@/lib/articles';
 import { SITE_URL, SITE_NAME, DEFAULT_OG_IMAGE } from '@/lib/site';
+import { imageDimensions } from '@/lib/imageDimensions';
 import ArticleHero from '@/app/_components/ArticleHero';
 import RelatedArticles from '@/app/_components/RelatedArticles';
 import TakeawayBox from '@/app/_components/TakeawayBox';
@@ -12,6 +13,10 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }) {
   const article = await getArticle(params.slug);
   const image = article.image || DEFAULT_OG_IMAGE;
+  const dimensions = imageDimensions[image] || { width: 1200, height: 630 };
+  const pinterestDimensions = article.pinterestImage
+    ? imageDimensions[article.pinterestImage] || { width: 1000, height: 1500 }
+    : null;
   const url = `${SITE_URL}/articles/${article.slug}`;
   return {
     title: article.seoTitle || article.title,
@@ -23,7 +28,16 @@ export async function generateMetadata({ params }) {
       url,
       title: article.seoTitle || article.title,
       description: article.seoDescription || article.excerpt,
-      images: [{ url: image, width: 1200, height: 800, alt: article.title }],
+      images: [
+        { url: image, ...dimensions, alt: article.imageAlt || article.title },
+        ...(article.pinterestImage
+          ? [{
+              url: article.pinterestImage,
+              ...pinterestDimensions,
+              alt: article.pinterestAlt || article.title,
+            }]
+          : []),
+      ],
       publishedTime: article.date || undefined,
       modifiedTime: article.updated || article.date || undefined,
     },
@@ -53,11 +67,19 @@ export default async function ArticlePage({ params }) {
       <div className="article-shell" id="lecture">
         <article className="post">
           <TakeawayBox items={article.takeaways} />
+          {article.type === 'comparatif' && (
+            <aside className="review-method-note" aria-label="Méthode du comparatif">
+              <strong>Méthode du comparatif :</strong> sélection documentaire fondée sur les
+              caractéristiques annoncées, les normes et les fiches fabricants consultées. Les
+              produits n’ont pas été testés en laboratoire par Chimie Maison. Vérifiez la fiche
+              et le marquage du modèle exact avant l’achat.
+            </aside>
+          )}
           {article.recipe && <PrintRecipeButton />}
           <div className="post-body" dangerouslySetInnerHTML={{ __html: article.contentHtml }} />
           <p className="trust-note">
-            Chaque recette et notion publiée sur ce site est relue manuellement : dosages,
-            mécanismes, limites et points de sécurité sont vérifiés avant mise en ligne.
+            Méthode, limites et nature des illustrations :{' '}
+            <a href="/a-propos#methodologie">consulter la méthode éditoriale de Chimie Maison</a>.
           </p>
         </article>
       </div>
@@ -70,10 +92,8 @@ export default async function ArticlePage({ params }) {
 
 function buildStructuredData(article, url, image) {
   const howtos = Array.isArray(article.howtos) ? article.howtos : [];
-  const faqs = Array.isArray(article.faq) ? article.faq : [];
   const howToIds = howtos.map((_, index) => `${url}#howto-${index + 1}`);
   const recipeId = article.recipe ? `${url}#recipe` : null;
-  const faqId = faqs.length ? `${url}#faq` : null;
 
   const articleEntity = {
     '@type': 'Article',
@@ -81,7 +101,10 @@ function buildStructuredData(article, url, image) {
     headline: article.title,
     name: article.title,
     description: article.excerpt,
-    image: [`${SITE_URL}${image}`],
+    image: [
+      `${SITE_URL}${image}`,
+      ...(article.pinterestImage ? [`${SITE_URL}${article.pinterestImage}`] : []),
+    ],
     datePublished: article.date || undefined,
     dateModified: article.updated || article.date || undefined,
     inLanguage: 'fr-FR',
@@ -91,7 +114,6 @@ function buildStructuredData(article, url, image) {
     mainEntity: [
       ...(recipeId ? [{ '@id': recipeId }] : []),
       ...howToIds.map((id) => ({ '@id': id })),
-      ...(faqId ? [{ '@id': faqId }] : []),
     ],
   };
 
@@ -122,7 +144,10 @@ function buildStructuredData(article, url, image) {
         '@id': recipeId,
         name: article.recipe.name || article.title,
         description: article.recipe.description || article.excerpt,
-        image: [`${SITE_URL}${article.recipe.image || image}`],
+        image: [
+          `${SITE_URL}${article.recipe.image || image}`,
+          ...(article.pinterestImage ? [`${SITE_URL}${article.pinterestImage}`] : []),
+        ],
         author: { '@type': 'Organization', name: SITE_NAME },
         datePublished: article.date || undefined,
         dateModified: article.updated || article.date || undefined,
@@ -145,28 +170,12 @@ function buildStructuredData(article, url, image) {
       }
     : null;
 
-  const faqEntity = faqs.length
-    ? {
-        '@type': 'FAQPage',
-        '@id': faqId,
-        mainEntity: faqs.map((item) => ({
-          '@type': 'Question',
-          name: item.question,
-          acceptedAnswer: {
-            '@type': 'Answer',
-            text: item.answer,
-          },
-        })),
-      }
-    : null;
-
   return {
     '@context': 'https://schema.org',
     '@graph': [
       articleEntity,
       ...(recipeEntity ? [recipeEntity] : []),
       ...howToEntities,
-      ...(faqEntity ? [faqEntity] : []),
     ],
   };
 }

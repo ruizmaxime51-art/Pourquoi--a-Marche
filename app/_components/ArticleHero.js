@@ -1,28 +1,42 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function ArticleHero({ article }) {
   const visualMode = article.heroFit || (article.type === 'notion' || article.type === 'repere' ? 'contain' : 'cover');
+  const materialHref =
+    article.materialHref ||
+    (article.contentHtml?.includes('id="materiel"') ? '#materiel' : null);
+  const materialLabel = article.materialLabel || 'Matériel utile';
   return (
     <header className="article-hero">
       <div className="article-hero-copy">
         <div className="article-meta-line">
           <span className={`article-type-label ${typeClass(article.type)}`}>{typeLabel(article.type)}</span>
           {article.readingTime && <span>{article.readingTime} min de lecture</span>}
-          {article.date && <span>{formatDate(article.date)}</span>}
+          {article.updated ? (
+            <span>Mis à jour le {formatDate(article.updated)}</span>
+          ) : article.date ? (
+            <span>Publié le {formatDate(article.date)}</span>
+          ) : null}
         </div>
         {article.formula && <span className="formula-eyebrow">{article.formula}</span>}
         <h1>{article.h1 || article.title}</h1>
         <p className="standfirst">{article.excerpt}</p>
+        <p className="article-byline">
+          Rédaction et vérification : <Link href="/a-propos">Chimie Maison</Link>
+        </p>
         <div className="article-hero-actions">
           <a href="#lecture" className="primary-pill">Lire l'article</a>
-          <a href="#materiel" className="secondary-pill">Matériel utile</a>
+          {materialHref && (
+            <a href={materialHref} className="secondary-pill">{materialLabel}</a>
+          )}
         </div>
       </div>
       {article.image && (
         <div className={`article-hero-visual ${visualMode === 'contain' ? 'is-contain' : 'is-cover'}`}>
           <Image
             src={article.image}
-            alt=""
+            alt={article.imageAlt || article.title}
             fill
             priority
             sizes="(max-width: 780px) 100vw, 38vw"

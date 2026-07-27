@@ -328,6 +328,29 @@ table.compare tbody tr:last-child td { border-bottom: none; }
   max-width: var(--wide); margin: 0 auto; padding: 0 24px 28px; letter-spacing: 0.01em;
 }
 
+.article-byline {
+  margin: -0.35rem 0 1.1rem;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+}
+
+.article-byline a {
+  color: inherit;
+  font-weight: 700;
+  text-underline-offset: 0.18em;
+}
+
+.review-method-note {
+  margin: 0 0 1.5rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid color-mix(in srgb, var(--forest) 22%, transparent);
+  border-left: 4px solid var(--forest);
+  border-radius: 0.65rem;
+  background: color-mix(in srgb, var(--forest) 6%, white);
+  color: var(--ink);
+  line-height: 1.55;
+}
+
 /* — Pages légales : encart d'avertissement (compat) — */
 .notice-box {
   color: var(--amber-deep); background: var(--amber-wash);

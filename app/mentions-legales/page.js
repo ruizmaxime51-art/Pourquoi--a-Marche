@@ -1,13 +1,15 @@
-export const metadata = {
+import { buildPageMetadata } from '@/lib/metadata';
+
+export const metadata = buildPageMetadata({
   title: 'Mentions légales',
   description: "Mentions légales du site Chimie Maison.",
-  alternates: { canonical: '/mentions-legales' },
+  path: '/mentions-legales',
   robots: {
     index: false,
     follow: true,
     googleBot: { index: false, follow: true },
   },
-};
+});
 
 export default function MentionsLegales() {
   return (

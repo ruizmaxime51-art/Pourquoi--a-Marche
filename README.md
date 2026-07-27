@@ -111,3 +111,20 @@ les précautions ICSC, un schéma pédagogique, une photo éditoriale et une ép
 
 Le dossier `docs/pack-seo-percarbonate-v38.md` regroupe la cible SEO, les requêtes observées,
 le maillage, les textes Pinterest, les prompts visuels et les prochaines pages à produire.
+
+## Version 40 — audit scientifique, SEO et recettes
+
+Cette version corrige les canonicales, les métadonnées sociales, les titres longs, la taxonomie
+Fermentation/Conservation et la méthode des comparatifs. Elle harmonise les recettes de kimchi et
+de carottes autour du salage, de l’immersion et du contrôle du pH.
+
+La recette de savon utilise désormais une formule unique à l’huile d’amande douce :
+300 g d’huile d’olive, 150 g d’huile de coco, 50 g d’huile d’amande, 69,0 g de NaOH et 174 g
+d’eau. Des séries d’images en vue subjective et quatre nouveaux visuels Pinterest sont intégrés.
+
+Les détails se trouvent dans :
+
+- `docs/audit-global-contenu-seo-v40.md` ;
+- `docs/cartographie-requetes-seo-v40.md` ;
+- `docs/journal-corrections-v40.md` ;
+- `docs/pack-pinterest-recettes-v40.md`.

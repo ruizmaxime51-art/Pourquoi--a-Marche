@@ -1,9 +1,11 @@
 import Link from 'next/link';
+import { buildPageMetadata } from '@/lib/metadata';
 
-export const metadata = {
+export const metadata = buildPageMetadata({
   title: 'Outils pratiques',
   description: 'Calculateurs et simulateurs pour adapter les recettes maison avec une logique chimique.',
-};
+  path: '/outils',
+});
 
 export default function ToolsPage() {
   return (

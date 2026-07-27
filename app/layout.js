@@ -19,7 +19,6 @@ export const metadata = {
   },
   description: SITE_DESCRIPTION,
   applicationName: SITE_NAME,
-  alternates: { canonical: SITE_URL },
   openGraph: {
     type: 'website',
     url: SITE_URL,
@@ -85,7 +84,7 @@ export default function RootLayout({ children }) {
               <div className="label">Pourquoi faire confiance ?</div>
               <h3>Des recettes maison expliquées comme des formulations.</h3>
               <p>
-                Ingénieur chimiste, je relie les recettes aux mécanismes réels : pH,
+                Avec une formation d’ingénieur chimiste, je relie les recettes aux mécanismes réels : pH,
                 solubilité, émulsion, fermentation, sécurité et limites d'usage. Les liens
                 affiliés servent à recommander le bon matériel, pas à masquer une recette fragile.
               </p>

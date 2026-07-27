@@ -1,8 +1,11 @@
-export const metadata = {
+import { buildPageMetadata } from '@/lib/metadata';
+
+export const metadata = buildPageMetadata({
   title: 'Politique de confidentialité',
   description: "Politique de confidentialité du site Chimie Maison.",
+  path: '/politique-confidentialite',
   robots: { index: false, follow: true },
-};
+});
 
 export default function Confidentialite() {
   return (

@@ -1,17 +1,24 @@
 import Link from 'next/link';
 import { usageCategories } from '@/lib/categories';
 import { getArticlesByCategory } from '@/lib/articles';
+import { buildPageMetadata } from '@/lib/metadata';
 import ArticleCard from '../_components/ArticleCard';
 
-export const metadata = {
+export const metadata = buildPageMetadata({
   title: 'Recettes maison',
   description: 'Toutes les recettes maison classées par usage : cosmétique, entretien, conservation et fermentation.',
-};
+  path: '/recettes',
+});
 
 export default function RecettesPage() {
-  const recipes = usageCategories
-    .flatMap((cat) => getArticlesByCategory(cat.slug))
-    .filter((article) => article.type !== 'notion');
+  const recipes = Array.from(
+    new Map(
+      usageCategories
+        .flatMap((cat) => getArticlesByCategory(cat.slug))
+        .filter((article) => article.type !== 'notion')
+        .map((article) => [article.slug, article])
+    ).values()
+  );
 
   return (
     <main>
