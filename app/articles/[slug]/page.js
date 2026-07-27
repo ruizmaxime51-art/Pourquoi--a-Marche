@@ -1,17 +1,24 @@
 import { getAllSlugs, getArticle, getRelatedArticles } from '@/lib/articles';
 import { SITE_URL, SITE_NAME, DEFAULT_OG_IMAGE } from '@/lib/site';
+import { categories } from '@/lib/categories';
 import { imageDimensions } from '@/lib/imageDimensions';
+import { notFound } from 'next/navigation';
 import ArticleHero from '@/app/_components/ArticleHero';
+import Breadcrumbs from '@/app/_components/Breadcrumbs';
 import RelatedArticles from '@/app/_components/RelatedArticles';
 import TakeawayBox from '@/app/_components/TakeawayBox';
 import PrintRecipeButton from '@/app/_components/PrintRecipeButton';
+
+export const dynamicParams = false;
 
 export async function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));
 }
 
 export async function generateMetadata({ params }) {
-  const article = await getArticle(params.slug);
+  const { slug } = await params;
+  const article = await getArticle(slug);
+  if (!article) notFound();
   const image = article.image || DEFAULT_OG_IMAGE;
   const dimensions = imageDimensions[image] || { width: 1200, height: 630 };
   const pinterestDimensions = article.pinterestImage
@@ -51,7 +58,9 @@ export async function generateMetadata({ params }) {
 }
 
 export default async function ArticlePage({ params }) {
-  const article = await getArticle(params.slug);
+  const { slug } = await params;
+  const article = await getArticle(slug);
+  if (!article) notFound();
   const related = getRelatedArticles(article);
   const image = article.image || DEFAULT_OG_IMAGE;
   const url = `${SITE_URL}/articles/${article.slug}`;
@@ -63,6 +72,7 @@ export default async function ArticlePage({ params }) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }}
       />
+      <Breadcrumbs article={article} />
       <ArticleHero article={article} />
       <div className="article-shell" id="lecture">
         <article className="post">
@@ -94,6 +104,7 @@ function buildStructuredData(article, url, image) {
   const howtos = Array.isArray(article.howtos) ? article.howtos : [];
   const howToIds = howtos.map((_, index) => `${url}#howto-${index + 1}`);
   const recipeId = article.recipe ? `${url}#recipe` : null;
+  const category = categories[article.category];
 
   const articleEntity = {
     '@type': 'Article',
@@ -170,10 +181,38 @@ function buildStructuredData(article, url, image) {
       }
     : null;
 
+  const breadcrumbEntity = {
+    '@type': 'BreadcrumbList',
+    '@id': `${url}#breadcrumb`,
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Accueil',
+        item: `${SITE_URL}/`,
+      },
+      ...(category
+        ? [{
+            '@type': 'ListItem',
+            position: 2,
+            name: category.label,
+            item: `${SITE_URL}/${category.slug}`,
+          }]
+        : []),
+      {
+        '@type': 'ListItem',
+        position: category ? 3 : 2,
+        name: article.h1 || article.title,
+        item: url,
+      },
+    ],
+  };
+
   return {
     '@context': 'https://schema.org',
     '@graph': [
       articleEntity,
+      breadcrumbEntity,
       ...(recipeEntity ? [recipeEntity] : []),
       ...howToEntities,
     ],

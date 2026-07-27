@@ -135,7 +135,7 @@ chou.
 <li>Balance de cuisine</li>
 <li>Casserole, bassine, passoire et ustensiles propres</li>
 <li>Pilon alimentaire propre pour tasser sans introduire la main dans le bocal</li>
-<li>Gants alimentaires pour manipuler la pâte pimentée</li>
+<li><a href="#mat-gants">Gants nitrile jetables sans poudre, adaptés au contact alimentaire</a>, pour manipuler la pâte pimentée</li>
 <li>pH-mètre alimentaire correctement étalonné ; une bandelette universelle ne suffit pas pour décider précisément autour de pH 4,6</li>
 </ul>
 </div>
@@ -144,6 +144,17 @@ chou.
 <h4>Allergènes et sécurité</h4>
 <p>Cette version ne contient pas de poisson, mais le miso et le tamari contiennent généralement du <strong>soja</strong>, et une sauce soja classique peut contenir du <strong>blé</strong>. Le suivi de l’hygiène, de la température et d’un pH inférieur ou égal à 4,6 reste identique à la version classique.{{ref:csu-kimchi}} Étalonnez la sonde avec des tampons pH 4 et 7 et suivez la méthode du fabricant.{{ref:umn-ph-meter}}</p>
 </div>
+
+<a id="mat-gants"></a>
+## Quels gants utiliser pour le kimchi ?
+
+Les gants nitrile Saraya déjà présents au catalogue conviennent pour manipuler la pâte pimentée :
+le fabricant les décrit comme **sans poudre** et conformes au contact alimentaire.{{ref:saraya-nitrile-food}}
+Utilisez une paire propre, jetez-la après la préparation et ne touchez pas votre visage pendant
+l’enrobage. Ces gants sont proposés ici pour l’hygiène et le piment, pas comme protection contre
+la soude caustique.
+
+{{affil:gants-nitrile-jetables}}
 
 ## Comment remplacer la sauce de poisson sans perdre l’umami ?
 

@@ -15,6 +15,7 @@ type: "comparatif"
 excerpt: "Comparatif de quatre solutions pour débuter, fermenter régulièrement ou préparer de grands volumes : bocal mécanique, valve, poids et kit complet."
 formula: "immersion + sortie du CO₂ + volume adapté"
 image: "/images/lacto-etape2-versement-saumure.webp"
+imageAlt: "Saumure transparente versée dans un bocal de bâtonnets de carotte maintenus sous le liquide"
 date: "2026-07-16"
 updated: "2026-07-24"
 takeaways:

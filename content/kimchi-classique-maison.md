@@ -129,7 +129,7 @@ plutôt que des cuillères approximatives.
 <li>Une balance lisible à 0,1 g ou 1 g</li>
 <li>Une grande bassine alimentaire, une passoire et des ustensiles propres</li>
 <li>Un pilon alimentaire propre pour tasser sans introduire la main dans le bocal</li>
-<li>Des gants alimentaires pour éviter l’irritation par le piment</li>
+<li><a href="#mat-gants">Des gants nitrile jetables sans poudre, adaptés au contact alimentaire</a>, pour éviter l’irritation par le piment</li>
 <li>Un pH-mètre alimentaire étalonné pour suivre l’acidification ; une bandelette universelle ne suffit pas pour décider précisément autour de pH 4,6</li>
 </ul>
 </div>
@@ -138,6 +138,17 @@ plutôt que des cuillères approximatives.
 <h4>Point de sécurité</h4>
 <p>Cette recette repose sur une fermentation spontanée. L’hygiène, le salage, la température et l’acidification doivent être suivis. Colorado State University Extension recommande que le kimchi atteigne un pH de 4,6 ou moins avant consommation.{{ref:csu-kimchi}} Une mesure de pH ne compense toutefois jamais un matériel sale, une moisissure visible ou une odeur de putréfaction. Étalonnez la sonde avec des tampons pH 4 et 7 et suivez la méthode du fabricant.{{ref:umn-ph-meter}}</p>
 </div>
+
+<a id="mat-gants"></a>
+## Quels gants utiliser pour le kimchi ?
+
+Les gants nitrile Saraya déjà présents au catalogue conviennent pour manipuler la pâte pimentée :
+le fabricant les décrit comme **sans poudre** et conformes au contact alimentaire.{{ref:saraya-nitrile-food}}
+Utilisez une paire propre, jetez-la après la préparation et ne touchez pas votre visage pendant
+l’enrobage. Ces gants sont proposés ici pour l’hygiène et le piment, pas comme protection contre
+la soude caustique.
+
+{{affil:gants-nitrile-jetables}}
 
 ## Ce qui distingue ce kimchi d’un simple chou assaisonné
 

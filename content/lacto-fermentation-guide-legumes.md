@@ -10,6 +10,7 @@ excerpt: Le guide pratique pour choisir les bons légumes, décider entre salage
   et éviter les erreurs classiques.
 formula: légumes + sel + bocal fermé + immersion
 image: /images/lacto-guide-legumes.webp
+imageAlt: "Bocal rempli de chou, carottes, radis et aromates préparés pour une lacto-fermentation"
 date: '2026-07-14'
 updated: '2026-07-24'
 sommaire: true

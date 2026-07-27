@@ -1,6 +1,11 @@
 import Link from 'next/link';
 import MobileNavigation from './components/MobileNavigation';
 import { Analytics } from '@vercel/analytics/next';
+import '@fontsource/roboto/latin-300.css';
+import '@fontsource/roboto/latin-400.css';
+import '@fontsource/roboto/latin-500.css';
+import '@fontsource/roboto/latin-700.css';
+import '@fontsource/roboto/latin-900.css';
 import './globals.css';
 import { SITE_URL, SITE_NAME, SITE_DESCRIPTION, DEFAULT_OG_IMAGE } from '@/lib/site';
 
@@ -43,11 +48,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fr">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet" />
-      </head>
       <body>
         <div className="reading-progress" aria-hidden="true" />
         <header className="site-header">

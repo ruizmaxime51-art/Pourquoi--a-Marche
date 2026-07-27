@@ -13,6 +13,7 @@ type: "comparatif"
 excerpt: "Comparatif de trois balances à 1 g, 0,1 g et 0,01 g pour choisir selon les grandes masses, la soude, le sel et les petits additifs."
 formula: "résolution utile × capacité suffisante"
 image: "/images/savon-etape1-pesee-soude-v2.webp"
+imageAlt: "Pesée de 69,0 g de perles de soude caustique dans un récipient posé sur une balance numérique"
 date: "2026-07-16"
 updated: "2026-07-24"
 takeaways:

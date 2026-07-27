@@ -8,7 +8,7 @@ export default function ArticleCard({ article, variant = 'default' }) {
         {article.image ? (
           <Image
             src={article.image}
-            alt={article.title}
+            alt=""
             fill
             sizes={variant === 'wide' ? '(max-width: 760px) 100vw, 42vw' : '(max-width: 760px) 100vw, 33vw'}
           />

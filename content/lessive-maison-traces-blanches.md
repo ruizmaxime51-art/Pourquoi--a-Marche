@@ -7,6 +7,7 @@ excerpt: 'Eau dure, savon précipité, surdosage ou mauvais rinçage : identifie
   linge et choisir la bonne correction.'
 formula: 2 R–COO⁻ + Ca²⁺ → (R–COO)₂Ca ↓
 image: /images/notion-tensio-9-eau-dure.webp
+imageAlt: "Schéma comparant le comportement du savon en eau douce et la formation de dépôts en eau dure"
 heroFit: contain
 date: '2026-07-16'
 takeaways:

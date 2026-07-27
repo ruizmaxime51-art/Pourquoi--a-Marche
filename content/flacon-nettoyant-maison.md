@@ -15,6 +15,7 @@ type: "comparatif"
 excerpt: "Cinq formats comparés selon le matériau, l’usage, le dosage et la sécurité : spray PEHD, spray PET, pompe, grand contenant et verre ambré."
 formula: "un produit = un contenant dédié = une étiquette lisible"
 image: "/images/nettoyant-detartrant-flacon.webp"
+imageAlt: "Transvasement d’un détartrant liquide transparent dans un flacon spray à l’aide d’un entonnoir"
 date: "2026-07-16"
 updated: "2026-07-24"
 takeaways:

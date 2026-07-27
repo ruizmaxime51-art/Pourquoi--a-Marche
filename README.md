@@ -4,7 +4,7 @@ Site d'affiliation éditorial autour des recettes maison expliquées par la chim
 
 ## Stack
 
-- Next.js 14 / App Router
+- Next.js 15.5.21 / App Router
 - Articles en Markdown dans `content/`
 - Affiliations centralisées dans `lib/affiliations.js`
 - Sources scientifiques centralisées dans `lib/references.js`
@@ -22,7 +22,7 @@ Cette version ajoute :
 - page `/outils` et premier simulateur `/outils/lessive-eau-dure` ;
 - styles de lecture longue plus rythmés ;
 - premiers schémas critiques codés en SVG dans `public/images/diagrams/` ;
-- suppression de la dépendance `next/font/google` dans le layout pour éviter les builds bloqués par récupération externe des polices.
+- police Roboto auto-hébergée depuis le paquet `@fontsource/roboto`, sans appel à Google Fonts chez le visiteur.
 
 ## Développement
 
@@ -142,3 +142,28 @@ en bocal du kimchi ont aussi été remplacés par des gestes anatomiquement coh�
 alimentaire.
 
 Le détail se trouve dans `docs/changelog-v41-recettes.md`.
+
+## Version 42 — affiliation et compatibilité des produits
+
+Les gants nitrile Saraya sont maintenant reliés aux deux recettes de kimchi avec leur aptitude au
+contact alimentaire documentée. Les cristaux de soude St Marc restent proposés comme alternative
+ménagère, en demandant de suivre l’étiquette plutôt que de les assimiler au décahydrate pur.
+
+Un pichet filtrant en verre borosilicaté n’est pas retenu pour dissoudre la soude caustique :
+la résistance thermique ne garantit pas la compatibilité avec une base forte chaude. Les détails
+se trouvent dans `docs/changelog-v42-affiliation-produits.md`.
+
+## Version 43 — socle professionnel, SEO et sécurité
+
+Cette version ajoute les éléments validés avant génération du nouveau ZIP :
+
+- mise à jour vers Next.js 15.5.21 et React 19.2.8 ;
+- redirection du domaine racine et de l’ancienne adresse Vercel vers `www.chimiemaison.fr` ;
+- en-têtes de sécurité, suppression de l’autorisation générale des images externes et police
+  Roboto auto-hébergée ;
+- page 404, fil d’Ariane visible et balisage `BreadcrumbList` sur les 22 articles ;
+- textes alternatifs explicites pour toutes les images principales ;
+- contrôles GitHub automatiques du build, des liens, images, produits et dépendances ;
+- ajout du pichet Hünersdorff 937000 en polypropylène avec ses conditions d’utilisation.
+
+Le détail se trouve dans `docs/changelog-v43-socle-professionnel.md`.

@@ -58,11 +58,21 @@ for (const slug of slugs.sort()) {
     ...source.matchAll(/(?:^|[\s("'=:])\/images\/([^\s)"'<>]+)/g),
   ].map((match) => path.join('public', 'images', match[1]));
 
+  if (article.image && !article.imageAlt?.trim()) {
+    errors.push(`${slug}: image principale sans texte alternatif explicite`);
+  }
+
   for (const imagePath of new Set(imagePaths)) {
     if (!fs.existsSync(imagePath)) {
       errors.push(`${slug}: image introuvable /${imagePath.replace(/^public\//, '')}`);
     } else if (fs.statSync(imagePath).size === 0) {
       errors.push(`${slug}: image vide /${imagePath.replace(/^public\//, '')}`);
+    }
+  }
+
+  for (const relatedSlug of article.related || []) {
+    if (!slugSet.has(relatedSlug)) {
+      errors.push(`${slug}: article lié introuvable ${relatedSlug}`);
     }
   }
 
@@ -145,5 +155,5 @@ if (errors.length) {
 }
 
 console.log(
-  `\nPASS — ${rows.length} articles contrôlés, aucune ancre ou image cassée, aucun produit inconnu, aucun lien Amazon codé en dur et catalogue affilié cohérent.`,
+  `\nPASS — ${rows.length} articles contrôlés : ancres, images, textes alternatifs, maillage, produits et liens affiliés sont cohérents.`,
 );

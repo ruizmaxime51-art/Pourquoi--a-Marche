@@ -7,6 +7,7 @@ type: guide
 excerpt: 'Linge jauni, café, vin, sang, graisse ou rouille : savoir quand le percarbonate est pertinent, quel dosage tester et quand choisir un autre détachant.'
 formula: 2 Na₂CO₃·3 H₂O₂ → 2 Na₂CO₃ + 3 H₂O₂
 image: /images/percarbonate-linge-hero.webp
+imageAlt: "Mains gantées mesurant du percarbonate de soude près d’un bol d’eau et de linge blanc"
 date: '2026-07-24'
 takeaways:
 - Choisir le percarbonate selon la tache et le textile

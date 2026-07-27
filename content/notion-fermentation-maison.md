@@ -9,6 +9,7 @@ excerpt: 'Les bases scientifiques communes au levain et à la lacto-fermentation
   sel, température et sécurité.'
 formula: sucres → acides + CO₂
 image: /images/lacto-fermentation-ph.webp
+imageAlt: "Courbe montrant la chute progressive du pH pendant une fermentation jusqu’à une zone stable et acide"
 date: '2026-07-13'
 takeaways:
 - Comprendre pourquoi l'acidification sécurise une fermentation

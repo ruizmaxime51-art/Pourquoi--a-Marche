@@ -7,6 +7,7 @@ excerpt: 'Deux recettes séparées et efficaces : un détartrant à l’acide ci
   de soude, avec les surfaces à éviter.'
 formula: acide pour calcaire · base pour graisse
 image: /images/nettoyant-detartrant-flacon.webp
+imageAlt: "Transvasement d’un détartrant liquide transparent dans un flacon spray à l’aide d’un entonnoir"
 type: recette
 date: '2026-07-01'
 updated: '2026-07-27'
@@ -243,11 +244,14 @@ caustique, elle, est corrosive et impose en plus lunettes, ventilation et protec
 <a id="mat-cristaux"></a>
 <div class="notice-box">
 <h4>Quel carbonate acheter ?</h4>
-<p>Le produit St Marc déjà présent au catalogue n’est pas retenu ici comme équivalent automatique :
-sa fiche commerciale ne documente pas assez clairement la forme hydratée nécessaire à ce calcul.
-Choisissez un produit dont l’étiquette précise « carbonate de sodium décahydraté
-(Na₂CO₃·10H₂O) » et sa pureté, ou suivez strictement le dosage du fabricant.</p>
+<p>Les cristaux de soude St Marc restent proposés comme alternative ménagère d’une marque connue.
+Suivez alors strictement le dosage et les surfaces indiqués sur leur étiquette. Ne remplacez pas
+automatiquement les 15,0 g de décahydrate de la fiche par 15,0 g d’un produit commercial dont la
+forme hydratée et la pureté ne sont pas précisées. Pour reproduire exactement la formule, choisissez
+un produit étiqueté « carbonate de sodium décahydraté (Na₂CO₃·10H₂O) » avec une pureté documentée.</p>
 </div>
+
+{{affil:cristaux-soude}}
 
 <a id="mat-flacon"></a>
 {{affil:flacon-spray}}

@@ -13,6 +13,7 @@ type: "comparatif"
 excerpt: "Comparatif des gants réutilisables, gants jetables, lunettes EN 166, surlunettes, visière et tablier pour préparer une solution de soude."
 formula: "barrière adaptée + poste organisé"
 image: "/images/savon-etape2-dissolution-soude.webp"
+imageAlt: "Mains protégées par des gants bleus versant lentement des perles de soude dans l’eau d’un récipient gradué"
 date: "2026-07-16"
 updated: "2026-07-24"
 takeaways:

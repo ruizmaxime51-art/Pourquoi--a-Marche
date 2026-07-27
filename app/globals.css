@@ -15,6 +15,7 @@
   --amber-wash: #F6EEDC;
 
   /* Fontes (chargées via next/font) */
+  --font-roboto: "Roboto";
   --font-display: var(--font-roboto), Arial, sans-serif;
   --font-body: var(--font-roboto), Arial, sans-serif;
   --font-mono: var(--font-roboto), Arial, sans-serif;
@@ -2617,6 +2618,75 @@ table.compare th {
   .recipe-fact { border: 1px solid #bbb; background: #fff !important; }
   .recipe-card table { display: table !important; width: 100% !important; overflow: visible !important; }
   .recipe-card a { color: #000 !important; text-decoration: none !important; }
+}
+
+/* v43 — Fil d’Ariane et page 404 */
+.breadcrumbs {
+  padding-top: 18px;
+  padding-bottom: 4px;
+}
+.breadcrumbs ol {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: .78rem;
+  color: var(--ink-soft);
+}
+.breadcrumbs li {
+  display: inline-flex;
+  align-items: center;
+  min-width: 0;
+}
+.breadcrumbs li:not(:last-child)::after {
+  content: "›";
+  margin-left: 6px;
+  color: var(--amber-deep);
+}
+.breadcrumbs a {
+  color: var(--green-deep);
+  text-decoration-thickness: 1px;
+}
+.breadcrumbs [aria-current="page"] {
+  overflow: hidden;
+  max-width: 52ch;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.not-found-page {
+  min-height: 58vh;
+  padding-top: clamp(64px, 10vw, 112px);
+  padding-bottom: clamp(72px, 12vw, 128px);
+}
+.not-found-page p {
+  max-width: 56ch;
+  color: var(--ink-soft);
+}
+.not-found-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+@media (max-width: 620px) {
+  .breadcrumbs {
+    padding-top: 12px;
+    padding-bottom: 0;
+  }
+  .breadcrumbs [aria-current="page"] {
+    max-width: 24ch;
+  }
+  .not-found-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .not-found-actions a {
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 /* ─────────────────────────────────────────────────────────────

@@ -6,6 +6,7 @@ excerpt: 'Un protocole pratique pour fabriquer un savon surgras : matériel, sé
   cure et erreurs à éviter.'
 formula: 500 g d’huiles · 69,0 g NaOH · surgras théorique ≈ 8 %
 image: /images/savon-etape6-decoupe.webp
+imageAlt: 'Découpe régulière de pains de savon jaune dans un guide de coupe en bois, avec des gants de protection'
 pinterestImage: /images/pinterest/savon-amande-douce-pinterest.jpg
 pinterestTitle: 'Savon surgras à l’amande douce : formule corrigée'
 pinterestDescription: 'Une recette de savon à froid avec 300 g d’huile d’olive, 150 g de coco, 50 g d’amande douce et 69,0 g de NaOH, avec calcul et protections.'
@@ -42,7 +43,7 @@ howtos:
   - Lunettes-masque EN 166 avec protection contre les projections liquides
   - Gants chimiques EN ISO 374 compatibles avec la soude
   - Balance à 0,1 g
-  - Récipient compatible avec la soude
+  - Pichet dédié en polypropylène compatible avec les bases
   - Mixeur plongeant dédié
   - Thermomètre
   - Moule à savon
@@ -51,7 +52,7 @@ howtos:
     text: Mettre les protections, préparer le poste et peser séparément les huiles, l’eau et la soude.
     image: /images/savon-etape1-pesee-soude-v2.webp
   - name: Préparer la solution de soude
-    text: Verser lentement la soude dans l’eau, jamais l’inverse, puis laisser refroidir en zone ventilée.
+    text: Poser le pichet en polypropylène dans un bac stable, verser lentement la soude dans l’eau à température ambiante, jamais l’inverse, puis laisser refroidir en zone ventilée sans fermer le récipient.
     image: /images/savon-etape2-dissolution-soude.webp
   - name: Préparer les huiles
     text: Mélanger les huiles et les amener dans une plage de température compatible avec la solution de soude.
@@ -99,6 +100,7 @@ dans la notion dédiée, pour ne pas alourdir le protocole.
 <li><a href="#mat-lunettes">Lunettes-masque 3M 2890A</a> — protection des yeux contre les projections liquides</li>
 <li><a href="#mat-gants">Gants chimiques EN ISO 374</a> — protection des mains et des poignets</li>
 <li><a href="#mat-balance">Balance de précision 0,1g</a> — pour un dosage fiable, non négociable</li>
+<li><a href="#mat-pichet">Pichet Hünersdorff 2 L en polypropylène</a> — récipient dédié à la solution de soude</li>
 <li><a href="#mat-thermo">Thermomètre à sonde digital</a> — suivre le refroidissement de la soude</li>
 <li><a href="#mat-mixeur">Mixeur plongeant</a> — atteindre la trace en quelques minutes</li>
 <li><a href="#mat-moule">Moule à savon + outils de découpe</a> — mise en forme et démoulage</li>
@@ -184,7 +186,7 @@ ou le taux de surgras, il faut refaire le calcul de NaOH. La méthode est expliq
 <h4>Étapes</h4>
 <ol>
 <li><strong>Préparer et peser.</strong> Mettre les protections, sécuriser le poste, puis peser séparément 69,0 g de soude, 174 g d’eau et les trois huiles. Une balance au gramme près n’est pas assez précise pour la soude.<img src="/images/savon-etape1-pesee-soude-v2.webp" alt="Pesée précise de 69,0 g de soude caustique sur une balance graduée à 0,1 g" /></li>
-<li><strong>Préparer la solution de soude.</strong> Verser lentement la soude solide dans l’eau — jamais l’inverse — avec des gants chimiques EN ISO 374 et des lunettes-masque, dans une zone très aérée. Laisser la solution redescendre à 40–45 °C sans bain froid ni risque de renversement.<img src="/images/savon-etape2-dissolution-soude.webp" alt="Dissolution exothermique de la soude dans l’eau avec protection contre les projections" /></li>
+<li><strong>Préparer la solution de soude.</strong> Poser le pichet en polypropylène dédié dans un bac de rétention stable. Verser lentement la soude solide dans l’eau à température ambiante — jamais l’inverse — avec des gants chimiques EN ISO 374 et des lunettes-masque, dans une zone très aérée. Ne pas fermer le récipient. Laisser la solution redescendre à 40–45 °C sans bain froid ni risque de renversement.<img src="/images/savon-etape2-dissolution-soude.webp" alt="Dissolution exothermique de la soude dans l’eau avec protection contre les projections" /></li>
 <li><strong>Préparer les huiles.</strong> Faire fondre doucement l’huile de coco, ajouter l’huile d’olive et l’huile d’amande douce, puis amener le mélange autour de 40–45 °C.<img src="/images/savon-etape3-melange-huiles.webp" alt="Mélange de l’huile d’olive avec les huiles de coco et d’amande douce" /></li>
 <li><strong>Atteindre la trace.</strong> Verser la solution de soude dans les huiles. Mixer par impulsions de 10 à 15 secondes, en alternant avec la spatule, jusqu’à obtenir une trace légère et homogène.<img src="/images/savon-etape4-trace.webp" alt="Pâte à savon épaissie laissant une trace visible" /></li>
 <li><strong>Couler dans le moule.</strong> Verser la pâte, tapoter le moule pour chasser les bulles, couvrir et laisser reposer 24 à 48 heures à température stable.<img src="/images/savon-etape5-versement-moule.webp" alt="Versement de la pâte à savon dans un moule en silicone" /></li>
@@ -235,6 +237,16 @@ la fin de la cure. Pour la comparaison détaillée entre méthode à froid et m�
 
 <a id="mat-soude"></a>
 {{affil:soude}}
+
+<a id="mat-pichet"></a>
+Le pichet Hünersdorff 937000 est en polypropylène, avec une capacité de 2 L. Sa fiche annonce une
+plage de -20 à +100 °C et une très bonne résistance aux alcalis{{ref:hunersdorff-937000-specs}}.
+Le PP présente généralement une excellente compatibilité avec les bases à 20 °C, mais la
+température, la concentration, la durée de contact et l’état du récipient comptent aussi
+{{ref:thermofisher-pp-compatibility}}. Il doit donc rester dédié au savon et être remplacé au
+premier signe de blanchiment, rayure profonde, fissure ou déformation.
+
+{{affil:pichet-pp-hunersdorff-2l}}
 
 <a id="mat-lunettes"></a>
 {{affil:lunettes-masque-3m-2890a}}

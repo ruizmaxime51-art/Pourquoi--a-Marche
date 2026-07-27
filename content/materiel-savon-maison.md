@@ -8,8 +8,9 @@ excerpt: La liste du matériel indispensable pour la saponification à froid, le
   et les accessoires réellement utiles.
 formula: sécurité + pesée + mélange + cure
 image: /images/savon-etape5-versement-moule.webp
+imageAlt: 'Pâte à savon versée depuis un récipient en inox dans un moule rectangulaire en silicone'
 date: '2026-07-16'
-updated: '2026-07-24'
+updated: '2026-07-27'
 takeaways:
 - Séparer le matériel indispensable des accessoires facultatifs
 - Choisir des récipients compatibles avec la soude
@@ -74,8 +75,11 @@ Pour la solution de soude et le mélange, utilisez de préférence :
 - du polyéthylène haute densité identifié **HDPE** ;
 
 Pour la dissolution concentrée et chaude, le verre n’est pas le premier choix : un choc thermique,
-une microfissure ou une attaque progressive par la base peut conduire à une rupture. Préférez un
-récipient polymère explicitement compatible ou de l’inox adapté, stable et dédié.
+une microfissure ou une attaque progressive par la base peut conduire à une rupture. La simple
+mention « verre borosilicaté » ou « résistant aux changements de température » ne prouve pas la
+compatibilité avec une solution concentrée et chaude d’hydroxyde de sodium : les solutions
+alcalines attaquent aussi le verre.{{ref:dwk-borosilicate-alkali}} Préférez un récipient polymère
+explicitement compatible ou de l’inox adapté, stable et dédié.
 
 **L’aluminium est à exclure.** Il réagit avec les bases fortes et peut libérer du dihydrogène.
 Évitez également les récipients dont le matériau n’est pas identifié, les surfaces abîmées et
@@ -111,9 +115,24 @@ Le récipient doit :
 
 Versez toujours **la soude dans l’eau**, lentement, jamais l’eau sur la soude.
 
-Le catalogue ne contient pas encore de pichet que nous puissions recommander sur une fiche assez
-précise. Cherchez un récipient stable de 1 à 1,5 L, dédié au savon, en polypropylène marqué `PP 5`
-ou en inox 304/316, avec poignée solide et parois hautes ; excluez l’aluminium.
+Le pichet Hünersdorff 937000 est une option cohérente pour cette recette : sa fiche l’identifie
+comme un récipient de 2 L en polypropylène, utilisable de -20 à +100 °C et présentant une très
+bonne résistance chimique annoncée aux alcalis{{ref:hunersdorff-937000-specs}}. Les données
+générales de compatibilité du PP classent aussi les bases parmi les usages favorables à 20 °C,
+mais rappellent que la température, la concentration, la durée de contact et les contraintes
+mécaniques modifient la résistance réelle{{ref:thermofisher-pp-compatibility}}.
+
+Cette sélection reste donc **documentaire** : elle ne constitue pas une certification du pichet
+pour chaque concentration et chaque température de solution de NaOH.
+
+<div class="notice-box">
+<h4>Conditions d’utilisation du pichet</h4>
+<p>Réservez-le au savon, posez-le dans un bac de rétention stable, utilisez une eau à température
+ambiante et ajoutez progressivement la soude dans l’eau sans fermer le récipient. Remplacez le
+pichet s’il blanchit, se raye profondément, se fissure ou se déforme.</p>
+</div>
+
+{{affil:pichet-pp-hunersdorff-2l}}
 
 {{affil:soude}}
 

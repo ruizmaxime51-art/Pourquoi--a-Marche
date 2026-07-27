@@ -8,6 +8,7 @@ excerpt: 'Eau, choix des huiles, surgraissage, émulsion ou manque de cure : dia
   pas sans ajouter de soude au hasard.'
 formula: savon mou ≠ forcément savon raté
 image: /images/savon-etape6-decoupe.webp
+imageAlt: "Découpe de pains de savon jaune encore tendres dans un guide de coupe en bois"
 date: '2026-07-16'
 takeaways:
 - Distinguer un savon simplement jeune d’un lot réellement séparé

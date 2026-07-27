@@ -12,6 +12,7 @@ excerpt: 'Bulles, saumure trouble, levures de surface ou moisissure colorée : d
   des signes d’altération d’un bocal.'
 formula: 'normal : acide + bulles · alerte : duvet + couleur'
 image: /images/lacto-inspection-bocal.webp
+imageAlt: "Inspection du couvercle et de la surface d’un bocal de carottes lacto-fermentées"
 date: '2026-07-16'
 updated: '2026-07-24'
 takeaways:

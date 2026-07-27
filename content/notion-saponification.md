@@ -9,6 +9,7 @@ excerpt: 'La réaction qui transforme une huile en savon, expliquée à deux niv
   et le mécanisme détaillé pour les curieux de chimie.'
 formula: triglycéride + 3 base → 3 savons + glycérol
 image: /images/notion-sapo-1-reaction.webp
+imageAlt: "Équation de saponification d’un triglycéride par trois molécules de soude donnant du glycérol et trois savons"
 date: '2026-07-09'
 sommaire: true
 takeaways:

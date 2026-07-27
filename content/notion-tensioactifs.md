@@ -7,6 +7,7 @@ excerpt: 'Savon, lessive, shampoing, liquide vaisselle : tous reposent sur les m
   décroche la graisse, pourquoi ça mousse, et pourquoi le calcaire pose problème.'
 formula: tête hydrophile + queue hydrophobe = amphiphile
 image: /images/notion-tensio-1-definition.webp
+imageAlt: "Schéma d’un tensioactif avec une tête hydrophile attirée par l’eau et une queue hydrophobe attirée par les graisses"
 date: '2026-07-09'
 updated: '2026-07-24'
 sommaire: true

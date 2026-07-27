@@ -3,7 +3,7 @@ import { categoryList } from '@/lib/categories';
 import { SITE_URL } from '@/lib/site';
 
 export default function sitemap() {
-  const siteUpdate = new Date('2026-07-24');
+  const siteUpdate = new Date('2026-07-27');
 
   const staticPaths = ['', '/recettes', '/a-propos', '/outils', '/outils/lessive-eau-dure'];
   const categoryPaths = categoryList.map((c) => `/${c.slug}`);

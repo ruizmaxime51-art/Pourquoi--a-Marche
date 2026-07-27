@@ -9,6 +9,7 @@ excerpt: Comprendre pourquoi un acide enlève le calcaire, pourquoi une base dé
   maison sont inefficaces ou dangereux.
 formula: CaCO₃ + acide → CO₂ ; javel + acide → Cl₂
 image: /images/nettoyant-echelle-ph.webp
+imageAlt: "Échelle de pH de 0 à 14 situant l’acide citrique et les cristaux de soude, avec avertissement sur le mélange Javel et acide"
 date: '2026-07-13'
 takeaways:
 - Choisir un nettoyant acide ou basique selon la salissure
