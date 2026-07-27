@@ -128,3 +128,17 @@ Les détails se trouvent dans :
 - `docs/cartographie-requetes-seo-v40.md` ;
 - `docs/journal-corrections-v40.md` ;
 - `docs/pack-pinterest-recettes-v40.md`.
+
+## Version 41 — fiches recettes unifiées
+
+Les six pages de type recette utilisent désormais la même fiche blanche et imprimable :
+informations essentielles au début, ingrédients, étapes illustrées et remarque critique. La page
+des nettoyants contient deux fiches distinctes afin de ne jamais confondre le détartrant acide et
+le dégraissant alcalin.
+
+Le levain et les carottes utilisent maintenant le balisage structuré `Recipe`, réservé aux
+préparations alimentaires. Le savon et les nettoyants conservent `HowTo`. Les deux visuels de mise
+en bocal du kimchi ont aussi été remplacés par des gestes anatomiquement cohérents avec un pilon
+alimentaire.
+
+Le détail se trouve dans `docs/changelog-v41-recettes.md`.

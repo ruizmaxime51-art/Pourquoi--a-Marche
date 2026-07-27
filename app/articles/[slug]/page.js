@@ -75,7 +75,7 @@ export default async function ArticlePage({ params }) {
               et le marquage du modèle exact avant l’achat.
             </aside>
           )}
-          {article.recipe && <PrintRecipeButton />}
+          {(article.recipe || article.howtos?.length > 0) && <PrintRecipeButton />}
           <div className="post-body" dangerouslySetInnerHTML={{ __html: article.contentHtml }} />
           <p className="trust-note">
             Méthode, limites et nature des illustrations :{' '}
