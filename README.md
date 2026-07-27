@@ -167,3 +167,11 @@ Cette version ajoute les éléments validés avant génération du nouveau ZIP :
 - ajout du pichet Hünersdorff 937000 en polypropylène avec ses conditions d’utilisation.
 
 Le détail se trouve dans `docs/changelog-v43-socle-professionnel.md`.
+
+## Version 44 — correction du déploiement Vercel
+
+La configuration Next.js se trouve dans `next.config.js` et utilise la syntaxe ES module
+`export default`. Le nouvel envoi GitHub remplace ainsi l'ancien fichier CommonJS qui provoquait
+l'erreur `module is not defined in ES module scope`.
+
+Le détail se trouve dans `docs/changelog-v44-correction-deploiement.md`.
