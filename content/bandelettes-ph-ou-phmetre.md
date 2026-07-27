@@ -1,6 +1,6 @@
 ---
 title: "pH-mètre alimentaire ou bandelettes : lequel choisir ?"
-seoTitle: "pH-mètre alimentaire : comparatif pour levain, fermentation et cosmétique"
+seoTitle: "pH-mètre ou bandelettes : lequel choisir ?"
 seoDescription: "Bandelettes, pH-mètre alimentaire YINMIK, sonde GIDIGI et solutions tampons : comparatif pour choisir selon les liquides, pâtes et fermentations."
 keywords:
   - "pH mètre alimentaire"
@@ -15,7 +15,7 @@ formula: "bonne sonde + étalonnage + entretien"
 image: "/images/ph-nettoyants.webp"
 heroFit: "contain"
 date: "2026-07-16"
-updated: "2026-07-16"
+updated: "2026-07-24"
 takeaways:
   - "Les bandelettes suffisent pour distinguer grossièrement acide et basique"
   - "Le YINMIK est polyvalent pour liquides, pâtes, levain et cosmétique"
@@ -45,7 +45,8 @@ stockée.
 
 {{sommaire}}
 
-## Notre sélection en un coup d’œil
+<a id="materiel"></a>
+## Sélection d’après les fiches techniques
 
 <table class="compare product-compare">
 <thead><tr><th>Solution</th><th>Pour qui ?</th><th>Point fort</th><th>Limite</th></tr></thead>

@@ -1,12 +1,17 @@
 ---
 title: 'Lacto-fermentation des légumes : lesquels choisir, quoi ajouter et comment faire'
+seoTitle: 'Lacto-fermentation : quels légumes choisir ?'
+seoDescription: 'Quels légumes lacto-fermenter, quelle méthode de salage choisir, quels aromates utiliser et quels signes doivent faire jeter le bocal.'
 category: conservation
+secondaryCategories:
+- fermentation
 type: guide
 excerpt: Le guide pratique pour choisir les bons légumes, décider entre salage à sec et saumure, ajouter des aromates
   et éviter les erreurs classiques.
 formula: légumes + sel + bocal fermé + immersion
 image: /images/lacto-guide-legumes.webp
 date: '2026-07-14'
+updated: '2026-07-24'
 sommaire: true
 takeaways:
 - Savoir quels légumes fermentent bien et lesquels éviter
@@ -146,29 +151,14 @@ que l’entrée d’air est réduite.
 <a id="materiel"></a>
 ## Matériel recommandé pour débuter
 
-<div class="cta-block" id="mat-bocal">
-<div class="cta-text"><strong>Bocal de fermentation 1 L avec couvercle à valve</strong><span>Utile pour laisser sortir le CO₂ sans ouvrir le bocal tous les jours</span></div>
-<div class="cta-action">
-<a class="cta-button" href="https://www.amazon.fr/Diesisa-Borosilicat%C3%A9-Bocal-Fermentation-A%C3%A9rations/dp/B0H158V3C4?linkCode=ll2&tag=maxscience06-21&linkId=1e8f018d1187e889a0ce712844a8104c&ref_=as_li_ss_tl" rel="sponsored noopener" target="_blank">Voir le bocal →</a>
-<span class="cta-reassurance">Lien affilié</span>
-</div>
-</div>
+<a id="mat-bocal"></a>
+{{affil:bocal-fermentation}}
 
-<div class="cta-block" id="mat-poids">
-<div class="cta-text"><strong>Poids de fermentation en verre</strong><span>Maintient les légumes sous la saumure, surtout les bâtonnets et morceaux légers</span></div>
-<div class="cta-action">
-<a class="cta-button" href="https://www.amazon.fr/Okllen-fermentation-ouverture-ramassage-lave-vaisselle/dp/B0BLTKGTPH?linkCode=ll2&tag=maxscience06-21&linkId=00ed55f78e9da4cb3823fc9f6d9e08d7&ref_=as_li_ss_tl" rel="sponsored noopener" target="_blank">Voir les poids →</a>
-<span class="cta-reassurance">Lien affilié</span>
-</div>
-</div>
+<a id="mat-poids"></a>
+{{affil:poids-fermentation}}
 
-<div class="cta-block" id="mat-balance">
-<div class="cta-text"><strong>Balance de précision 0,1 g</strong><span>Pour peser sel et eau au lieu de doser à la cuillère</span></div>
-<div class="cta-action">
-<a class="cta-button" href="https://www.amazon.fr/-/en/Waterproof-Precision-Washable-Stainless-Rechargeable/dp/B0CMH96FTJ?linkCode=ll2&tag=maxscience06-21&linkId=9d90d060797e8abe82176de2c7369a67&ref_=as_li_ss_tl" rel="sponsored noopener" target="_blank">Voir la balance →</a>
-<span class="cta-reassurance">Lien affilié</span>
-</div>
-</div>
+<a id="mat-balance"></a>
+{{affil:balance-bomata-01g}}
 
 ## Protocole général en 7 étapes
 

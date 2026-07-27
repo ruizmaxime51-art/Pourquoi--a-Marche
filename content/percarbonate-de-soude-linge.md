@@ -1,5 +1,6 @@
 ---
 title: 'Percarbonate de soude pour le linge : dosage et précautions'
+seoTitle: 'Percarbonate : dosage selon la tache du linge'
 h1: 'Comment utiliser le percarbonate de soude sans abîmer le linge ?'
 category: entretien
 type: guide
@@ -117,7 +118,7 @@ protocoles normalisés{{ref:compagnie-bicarbonate-dose}}{{ref:monbicarbonate-dos
 annoncée autour de 15 g, mais le volume des granulés et le remplissage de la cuillère varient :
 une balance évite ce flou.
 
-{{affil:percarbonate-amazon-search}}
+{{affil:percarbonate-compagnie-2kg}}
 
 <div class="article-links-block" id="materiel">
 <h4>Matériel utile pour doser et manipuler</h4>

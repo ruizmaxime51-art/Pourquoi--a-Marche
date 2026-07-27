@@ -1,7 +1,10 @@
 ---
 title: 'Fermentation maison : pH, sel et sélection microbienne'
+seoTitle: 'Fermentation maison : pH, sel et microbes'
 category: comprendre
 type: repere
+materialHref: /articles/bocal-lacto-fermentation#materiel
+materialLabel: Matériel de fermentation
 excerpt: 'Les bases scientifiques communes au levain et à la lacto-fermentation : populations microbiennes, acidification,
   sel, température et sécurité.'
 formula: sucres → acides + CO₂

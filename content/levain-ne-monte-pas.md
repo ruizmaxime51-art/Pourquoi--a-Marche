@@ -2,6 +2,8 @@
 title: Pourquoi mon levain ne monte pas ?
 category: fermentation
 type: guide
+materialHref: /articles/levain-naturel-fermentation#materiel
+materialLabel: Matériel pour le levain
 excerpt: 'Bulles sans volume, température trop basse, farine peu fermentescible ou rafraîchis mal rythmés : remettre
   un levain en activité sans repartir au hasard.'
 formula: bulles ≠ forcément doublement du volume

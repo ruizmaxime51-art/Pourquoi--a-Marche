@@ -43,7 +43,7 @@ L'article traite explicitement les cas où le produit est mal choisi : graisse, 
 
 ## Affiliation
 
-- Bloc principal : recherche Amazon affiliée vers `percarbonate de soude pur`, sans figer un vendeur ou un produit dont la composition pourrait changer.
+- Bloc principal : percarbonate de soude Compagnie du Bicarbonate 2 kg, ASIN `B099PVNJ8Q`, dont la fiche annonce une formule sans additif et 100 % à base de percarbonate.
 - Placement : après le tableau de dosage, lorsque le lecteur sait vérifier la composition, la notice et le format.
 - Liens matériels : guides internes vers la balance et les protections ; leurs comparatifs contiennent les liens affiliés existants.
 

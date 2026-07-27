@@ -1,11 +1,17 @@
 ---
 title: 'Savon surgras maison : recette sécurisée à l’huile d’olive'
+seoTitle: 'Savon surgras : recette olive, coco et amande'
 category: cosmetique
 excerpt: 'Un protocole pratique pour fabriquer un savon surgras : matériel, sécurité, quantités précises, trace,
   cure et erreurs à éviter.'
-formula: 500 g d’huiles · 69,5 g NaOH · 8 % surgras
+formula: 500 g d’huiles · 69,0 g NaOH · surgras théorique ≈ 8 %
 image: /images/savon-etape6-decoupe.webp
+pinterestImage: /images/pinterest/savon-amande-douce-pinterest.jpg
+pinterestTitle: 'Savon surgras à l’amande douce : formule corrigée'
+pinterestDescription: 'Une recette de savon à froid avec 300 g d’huile d’olive, 150 g de coco, 50 g d’amande douce et 69,0 g de NaOH, avec calcul et protections.'
+pinterestAlt: 'Savons en cure avec balance, lunettes-masque, gants et trois huiles de la formule'
 date: '2026-07-01'
+updated: '2026-07-24'
 type: recette
 takeaways:
 - Préparer un savon surgras avec des quantités précises
@@ -29,12 +35,12 @@ howtos:
   supplies:
   - 300 g d’huile d’olive
   - 150 g d’huile de coco
-  - 50 g d’huile de colza
-  - 69,5 g de soude caustique NaOH
-  - 165 g d’eau déminéralisée
+  - 50 g d’huile d’amande douce
+  - 69,0 g de soude caustique NaOH pure à plus de 99 %
+  - 174 g d’eau déminéralisée
   tools:
-  - Lunettes de protection
-  - Gants résistants
+  - Lunettes-masque EN 166 avec protection contre les projections liquides
+  - Gants chimiques EN ISO 374 compatibles avec la soude
   - Balance à 0,1 g
   - Récipient compatible avec la soude
   - Mixeur plongeant dédié
@@ -43,7 +49,7 @@ howtos:
   steps:
   - name: Préparer et peser
     text: Mettre les protections, préparer le poste et peser séparément les huiles, l’eau et la soude.
-    image: /images/savon-etape1-pesee-soude.webp
+    image: /images/savon-etape1-pesee-soude-v2.webp
   - name: Préparer la solution de soude
     text: Verser lentement la soude dans l’eau, jamais l’inverse, puis laisser refroidir en zone ventilée.
     image: /images/savon-etape2-dissolution-soude.webp
@@ -90,6 +96,8 @@ dans la notion dédiée, pour ne pas alourdir le protocole.
 <h4>Le matériel de cette recette, en un coup d'œil</h4>
 <ul>
 <li><a href="#mat-soude">Soude caustique en poudre, pureté &gt;99%</a> — l'ingrédient de base de la réaction</li>
+<li><a href="#mat-lunettes">Lunettes-masque 3M 2890A</a> — protection des yeux contre les projections liquides</li>
+<li><a href="#mat-gants">Gants chimiques EN ISO 374</a> — protection des mains et des poignets</li>
 <li><a href="#mat-balance">Balance de précision 0,1g</a> — pour un dosage fiable, non négociable</li>
 <li><a href="#mat-thermo">Thermomètre à sonde digital</a> — suivre le refroidissement de la soude</li>
 <li><a href="#mat-mixeur">Mixeur plongeant</a> — atteindre la trace en quelques minutes</li>
@@ -107,8 +115,8 @@ taux de surgras sans refaire le calcul de soude.
 <thead><tr><th>Paramètre</th><th>Choix retenu</th><th>Pourquoi</th></tr></thead>
 <tbody>
 <tr><td>Huiles totales</td><td>500 g</td><td>Format facile à manipuler, donne environ 6 à 8 savons</td></tr>
-<tr><td>Surgraissage</td><td>8 %</td><td>Marge confortable pour un savon doux</td></tr>
-<tr><td>Soude NaOH</td><td>69,5 g</td><td>Quantité calculée pour ce mélange précis d'huiles</td></tr>
+<tr><td>Surgraissage théorique</td><td>Environ 8 %</td><td>Estimation obtenue avec les valeurs SAP médianes ; les huiles naturelles varient par lot</td></tr>
+<tr><td>Soude NaOH</td><td>69,0 g</td><td>Quantité calculée uniquement pour ce mélange précis d'huiles et une soude à plus de 99 %</td></tr>
 </tbody>
 </table>
 
@@ -116,21 +124,23 @@ taux de surgras sans refaire le calcul de soude.
 <h4>Changer la recette ?</h4>
 <ul>
 <li><a href="/articles/notion-saponification">Lire d'abord la notion saponification : calcul de soude, SAP, surgras</a></li>
-<li>Ne jamais reprendre les 69,5 g de soude si une huile ou une quantité change.</li>
+<li>Ne jamais reprendre les 69,0 g de soude si une huile, une quantité ou la pureté de la soude change.</li>
 </ul>
 </div>
 
 ## Sécurité : ce qui n'est pas négociable
 
-La soude caustique (NaOH) est corrosive et la réaction avec l'eau est fortement exothermique.
-Toujours verser la soude dans l'eau (jamais l'inverse), travailler avec des gants et des
-lunettes de protection, et dans une pièce ventilée — les vapeurs dégagées à la dissolution sont
-irritantes pour les voies respiratoires.
+La soude caustique (NaOH) est corrosive et sa dissolution dans l'eau est fortement exothermique.
+Toujours verser la soude dans l'eau (jamais l'inverse), porter des gants chimiques compatibles,
+des lunettes-masque contre les projections, des vêtements couvrants et travailler dans une pièce
+très aérée. L’Anses et l’INRS insistent sur ces protections et sur la ventilation du poste
+de travail{{ref:anses-diy-soap}}{{ref:inrs-sodium-hydroxide}}.
 
 **Sous quelle forme acheter la soude ?** Pour cette recette, on utilise de la **soude caustique
 solide (poudre ou perles), pureté supérieure à 99%** — pas une solution déjà diluée type
-"déboucheur liquide", dont la concentration réelle n'est jamais garantie et fausserait tout le
-calcul de dosage.
+"déboucheur liquide". Certaines solutions indiquent bien leur concentration, mais leurs additifs,
+leur mode d’emploi et leur adéquation à un cosmétique ne correspondent pas forcément à cette
+formule. Ici, le calcul est prévu pour du NaOH solide dont la pureté est documentée.
 
 <div class="notice-box">
 <h4>Important — ne pas improviser le calcul</h4>
@@ -149,21 +159,49 @@ Rendement : environ 700 g de savon, à découper en 6-8 pains après démoulage.
 <tbody>
 <tr><td>Huile d'olive</td><td>300 g (60 %)</td><td>Douceur, savon dur à moyen terme</td></tr>
 <tr><td>Huile de coco</td><td>150 g (30 %)</td><td>Mousse abondante, dureté rapide</td></tr>
-<tr><td>Huile d'amande douce</td><td>50 g (10 %)</td><td>Surgraissage supplémentaire, peaux sèches</td></tr>
-<tr><td>Soude caustique (NaOH), poudre &gt;99%</td><td>69,5 g</td><td>Calculé pour 8 % de surgraissage sur ce mélange</td></tr>
+<tr><td>Huile d'amande douce</td><td>50 g (10 %)</td><td>Complète le profil d’acides gras de la formule</td></tr>
+<tr><td>Soude caustique (NaOH), poudre &gt;99%</td><td>69,0 g</td><td>Surgras théorique d’environ 8 % avec les valeurs SAP médianes</td></tr>
 <tr><td>Eau déminéralisée</td><td>174 g</td><td>Dissolution de la soude</td></tr>
 </tbody>
 </table>
 
+### D’où vient la valeur de 69,0 g ?
+
+Les normes donnent des **fourchettes**, pas une valeur unique : 184–196 mg KOH/g pour l’huile
+d’olive, 248–265 pour l’huile de coco et 183–207 pour l’huile d’amande{{ref:codex-olive-oil}}{{ref:codex-named-oils}}.
+La monographie USP-NF situe aussi l’huile d’amande à 190–200 mg KOH/g{{ref:nf-almond-oil}}.
+Avec les milieux de ces fourchettes, le besoin à 0 % de surgras est d’environ **75,03 g de NaOH** ;
+après une réduction de 8 %, on obtient **69,03 g**, arrondi à **69,0 g**.
+
+Des travaux publiés décrivent la saponification à froid et la fraction non saponifiée de savons
+expérimentaux, ainsi que la chimie générale des savons{{ref:pubmed-soap}}{{ref:friedman-soap-chemistry}}.
+Ils éclairent le mécanisme, mais ne valident pas automatiquement cette formule domestique : les
+indices SAP du lot, la pureté réelle de NaOH et la précision de pesée restent déterminants.
+
+<div class="notice-box">
+<h4>Valeur valable uniquement pour cette formule</h4>
+<p>La variabilité réelle des huiles signifie que « 8 % » reste une estimation. Utilisez les indices
+SAP et la pureté indiqués par vos fournisseurs lorsque vous les avez. Ne remplacez pas l’amande
+douce, ne changez pas les masses et n’utilisez pas une lessive de soude liquide sans refaire tout
+le calcul.</p>
+</div>
+
 **Étapes détaillées**
 
-![Pesée précise de 69,5g de soude caustique sur une balance 0,1g](/images/savon-etape1-pesee-soude.webp)
+![Pesée précise de 69,0 g de soude caustique sur une balance graduée à 0,1 g](/images/savon-etape1-pesee-soude-v2.webp)
 
-1. **Peser avec la balance de précision (0,1g)** : 69,5 g de soude dans un premier contenant, 174 g d'eau dans un second. C'est l'étape où la précision compte le plus — quelques grammes de soude en trop et le savon reste irritant pour la peau (soude libre résiduelle)&nbsp;; quelques grammes en moins et le surgraissage change, le savon devient plus mou et se conserve moins bien. Une balance de cuisine classique au gramme près n'est pas suffisante ici.
+1. **Peser avec la balance de précision (0,1 g)** : 69,0 g de soude dans un premier contenant, 174 g d'eau dans un second. C'est l'étape où la précision compte le plus — quelques grammes de soude en trop peuvent laisser de la soude libre résiduelle ; quelques grammes en moins modifient le surgraissage et la dureté. Une balance de cuisine au gramme près n'est pas suffisante ici.
 
-![Dissolution de la soude dans l'eau, vapeur visible due à la réaction exothermique](/images/savon-etape2-dissolution-soude.webp)
+![Dissolution exothermique de la soude dans l’eau, avec protection contre les projections et aération du poste](/images/savon-etape2-dissolution-soude.webp)
 
-2. Verser les **perles/poudre de soude caustique (solide)** dans l'eau — jamais l'inverse, verser de l'eau sur de la soude peut provoquer une projection violente. Gants nitrile et lunettes de protection portées, dehors ou en pièce très ventilée. **Sur la température : ce n'est pas nous qui chauffons.** Dissoudre la soude dans l'eau est une réaction chimique qui dégage de la chaleur toute seule (réaction exothermique). La température grimpe spontanément à 70-90°C en quelques secondes, sans plaque chauffante. Utiliser le **thermomètre à sonde** pour suivre la redescente jusqu'à 40-45°C avant de continuer (15-30 minutes&nbsp;; poser le contenant dans un bac d'eau froide accélère le refroidissement).
+2. Verser les **perles/poudre de soude caustique (solide)** dans l'eau — jamais l'inverse, verser
+de l'eau sur de la soude peut provoquer une projection violente. Porter les gants chimiques
+EN ISO 374 compatibles et les lunettes-masque contre les projections, dans une zone très aérée.
+La soude n’est pas volatile : l’échauffement peut toutefois produire de la vapeur d’eau et des
+aérosols irritants. **Sur la température : ce n'est pas nous qui chauffons.** La dissolution
+dégage elle-même beaucoup de chaleur. Utiliser le **thermomètre à sonde** pour suivre la redescente
+jusqu'à 40-45 °C avant de continuer ; ne pas placer le récipient chaud dans un bain froid au risque
+d’un choc thermique ou d’un renversement.
 
 ![Mélange de l'huile d'olive avec les autres huiles de la recette](/images/savon-etape3-melange-huiles.webp)
 
@@ -198,47 +236,29 @@ formulation et l’émulsion sont correctes, l’essentiel de la saponification 
 la fin de la cure. Pour la comparaison détaillée entre méthode à froid et méthode à chaud, voir :
 [la notion saponification](/articles/notion-saponification).
 
+<a id="materiel"></a>
 ## Le matériel, en détail
 
-<div class="cta-block" id="mat-soude">
-<div class="cta-text"><strong>Soude caustique poudre &gt;99%</strong><span>Qualité savonnerie, à ne pas confondre avec un déboucheur</span></div>
-<div class="cta-action">
-<a class="cta-button" href="https://www.amazon.fr/-/en/SOLUP-Caustic-Hydroxide-Cleaning-Degreasing/dp/B0DM1YZ1K6?linkCode=ll2&tag=maxscience06-21&linkId=d4123ea4095081d557b94ed82468cbd1&ref_=as_li_ss_tl" rel="sponsored noopener" target="_blank">Voir le prix →</a>
-<span class="cta-reassurance">Expédié par Amazon</span>
-</div>
-</div>
+<a id="mat-soude"></a>
+{{affil:soude}}
 
-<div class="cta-block" id="mat-balance">
-<div class="cta-text"><strong>Balance de précision 0,1g / 5kg</strong><span>Inox, étanche IP67 — le dosage qui ne pardonne pas</span></div>
-<div class="cta-action">
-<a class="cta-button" href="https://www.amazon.fr/-/en/Waterproof-Precision-Washable-Stainless-Rechargeable/dp/B0CMH96FTJ?linkCode=ll2&tag=maxscience06-21&linkId=9d90d060797e8abe82176de2c7369a67&ref_=as_li_ss_tl" rel="sponsored noopener" target="_blank">Voir le prix →</a>
-<span class="cta-reassurance">Retours gratuits</span>
-</div>
-</div>
+<a id="mat-lunettes"></a>
+{{affil:lunettes-masque-3m-2890a}}
 
-<div class="cta-block" id="mat-thermo">
-<div class="cta-text"><strong>Thermomètre à sonde digital, jusqu'à 300°C</strong><span>ThermoPro — suivre le refroidissement de la soude</span></div>
-<div class="cta-action">
-<a class="cta-button" href="https://www.amazon.fr/-/en/ThermoPro-Instant-Digital-Thermometer-Beverages/dp/B01LXI5HYH?linkCode=ll2&tag=maxscience06-21&linkId=3e12615d5c9fd288808ae727c12bef03&ref_=as_li_ss_tl" rel="sponsored noopener" target="_blank">Voir le prix →</a>
-<span class="cta-reassurance">Livraison rapide</span>
-</div>
-</div>
+<a id="mat-gants"></a>
+{{affil:gants-lanon-en374}}
 
-<div class="cta-block" id="mat-mixeur">
-<div class="cta-text"><strong>Mixeur plongeant, pied inox</strong><span>Amazon Basics — atteindre la trace en quelques minutes</span></div>
-<div class="cta-action">
-<a class="cta-button" href="https://www.amazon.fr/Amazon-Basics-Multispeed-Blender-Included/dp/B0DBTCKLKX?linkCode=ll2&tag=maxscience06-21&linkId=7c8f8dedac636e88a2cf75591bbea113&ref_=as_li_ss_tl" rel="sponsored noopener" target="_blank">Voir le prix →</a>
-<span class="cta-reassurance">Expédié par Amazon</span>
-</div>
-</div>
+<a id="mat-balance"></a>
+{{affil:balance-bomata-01g}}
 
-<div class="cta-block" id="mat-moule">
-<div class="cta-text"><strong>Moule à savon 1200ml + outils de découpe</strong><span>Format loaf, largement suffisant pour 700g de pâte</span></div>
-<div class="cta-action">
-<a class="cta-button" href="https://www.amazon.fr/dp/B08S3G5RVH?linkCode=ll2&tag=maxscience06-21&linkId=50f426f5b45cec57dc827514741579d1&ref_=as_li_ss_tl" rel="sponsored noopener" target="_blank">Voir le prix →</a>
-<span class="cta-reassurance">Retours gratuits</span>
-</div>
-</div>
+<a id="mat-thermo"></a>
+{{affil:thermometre}}
+
+<a id="mat-mixeur"></a>
+{{affil:mixeur}}
+
+<a id="mat-moule"></a>
+{{affil:moule}}
 
 
 ## Petit lexique

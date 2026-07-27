@@ -1,7 +1,7 @@
 ---
 title: 'Kimchi végétarien maison : recette sans sauce de poisson'
 seoTitle: 'Kimchi végétarien maison : recette vegan au miso'
-seoDescription: 'Une recette de kimchi végétarien et vegan au chou chinois, miso, tamari et kombu : quantités, fermentation, pH, conservation et solutions aux problèmes fréquents.'
+seoDescription: 'Recette de kimchi végétarien et vegan au chou chinois, miso et kombu : quantités, salage, fermentation, pH final et conservation.'
 keywords:
 - kimchi végétarien
 - kimchi vegan
@@ -10,10 +10,19 @@ keywords:
 - kimchi maison chou chinois
 - fermentation kimchi végétal
 category: fermentation
+secondaryCategories:
+- conservation
 excerpt: 'Un kimchi entièrement végétal, construit avec du miso, du tamari et une légère infusion de kombu pour conserver une vraie profondeur aromatique.'
 formula: 'chou + miso + fermentation lactique → acidité + umami'
+image: '/images/kimchi-vegan-etape7-bocal-pov.webp'
+imageAlt: 'Kimchi végétarien au miso tassé dans un bocal, vu depuis la personne qui cuisine'
+pinterestImage: '/images/pinterest/kimchi-vegan-pinterest.jpg'
+pinterestTitle: 'Kimchi végétarien au miso et kombu'
+pinterestDescription: 'Une recette de kimchi vegan au chou chinois avec miso, tamari et kombu : salage, pâte végétale, fermentation et pH final.'
+pinterestAlt: 'Bocal de kimchi végétarien avec un bol de dégustation, du miso et du kombu'
 type: recette
 date: '2026-07-18'
+updated: '2026-07-24'
 sommaire: true
 takeaways:
 - Remplacer la sauce de poisson par un assemblage miso, tamari et kombu
@@ -70,22 +79,29 @@ recipe:
   steps:
   - name: 'Préparer la saumure'
     text: 'Dissoudre 120 g de sel non iodé dans 2 litres d’eau froide potable.'
+    image: '/images/kimchi-etape2-salage-pov.webp'
   - name: 'Saler le chou'
     text: 'Couper le chou en morceaux, l’immerger 2 à 3 heures et le retourner régulièrement.'
+    image: '/images/kimchi-etape1-chou-pov.webp'
   - name: 'Rincer et égoutter'
     text: 'Rincer trois fois à l’eau froide puis égoutter au moins 30 minutes.'
+    image: '/images/kimchi-etape3-rincage-pov.webp'
   - name: 'Faire l’infusion de kombu'
     text: 'Faire tremper 3 g de kombu dans 180 ml d’eau pendant 20 minutes, chauffer doucement sans bouillir puis retirer l’algue.'
+    image: '/images/kimchi-vegan-etape4-kombu-pov.webp'
   - name: 'Préparer la pâte végétale'
     text: 'Cuire 15 g de farine de riz dans 150 ml d’infusion, ajouter le sucre, refroidir puis incorporer gochugaru, ail, gingembre, miso et tamari.'
+    image: '/images/kimchi-vegan-etape5-pate-pov.webp'
   - name: 'Ajouter les légumes'
     text: 'Incorporer le daikon, la carotte et les oignons nouveaux à la pâte.'
   - name: 'Enrober et mettre en bocal'
     text: 'Mélanger avec le chou, tasser dans un bocal propre et laisser environ 5 cm d’espace libre.'
+    image: '/images/kimchi-vegan-etape7-bocal-pov.webp'
   - name: 'Fermenter'
     text: 'Fermer avec un système laissant évacuer le gaz et laisser 24 à 48 heures autour de 20 °C en contrôlant quotidiennement le pH.'
   - name: 'Réfrigérer'
     text: 'Quand le pH est inférieur ou égal à 4,6 et que le goût convient, placer le bocal au réfrigérateur.'
+    image: '/images/kimchi-vegan-etape8-ph-pov.webp'
 ---
 
 Cette recette produit un kimchi **végétarien et vegan**, sans sauce de poisson ni crevettes
@@ -119,13 +135,13 @@ chou.
 <li>Balance de cuisine</li>
 <li>Casserole, bassine, passoire et ustensiles propres</li>
 <li>Gants alimentaires pour manipuler la pâte pimentée</li>
-<li>Bandelettes de pH adaptées aux aliments ou pH-mètre correctement étalonné</li>
+<li>pH-mètre alimentaire correctement étalonné ; une bandelette universelle ne suffit pas pour décider précisément autour de pH 4,6</li>
 </ul>
 </div>
 
 <div class="notice-box">
 <h4>Allergènes et sécurité</h4>
-<p>Cette version ne contient pas de poisson, mais le miso et le tamari contiennent généralement du <strong>soja</strong>, et une sauce soja classique peut contenir du <strong>blé</strong>. Le suivi de l’hygiène, de la température et d’un pH inférieur ou égal à 4,6 reste identique à la version classique.{{ref:csu-kimchi}}</p>
+<p>Cette version ne contient pas de poisson, mais le miso et le tamari contiennent généralement du <strong>soja</strong>, et une sauce soja classique peut contenir du <strong>blé</strong>. Le suivi de l’hygiène, de la température et d’un pH inférieur ou égal à 4,6 reste identique à la version classique.{{ref:csu-kimchi}} Étalonnez la sonde avec des tampons pH 4 et 7 et suivez la méthode du fabricant.{{ref:umn-ph-meter}}</p>
 </div>
 
 ## Comment remplacer la sauce de poisson sans perdre l’umami ?
@@ -186,15 +202,15 @@ alimentaire indiquent qu’un starter n’est pas nécessaire pour le kimchi.{{r
 <h4>Étapes</h4>
 <ol>
 <li><strong>Nettoyer.</strong> Laver le bocal, le couvercle, la casserole, la bassine, la passoire et les ustensiles, puis rincer soigneusement.</li>
-<li><strong>Préparer le chou.</strong> Retirer les parties abîmées, rincer, enlever le cœur et couper en morceaux de 4 à 5 cm.</li>
-<li><strong>Saler.</strong> Dissoudre 120 g de sel dans 2 L d’eau, immerger le chou 2 à 3 heures et le retourner toutes les 30 minutes.</li>
-<li><strong>Rincer et égoutter.</strong> Effectuer trois rinçages à l’eau froide puis laisser égoutter au moins 30 minutes.</li>
-<li><strong>Préparer l’infusion.</strong> Faire tremper 3 g de kombu dans 180 g d’eau pendant 20 minutes. Chauffer doucement sans bouillir pendant environ 5 minutes, retirer le kombu et conserver 150 g de liquide.</li>
+<li><strong>Préparer le chou.</strong> Retirer les parties abîmées, rincer, enlever le cœur et couper en morceaux de 4 à 5 cm.<img src="/images/kimchi-etape1-chou-pov.webp" alt="Découpe du chou chinois en morceaux, vue à la première personne" /></li>
+<li><strong>Saler.</strong> Dissoudre 120 g de sel dans 2 L d’eau, immerger le chou 2 à 3 heures et le retourner toutes les 30 minutes.<img src="/images/kimchi-etape2-salage-pov.webp" alt="Chou chinois immergé dans la saumure de salage, vue à la première personne" /></li>
+<li><strong>Rincer et égoutter.</strong> Effectuer trois rinçages à l’eau froide puis laisser égoutter au moins 30 minutes.<img src="/images/kimchi-etape3-rincage-pov.webp" alt="Rinçage du chou salé dans une passoire, vue à la première personne" /></li>
+<li><strong>Préparer l’infusion.</strong> Faire tremper 3 g de kombu dans 180 g d’eau pendant 20 minutes. Chauffer doucement sans bouillir pendant environ 5 minutes, retirer le kombu et conserver 150 g de liquide.<img src="/images/kimchi-vegan-etape4-kombu-pov.webp" alt="Infusion légère de kombu retirée avant la recette, vue à la première personne" /></li>
 <li><strong>Faire la base.</strong> Cuire l’infusion avec 15 g de farine de riz en remuant. Retirer du feu dès léger épaississement, ajouter le sucre et laisser refroidir complètement.</li>
-<li><strong>Construire la pâte.</strong> Mélanger la base froide avec le gochugaru, l’ail, le gingembre, le miso et le tamari. Ajouter daikon, carotte et oignons nouveaux.</li>
-<li><strong>Enrober.</strong> Avec des gants propres, répartir la pâte sur tout le chou.</li>
-<li><strong>Mettre en bocal.</strong> Tasser pour réduire les poches d’air, laisser environ 5 cm d’espace libre et nettoyer le bord.</li>
-<li><strong>Fermenter et réfrigérer.</strong> Laisser 24 à 48 heures autour de 20 °C, contrôler le pH chaque jour et placer au réfrigérateur dès qu’il atteint 4,6 ou moins et que le goût convient.</li>
+<li><strong>Construire la pâte.</strong> Mélanger la base froide avec le gochugaru, l’ail, le gingembre, le miso et le tamari. Ajouter daikon, carotte et oignons nouveaux.<img src="/images/kimchi-vegan-etape5-pate-pov.webp" alt="Pâte végétale au miso, tamari et gochugaru avec les légumes émincés" /></li>
+<li><strong>Enrober.</strong> Avec des gants alimentaires propres réservés à cette étape pimentée, répartir la pâte sur tout le chou.<img src="/images/kimchi-vegan-etape6-enrobage-pov.webp" alt="Enrobage du chou avec la pâte végétale pimentée, mains gantées vues à la première personne" /></li>
+<li><strong>Mettre en bocal.</strong> Tasser pour réduire les poches d’air, laisser environ 5 cm d’espace libre et nettoyer le bord.<img src="/images/kimchi-vegan-etape7-bocal-pov.webp" alt="Tassage du kimchi végétarien dans un bocal en gardant cinq centimètres d’espace libre" /></li>
+<li><strong>Fermenter et réfrigérer.</strong> Laisser 24 à 48 heures autour de 20 °C et contrôler le pH chaque jour. Ne goûter qu’après avoir vérifié un pH inférieur ou égal à 4,60 ; si l’aspect et l’odeur restent normaux, ajuster alors la durée au goût et placer au réfrigérateur.<img src="/images/kimchi-vegan-etape8-ph-pov.webp" alt="Mesure du pH final du kimchi végétarien avec une sonde alimentaire étalonnée" /></li>
 </ol>
 
 <p class="recipe-note"><strong>Retirez le kombu après l’infusion.</strong> Le laisser dans le bocal peut créer une texture glissante qui rend l’observation de la préparation moins lisible.</p>
@@ -217,13 +233,20 @@ pas les quantités indiquées lors du premier essai.
 La sauce de poisson n’est pas indispensable à la croissance des bactéries lactiques. Les légumes
 apportent déjà les microorganismes et les glucides nécessaires. La vitesse dépend surtout de la
 température, du degré de salage, du tassement, du volume et de la charge microbienne initiale.
+Cette succession microbienne et l’effet combiné du sel et de l’acidification sont documentés dans
+la littérature sur les légumes fermentés et le kimchi, sans constituer une validation automatique
+de chaque recette domestique{{ref:vegetable-fermentation-review}}{{ref:kimchi-salt-pathogens}}.
 
 Autour de 20 °C, commencez les contrôles dès 24 heures. La recommandation de Colorado State
 University Extension est de vérifier un pH de 4,6 ou moins avant consommation.{{ref:csu-kimchi}}
 Le repère de 4,6 est également utilisé par la FDA pour la classification des aliments fermentés
 acidifiés.{{ref:fda-fermented-ph}}
 
-{{affil:bandelettes-ph}}
+Pour une préparation colorée et un seuil précis, préférez une sonde alimentaire étalonnée. Le
+comparatif explique quand les bandelettes restent seulement un repère :
+[pH-mètre ou bandelettes, lequel choisir ?](/articles/bandelettes-ph-ou-phmetre).
+
+{{affil:ph-metre-gidigi-sonde}}
 
 ## Quel goût attendre ?
 

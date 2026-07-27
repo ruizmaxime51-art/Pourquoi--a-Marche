@@ -1,5 +1,7 @@
 ---
 title: 'Nettoyants maison : un détartrant et un dégraissant qui ne se mélangent pas'
+seoTitle: 'Nettoyants maison : détartrant ou dégraissant ?'
+seoDescription: 'Deux recettes séparées : acide citrique contre le calcaire et carbonate de sodium contre les graisses, avec dosages, surfaces à tester et mélanges interdits.'
 category: entretien
 excerpt: 'Deux recettes séparées et efficaces : un détartrant à l’acide citrique et un dégraissant aux cristaux
   de soude, avec les surfaces à éviter.'
@@ -7,6 +9,7 @@ formula: acide pour calcaire · base pour graisse
 image: /images/nettoyant-detartrant-flacon.webp
 type: recette
 date: '2026-07-01'
+updated: '2026-07-24'
 takeaways:
 - Préparer un détartrant acide et un dégraissant basique
 - Savoir quelle surface éviter avec chaque produit
@@ -46,12 +49,12 @@ howtos:
     image: /images/nettoyant-detartrant-flacon.webp
   - name: Utiliser
     text: Vaporiser sur le calcaire, laisser agir, essuyer puis rincer.
-- name: Préparer un dégraissant aux cristaux de soude
-  description: Préparer un litre de dégraissant alcalin pour plaques, hottes et surfaces compatibles.
+- name: Préparer un dégraissant doux au carbonate de sodium
+  description: Préparer un litre de solution alcaline pour surfaces grasses compatibles.
   totalTime: PT15M
   yield: 1 litre
   supplies:
-  - 15 g de cristaux de soude
+  - 15 g de carbonate de sodium décahydraté (Na₂CO₃·10H₂O)
   - 1 L d’eau chaude
   tools:
   - Gants
@@ -60,7 +63,7 @@ howtos:
   - Éponge
   steps:
   - name: Peser
-    text: Peser 15 g de cristaux de soude en évitant les poussières.
+    text: Peser 15 g de carbonate de sodium décahydraté en évitant les poussières ; ne pas reprendre cette masse pour une autre forme chimique.
   - name: Dissoudre
     text: Dissoudre les cristaux dans un litre d’eau chaude.
     image: /images/nettoyant-degraissant-dissolution.webp
@@ -96,7 +99,7 @@ du pH et des mélanges dangereux est détaillée dans la notion dédiée.
 <h4>Le matériel de ces recettes, en un coup d'œil</h4>
 <ul>
 <li><a href="#mat-acide">Acide citrique poudre alimentaire</a> — base du détartrant</li>
-<li><a href="#mat-cristaux">Cristaux de soude</a> — base du dégraissant</li>
+<li><a href="#mat-cristaux">Carbonate de sodium dont la forme est identifiée</a> — la masse dépend de son hydratation</li>
 <li><a href="#mat-flacon">Flacon spray vide réutilisable</a> — pour le détartrant</li>
 <li><a href="#mat-balance">Balance de précision 0,1g</a> — la même que pour le savon, pour un dosage fiable</li>
 </ul>
@@ -108,7 +111,8 @@ du pH et des mélanges dangereux est détaillée dans la notion dédiée.
 <h4>À ne pas mélanger</h4>
 <p>Ne mélangez pas ces recettes avec de l'eau de javel, du vinaigre, un autre acide, de l'ammoniaque
 ou un nettoyant du commerce. Utilisez un seul produit à la fois, rincez, puis changez de produit
-si nécessaire.</p>
+si nécessaire. Un mélange de Javel avec un acide ou de l’ammoniaque peut libérer des gaz
+toxiques{{ref:inrs-bleach-cleaners}}.</p>
 </div>
 
 <div class="article-links-block">
@@ -129,15 +133,19 @@ si nécessaire.</p>
 </tbody>
 </table>
 
-## Sur quelles surfaces les utiliser
+## Sur quelles surfaces les tester
 
 <table class="compare">
-<thead><tr><th>Produit</th><th>Sûr sur</th><th>À éviter sur</th></tr></thead>
+<thead><tr><th>Produit</th><th>Généralement compatible après test discret</th><th>À éviter ou à vérifier impérativement</th></tr></thead>
 <tbody>
-<tr><td>Acide citrique</td><td>Inox, céramique, verre, robinetterie</td><td>Pierre naturelle (marbre, travertin, calcaire) — ternit la pierre de façon permanente</td></tr>
-<tr><td>Cristaux de soude</td><td>Inox, céramique, émail</td><td>Aluminium non traité (noircit, se pique) et bois non protégé</td></tr>
+<tr><td>Acide citrique</td><td>Verre et céramique non poreuse ; inox ou robinetterie seulement si leur notice l’autorise</td><td>Pierre naturelle calcaire, joints sensibles, métal ou revêtement dont la notice interdit les acides</td></tr>
+<tr><td>Carbonate de sodium</td><td>Céramique et émail intacts ; autres surfaces seulement après test et selon la notice</td><td>Aluminium, bois non protégé, surfaces peintes ou revêtements sensibles aux alcalins</td></tr>
 </tbody>
 </table>
+
+La compatibilité dépend du matériau **et** de son revêtement, des joints, de la concentration et du
+temps de contact. Un essai sur une zone discrète et la notice du fabricant de la surface priment
+sur ce tableau.
 
 **Point de vigilance sur les noms** : les cristaux de soude (carbonate de sodium, Na₂CO₃) ne
 sont **pas** de la soude caustique (hydroxyde de sodium, NaOH) utilisée en savonnerie — malgré
@@ -168,21 +176,31 @@ caustique, elle, est corrosive et impose en plus lunettes, ventilation et protec
 3. Verser l'acide citrique dans l'eau tiède, mélanger jusqu'à dissolution complète (le liquide redevient transparent).
 4. Transvaser dans le **flacon spray** à l'aide d'un entonnoir.
 5. Pour le calcaire incrusté : vaporiser, laisser agir 15-30 minutes (plus la surface est incrustée, plus on laisse agir), essuyer avec une éponge non abrasive, rincer.
-6. Se conserve plusieurs mois à température ambiante, à l'abri de la lumière directe.
+6. Préparer de préférence un petit volume, étiqueter la composition et la date, conserver hors de
+portée des enfants et jeter en cas de trouble, dépôt inhabituel, odeur ou changement d’aspect. Sans
+étude de stabilité microbiologique du contenant et de l’eau utilisés, cette page ne promet plus
+une conservation de plusieurs mois.
 
-**Dégraissant puissant (plaques de cuisson, hottes, four)**
+**Solution alcaline dégraissante douce**
 
 <table class="compare">
 <thead><tr><th>Ingrédient</th><th>Quantité</th></tr></thead>
 <tbody>
-<tr><td>Cristaux de soude</td><td>15 g (une cuillère à soupe rase)</td></tr>
+<tr><td>Carbonate de sodium décahydraté, Na₂CO₃·10H₂O</td><td>15,0 g</td></tr>
 <tr><td>Eau chaude</td><td>1 L</td></tr>
 </tbody>
 </table>
 
+Cette formule correspond à **15,0 g de décahydrate**. Pour fournir la même quantité molaire de
+carbonate, il faudrait environ **6,5 g de monohydrate** ou **5,6 g de carbonate anhydre**. Un
+produit commercial peut aussi contenir d’autres ingrédients : si la forme chimique et la pureté ne
+sont pas explicites, suivez son étiquette et ne transposez pas ces masses.
+
 ![Dissolution des cristaux de soude dans l'eau chaude, vapeur visible](/images/nettoyant-degraissant-dissolution.webp)
 
-1. **Peser 15g de cristaux de soude avec la balance de précision** — plus fiable qu'une cuillère à soupe rase approximative.
+1. **Peser 15,0 g de carbonate de sodium décahydraté avec la balance de précision** — une cuillère
+à soupe n’est pas une unité fiable et cette masse ne vaut pas pour les formes anhydre ou
+monohydratée.
 2. Dissoudre dans 1L d'eau chaude (le chaud accélère nettement la dissolution des cristaux).
 3. Porter des **gants** pendant la préparation et l’application, éviter les projections dans
 les yeux et ne pas respirer la poussière. Les cristaux de soude sont moins corrosifs que NaOH,
@@ -192,39 +210,26 @@ mais restent irritants{{ref:pubchem-sodium-carbonate}}.
 
 <p style="font-size:0.85rem;color:var(--ink-soft)">Ces deux produits ne se mélangent pas entre eux non plus (acide + base = neutralisation, donc perte d'efficacité) — les utiliser séparément selon le type de salissure visé.</p>
 
+<a id="materiel"></a>
 ## Le matériel, en détail
 
-<div class="cta-block" id="mat-acide">
-<div class="cta-text"><strong>Acide citrique poudre alimentaire</strong><span>Jacques Briochin — base du détartrant</span></div>
-<div class="cta-action">
-<a class="cta-button" href="https://www.amazon.fr/JACQUES-BRIOCHIN-Citrique-Naturelle-Economique/dp/B0D3HQKPXS?linkCode=ll2&tag=maxscience06-21&linkId=244d0237491b3651901e13f868c2c0ed&ref_=as_li_ss_tl" rel="sponsored noopener" target="_blank">Voir le prix →</a>
-<span class="cta-reassurance">Expédié par Amazon</span>
-</div>
+<a id="mat-acide"></a>
+{{affil:acide-citrique}}
+
+<a id="mat-cristaux"></a>
+<div class="notice-box">
+<h4>Quel carbonate acheter ?</h4>
+<p>Le produit St Marc déjà présent au catalogue n’est pas retenu ici comme équivalent automatique :
+sa fiche commerciale ne documente pas assez clairement la forme hydratée nécessaire à ce calcul.
+Choisissez un produit dont l’étiquette précise « carbonate de sodium décahydraté
+(Na₂CO₃·10H₂O) » et sa pureté, ou suivez strictement le dosage du fabricant.</p>
 </div>
 
-<div class="cta-block" id="mat-cristaux">
-<div class="cta-text"><strong>Cristaux de soude, 100% carbonate de sodium</strong><span>St Marc — base du dégraissant</span></div>
-<div class="cta-action">
-<a class="cta-button" href="https://www.amazon.fr/St-Marc-Nettoyant-Multi-Usage-Naturelle/dp/B0D3DXLC2X?linkCode=ll2&tag=maxscience06-21&linkId=cd6411ddc7c8e31f5041af1f2c449bc4&ref_=as_li_ss_tl" rel="sponsored noopener" target="_blank">Voir le prix →</a>
-<span class="cta-reassurance">Expédié par Amazon</span>
-</div>
-</div>
+<a id="mat-flacon"></a>
+{{affil:flacon-spray}}
 
-<div class="cta-block" id="mat-flacon">
-<div class="cta-text"><strong>Flacon spray vide réutilisable</strong><span>Delta Clean — pour le détartrant</span></div>
-<div class="cta-action">
-<a class="cta-button" href="https://www.amazon.fr/Delta-Clean-Pulv%C3%A9risateur-Vaporisateur-Rechargeable/dp/B08DHYZW93?linkCode=ll2&tag=maxscience06-21&linkId=911b1dc17c018b0fc9f6dd04c7d1f83d&ref_=as_li_ss_tl" rel="sponsored noopener" target="_blank">Voir le prix →</a>
-<span class="cta-reassurance">Expédié par Amazon</span>
-</div>
-</div>
-
-<div class="cta-block" id="mat-balance">
-<div class="cta-text"><strong>Balance de précision 0,1g / 5kg</strong><span>La même que pour le savon — inox, étanche</span></div>
-<div class="cta-action">
-<a class="cta-button" href="https://www.amazon.fr/-/en/Waterproof-Precision-Washable-Stainless-Rechargeable/dp/B0CMH96FTJ?linkCode=ll2&tag=maxscience06-21&linkId=9d90d060797e8abe82176de2c7369a67&ref_=as_li_ss_tl" rel="sponsored noopener" target="_blank">Voir le prix →</a>
-<span class="cta-reassurance">Retours gratuits</span>
-</div>
-</div>
+<a id="mat-balance"></a>
+{{affil:balance-bomata-01g}}
 
 ## Petit lexique
 

@@ -1,12 +1,19 @@
 ---
 title: 'Lacto-fermentation : odeur, voile blanc ou moisissure, faut-il jeter ?'
+seoTitle: 'Lacto-fermentation : moisissure ou voile blanc ?'
+seoDescription: 'Bulles, saumure trouble, voile blanc, odeur forte ou moisissure : reconnaître les signes normaux et savoir quand jeter sans goûter.'
 category: conservation
+secondaryCategories:
+- fermentation
 type: guide
+materialHref: /articles/bocal-lacto-fermentation#materiel
+materialLabel: Choisir un bocal
 excerpt: 'Bulles, saumure trouble, levures de surface ou moisissure colorée : distinguer les phénomènes normaux
   des signes d’altération d’un bocal.'
 formula: 'normal : acide + bulles · alerte : duvet + couleur'
 image: /images/lacto-inspection-bocal.webp
 date: '2026-07-16'
+updated: '2026-07-24'
 takeaways:
 - Reconnaître les signes ordinaires d’une fermentation active
 - Ne pas confondre dépôt, voile de surface et moisissure duveteuse

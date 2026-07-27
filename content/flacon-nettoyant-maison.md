@@ -1,6 +1,6 @@
 ---
 title: "Quel flacon choisir pour ses produits maison ? Comparatif spray, pompe, bidon et verre ambré"
-seoTitle: "Meilleur flacon pour produit maison : spray PEHD, PET, pompe ou verre ?"
+seoTitle: "Quel flacon choisir pour un produit maison ?"
 seoDescription: "Comparatif des flacons pour nettoyants, savon liquide et lessive maison : spray PEHD ou PET, flacon pompe, bidon 2,3 L, verre ambré et étiquettes."
 keywords:
   - "quel flacon pour produit ménager maison"
@@ -16,7 +16,7 @@ excerpt: "Cinq formats comparés selon le matériau, l’usage, le dosage et la 
 formula: "un produit = un contenant dédié = une étiquette lisible"
 image: "/images/nettoyant-detartrant-flacon.webp"
 date: "2026-07-16"
-updated: "2026-07-17"
+updated: "2026-07-24"
 takeaways:
   - "Le spray PEHD est le choix le plus polyvalent pour les nettoyants ménagers dilués compatibles"
   - "Le PET transparent convient surtout aux préparations aqueuses douces que l’on veut surveiller visuellement"
@@ -55,10 +55,11 @@ Le comparatif ci-dessous concerne donc surtout des **préparations maison dilué
 
 {{sommaire}}
 
-## Notre sélection en un coup d’œil
+<a id="materiel"></a>
+## Sélection d’après les fiches techniques
 
 <table class="compare product-compare">
-<thead><tr><th>Solution</th><th>Matériau annoncé</th><th>Meilleur usage</th><th>Limite principale</th></tr></thead>
+<thead><tr><th>Solution</th><th>Matériau annoncé</th><th>Usage visé</th><th>Limite principale</th></tr></thead>
 <tbody>
 <tr><td><strong>{{affil-inline:spray-hr-hogar-pehd-500}}</strong></td><td>PEHD, 3 × 500 ml</td><td>Nettoyants ménagers dilués, code couleur</td><td>La gâchette et les joints doivent aussi être compatibles</td></tr>
 <tr><td><strong>{{affil-inline:spray-cozydiscount-pet-500}}</strong></td><td>PET transparent, 3 × 500 ml</td><td>Préparations aqueuses douces et visibles</td><td>Moins polyvalent pour les mélanges agressifs</td></tr>
@@ -69,7 +70,7 @@ Le comparatif ci-dessous concerne donc surtout des **préparations maison dilué
 </table>
 
 <div class="verdict-box">
-<strong>Notre recommandation principale :</strong> pour l’entretien courant, le lot <strong>HR Hogar
+<strong>Choix le plus cohérent sur fiche :</strong> pour l’entretien courant, le lot <strong>HR Hogar
 en PEHD</strong> est le plus polyvalent et les trois couleurs aident à séparer les usages. Pour le savon
 liquide ou le liquide vaisselle, les <strong>flacons pompe PET</strong> sont plus pratiques. Le grand
 contenant de 2,3 L est utile uniquement pour une lessive douce : sa fiche indique simplement
@@ -78,7 +79,7 @@ contenant de 2,3 L est utile uniquement pour une lessive douce : sa fiche indiqu
 
 ## Comparatif détaillé des cinq formats
 
-### HR Hogar 500 ml en PEHD : le meilleur choix pour les sprays ménagers
+### HR Hogar 500 ml en PEHD : option documentée pour les sprays ménagers compatibles
 
 Le lot comprend trois pulvérisateurs de 500 ml en PEHD avec couleurs différentes et buse réglable.
 Le PEHD présente une bonne compatibilité générale avec de nombreux acides dilués et bases, mais la

@@ -1,5 +1,7 @@
 ---
 title: Quel matériel faut-il vraiment pour fabriquer du savon maison ?
+seoTitle: Quel matériel choisir pour fabriquer du savon ?
+seoDescription: 'Matériel pour le savon à froid : lunettes-masque, gants, balance, récipient compatible, mixeur, thermomètre et moule.'
 category: bien-sequiper
 type: guide
 excerpt: La liste du matériel indispensable pour la saponification à froid, les matériaux compatibles avec la soude
@@ -7,6 +9,7 @@ excerpt: La liste du matériel indispensable pour la saponification à froid, le
 formula: sécurité + pesée + mélange + cure
 image: /images/savon-etape5-versement-moule.webp
 date: '2026-07-16'
+updated: '2026-07-24'
 takeaways:
 - Séparer le matériel indispensable des accessoires facultatifs
 - Choisir des récipients compatibles avec la soude
@@ -21,8 +24,8 @@ related:
 
 Fabriquer du savon à froid ne demande pas un atelier complet. En revanche, le matériel doit être
 adapté à une solution fortement basique, à une réaction exothermique et à des pesées précises.
-Le meilleur équipement est donc celui qui réduit les erreurs, pas celui qui multiplie les
-accessoires.
+L’Anses recommande notamment blouse, gants, lunettes et pièce aérée pour la fabrication de savon
+avec de la soude{{ref:anses-diy-soap}}.
 
 {{sommaire}}
 
@@ -42,12 +45,16 @@ accessoires.
 </ul>
 </div>
 
+{{affil:lunettes-masque-3m-2890a}}
+{{affil:gants-lanon-en374}}
+
+<a id="materiel"></a>
 ## La liste indispensable
 
 <table class="compare">
 <thead><tr><th>Matériel</th><th>Rôle</th><th>Priorité</th></tr></thead>
 <tbody>
-<tr><td>Lunettes enveloppantes et gants résistants</td><td>Protection contre les projections de soude</td><td>Indispensable</td></tr>
+<tr><td>Lunettes-masque marquées pour les liquides et gants chimiques compatibles</td><td>Protection contre les projections de soude</td><td>Indispensable</td></tr>
 <tr><td>Balance à 0,1 g</td><td>Pesée de la soude et des huiles</td><td>Indispensable</td></tr>
 <tr><td>Récipient pour la solution de soude</td><td>Dissolution exothermique de NaOH dans l’eau</td><td>Indispensable</td></tr>
 <tr><td>Grand récipient de mélange</td><td>Association huiles + solution de soude</td><td>Indispensable</td></tr>
@@ -62,14 +69,21 @@ accessoires.
 
 Pour la solution de soude et le mélange, utilisez de préférence :
 
-- de l’acier inoxydable ;
-- du polypropylène identifié **PP** ;
+- de l’acier inoxydable adapté ;
+- du polypropylène identifié **PP 5** ;
 - du polyéthylène haute densité identifié **HDPE** ;
-- un verre résistant à la chaleur, manipulé sans choc thermique.
+
+Pour la dissolution concentrée et chaude, le verre n’est pas le premier choix : un choc thermique,
+une microfissure ou une attaque progressive par la base peut conduire à une rupture. Préférez un
+récipient polymère explicitement compatible ou de l’inox adapté, stable et dédié.
 
 **L’aluminium est à exclure.** Il réagit avec les bases fortes et peut libérer du dihydrogène.
 Évitez également les récipients dont le matériau n’est pas identifié, les surfaces abîmées et
 les ustensiles peints.
+
+La compatibilité dépend aussi de la concentration, de la température, de la durée de contact et de
+l’état du récipient. La fiche toxicologique de l’INRS reste la référence de sécurité générale pour
+la soude{{ref:inrs-sodium-hydroxide}}.
 
 <div class="notice-box">
 <h4>Matériel dédié</h4>
@@ -84,7 +98,7 @@ complet explique les différences de résolution et de capacité :
 
 [Quelle balance choisir pour les recettes maison ?](/articles/quelle-balance-recettes-maison)
 
-{{affil:balance}}
+{{affil:balance-bomata-01g}}
 
 ## Le récipient de soude
 
@@ -96,6 +110,10 @@ Le récipient doit :
 - permettre de verser proprement la solution refroidie.
 
 Versez toujours **la soude dans l’eau**, lentement, jamais l’eau sur la soude.
+
+Le catalogue ne contient pas encore de pichet que nous puissions recommander sur une fiche assez
+précise. Cherchez un récipient stable de 1 à 1,5 L, dédié au savon, en polypropylène marqué `PP 5`
+ou en inox 304/316, avec poignée solide et parois hautes ; excluez l’aluminium.
 
 {{affil:soude}}
 
@@ -151,3 +169,4 @@ Pour la recette du site, la configuration minimale cohérente est :
 Passez ensuite à la recette :
 [Savon surgras maison à l’huile d’olive](/articles/savon-surgras-saponification).
 
+{{references}}

@@ -1,6 +1,6 @@
 ---
 title: "Quels gants, lunettes et protections choisir pour la soude caustique ?"
-seoTitle: "Protection soude caustique : comparatif gants, lunettes, visière et tablier"
+seoTitle: "Soude caustique : quels gants et lunettes ?"
 seoDescription: "Comparatif des gants chimiques, gants nitrile, lunettes EN 166, surlunettes, visière et tablier pour manipuler la soude caustique en savonnerie."
 keywords:
   - "gants soude caustique"
@@ -14,10 +14,10 @@ excerpt: "Comparatif des gants réutilisables, gants jetables, lunettes EN 166, 
 formula: "barrière adaptée + poste organisé"
 image: "/images/savon-etape2-dissolution-soude.webp"
 date: "2026-07-16"
-updated: "2026-07-16"
+updated: "2026-07-24"
 takeaways:
   - "Les gants LANON EN ISO 374 sont le choix principal pour la soude"
-  - "Les surlunettes Dräger conviennent aux porteurs de lunettes de vue"
+  - "La lunette-masque 3M 2890A documente la protection contre les projections liquides"
   - "La visière complète les lunettes mais ne les remplace pas"
 related:
   - "materiel-savon-maison"
@@ -42,18 +42,21 @@ le risque de projection et le port éventuel de lunettes correctrices.
 
 {{sommaire}}
 
+<a id="materiel"></a>
 ## La configuration recommandée
 
 Pour préparer une solution de soude en savonnerie, la configuration la plus cohérente est :
 
 1. **gants chimiques réutilisables normés** ;
-2. **lunettes ou surlunettes adaptées au visage** ;
+2. **lunettes-masque portant un marquage d’usage pour les liquides et correctement ajustées** ;
 3. **vêtements couvrants et chaussures fermées** ;
 4. **tablier imperméable** si vous fabriquez régulièrement ;
 5. **visière en complément** pour augmenter la couverture du visage.
 
 La soude caustique peut provoquer de graves brûlures cutanées et lésions oculaires. L’INRS prévoit
-une protection adaptée des mains, des yeux et du corps{{ref:inrs-sodium-hydroxide}}.
+une protection adaptée des mains, des yeux et du corps{{ref:inrs-sodium-hydroxide}}. Les choix
+ci-dessous sont une **sélection documentaire d’après les fiches techniques** ; ils ne remplacent
+ni l’évaluation de votre poste ni le tableau de compatibilité chimique du fabricant.
 
 ## Comparatif des gants
 
@@ -93,7 +96,7 @@ pour votre concentration de soude et votre durée d’exposition.
 
 Les LANON U100 sont des gants en PVC certifiés EN ISO 374-1 Type B et EN ISO 374-5. Le fabricant
 annonce notamment un essai avec de l’hydroxyde de sodium à 40 %. La manchette longue et la texture
-de préhension sont adaptées à la manipulation de récipients.
+de préhension sont adaptées à la manipulation de récipients{{ref:lanon-u100-datasheet}}.
 
 **À choisir si :**
 
@@ -108,31 +111,41 @@ de préhension sont adaptées à la manipulation de récipients.
 <table class="compare product-compare">
 <thead><tr><th>Modèle</th><th>Profil</th><th>Point fort</th><th>Limite</th></tr></thead>
 <tbody>
-<tr><td><strong>{{affil-inline:lunettes-genyed-en166}}</strong></td><td>Sans lunettes de vue</td><td>Légères, enveloppantes, CE EN 166</td><td>Ne constituent pas des lunettes-masque étanches</td></tr>
-<tr><td><strong>{{affil-inline:lunettes-securite}}</strong></td><td>Porteur de lunettes</td><td>Surlunettes réglables, protection latérale et supérieure</td><td>Moins fermées qu’un masque anti-éclaboussures</td></tr>
+<tr><td><strong>{{affil-inline:lunettes-masque-3m-2890a}}</strong></td><td>Choix principal sur fiche technique</td><td>Acétate, ventilation indirecte, monture EN 166 marquée 3 4 FT ; peut se porter sur la plupart des lunettes de vue</td><td>Doit être ajustée au visage ; vérifier la compatibilité avec votre monture</td></tr>
+<tr><td><strong>{{affil-inline:lunettes-genyed-en166}}</strong></td><td>Travaux sans risque de projection liquide</td><td>Légères, enveloppantes, CE EN 166</td><td>Marquage liquide non documenté : non retenues pour dissoudre la soude</td></tr>
+<tr><td><strong>{{affil-inline:lunettes-securite}}</strong></td><td>Surlunettes pour travaux généraux</td><td>Réglables, protection latérale et supérieure</td><td>Ouvertes : non retenues comme protection principale contre les éclaboussures de soude</td></tr>
 <tr><td><strong>{{affil-inline:visiere-oregon}}</strong></td><td>Protection complémentaire</td><td>Couvre une grande partie du visage</td><td>Ne remplace pas les lunettes</td></tr>
 </tbody>
 </table>
 
-### GENYED EN 166 : légère pour une personne sans lunettes de vue
+### 3M GoggleGear 2890A : choix principal sur fiche technique
+
+La fiche technique 3M du modèle **2890A** indique un oculaire en acétate à résistance chimique
+accrue, une ventilation indirecte et le marquage de monture **EN 166 3 4 FT**. Le chiffre `3`
+correspond au domaine d’usage pour les liquides ; c’est l’information qui manquait aux simples
+lunettes marquées seulement « EN 166 ». Le fabricant indique aussi que la série peut être portée
+au-dessus de la plupart des lunettes correctrices{{ref:gogglegear-2890-datasheet}}.
+
+{{affil:lunettes-masque-3m-2890a}}
+
+### GENYED EN 166 : pour les travaux généraux, pas la dissolution
 
 La GENYED est certifiée CE EN 166, légère, enveloppante, anti-rayures et anti-buée. Elle convient à
-une personne qui ne porte pas de lunettes correctrices et cherche une paire dédiée aux travaux de
-chimie domestique.
+des travaux généraux sans risque identifié de projection liquide.
 
-Elle protège contre les particules et les projections directes, mais ne doit pas être confondue
-avec une lunette-masque fermée portant un marquage spécifique aux liquides.
+La fiche disponible ne documente pas un marquage d’usage liquide équivalent au `3` de la 3M
+2890A. Elle n’est donc **plus recommandée pour préparer la solution de soude**.
 
 {{affil:lunettes-genyed-en166}}
 
-### Dräger X-pect 8120 : la meilleure option avec lunettes de vue
+### Dräger X-pect 8120 : surlunettes pour travaux généraux
 
 La Dräger X-pect 8120 est conçue comme surlunette : branches réglables, protection latérale et
-supérieure, verre polycarbonate et certification EN 166. Elle est particulièrement pertinente si
-vous portez des lunettes correctrices.
+supérieure, verre polycarbonate et certification EN 166.
 
-Son avantage principal est l’ajustement au-dessus des lunettes de vue. Pour un risque important de
-projection liquide, une lunette-masque fermée reste plus protectrice qu’une surlunette ouverte.
+Son avantage principal est l’ajustement au-dessus des lunettes de vue. Sa conception ouverte ne
+permet toutefois pas de la retenir comme protection principale lors de la dissolution. La 3M
+2890A devient le choix documenté à essayer en priorité pour ce poste.
 
 {{affil:lunettes-securite}}
 
@@ -164,7 +177,7 @@ chaussures fermées.
 <thead><tr><th>Priorité</th><th>Achat</th><th>Pourquoi</th></tr></thead>
 <tbody>
 <tr><td><strong>Immédiat</strong></td><td>Gants chimiques réutilisables</td><td>Protection directe des mains et poignets</td></tr>
-<tr><td><strong>Immédiat</strong></td><td>Lunettes adaptées à votre visage</td><td>Une projection oculaire est l’un des accidents les plus graves</td></tr>
+<tr><td><strong>Immédiat</strong></td><td>Lunettes-masque 3M 2890A ou équivalent documenté EN 166 « 3 »</td><td>Le marquage d’usage liquide est vérifié sur la fiche fabricant</td></tr>
 <tr><td><strong>Immédiat</strong></td><td>Vêtements couvrants et chaussures fermées</td><td>Réduit la surface de peau exposée</td></tr>
 <tr><td><strong>Plus tard</strong></td><td>Tablier imperméable</td><td>Améliore la protection du torse et des vêtements</td></tr>
 <tr><td><strong>Plus tard</strong></td><td>Visière</td><td>Ajoute une couverture du visage aux lunettes</td></tr>

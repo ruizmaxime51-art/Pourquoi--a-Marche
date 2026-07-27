@@ -1,7 +1,10 @@
 ---
 title: 'pH des nettoyants maison : acide, basique et mélanges dangereux'
+seoTitle: 'pH des nettoyants : acide, base et dangers'
 category: comprendre
 type: repere
+materialHref: /articles/bandelettes-ph-ou-phmetre#materiel
+materialLabel: Mesurer le pH
 excerpt: Comprendre pourquoi un acide enlève le calcaire, pourquoi une base dégraisse, et pourquoi certains mélanges
   maison sont inefficaces ou dangereux.
 formula: CaCO₃ + acide → CO₂ ; javel + acide → Cl₂

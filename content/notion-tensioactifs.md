@@ -1,5 +1,6 @@
 ---
 title: 'Les tensioactifs : comment ça lave'
+seoDescription: 'Comment les tensioactifs mouillent, forment des micelles et décrochent les graisses ; effets de la mousse, de la CMC et de l’eau dure.'
 category: comprendre
 type: notion
 excerpt: 'Savon, lessive, shampoing, liquide vaisselle : tous reposent sur les mêmes molécules. Comment un tensioactif
@@ -7,6 +8,7 @@ excerpt: 'Savon, lessive, shampoing, liquide vaisselle : tous reposent sur les m
 formula: tête hydrophile + queue hydrophobe = amphiphile
 image: /images/notion-tensio-1-definition.webp
 date: '2026-07-09'
+updated: '2026-07-24'
 sommaire: true
 takeaways:
 - Pourquoi une molécule amphiphile se place aux interfaces

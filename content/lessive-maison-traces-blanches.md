@@ -1,5 +1,6 @@
 ---
 title: Pourquoi ma lessive maison laisse des traces blanches ?
+seoTitle: 'Lessive maison : éviter les traces blanches'
 category: entretien
 type: guide
 excerpt: 'Eau dure, savon précipité, surdosage ou mauvais rinçage : identifier la cause des dépôts blancs sur le

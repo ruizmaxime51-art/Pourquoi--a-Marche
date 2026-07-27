@@ -2,6 +2,8 @@
 title: Pourquoi mon savon maison reste mou ?
 category: cosmetique
 type: guide
+materialHref: /articles/materiel-savon-maison#materiel
+materialLabel: Matériel pour le savon
 excerpt: 'Eau, choix des huiles, surgraissage, émulsion ou manque de cure : diagnostiquer un savon qui ne durcit
   pas sans ajouter de soude au hasard.'
 formula: savon mou ≠ forcément savon raté

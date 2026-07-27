@@ -1,7 +1,10 @@
 ---
 title: 'La saponification : comment le corps gras devient savon'
+seoTitle: 'Saponification : comment une huile devient savon'
 category: comprendre
 type: notion
+materialHref: /articles/materiel-savon-maison#materiel
+materialLabel: Matériel pour le savon
 excerpt: 'La réaction qui transforme une huile en savon, expliquée à deux niveaux : le principe accessible à tous,
   et le mécanisme détaillé pour les curieux de chimie.'
 formula: triglycéride + 3 base → 3 savons + glycérol
@@ -96,33 +99,32 @@ Un savon dont on aurait calculé la dose de soude à l'exactitude serait entièr
 
 Le surgraissage consiste à laisser volontairement une petite fraction de corps gras **non saponifié** dans le savon fini — généralement **3 à 8 %** du poids des huiles. Ce gras libre forme, à l'usage, une fine couche adoucissante qui compense l'effet asséchant du lavage.
 
-**Deux méthodes** permettent d'obtenir ce surgras, pour un **même résultat** : la **réduction de soude** (on retire volontairement un pourcentage de la soude nécessaire) ou l'**ajout d'un excès d'huile** (on met plus d'huile que la soude ne peut en saponifier). Un savon « à 5 % de réduction de soude » et un savon « à 5 % d'huile en excès » contiennent la même proportion de gras libre{{ref:dunn-superfat}}.
+**Deux écritures de calcul** décrivent le même excès stœchiométrique de corps gras : la
+**réduction de soude** (on retire un pourcentage de la quantité théorique) ou l’**ajout d’un excès
+d’huile**. Cela fixe une marge globale ; cela ne permet pas de garantir quelle huile précise
+restera non saponifiée.
 
 ![Comparaison entre un savon à 0 % de surgras et à 5 % : le surgras offre une marge de sécurité face aux petites erreurs de dosage](/images/notion-sapo-3-surgraissage.webp)
 
 <div class="expert-block">
 
-🔬 **Pour aller plus loin — le « mythe » du choix de l'huile de surgras**
+🔬 **Pour aller plus loin — peut-on choisir l’huile qui restera en surgras ?**
 
-Une croyance très répandue veut qu'on puisse **choisir** quelle huile constituera le surgras, en l'ajoutant à la **trace** (en fin de mélange). L'idée : la soude aurait déjà réagi avec les autres huiles, et l'huile « noble » ajoutée en dernier resterait intacte.
+Ajouter une huile à la **trace** ne garantit pas qu’elle restera intacte. La trace indique surtout
+qu’une émulsion s’est formée et a épaissi ; elle ne constitue pas une preuve analytique que toute la
+soude a déjà été consommée. La réaction de saponification peut donc encore concerner les différents
+triglycérides présents{{ref:libretexts-sapo}}{{ref:pubmed-soap}}.
 
-Cette croyance a été **testée et invalidée** par le Dr Kevin Dunn, chimiste et auteur de *Scientific Soapmaking*{{ref:dunn-superfat}}. Il a fabriqué deux savons identiques, différant seulement par l'ordre d'ajout des huiles, puis analysé par **RMN** les huiles non saponifiées : **aucune différence**. En saponification **à froid**, la réaction n'est quasiment pas entamée au moment de la trace — elle met **18 à 48 heures** à se compléter. L'huile ajoutée à la trace a donc tout le temps de réagir comme les autres.
-
-**L'exception — la saponification à chaud.** Une fois la cuisson terminée, **toute la soude est consommée** : une huile ajoutée après cuisson reste alors réellement non saponifiée. C'est la **seule méthode** où le choix de l'huile de surgras est chimiquement fiable.
-
-</div>
-
-<div class="expert-block">
-
-🔬 **Pour aller plus loin — l'huile qui reste n'est pas choisie au hasard non plus**
-
-Si l'on ne peut pas *décider* de l'huile de surgras à froid, sa composition n'est pas non plus aléatoire. Les travaux de Dunn indiquent que les acides gras **insaturés** (comme l'acide oléique de l'huile d'olive) saponifient **plus lentement** que les acides gras **saturés**{{ref:dunn-superfat}}. Le surgras d'un savon à froid tend donc à être enrichi en huiles insaturées, qui réagissent en dernier.
-
-Pourquoi cette différence ? Un acide gras saturé présente une chaîne **linéaire**, tandis qu'un insaturé porte des doubles liaisons *cis* qui **coudent** la chaîne. *Le fait expérimental est documenté ; l'explication mécanistique fine reste peu formalisée dans les sources accessibles : nous la présentons comme une piste, non comme une certitude.*
+Pour revendiquer qu’une huile donnée reste dans le produit fini, il faudrait caractériser le lot
+par une méthode analytique adaptée. Dans une recette domestique, la formulation doit seulement
+annoncer un **surgras global théorique**, pas une « huile de surgras » garantie.
 
 </div>
 
-Au-delà du confort, le surgraissage joue un rôle de **sécurité**. La soude vendue au grand public n'a pas une pureté parfaitement constante (hygroscopique, elle absorbe l'humidité de l'air), et une balance ordinaire a une tolérance de ±1 g. Un savon calculé à 0 % de surgras, en cas de petite erreur, se retrouve avec un **excès de soude libre** : caustique et irritant. Un savon à 5 % de surgras **absorbe** cette erreur sans risque. C'est l'une des raisons pour lesquelles on déconseille toujours de fabriquer un savon à 0 % de surgras.
+Au-delà du confort, le surgraissage apporte une **marge de formulation**. La soude est
+hygroscopique et les huiles naturelles ont des indices SAP variables. Un calcul à 0 % ne laisse
+aucune marge face à ces incertitudes. Le surgras réduit le risque d’un excès de soude, mais ne rend
+pas sans danger une erreur de pesée, une séparation de pâte ou un mauvais réactif.
 
 ## L'indice de saponification : calculer la juste dose de base
 

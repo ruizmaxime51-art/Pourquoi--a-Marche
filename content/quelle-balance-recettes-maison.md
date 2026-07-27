@@ -1,6 +1,6 @@
 ---
 title: "Quelle balance de précision choisir pour le savon et les recettes maison ?"
-seoTitle: "Balance de précision pour savon maison : comparatif 1 g, 0,1 g et 0,01 g"
+seoTitle: "Quelle balance choisir pour le savon maison ?"
 seoDescription: "Comparatif de trois balances pour le savon maison, la cosmétique, le levain et la fermentation : précision, capacité, fonctions utiles et achats à éviter."
 keywords:
   - "balance savon maison"
@@ -12,9 +12,9 @@ category: "bien-sequiper"
 type: "comparatif"
 excerpt: "Comparatif de trois balances à 1 g, 0,1 g et 0,01 g pour choisir selon les grandes masses, la soude, le sel et les petits additifs."
 formula: "résolution utile × capacité suffisante"
-image: "/images/savon-etape1-pesee-soude.webp"
+image: "/images/savon-etape1-pesee-soude-v2.webp"
 date: "2026-07-16"
-updated: "2026-07-16"
+updated: "2026-07-24"
 takeaways:
   - "La BOMATA 0,1 g / 5 kg est le choix le plus polyvalent"
   - "La Zivacate 1 g convient aux grandes masses, pas à la soude seule"
@@ -44,10 +44,11 @@ mais rarement les trois parfaitement.
 
 {{sommaire}}
 
-## Notre sélection en un coup d’œil
+<a id="materiel"></a>
+## Sélection d’après les fiches techniques
 
 <table class="compare product-compare">
-<thead><tr><th>Modèle</th><th>Résolution / capacité</th><th>Meilleur usage</th><th>Limite principale</th></tr></thead>
+<thead><tr><th>Modèle</th><th>Résolution / capacité</th><th>Usage visé</th><th>Limite principale</th></tr></thead>
 <tbody>
 <tr><td><strong>{{affil-inline:balance-zivacate-1g}}</strong></td><td>1 g / 5 kg</td><td>Petit budget, huiles, eau, farine, saumure</td><td>Trop grossière comme seule balance pour la soude</td></tr>
 <tr><td><strong>{{affil-inline:balance-bomata-01g}}</strong></td><td>0,1 g / 5 kg</td><td>Savon, cosmétique, fermentation : choix polyvalent</td><td>Plus encombrante et plus chère</td></tr>
@@ -56,7 +57,7 @@ mais rarement les trois parfaitement.
 </table>
 
 <div class="verdict-box">
-<strong>Notre recommandation principale :</strong> pour acheter une seule balance, choisissez une
+<strong>Choix le plus cohérent sur fiche :</strong> pour acheter une seule balance, choisissez une
 <strong>0,1 g / 5 kg</strong>. Elle couvre la majorité des recettes du site sans obliger à transférer
 les ingrédients entre plusieurs appareils.
 </div>
@@ -80,7 +81,7 @@ moins de 10 g.
 
 {{affil:balance-zivacate-1g}}
 
-### BOMATA 5 kg / 0,1 g : le meilleur compromis pour presque tout
+### BOMATA 5 kg / 0,1 g : option polyvalente sur fiche
 
 Cette catégorie de balance associe une capacité de 5 kg à une résolution de 0,1 g. Le grand plateau,
 la tare, la calibration, l’arrêt automatique réglable et l’alimentation rechargeable répondent aux
@@ -133,7 +134,9 @@ bols, aux huiles d’un savon ou à une préparation complète.
 
 La résolution est le plus petit pas affiché. Une balance 0,1 g est généralement plus adaptée au
 savon qu’une balance 1 g. En revanche, l’affichage de deux décimales ne transforme pas une petite
-balance instable en instrument de laboratoire.
+balance instable en instrument de laboratoire. Le NIST distingue explicitement la résolution
+affichée (`d`) de la vérification métrologique : davantage de décimales ne constitue donc pas une
+preuve d’exactitude{{ref:nist-scale-division}}.
 
 ### 2. La capacité avec le récipient
 
@@ -192,3 +195,5 @@ n’améliore pas une formule simple.
 
 
 {{faq}}
+
+{{references}}
