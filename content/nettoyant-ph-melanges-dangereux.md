@@ -89,6 +89,7 @@ du pH et des mélanges dangereux est détaillée dans la notion dédiée.
 <div class="article-links-block">
 <h4>Articles liés utiles</h4>
 <ul>
+<li><a href="/outils/choisir-acide-ou-base">Utiliser l’assistant acide, base ou neutre avant de choisir une recette</a></li>
 <li><a href="/articles/notion-ph-nettoyants">pH : choisir acide ou basique selon la salissure</a></li>
 <li><a href="/articles/savon-surgras-saponification">Recette de savon : attention à ne pas confondre cristaux de soude et soude caustique</a></li>
 </ul>

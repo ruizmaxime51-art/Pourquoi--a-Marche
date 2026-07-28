@@ -9,7 +9,7 @@ formula: tête hydrophile + queue hydrophobe = amphiphile
 image: /images/notion-tensio-1-definition.webp
 imageAlt: "Schéma d’un tensioactif avec une tête hydrophile attirée par l’eau et une queue hydrophobe attirée par les graisses"
 date: '2026-07-09'
-updated: '2026-07-24'
+updated: '2026-07-28'
 sommaire: true
 takeaways:
 - Pourquoi une molécule amphiphile se place aux interfaces
@@ -22,6 +22,7 @@ related:
 - lessive-maison-traces-blanches
 - notion-ph-nettoyants
 - percarbonate-de-soude-linge
+- enlever-tache-sang-vetement
 - lacto-fermentation-legumes-securite
 ---
 
@@ -277,6 +278,7 @@ Les pains dermatologiques « sans savon » (syndets solides) contournent deux li
 <ul>
 <li><a href="/articles/lessive-maison-traces-blanches">Pourquoi une lessive maison laisse des traces blanches</a></li>
 <li><a href="/articles/percarbonate-de-soude-linge">Percarbonate : quelles taches répondent à un oxydant ?</a></li>
+<li><a href="/articles/enlever-tache-sang-vetement">Tache de sang : rôle du rinçage, des enzymes et de la lessive</a></li>
 <li><a href="/outils/lessive-eau-dure">Tester le risque de dépôt avec votre eau</a></li>
 <li><a href="/articles/savon-surgras-saponification">Comprendre le savon dans une recette concrète</a></li>
 </ul>

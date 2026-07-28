@@ -125,6 +125,7 @@ taux de surgras sans refaire le calcul de soude.
 <div class="article-links-block">
 <h4>Changer la recette ?</h4>
 <ul>
+<li><a href="/outils/calculateur-surgraissage">Recalculer la soude ou la potasse selon vos huiles, la pureté et le surgras</a></li>
 <li><a href="/articles/notion-saponification">Lire d'abord la notion saponification : calcul de soude, SAP, surgras</a></li>
 <li>Ne jamais reprendre les 69,0 g de soude si une huile, une quantité ou la pureté de la soude change.</li>
 </ul>

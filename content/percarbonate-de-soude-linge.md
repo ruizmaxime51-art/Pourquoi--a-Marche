@@ -9,11 +9,13 @@ formula: 2 Na₂CO₃·3 H₂O₂ → 2 Na₂CO₃ + 3 H₂O₂
 image: /images/percarbonate-linge-hero.webp
 imageAlt: "Mains gantées mesurant du percarbonate de soude près d’un bol d’eau et de linge blanc"
 date: '2026-07-24'
+updated: '2026-07-28'
 takeaways:
 - Choisir le percarbonate selon la tache et le textile
 - Doser en grammes sans dépasser la notice du produit
 - Comprendre l'effet de la température et éviter les mélanges inutiles
 related:
+- enlever-tache-sang-vetement
 - lessive-maison-traces-blanches
 - notion-tensioactifs
 - notion-ph-nettoyants
@@ -46,7 +48,7 @@ salissure, la température et le système de lavage{{ref:santak-2025-stain-tempe
 <tbody>
 <tr><td>Linge blanc jauni ou grisâtre</td><td><strong>Oui, cas prioritaire</strong></td><td>Sur coton ou lin blanc lavable, le blanchiment oxygéné est cohérent. Commencer bas et respecter l'étiquette textile.</td></tr>
 <tr><td>Café, thé, vin rouge, fruits</td><td><strong>Souvent pertinent</strong></td><td>Ces taches colorées peuvent répondre à l'oxydation. Rincer d'abord, tester sur une zone cachée, puis traiter si le textile le permet.</td></tr>
-<tr><td>Sang</td><td><strong>Possible, avec précautions</strong></td><td>Rincer immédiatement à l'eau froide. Ne pas commencer par de l'eau chaude. Sur un coton compatible, un traitement ultérieur peut aider, sans garantir l'élimination complète.</td></tr>
+<tr><td>Sang</td><td><strong>Possible en deuxième intention</strong></td><td>Pour une tache fraîche, rincer d’abord à l’eau fraîche. Pour une tache sèche, privilégier un prétraitement enzymatique compatible. Le percarbonate ne vient qu’ensuite sur un textile autorisant le blanchiment oxygéné.</td></tr>
 <tr><td>Transpiration et auréoles jaunes</td><td><strong>Souvent utile en deuxième étape</strong></td><td>La composante colorée peut s'oxyder, mais le sébum demande aussi une lessive contenant des tensioactifs.</td></tr>
 <tr><td>Serviettes et draps blancs ternes</td><td><strong>Oui si le textile supporte le cycle</strong></td><td>Bon cas d'usage pour le coton blanc. Éviter de compenser un mauvais rinçage ou un surdosage de lessive par encore plus de poudre.</td></tr>
 <tr><td>Herbe</td><td><strong>Variable</strong></td><td>Un prétraitement avec lessive est souvent utile ; l'oxydant peut agir sur une partie des pigments, mais pas toujours sur les composants gras.</td></tr>
@@ -65,9 +67,11 @@ améliorer l'élimination de sang par rapport au détergent seul, mais le résul
 support, de la température, du séchage et des conditions d'exposition{{ref:oldfield-2017-blood}}.
 Cela ne valide pas une recette universelle.
 
-En pratique : retirez l'excès sans étaler, rincez **à l'eau froide**, utilisez d'abord une lessive
-adaptée, puis envisagez le percarbonate uniquement si l'étiquette autorise le blanchiment
-oxygéné. La chaleur trop tôt peut rendre une tache protéique plus difficile à retirer.
+En pratique, la température et le produit dépendent de l’état de la tache : eau fraîche pour
+rincer une tache récente ; prétraitement enzymatique selon sa notice pour une tache sèche ;
+percarbonate uniquement si l’étiquette autorise le blanchiment oxygéné. La procédure complète est
+détaillée dans le guide <a href="/articles/enlever-tache-sang-vetement">enlever une tache de sang
+fraîche, sèche ou déjà lavée</a>.
 
 ### Le percarbonate est-il efficace contre la graisse ?
 
@@ -218,6 +222,7 @@ protocole validé et le produit explicitement homologué pour cet usage.
 <div class="article-links-block">
 <h4>Compléter le diagnostic du linge</h4>
 <ul>
+<li><a href="/articles/enlever-tache-sang-vetement">Tache de sang : méthode fraîche, sèche ou déjà lavée</a></li>
 <li><a href="/articles/lessive-maison-traces-blanches">Traces blanches : percarbonate ou dépôt de savon ?</a></li>
 <li><a href="/articles/notion-tensioactifs">Pourquoi la lessive reste indispensable contre les graisses</a></li>
 <li><a href="/articles/notion-ph-nettoyants">Choisir un produit acide ou basique selon la salissure</a></li>

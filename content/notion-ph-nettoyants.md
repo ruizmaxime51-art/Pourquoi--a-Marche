@@ -41,6 +41,7 @@ un mélange très spectaculaire peut être chimiquement presque inutile.
 <div class="article-links-block">
 <h4>À relier directement</h4>
 <ul>
+<li><a href="/outils/choisir-acide-ou-base">Assistant : choisir acide, base, neutre ou traitement spécifique selon la tâche et la surface</a></li>
 <li><a href="/articles/nettoyant-ph-melanges-dangereux">Recette pratique : détartrant acide et dégraissant basique</a></li>
 <li><a href="/articles/notion-tensioactifs">Notion complémentaire : tensioactifs, mouillage et détergence</a></li>
 <li><a href="/articles/percarbonate-de-soude-linge">Application au linge : percarbonate, taches et précautions</a></li>
@@ -147,6 +148,7 @@ La recette pratique complète est ici : [Nettoyant maison : ce que le pH change 
 <div class="article-links-block">
 <h4>Passer du repère à l’action</h4>
 <ul>
+<li><a href="/outils/choisir-acide-ou-base">Diagnostiquer la tâche, la surface et les produits déjà présents</a></li>
 <li><a href="/articles/nettoyant-ph-melanges-dangereux">Préparer deux nettoyants sans mélanges dangereux</a></li>
 <li><a href="/articles/bandelettes-ph-ou-phmetre">Choisir entre bandelettes et pH-mètre</a></li>
 <li><a href="/articles/flacon-nettoyant-maison">Choisir et étiqueter le bon flacon</a></li>

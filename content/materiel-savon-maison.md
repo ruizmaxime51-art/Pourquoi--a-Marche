@@ -43,6 +43,7 @@ avec de la soude{{ref:anses-diy-soap}}.
 <h4>Protection avant tout</h4>
 <ul>
 <li><a href="/articles/gants-lunettes-risque-chimique">Choisir les gants et les lunettes adaptés à la soude</a></li>
+<li><a href="/outils/calculateur-surgraissage">Calculer la quantité de base avant de commencer la pesée</a></li>
 </ul>
 </div>
 

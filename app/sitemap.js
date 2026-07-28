@@ -5,7 +5,15 @@ import { SITE_URL } from '@/lib/site';
 export default function sitemap() {
   const siteUpdate = new Date('2026-07-27');
 
-  const staticPaths = ['', '/recettes', '/a-propos', '/outils', '/outils/lessive-eau-dure'];
+  const staticPaths = [
+    '',
+    '/recettes',
+    '/a-propos',
+    '/outils',
+    '/outils/lessive-eau-dure',
+    '/outils/calculateur-surgraissage',
+    '/outils/choisir-acide-ou-base',
+  ];
   const categoryPaths = categoryList.map((c) => `/${c.slug}`);
 
   const staticEntries = [...staticPaths, ...categoryPaths].map((path) => ({

@@ -17,8 +17,8 @@ export default function ToolsPage() {
           <p className="lede">Des petits calculateurs pour transformer la théorie chimique en décisions concrètes : dosage, eau dure, pH, sécurité.</p>
         </div>
         <div className="category-hero-card">
-          <strong>À venir</strong>
-          <p>Cette rubrique peut devenir un vrai différenciateur SEO et affiliation : l'utilisateur ne lit pas seulement, il teste son cas.</p>
+          <strong>Calculs transparents</strong>
+          <p>Chaque outil explique sa formule, ses limites et les précautions nécessaires avant de passer à la pratique.</p>
         </div>
       </section>
       <section className="category-content wrap-wide">
@@ -28,16 +28,16 @@ export default function ToolsPage() {
             <h3>Lessive au savon et eau dure</h3>
             <p>Évaluer le risque de dépôt selon la dureté de l'eau, la température et la dose de savon.</p>
           </Link>
-          <div className="path-card ghost">
+          <Link href="/outils/calculateur-surgraissage" className="path-card">
             <span>02</span>
             <h3>Calculateur de surgraissage</h3>
-            <p>Prochain outil : quantité de soude/potasse selon les huiles et le surgras souhaité.</p>
-          </div>
-          <div className="path-card ghost">
+            <p>Calculer la quantité théorique de soude ou de potasse selon les huiles, leur SAP, la pureté et le surgras.</p>
+          </Link>
+          <Link href="/outils/choisir-acide-ou-base" className="path-card">
             <span>03</span>
-            <h3>Choisir acide ou basique</h3>
-            <p>Prochain outil : détartrer, dégraisser, désinfecter sans mélanges dangereux.</p>
-          </div>
+            <h3>Choisir acide, base ou neutre</h3>
+            <p>Diagnostiquer la tache, la surface et les produits déjà présents avant de nettoyer.</p>
+          </Link>
         </div>
       </section>
     </main>

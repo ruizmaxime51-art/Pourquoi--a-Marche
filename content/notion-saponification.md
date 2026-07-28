@@ -37,6 +37,7 @@ Derrière chaque savon — de toilette, de Marseille, d'Alep, liquide ou solide 
 <div class="article-links-block">
 <h4>Continuer vers des applications concrètes</h4>
 <ul>
+<li><a href="/outils/calculateur-surgraissage">Calculer la quantité de soude ou de potasse selon vos huiles et votre surgras</a></li>
 <li><a href="/articles/savon-surgras-saponification">Recette de savon surgras maison</a></li>
 <li><a href="/articles/notion-tensioactifs">Après la réaction : pourquoi le savon lave</a></li>
 </ul>
@@ -171,33 +172,33 @@ La conversion découle du rapport des **masses molaires**. À nombre de moles é
 | Corps gras | Indice SAP (mg KOH/g) | Acides gras majoritaires (approx.) | Indice d'iode | Effet sur le savon |
 |---|---|---|---|---|
 | **— Saturées : savon dur —** | | | | |
-| Coco (raffinée) | 248–268 | Laurique C12 ~48 %, myristique C14 ~16 % | 8–12 | Très dur, mousse abondante, lavant |
-| Palmiste | 245–255 | Laurique C12 ~48 %, myristique C14 ~16 % | 14–20 | Dur, mousseux |
-| Babassu | 240–247 | Laurique C12 ~44 %, myristique C14 ~15 % | 10–18 | Dur, proche du coco |
-| Palme | 190–205 | Palmitique C16 ~44 %, oléique C18:1 ~40 % | 50–55 | Dur, mousse crémeuse |
+| Coco (raffinée) | 248–265 | Laurique C12 ~48 %, myristique C14 ~16 % | 8–12 | Très dur, mousse abondante, lavant |
+| Palmiste | 230–254 | Laurique C12 ~48 %, myristique C14 ~16 % | 14–20 | Dur, mousseux |
+| Babassu | 245–256 | Laurique C12 ~44 %, myristique C14 ~15 % | 10–18 | Dur, proche du coco |
+| Palme | 190–209 | Palmitique C16 ~44 %, oléique C18:1 ~40 % | 50–55 | Dur, mousse crémeuse |
 | **— Beurres végétaux —** | | | | |
 | Beurre de cacao | 188–200 | Stéarique C18:0 ~35 %, oléique ~34 % | 33–42 | Très dur, stable |
-| Beurre de karité | 178–198 | Stéarique C18:0 ~40–55 %, oléique ~40 % | 45–65 | Dur, très conditionnant |
+| Beurre de karité | 160–195 | Stéarique C18:0 ~40–55 %, oléique ~40 % | 45–65 | Dur, très conditionnant |
 | Beurre de mangue | 185–200 | Stéarique ~40 %, oléique ~45 % | 40–50 | Dur, doux |
 | **— Insaturées : savon mou/doux —** | | | | |
-| Olive | 185–200 | Oléique C18:1 ~70 %, palmitique ~13 % | 80–88 | Doux, conditionnant, mousse fine |
-| Amande douce | 184–196 | Oléique C18:1 ~65 %, linoléique C18:2 ~25 % | 95–105 | Doux, nourrissant |
-| Avocat | 177–198 | Oléique C18:1 ~60 %, palmitique ~20 % | 80–95 | Conditionnant |
-| Tournesol (classique) | 188–194 | Linoléique C18:2 ~65 %, oléique ~20 % | 125–140 | Doux mais fragile (oxydation) |
-| Tournesol (oléique) | 188–194 | Oléique C18:1 ~80 % | 80–90 | Doux, plus stable |
-| Colza (canola) | 168–187 | Oléique C18:1 ~60 %, linoléique ~20 % | 110–120 | Doux, faible indice |
-| Pépins de raisin | 178–186 | Linoléique C18:2 ~70 % | 125–140 | Léger, fragile |
+| Olive | 184–196 | Oléique C18:1 ~70 %, palmitique ~13 % | 80–88 | Doux, conditionnant, mousse fine |
+| Amande douce | 183–207 | Oléique C18:1 ~65 %, linoléique C18:2 ~25 % | 95–105 | Doux, nourrissant |
+| Avocat | 170–202 | Oléique C18:1 ~60 %, palmitique ~20 % | 80–95 | Conditionnant |
+| Tournesol (classique) | 187–194 | Linoléique C18:2 ~65 %, oléique ~20 % | 125–140 | Doux mais fragile (oxydation) |
+| Tournesol (oléique) | 182–194 | Oléique C18:1 ~80 % | 80–90 | Doux, plus stable |
+| Colza faible en acide érucique (canola) | 182–193 | Oléique C18:1 ~60 %, linoléique ~20 % | 110–120 | Doux, faible indice |
+| Pépins de raisin | 188–194 | Linoléique C18:2 ~70 % | 125–140 | Léger, fragile |
 | Chanvre | 188–194 | Linoléique C18:2 ~55 %, linolénique ~20 % | 140–165 | Doux, très fragile |
 | **— Cas particuliers —** | | | | |
-| Ricin | 176–187 | Ricinoléique C18:1-OH ~87 % | 82–90 | Mousse crémeuse, humectant (5–10 %) |
+| Ricin | 176–185 | Ricinoléique C18:1-OH ~87 % | 82–90 | Mousse crémeuse, humectant (5–10 %) |
 | Jojoba | 92–98 | Cire liquide (pas un triglycéride) | 80–85 | Faible indice, à part |
 | **— Graisses animales —** | | | | |
-| Saindoux | 190–200 | Oléique ~44 %, palmitique ~26 % | 55–70 | Dur, doux, historique |
-| Suif de bœuf | 190–200 | Palmitique ~27 %, stéarique ~22 %, oléique ~40 % | 40–48 | Très dur, traditionnel |
+| Saindoux | 192–203 | Oléique ~44 %, palmitique ~26 % | 55–70 | Dur, doux, historique |
+| Suif de bœuf | 190–202 | Palmitique ~27 %, stéarique ~22 %, oléique ~40 % | 40–48 | Très dur, traditionnel |
 
 </div>
 
-*Valeurs d'indices de saponification et d'iode d'après SoapCalc et From Nature With Love, recoupées entre plusieurs sources{{ref:soapcalc-oils}}.*
+*Plages SAP issues en priorité des normes Codex pour les huiles nommées, le beurre de cacao et les graisses animales{{ref:codex-named-oils}}{{ref:codex-cocoa-butter}}{{ref:codex-animal-fats}}. Pour le beurre de mangue, le chanvre et le jojoba, valeurs techniques recoupées avec SoapCalc et From Nature With Love{{ref:soapcalc-oils}}{{ref:fnwl-sap}}. L'indice du fournisseur du lot reste prioritaire.*
 
 <div class="expert-block">
 
