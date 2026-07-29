@@ -16,7 +16,8 @@ export default function Confidentialite() {
         <p>
           Cette page décrit la manière dont ce site traite les données des personnes qui le
           consultent. Nous appliquons un principe simple&nbsp;: collecter le strict minimum, et
-          jamais de données personnelles identifiables sans votre action volontaire.
+          n’utiliser les données techniques ou volontairement transmises que pour le
+          fonctionnement, la sécurité et les demandes décrites ci-dessous.
         </p>
 
         <h2>Mesure d&apos;audience (sans cookies)</h2>
@@ -44,6 +45,26 @@ export default function Confidentialite() {
           Le site est hébergé par Vercel Inc. (États-Unis). Comme tout hébergeur, Vercel traite
           des données techniques de connexion (par exemple l&apos;adresse IP) pour des raisons de
           sécurité et de bon fonctionnement du service.
+        </p>
+
+        <h2>Propositions de sujets et demandes de correction</h2>
+        <p>
+          Le formulaire «&nbsp;Proposer un sujet ou signaler une erreur&nbsp;» collecte uniquement
+          les informations que vous saisissez volontairement&nbsp;: nom ou pseudonyme, catégorie,
+          titre, contenu du message et, pour une correction, article concerné. Il ne permet pas
+          d’envoyer de photo ou de pièce jointe et ne demande pas votre adresse email.
+        </p>
+        <p>
+          Ces informations sont utilisées exclusivement pour examiner votre proposition ou
+          corriger le contenu du site. Elles sont transmises par Resend à la boîte de contact de
+          Chimie Maison et ne sont jamais publiées automatiquement. Les messages sont conservés le
+          temps nécessaire à leur traitement, puis supprimés au plus tard dans les douze mois.
+        </p>
+        <p>
+          Afin de limiter les abus à trois envois sur une période de 24&nbsp;heures, l’adresse IP
+          technique de la connexion est transformée immédiatement en un identifiant
+          pseudonymisé. Upstash Redis conserve temporairement cet identifiant et le compteur
+          associé, sans enregistrer le contenu du formulaire.
         </p>
 
         <h2>Contact</h2>

@@ -72,6 +72,7 @@ export default function RootLayout({ children }) {
               <Link href="/comprendre" className="nav-accent">Comprendre</Link>
               <Link href="/outils" className="nav-accent">Outils</Link>
               <Link href="/bien-sequiper" className="nav-accent">Bien s'équiper</Link>
+              <Link href="/proposer-un-sujet">Proposer une idée</Link>
               <Link href="/a-propos">À propos</Link>
             </nav>
 
@@ -105,6 +106,7 @@ export default function RootLayout({ children }) {
           <div className="wrap-inner">
             <nav aria-label="Navigation secondaire">
               <Link href="/a-propos">À propos</Link>
+              <Link href="/proposer-un-sujet">Proposer ou corriger</Link>
               <Link href="/mentions-legales">Mentions légales</Link>
               <Link href="/politique-confidentialite">Confidentialité</Link>
             </nav>

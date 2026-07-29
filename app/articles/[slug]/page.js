@@ -8,6 +8,7 @@ import Breadcrumbs from '@/app/_components/Breadcrumbs';
 import RelatedArticles from '@/app/_components/RelatedArticles';
 import TakeawayBox from '@/app/_components/TakeawayBox';
 import PrintRecipeButton from '@/app/_components/PrintRecipeButton';
+import Link from 'next/link';
 
 export const dynamicParams = false;
 
@@ -89,6 +90,20 @@ export default async function ArticlePage({ params }) {
             <PrintRecipeButton label={article.printLabel} />
           )}
           <div className="post-body" dangerouslySetInnerHTML={{ __html: article.contentHtml }} />
+          <aside className="article-feedback-callout" aria-labelledby="article-feedback-title">
+            <div>
+              <strong id="article-feedback-title">Une information vous semble incorrecte&nbsp;?</strong>
+              <p>
+                Signalez le passage concerné et proposez, si possible, une correction ou une
+                source. Aucun message n’est publié automatiquement.
+              </p>
+            </div>
+            <Link
+              href={`/proposer-un-sujet?type=correction&article=${encodeURIComponent(article.slug)}`}
+            >
+              Signaler une erreur
+            </Link>
+          </aside>
           <p className="trust-note">
             Méthode, limites et nature des illustrations :{' '}
             <a href="/a-propos#methodologie">consulter la méthode éditoriale de Chimie Maison</a>.

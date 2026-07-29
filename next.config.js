@@ -8,7 +8,15 @@ const nextConfig = {
         headers: [
           {
             key: 'Content-Security-Policy',
-            value: "base-uri 'self'; form-action 'self'; frame-ancestors 'self'",
+            value: "base-uri 'self'; form-action 'self'; frame-ancestors 'none'; object-src 'none'; upgrade-insecure-requests",
+          },
+          {
+            key: 'Cross-Origin-Opener-Policy',
+            value: 'same-origin',
+          },
+          {
+            key: 'Cross-Origin-Resource-Policy',
+            value: 'same-origin',
           },
           {
             key: 'Referrer-Policy',
@@ -28,7 +36,15 @@ const nextConfig = {
           },
           {
             key: 'X-Frame-Options',
-            value: 'SAMEORIGIN',
+            value: 'DENY',
+          },
+          {
+            key: 'X-DNS-Prefetch-Control',
+            value: 'off',
+          },
+          {
+            key: 'Origin-Agent-Cluster',
+            value: '?1',
           },
         ],
       },

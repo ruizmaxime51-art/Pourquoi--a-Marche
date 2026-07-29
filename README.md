@@ -4,7 +4,7 @@ Site d'affiliation éditorial autour des recettes maison expliquées par la chim
 
 ## Stack
 
-- Next.js 15.5.21 / App Router
+- Next.js 15.5.22 / App Router
 - Articles en Markdown dans `content/`
 - Affiliations centralisées dans `lib/affiliations.js`
 - Sources scientifiques centralisées dans `lib/references.js`
@@ -45,6 +45,18 @@ Toutes les URL absolues sont centralisées dans `lib/site.js`.
 3. Framework : Next.js.
 4. Build command : `npm run build`.
 5. Output : automatique.
+
+### Services du formulaire lecteur
+
+Le formulaire `/proposer-un-sujet` utilise deux intégrations Vercel Marketplace :
+
+- Resend pour envoyer les messages privés à l’adresse de contact ;
+- Upstash Redis pour limiter chaque connexion à trois envois sur 24 heures.
+
+Les variables attendues sont listées sans valeur dans `.env.example`. Elles sont fournies
+automatiquement par les intégrations Vercel et ne doivent jamais être copiées dans Git. Le
+traitement serveur accepte uniquement du JSON, n’autorise aucune pièce jointe et n’enregistre
+pas le contenu des messages dans la base Redis.
 
 ## Ajouter un article
 

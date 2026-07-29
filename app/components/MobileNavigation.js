@@ -16,6 +16,7 @@ const mainLinks = [
   { href: '/comprendre', label: 'Comprendre', strong: true },
   { href: '/outils', label: 'Outils' },
   { href: '/bien-sequiper', label: 'Bien s’équiper', strong: true },
+  { href: '/proposer-un-sujet', label: 'Proposer ou corriger' },
   { href: '/a-propos', label: 'À propos' },
 ];
 
