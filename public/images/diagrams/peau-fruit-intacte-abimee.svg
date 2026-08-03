@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1050" viewBox="0 0 1000 1050" role="img" aria-labelledby="title desc">
+  <title id="title">Comparaison entre une peau de fruit intacte et une peau blessée</title>
+  <desc id="desc">La peau intacte freine la perte d’eau et l’entrée des microorganismes ; une fissure expose les cellules, augmente les échanges et facilite la pourriture.</desc>
+  <defs>
+    <pattern id="healthyCells" width="60" height="54" patternUnits="userSpaceOnUse">
+      <path d="M3 27Q15 5 30 8Q47 5 57 27Q48 50 30 46Q12 50 3 27Z" fill="#f6c9a8" stroke="#a9614a" stroke-width="2"/>
+    </pattern>
+    <pattern id="hurtCells" width="60" height="54" patternUnits="userSpaceOnUse">
+      <path d="M3 27Q15 5 30 8Q47 5 57 27Q48 50 30 46Q12 50 3 27Z" fill="#e2a080" stroke="#8e4939" stroke-width="2"/>
+    </pattern>
+    <marker id="blueArrow" markerWidth="20" markerHeight="20" refX="18" refY="10" orient="auto" markerUnits="userSpaceOnUse" viewBox="0 0 20 20">
+      <path d="M0 0L20 10L0 20Z" fill="#2d7180"/>
+    </marker>
+    <marker id="redArrow" markerWidth="20" markerHeight="20" refX="18" refY="10" orient="auto" markerUnits="userSpaceOnUse" viewBox="0 0 20 20">
+      <path d="M0 0L20 10L0 20Z" fill="#c75e47"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="1050" rx="34" fill="#fbf7ee"/>
+  <text x="500" y="66" text-anchor="middle" font-family="Arial, sans-serif" font-size="39" font-weight="700" fill="#143c2e">Une rayure change toute la conservation</text>
+  <text x="500" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#52645d">Vue agrandie de la surface d’un fruit charnu</text>
+
+  <!-- Intact -->
+  <g transform="translate(45 150)">
+    <rect width="440" height="780" rx="30" fill="#fff" stroke="#74a987" stroke-width="4"/>
+    <rect x="22" y="20" width="165" height="48" rx="24" fill="#e5f2e8"/>
+    <text x="105" y="53" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#245332">PEAU INTACTE</text>
+
+    <g transform="translate(40 185)">
+      <rect x="0" y="0" width="360" height="20" rx="10" fill="#e2a83d"/>
+      <rect x="0" y="20" width="360" height="72" fill="#ba6450"/>
+      <g fill="#e99a79" stroke="#843f34" stroke-width="2">
+        <ellipse cx="31" cy="56" rx="27" ry="24"/><ellipse cx="91" cy="56" rx="27" ry="24"/>
+        <ellipse cx="151" cy="56" rx="27" ry="24"/><ellipse cx="211" cy="56" rx="27" ry="24"/>
+        <ellipse cx="271" cy="56" rx="27" ry="24"/><ellipse cx="331" cy="56" rx="27" ry="24"/>
+      </g>
+      <rect x="0" y="92" width="360" height="200" fill="url(#healthyCells)"/>
+      <g fill="#6a5577">
+        <circle cx="80" cy="-42" r="10"/><circle cx="111" cy="-55" r="8"/><circle cx="140" cy="-38" r="11"/>
+      </g>
+      <path d="M75-15Q110 9 145-13" fill="none" stroke="#74a987" stroke-width="6"/>
+    </g>
+
+    <g font-family="Arial, sans-serif">
+      <text x="42" y="515" font-size="25" font-weight="700" fill="#245332">La cuticule et l’épiderme :</text>
+      <text x="55" y="558" font-size="22" fill="#465c4e">✓ freinent la sortie de H₂O</text>
+      <text x="55" y="598" font-size="22" fill="#465c4e">✓ limitent le mouillage</text>
+      <text x="55" y="638" font-size="22" fill="#465c4e">✓ bloquent beaucoup de spores</text>
+      <text x="55" y="678" font-size="22" fill="#465c4e">✓ isolent la chair du milieu</text>
+      <rect x="35" y="710" width="370" height="48" rx="18" fill="#e5f2e8"/>
+      <text x="220" y="741" text-anchor="middle" font-size="21" font-weight="700" fill="#245332">Perte d’eau freinée · tissu intact</text>
+    </g>
+  </g>
+
+  <!-- Injured -->
+  <g transform="translate(515 150)">
+    <rect width="440" height="780" rx="30" fill="#fff" stroke="#c75e47" stroke-width="4"/>
+    <rect x="22" y="20" width="190" height="48" rx="24" fill="#f9e9e4"/>
+    <text x="117" y="53" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#8d402d">PEAU BLESSÉE</text>
+
+    <g transform="translate(40 185)">
+      <path d="M0 0H151L170 33L194 0H360V20H210L187 55L157 20H0Z" fill="#e2a83d"/>
+      <path d="M0 20H151L170 64L194 20H360V92H208L187 79L159 92H0Z" fill="#ba6450"/>
+      <rect x="0" y="92" width="360" height="200" fill="url(#hurtCells)"/>
+      <path d="M151 0L170 64L187 79L194 20" fill="#7f392f" stroke="#5f2b25" stroke-width="4"/>
+      <text x="180" y="-77" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#8d402d">O₂ + germes</text>
+      <path d="M180-65V-5" stroke="#c75e47" stroke-width="8" marker-end="url(#redArrow)"/>
+      <text x="70" y="-50" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#174e59">H₂O</text>
+      <path d="M158 42L91-40" stroke="#2d7180" stroke-width="8" stroke-dasharray="12 9" marker-end="url(#blueArrow)"/>
+      <text x="292" y="-50" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" font-weight="700" fill="#174e59">H₂O</text>
+      <path d="M198 42L270-40" stroke="#2d7180" stroke-width="8" stroke-dasharray="12 9" marker-end="url(#blueArrow)"/>
+      <g fill="#6a5577" stroke="#fff" stroke-width="2">
+        <circle cx="149" cy="-48" r="10"/><circle cx="201" cy="-45" r="11"/>
+      </g>
+      <path d="M149-37q9 35 30 63q20 25 12 70" fill="none" stroke="#6a5577" stroke-width="7"/>
+      <path d="M201-34q-7 34-20 54" fill="none" stroke="#6a5577" stroke-width="6"/>
+    </g>
+
+    <g font-family="Arial, sans-serif">
+      <text x="42" y="515" font-size="25" font-weight="700" fill="#8d402d">Au niveau de la blessure :</text>
+      <text x="55" y="558" font-size="22" fill="#76544b">↑ eau perdue et cellules exposées</text>
+      <text x="55" y="598" font-size="22" fill="#76544b">↑ respiration et parfois éthylène</text>
+      <text x="55" y="638" font-size="22" fill="#76544b">↑ brunissement enzymatique</text>
+      <text x="55" y="678" font-size="22" fill="#76544b">↑ risque d’invasion microbienne</text>
+      <rect x="35" y="710" width="370" height="48" rx="18" fill="#f9e9e4"/>
+      <text x="220" y="741" text-anchor="middle" font-size="21" font-weight="700" fill="#8d402d">Altération locale accélérée</text>
+    </g>
+  </g>
+
+  <rect x="125" y="960" width="750" height="60" rx="22" fill="#143c2e"/>
+  <text x="500" y="998" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#fff">Une peau intacte protège ; elle ne désinfecte pas.</text>
+</svg>

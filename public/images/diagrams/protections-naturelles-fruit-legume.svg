@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1320" viewBox="0 0 1000 1320" role="img" aria-labelledby="title desc">
+  <title id="title">Les protections naturelles d’un fruit, d’un oignon et d’une pomme de terre</title>
+  <desc id="desc">Comparaison scientifique de la cuticule d’un fruit, des tuniques sèches d’un oignon et du périderme subérisé d’une pomme de terre.</desc>
+  <defs>
+    <pattern id="cellsFruit" width="58" height="45" patternUnits="userSpaceOnUse">
+      <path d="M2 22Q14 2 29 6Q45 2 56 22Q47 43 29 39Q11 43 2 22Z" fill="#f5c7a5" stroke="#b46a4e" stroke-width="2"/>
+    </pattern>
+    <pattern id="cellsPotato" width="64" height="50" patternUnits="userSpaceOnUse">
+      <path d="M3 25Q15 4 32 7Q50 4 61 25Q51 47 32 43Q13 47 3 25Z" fill="#f4e3b6" stroke="#b7995b" stroke-width="2"/>
+      <circle cx="24" cy="23" r="5" fill="#fff" stroke="#d0bc89"/>
+      <circle cx="39" cy="30" r="4" fill="#fff" stroke="#d0bc89"/>
+    </pattern>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#2f6e4e"/>
+    </marker>
+    <marker id="arrowRed" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#c75e47"/>
+    </marker>
+  </defs>
+
+  <rect width="1000" height="1320" rx="34" fill="#fbf7ee"/>
+  <text x="500" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="43" font-weight="700" fill="#143c2e">Trois enveloppes naturelles</text>
+  <text x="500" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#52645d">Elles limitent surtout la perte d’eau et l’entrée des microorganismes</text>
+
+  <!-- Fruit charnu -->
+  <g transform="translate(50 145)">
+    <rect width="900" height="330" rx="28" fill="#fff" stroke="#d8ddd8" stroke-width="3"/>
+    <rect x="22" y="22" width="205" height="48" rx="24" fill="#e5f2e8"/>
+    <text x="124" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#245332">FRUIT CHARNU</text>
+
+    <g transform="translate(55 108)">
+      <rect x="0" y="0" width="380" height="18" rx="9" fill="#e2a83d"/>
+      <rect x="0" y="18" width="380" height="54" fill="#ba6450"/>
+      <g fill="#e99a79" stroke="#843f34" stroke-width="2">
+        <ellipse cx="33" cy="45" rx="29" ry="20"/><ellipse cx="96" cy="45" rx="29" ry="20"/>
+        <ellipse cx="159" cy="45" rx="29" ry="20"/><ellipse cx="222" cy="45" rx="29" ry="20"/>
+        <ellipse cx="285" cy="45" rx="29" ry="20"/><ellipse cx="348" cy="45" rx="29" ry="20"/>
+      </g>
+      <rect x="0" y="72" width="380" height="132" fill="url(#cellsFruit)"/>
+      <path d="M62-28v24M98-34v30M134-27v23" stroke="#58a6be" stroke-width="5" stroke-linecap="round"/>
+      <path d="M62-3l-10-15M62-3l10-15M98-3L88-18M98-3l10-15M134-3l-10-15M134-3l10-15" stroke="#58a6be" stroke-width="4"/>
+      <g fill="#6a5577" stroke="#fff" stroke-width="2">
+        <circle cx="265" cy="-18" r="10"/><circle cx="291" cy="-29" r="8"/><circle cx="316" cy="-14" r="11"/>
+      </g>
+      <path d="M270-2Q290 15 311 1" fill="none" stroke="#c75e47" stroke-width="4"/>
+    </g>
+
+    <g font-family="Arial, sans-serif">
+      <path d="M435 117H510" stroke="#e2a83d" stroke-width="5"/>
+      <circle cx="525" cy="117" r="7" fill="#e2a83d"/>
+      <text x="548" y="125" font-size="25" font-weight="700" fill="#8a5b12">Cuticule : cutine + cires</text>
+      <text x="548" y="151" font-size="19" fill="#5f625e">Freine la sortie d’eau</text>
+      <text x="548" y="174" font-size="19" fill="#5f625e">et limite le mouillage</text>
+
+      <path d="M435 153H474V200H510" fill="none" stroke="#ba6450" stroke-width="5"/>
+      <circle cx="525" cy="200" r="7" fill="#ba6450"/>
+      <text x="548" y="208" font-size="25" font-weight="700" fill="#7f3e32">Épiderme continu</text>
+      <text x="548" y="234" font-size="19" fill="#5f625e">Barrière cellulaire contre</text>
+      <text x="548" y="257" font-size="19" fill="#5f625e">les chocs et les germes</text>
+
+      <path d="M435 256H474V282H510" fill="none" stroke="#b46a4e" stroke-width="5"/>
+      <circle cx="525" cy="282" r="7" fill="#b46a4e"/>
+      <text x="548" y="290" font-size="24" font-weight="700" fill="#7d4d3a">Parois + défenses actives</text>
+      <text x="548" y="316" font-size="16" fill="#5f625e">Pectines · cellulose · composés phénoliques</text>
+    </g>
+  </g>
+
+  <!-- Oignon -->
+  <g transform="translate(50 500)">
+    <rect width="900" height="330" rx="28" fill="#fff" stroke="#d8ddd8" stroke-width="3"/>
+    <rect x="22" y="22" width="190" height="48" rx="24" fill="#fff1d8"/>
+    <text x="117" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#8a5415">OIGNON SEC</text>
+
+    <g transform="translate(74 82)">
+      <path d="M185 20C92 41 35 117 46 213C58 297 317 297 329 213C340 117 278 41 185 20Z" fill="#f6e4ad" stroke="#7d5425" stroke-width="12"/>
+      <path d="M185 36C113 61 74 125 81 207C89 262 281 262 289 207C296 125 257 61 185 36Z" fill="#f8eac1" stroke="#b88942" stroke-width="8"/>
+      <path d="M185 53C137 83 112 137 119 201C126 239 244 239 251 201C258 137 233 83 185 53Z" fill="#fff5d8" stroke="#d5ae62" stroke-width="6"/>
+      <path d="M185 18V-8M174 15L155-4M196 15l19-19" stroke="#7d5425" stroke-width="7" stroke-linecap="round"/>
+      <path d="M145 246Q185 270 225 246" fill="none" stroke="#5d7e3a" stroke-width="8"/>
+    </g>
+
+    <g font-family="Arial, sans-serif">
+      <path d="M412 117H510" stroke="#7d5425" stroke-width="5"/>
+      <circle cx="525" cy="117" r="7" fill="#7d5425"/>
+      <text x="548" y="125" font-size="25" font-weight="700" fill="#68431d">Tuniques externes sèches</text>
+      <text x="548" y="153" font-size="20" fill="#5f625e">Écailles mortes, sèches et papyracées</text>
+
+      <path d="M412 190H510" stroke="#b88942" stroke-width="5"/>
+      <circle cx="525" cy="190" r="7" fill="#b88942"/>
+      <text x="548" y="198" font-size="25" font-weight="700" fill="#8a5b12">Couches superposées</text>
+      <text x="548" y="226" font-size="20" fill="#5f625e">Freinent pertes d’eau et chocs</text>
+
+      <path d="M412 260H510" stroke="#c75e47" stroke-width="5"/>
+      <circle cx="525" cy="260" r="7" fill="#c75e47"/>
+      <text x="548" y="268" font-size="25" font-weight="700" fill="#8d402d">Faiblesse : l’humidité</text>
+      <text x="548" y="296" font-size="20" fill="#5f625e">Humidité → moisissure et pourriture</text>
+    </g>
+  </g>
+
+  <!-- Pomme de terre -->
+  <g transform="translate(50 855)">
+    <rect width="900" height="330" rx="28" fill="#fff" stroke="#d8ddd8" stroke-width="3"/>
+    <rect x="22" y="22" width="260" height="48" rx="24" fill="#eee8dc"/>
+    <text x="152" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#604a2e">POMME DE TERRE</text>
+
+    <g transform="translate(65 98)">
+      <path d="M25 112C25 35 102 0 205 15C306 2 367 61 352 141C365 215 271 245 179 230C85 245 13 201 25 112Z" fill="url(#cellsPotato)" stroke="#6d4b2c" stroke-width="18"/>
+      <path d="M32 108C33 47 98 18 204 29C292 18 344 67 339 136" fill="none" stroke="#9b7147" stroke-width="9" stroke-dasharray="14 8"/>
+      <ellipse cx="105" cy="52" rx="17" ry="9" fill="#5c3d25"/>
+      <path d="M105 52q15 12 25 30" fill="none" stroke="#5d7e3a" stroke-width="5"/>
+      <g fill="#fff" stroke="#d0bc89" stroke-width="2">
+        <circle cx="122" cy="135" r="7"/><circle cx="156" cy="172" r="6"/>
+        <circle cx="230" cy="102" r="7"/><circle cx="265" cy="169" r="6"/>
+      </g>
+    </g>
+
+    <g font-family="Arial, sans-serif">
+      <path d="M432 115H510" stroke="#6d4b2c" stroke-width="5"/>
+      <circle cx="525" cy="115" r="7" fill="#6d4b2c"/>
+      <text x="548" y="123" font-size="25" font-weight="700" fill="#60422a">Périderme (« peau »)</text>
+      <text x="548" y="151" font-size="20" fill="#5f625e">Cellules de liège protectrices</text>
+
+      <path d="M432 185H510" stroke="#9b7147" stroke-width="5"/>
+      <circle cx="525" cy="185" r="7" fill="#9b7147"/>
+      <text x="548" y="193" font-size="25" font-weight="700" fill="#785633">Subérine + cires</text>
+      <text x="548" y="221" font-size="20" fill="#5f625e">Freinent la perte d’eau et les germes</text>
+
+      <path d="M432 257H510" stroke="#c75e47" stroke-width="5"/>
+      <circle cx="525" cy="257" r="7" fill="#c75e47"/>
+      <text x="548" y="265" font-size="25" font-weight="700" fill="#8d402d">Après une blessure</text>
+      <text x="548" y="293" font-size="18" fill="#5f625e">Reformation lente d’une</text>
+      <text x="548" y="316" font-size="18" fill="#5f625e">barrière subérisée</text>
+    </g>
+  </g>
+
+  <rect x="110" y="1205" width="780" height="92" rx="24" fill="#143c2e"/>
+  <text x="500" y="1243" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#fff">Ces barrières ralentissent les échanges</text>
+  <text x="500" y="1276" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" fill="#dbe9e2">Elles ne rendent pas l’aliment stérile</text>
+</svg>

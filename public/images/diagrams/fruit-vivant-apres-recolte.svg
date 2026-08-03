@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Un fruit continue de respirer après la récolte</title>
+  <desc id="desc">Les réserves et l’oxygène servent à produire de l’énergie, avec rejet de dioxyde de carbone, d’eau et de chaleur ; le froid ralentit cette respiration.</desc>
+  <defs>
+    <radialGradient id="fruit" cx="40%" cy="35%" r="70%">
+      <stop offset="0" stop-color="#f5a06e"/>
+      <stop offset="1" stop-color="#c8503d"/>
+    </radialGradient>
+    <marker id="arrowBlue" markerWidth="22" markerHeight="22" refX="20" refY="11" orient="auto" markerUnits="userSpaceOnUse" viewBox="0 0 22 22">
+      <path d="M0 0L22 11L0 22Z" fill="#2d7180"/>
+    </marker>
+    <marker id="arrowOrange" markerWidth="22" markerHeight="22" refX="20" refY="11" orient="auto" markerUnits="userSpaceOnUse" viewBox="0 0 22 22">
+      <path d="M0 0L22 11L0 22Z" fill="#d38a2b"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="1000" rx="34" fill="#fbf7ee"/>
+  <text x="500" y="66" text-anchor="middle" font-family="Arial, sans-serif" font-size="44" font-weight="700" fill="#143c2e">Récolté ne veut pas dire « inerte »</text>
+  <text x="500" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#52645d">Les cellules du fruit continuent leur métabolisme</text>
+
+  <g transform="translate(70 150)">
+    <rect width="860" height="445" rx="30" fill="#fff" stroke="#d8ddd8" stroke-width="3"/>
+    <g transform="translate(115 70)">
+      <circle cx="210" cy="165" r="133" fill="url(#fruit)" stroke="#8f382e" stroke-width="8"/>
+      <path d="M209 37q-5-49 17-70" fill="none" stroke="#65472d" stroke-width="14" stroke-linecap="round"/>
+      <path d="M225 14q64-56 102-4q-49 42-102 4z" fill="#4a8451" stroke="#2f6438" stroke-width="6"/>
+      <g fill="#ffe9c7" opacity=".72">
+        <circle cx="166" cy="129" r="16"/><circle cx="220" cy="113" r="18"/><circle cx="264" cy="148" r="15"/>
+        <circle cx="151" cy="187" r="18"/><circle cx="211" cy="187" r="17"/><circle cx="269" cy="206" r="18"/>
+      </g>
+    </g>
+
+    <g font-family="Arial, sans-serif">
+      <text x="126" y="221" text-anchor="middle" font-size="29" font-weight="700" fill="#174e59">O₂</text>
+      <path d="M76 250H154" stroke="#2d7180" stroke-width="7" stroke-linecap="round"/>
+      <path d="M154 236L180 250L154 264Z" fill="#2d7180"/>
+      <text x="90" y="300" text-anchor="middle" font-size="18" fill="#4d6f75">entre par diffusion</text>
+    </g>
+
+    <g font-family="Arial, sans-serif">
+      <path d="M572 205H678" stroke="#d38a2b" stroke-width="7" stroke-linecap="round"/>
+      <path d="M678 191L704 205L678 219Z" fill="#d38a2b"/>
+      <text x="718" y="214" font-size="28" font-weight="700" fill="#8a5415">CO₂</text>
+      <text x="718" y="244" font-size="19" fill="#725320">respiration</text>
+    </g>
+
+    <g font-family="Arial, sans-serif">
+      <path d="M566 295H678" stroke="#58a6be" stroke-width="7" stroke-linecap="round"/>
+      <path d="M678 281L704 295L678 309Z" fill="#2d7180"/>
+      <text x="718" y="304" font-size="28" font-weight="700" fill="#174e59">H₂O</text>
+      <text x="718" y="334" font-size="19" fill="#4d6f75">transpiration</text>
+    </g>
+
+    <g transform="translate(600 355)">
+      <path d="M0 28q25-55 50 0q25-55 50 0q25-55 50 0" fill="none" stroke="#c75e47" stroke-width="8" stroke-linecap="round"/>
+      <text x="75" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#8d402d">chaleur dégagée</text>
+    </g>
+  </g>
+
+  <rect x="105" y="630" width="790" height="88" rx="26" fill="#143c2e"/>
+  <text x="500" y="667" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" font-weight="700" fill="#fff">Sucres + O₂ → énergie + CO₂ + H₂O + chaleur</text>
+  <text x="500" y="699" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#dbe9e2">Les réserves diminuent : fermeté, acidité et arômes évoluent</text>
+
+  <g transform="translate(55 755)">
+    <rect width="278" height="180" rx="26" fill="#fff1df" stroke="#d38a2b" stroke-width="3"/>
+    <circle cx="54" cy="53" r="26" fill="#d38a2b"/>
+    <path d="M54 32v42M35 53h38" stroke="#fff" stroke-width="6"/>
+    <text x="95" y="51" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#8a5415">Chaleur</text>
+    <text x="25" y="101" font-family="Arial, sans-serif" font-size="20" fill="#675038">Respiration plus rapide</text>
+    <text x="25" y="132" font-family="Arial, sans-serif" font-size="20" fill="#675038">→ vieillissement accéléré</text>
+  </g>
+  <g transform="translate(361 755)">
+    <rect width="278" height="180" rx="26" fill="#eaf4f5" stroke="#2d7180" stroke-width="3"/>
+    <circle cx="54" cy="53" r="26" fill="#2d7180"/>
+    <path d="M54 30v46M34 42l40 23M74 42L34 65" stroke="#fff" stroke-width="5"/>
+    <text x="95" y="51" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#174e59">Froid toléré</text>
+    <text x="25" y="101" font-family="Arial, sans-serif" font-size="20" fill="#48656a">Réactions ralenties</text>
+    <text x="25" y="132" font-family="Arial, sans-serif" font-size="20" fill="#48656a">→ qualité prolongée</text>
+  </g>
+  <g transform="translate(667 755)">
+    <rect width="278" height="180" rx="26" fill="#f1ebf5" stroke="#765b89" stroke-width="3"/>
+    <circle cx="54" cy="53" r="26" fill="#765b89"/>
+    <circle cx="45" cy="53" r="6" fill="#fff"/><circle cx="64" cy="43" r="6" fill="#fff"/><circle cx="67" cy="64" r="7" fill="#fff"/>
+    <text x="95" y="51" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#574067">Éthylène</text>
+    <text x="25" y="101" font-family="Arial, sans-serif" font-size="20" fill="#65576b">Signal de maturation</text>
+    <text x="25" y="132" font-family="Arial, sans-serif" font-size="20" fill="#65576b">→ fruits climactériques</text>
+  </g>
+  <text x="500" y="975" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#143c2e">Le froid ralentit le processus ; il ne crée pas le goût.</text>
+</svg>

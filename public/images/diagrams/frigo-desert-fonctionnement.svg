@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Fonctionnement du frigo du désert</title>
+  <desc id="desc">L’évaporation de l’eau dans du sable humide retire de la chaleur, avec une efficacité dépendante d’un air chaud, sec et ventilé.</desc>
+  <rect width="1200" height="800" rx="36" fill="#fbf7ee"/>
+  <text x="600" y="74" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="700" fill="#143c2e">Frigo du désert : refroidir par évaporation</text>
+  <text x="600" y="113" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" fill="#52645d">Utile pour certains végétaux — pas un réfrigérateur sanitaire</text>
+
+  <g transform="translate(85 175)">
+    <path d="M30 70c80-38 160-38 240 0" fill="none" stroke="#d38a2b" stroke-width="8" stroke-linecap="round"/>
+    <path d="M110 30l24-20M168 25l18-23M220 43l28-16" stroke="#d38a2b" stroke-width="7" stroke-linecap="round"/>
+    <text x="150" y="113" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#8a5415">Air chaud et sec</text>
+    <text x="150" y="146" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#816436">favorise l’évaporation</text>
+  </g>
+
+  <g transform="translate(395 155)">
+    <path d="M45 95h370l-42 465H87z" fill="#d58b56" stroke="#8f5432" stroke-width="7"/>
+    <path d="M95 125h270l-28 385H123z" fill="#afd9d5"/>
+    <path d="M150 155h160l-18 320H168z" fill="#f6efe1" stroke="#8f5432" stroke-width="6"/>
+    <ellipse cx="230" cy="155" rx="80" ry="22" fill="#fff8eb" stroke="#8f5432" stroke-width="6"/>
+    <g fill="#dfb33d" stroke="#946b12" stroke-width="3">
+      <circle cx="205" cy="240" r="25"/><circle cx="255" cy="244" r="27"/>
+      <ellipse cx="205" cy="320" rx="35" ry="23"/><ellipse cx="260" cy="326" rx="31" ry="24"/>
+      <path d="M180 390q50-55 100 0q-50 38-100 0z"/>
+    </g>
+    <path d="M130 115q-35-25-55-65M330 115q35-25 55-65M105 210q-55-10-78-45M355 220q58-12 85-52" fill="none" stroke="#2d7180" stroke-width="7" stroke-linecap="round"/>
+    <g fill="#2d7180">
+      <path d="M69 44l22 8-13 19z"/><path d="M391 44l-22 8 13 19z"/>
+      <path d="M21 160l21 4-10 19z"/><path d="M445 162l-22 4 11 19z"/>
+    </g>
+    <text x="230" y="602" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#143c2e">Sable humide entre deux pots</text>
+  </g>
+
+  <g transform="translate(860 170)">
+    <path d="M40 70h205" stroke="#3f7a51" stroke-width="8" stroke-linecap="round"/>
+    <path d="M200 43l45 27-45 27" fill="none" stroke="#3f7a51" stroke-width="8" stroke-linecap="round"/>
+    <text x="140" y="122" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#245332">Ventilation</text>
+    <text x="140" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#58705e">emporte la vapeur d’eau</text>
+    <rect x="5" y="220" width="285" height="170" rx="26" fill="#e8f1eb" stroke="#9abd91" stroke-width="3"/>
+    <text x="147" y="264" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#245332">Résultat possible</text>
+    <text x="147" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#355a40">air plus frais</text>
+    <text x="147" y="337" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#355a40">humidité plus élevée</text>
+    <text x="147" y="369" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#355a40">moins de dessèchement</text>
+  </g>
+
+  <rect x="80" y="690" width="1040" height="72" rx="24" fill="#9f3f2f"/>
+  <text x="600" y="720" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#fff">Ne garantit pas ≤ 4 °C : pas de viande, poisson, lait, restes ou aliments coupés</text>
+  <text x="600" y="747" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" fill="#ffe4dc">Efficacité faible lorsque l’air est humide — eau propre et contrôle quotidien indispensables</text>
+</svg>
