@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1500" viewBox="0 0 1000 1500" role="img" aria-labelledby="title desc">
+  <title id="title">18 aliments : frigo ou placard ?</title>
+  <desc id="desc">Épingle Pinterest Chimie Maison sur le meilleur rangement pour préserver les aliments.</desc>
+  <defs>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#143c2e" stop-opacity=".15"/>
+      <stop offset=".58" stop-color="#143c2e" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#143c2e" stop-opacity=".88"/>
+    </linearGradient>
+    <clipPath id="photo">
+      <rect x="55" y="55" width="890" height="740" rx="38"/>
+    </clipPath>
+  </defs>
+  <rect width="1000" height="1500" fill="#fbf7ee"/>
+  <g clip-path="url(#photo)">
+    <rect x="55" y="55" width="890" height="740" fill="#e9e0ce"/>
+    <rect x="92" y="165" width="420" height="350" rx="18" fill="#8c6b47"/>
+    <rect x="112" y="185" width="380" height="122" rx="10" fill="#f1e6d2"/>
+    <rect x="112" y="328" width="380" height="166" rx="10" fill="#d9c5a3"/>
+    <rect x="545" y="110" width="320" height="510" rx="24" fill="#d9e6e7" stroke="#7fa7ae" stroke-width="8"/>
+    <line x1="545" y1="325" x2="865" y2="325" stroke="#7fa7ae" stroke-width="8"/>
+    <line x1="712" y1="110" x2="712" y2="620" stroke="#7fa7ae" stroke-width="8"/>
+    <g fill="#c89438" stroke="#7c5a20" stroke-width="4">
+      <ellipse cx="180" cy="400" rx="48" ry="34"/><ellipse cx="250" cy="420" rx="54" ry="35"/>
+      <ellipse cx="342" cy="405" rx="42" ry="39"/><ellipse cx="420" cy="425" rx="49" ry="36"/>
+    </g>
+    <g fill="#c66a3a" stroke="#873c27" stroke-width="4">
+      <circle cx="620" cy="408" r="33"/><circle cx="680" cy="418" r="33"/>
+      <circle cx="620" cy="485" r="32"/><circle cx="680" cy="495" r="32"/>
+    </g>
+    <g fill="#4f8a59" stroke="#2d643c" stroke-width="4">
+      <path d="M755 390q52-78 85 0q-42 44-85 0z"/>
+      <path d="M744 465q58-78 100 2q-53 45-100-2z"/>
+    </g>
+    <g fill="#e3ad36" stroke="#926817" stroke-width="4">
+      <path d="M180 260q54-88 105 0q-51 42-105 0z"/>
+      <path d="M275 257q49-80 94 0q-45 38-94 0z"/>
+    </g>
+    <rect x="55" y="55" width="890" height="740" fill="url(#shade)"/>
+  </g>
+  <rect x="92" y="96" width="260" height="50" rx="25" fill="#fff"/>
+  <text x="222" y="129" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" fill="#143c2e">GUIDE PRATIQUE</text>
+  <text x="500" y="565" text-anchor="middle" font-family="Arial, sans-serif" font-size="76" font-weight="800" fill="#fff">18 ALIMENTS</text>
+  <text x="500" y="647" text-anchor="middle" font-family="Arial, sans-serif" font-size="65" font-weight="800" fill="#fff">FRIGO OU PLACARD ?</text>
+  <text x="500" y="704" text-anchor="middle" font-family="Arial, sans-serif" font-size="27" fill="#fff">préserver goût, texture et durée</text>
+
+  <g transform="translate(55 835)">
+    <rect width="278" height="470" rx="30" fill="#eaf4f5" stroke="#98bdc3" stroke-width="3"/>
+    <circle cx="139" cy="66" r="38" fill="#2d7180"/>
+    <text x="139" y="78" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#fff">4 °C</text>
+    <text x="139" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="31" font-weight="800" fill="#174e59">FRIGO</text>
+    <g font-family="Arial, sans-serif" font-size="23" fill="#183b42">
+      <text x="28" y="190">• œufs à la maison</text>
+      <text x="28" y="233">• salades et baies</text>
+      <text x="28" y="276">• raisins et herbes</text>
+      <text x="28" y="319">• fruits déjà mûrs</text>
+      <text x="28" y="362">• végétaux coupés</text>
+      <text x="28" y="405">• produits frais</text>
+    </g>
+  </g>
+  <g transform="translate(361 835)">
+    <rect width="278" height="470" rx="30" fill="#fff5dd" stroke="#e3ba67" stroke-width="3"/>
+    <circle cx="139" cy="66" r="38" fill="#d38a2b"/>
+    <circle cx="139" cy="66" r="17" fill="none" stroke="#fff" stroke-width="6"/>
+    <text x="139" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="31" font-weight="800" fill="#8a5415">AMBIANTE</text>
+    <g font-family="Arial, sans-serif" font-size="23" fill="#513813">
+      <text x="28" y="190">• tomates entières</text>
+      <text x="28" y="233">• bananes</text>
+      <text x="28" y="276">• avocats à mûrir</text>
+      <text x="28" y="319">• poires à mûrir</text>
+      <text x="28" y="362">• agrumes entiers</text>
+      <text x="28" y="405">• melons entiers</text>
+    </g>
+  </g>
+  <g transform="translate(667 835)">
+    <rect width="278" height="470" rx="30" fill="#eaf3e9" stroke="#9abd91" stroke-width="3"/>
+    <circle cx="139" cy="66" r="38" fill="#3f7a51"/>
+    <path d="M112 59h54v29h-54zM120 59V45h38v14" fill="none" stroke="#fff" stroke-width="5"/>
+    <text x="139" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="31" font-weight="800" fill="#245332">PLACARD</text>
+    <g font-family="Arial, sans-serif" font-size="23" fill="#294a31">
+      <text x="28" y="190">• pommes de terre</text>
+      <text x="28" y="233">• patates douces</text>
+      <text x="28" y="276">• oignons secs</text>
+      <text x="28" y="319">• ail sec</text>
+      <text x="28" y="362">• courges entières</text>
+      <text x="28" y="405">• bocaux fermés</text>
+    </g>
+  </g>
+
+  <rect x="55" y="1340" width="890" height="82" rx="26" fill="#143c2e"/>
+  <text x="500" y="1374" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" font-weight="700" fill="#fff">LE FROID RALENTIT · IL NE FAIT PAS MÛRIR</text>
+  <text x="500" y="1407" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" fill="#dbe9e2">La peau intacte reste la première barrière du fruit</text>
+  <text x="500" y="1470" text-anchor="middle" font-family="Arial, sans-serif" font-size="23" font-weight="700" letter-spacing="3" fill="#143c2e">CHIMIE MAISON</text>
+</svg>
