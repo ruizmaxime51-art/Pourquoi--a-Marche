@@ -265,6 +265,7 @@ sel doivent être pesés selon la méthode de la recette.
 <li><a href="/articles/lacto-fermentation-legumes-securite">Carottes lacto-fermentées : recette pas à pas</a></li>
 <li><a href="/articles/lacto-fermentation-odeur-moisissure">Odeur, dépôt blanc ou moisissure : reconnaître un problème</a></li>
 <li><a href="/articles/quelle-balance-recettes-maison">Choisir une balance pour peser la saumure</a></li>
+<li><a href="/articles/aliments-conserver-hors-frigo">Quels aliments peuvent rester hors du réfrigérateur ?</a></li>
 </ul>
 </div>
 

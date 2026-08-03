@@ -96,7 +96,16 @@ milieu moins favorable à de nombreux microorganismes indésirables. Pour la sé
 le seuil de **pH 4,6** est particulièrement important : l'USDA rappelle que *Clostridium
 botulinum* ne peut pas se développer sous ce pH{{ref:usda-botulism-ph}}.
 
-![Chute du pH pendant une fermentation lactique](/images/lacto-fermentation-ph.webp)
+Une étude menée sur deux productions artisanales de choucroute, avec cinq cuves suivies chez
+chaque producteur, montre ce phénomène sur des mesures réelles : le pH passe d'environ 5,7 à
+3,8–4,0 pendant la première semaine, tandis que les bactéries lactiques atteignent rapidement
+une forte densité. Les courbes ne constituent pas un calendrier universel pour tous les légumes,
+mais elles rendent visible le lien entre **croissance des bactéries lactiques**, **succession des
+espèces** et **acidification**{{ref:sauerkraut-dynamics-2022}}.
+
+![Mesures expérimentales dans dix cuves de choucroute : le pH diminue pendant les sept premiers jours tandis que les bactéries lactiques augmentent ; les diagrammes circulaires montrent les espèces isolées au cours du temps](/images/fermentation-ph-bacteries-science.webp)
+
+<p class="figure-credit">Source : Gaudioso et al. (2022), <a href="https://doi.org/10.3389/fmicb.2022.929738" target="_blank" rel="noopener">Microbial and metabolic characterization of organic artisanal sauerkraut fermentation</a>, figure 1, panneaux B et C — licence <a href="https://creativecommons.org/licenses/by/4.0/deed.fr" target="_blank" rel="noopener">CC BY 4.0</a>. Figure recadrée pour retirer le panneau de température ; données, axes et légende scientifique inchangés.</p>
 
 Cela ne veut pas dire que tout aliment sous pH 4,6 est automatiquement parfait, ni qu'une
 fermentation ratée devient sûre par magie. Mais cela explique pourquoi l'acidification est un
@@ -167,6 +176,7 @@ Cette notion sert de base aux deux recettes suivantes :
 - [Lacto-fermentation des légumes : choisir les légumes et les aromates](/articles/lacto-fermentation-guide-legumes)
 - [Carottes lacto-fermentées : recette pratique](/articles/lacto-fermentation-legumes-securite)
 - [Levain naturel : la fermentation en deux populations](/articles/levain-naturel-fermentation)
+- [Que peut-on conserver hors du frigo ?](/articles/aliments-conserver-hors-frigo)
 
 
 <div class="article-links-block">
@@ -175,6 +185,7 @@ Cette notion sert de base aux deux recettes suivantes :
 <li><a href="/articles/levain-ne-monte-pas">Pourquoi mon levain ne monte pas ?</a></li>
 <li><a href="/articles/lacto-fermentation-odeur-moisissure">Odeur, voile blanc ou moisissure : faut-il jeter ?</a></li>
 <li><a href="/articles/lacto-fermentation-legumes-securite">Recette de carottes lacto-fermentées</a></li>
+<li><a href="/articles/aliments-conserver-hors-frigo">Comprendre ce qui peut réellement rester hors du réfrigérateur</a></li>
 </ul>
 </div>
 

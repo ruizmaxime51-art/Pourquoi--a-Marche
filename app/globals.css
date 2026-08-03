@@ -1215,6 +1215,17 @@ h1, h2, h3, h4,
   font-weight: 700;
   color: var(--green-deep);
 }
+.post-body .figure-credit {
+  margin: -25px 14px 34px;
+  color: #667069;
+  font-size: .78rem;
+  line-height: 1.5;
+}
+.post-body .figure-credit a {
+  color: var(--green-deep);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
+}
 .expert-block {
   background: #FFF9EE !important;
   border-left-color: var(--amber) !important;
@@ -3156,6 +3167,10 @@ button, a, summary { touch-action: manipulation; }
     padding: 11px 4px 2px;
     font-size: 15px;
     line-height: 1.5;
+  }
+  .post-body .figure-credit {
+    margin: -20px 8px 28px;
+    font-size: .76rem;
   }
 
   .path-grid,

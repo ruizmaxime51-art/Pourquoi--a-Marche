@@ -62,6 +62,14 @@ produit dont la chimie correspond à ce qu'il doit enlever.
 
 ![Échelle de pH appliquée aux nettoyants maison : acide pour le calcaire, basique pour les graisses](/images/nettoyant-echelle-ph.webp)
 
+Le pH ne se déduit ni de l'odeur ni de l'aspect d'une solution. Il se **mesure**, idéalement avec
+un appareil étalonné lorsque la valeur doit être précise. La photographie ci-dessous montre une
+mesure réelle d'une solution légèrement acide avec une électrode immergée{{ref:ph-meter-electrolyzed-water-2021}}.
+
+![Photographie d'une mesure réelle avec un pH-mètre numérique plongé dans une solution légèrement acide ; l'écran affiche 6,2](/images/mesure-ph-metre-science.webp)
+
+<p class="figure-credit">Source : Farah et Al-Haj Ali (2021), <a href="https://doi.org/10.3389/fpubh.2021.629142" target="_blank" rel="noopener">Electrolyzed Water Generated On-Site as a Promising Disinfectant</a>, figure 2 — licence <a href="https://creativecommons.org/licenses/by/4.0/deed.fr" target="_blank" rel="noopener">CC BY 4.0</a>. Image optimisée pour le Web ; contenu photographique inchangé.</p>
+
 ## Pourquoi un acide enlève le calcaire
 
 Le calcaire domestique est principalement lié au **carbonate de calcium** CaCO₃. Les acides
@@ -114,6 +122,16 @@ L'eau de javel contient de l'hypochlorite. En présence d'un acide, l'hypochlori
 **dichlore gazeux Cl₂**, un gaz toxique pour les voies respiratoires. Le CDC documente ce type
 d'accident avec des nettoyants acides mélangés à de l'hypochlorite, et rappelle que ce mélange
 libère du chlore gazeux{{ref:cdc-bleach-acid}}.
+
+Le mécanisme commence par un **déplacement de l'équilibre chimique**. Quand le pH diminue, la
+forme hypochlorite OCl⁻ recule au profit de l'acide hypochloreux HOCl. À bas pH et en présence
+d'ions chlorure, des réactions secondaires peuvent ensuite former du dichlore moléculaire
+Cl₂{{ref:hypochlorous-speciation-2022}}. La courbe ci-dessous montre la première étape : le
+changement de proportion entre HOCl et OCl⁻ selon le pH.
+
+![Courbe scientifique de spéciation : la proportion d'acide hypochloreux HOCl domine aux pH plus faibles, tandis que l'ion hypochlorite OCl⁻ domine aux pH plus élevés](/images/ph-javel-hocl-ocl-science.webp)
+
+<p class="figure-credit">Source : Snell, Jandova et Wondrak (2022), <a href="https://doi.org/10.3389/fonc.2022.887220" target="_blank" rel="noopener">Hypochlorous Acid: From Innate Immune Factor and Environmental Toxicant to Chemopreventive Agent</a>, figure 2A — licence <a href="https://creativecommons.org/licenses/by/4.0/deed.fr" target="_blank" rel="noopener">CC BY 4.0</a>. Seul le panneau de spéciation a été conservé ; axes et données inchangés.</p>
 
 <div class="expert-block">
 

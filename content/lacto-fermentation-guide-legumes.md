@@ -198,6 +198,7 @@ croquantes, fermentent bien et supportent facilement ail, poivre et aneth.
 <h4>Recette liée</h4>
 <ul>
 <li><a href="/articles/lacto-fermentation-legumes-securite">Carottes lacto-fermentées : réussir la saumure et éviter les échecs</a></li>
+<li><a href="/articles/aliments-conserver-hors-frigo">Que peut-on conserver hors du frigo ? Guide aliment par aliment</a></li>
 </ul>
 </div>
 
