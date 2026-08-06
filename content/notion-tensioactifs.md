@@ -99,7 +99,7 @@ repère une CMC{{ref:surfactant-micelles-tem-2019}}.
 
 ![Mesures expérimentales de la concentration micellaire critique du SHDAB : rupture de pente de la tension superficielle dans le panneau A et de la conductivité dans le panneau B](/images/tensioactif-cmc-mesures-science.webp)
 
-<p class="figure-credit">Source : Zhang et al. (2019), <a href="https://doi.org/10.3389/fchem.2019.00242" target="_blank" rel="noopener">Substrate-Assisted Visualization of Surfactant Micelles via Transmission Electron Microscopy</a>, figure 2 — licence <a href="https://creativecommons.org/licenses/by/4.0/deed.fr" target="_blank" rel="noopener">CC BY 4.0</a>. Les panneaux A et B ont été disposés verticalement pour la lecture mobile ; données et axes inchangés.</p>
+<p class="figure-credit">Source : Zhang et al. (2019), <a href="https://doi.org/10.3389/fchem.2019.00242" target="_blank" rel="noopener">Substrate-Assisted Visualization of Surfactant Micelles via Transmission Electron Microscopy</a>, figure 2, panneaux A et B — licence <a href="https://creativecommons.org/licenses/by/4.0/deed.fr" target="_blank" rel="noopener">CC BY 4.0</a>.</p>
 
 Un produit trop dilué peut passer sous une zone où les micelles deviennent insuffisantes pour solubiliser les corps gras : il peut encore **mouiller** et **décoller**, mais maintient moins bien les graisses **dispersées**. À l'inverse, au-delà d'un certain dosage, ajouter plus de tensioactif n'améliore plus proportionnellement le lavage — on gaspille du produit.
 
@@ -112,7 +112,7 @@ même évolution{{ref:surfactant-micelles-tem-2019}}.
 
 ![Microscopies TEM et AFM de micelles de SHDAB : petites structures à la CMC à gauche et assemblages allongés à cinquante fois la CMC à droite](/images/micelles-cmc-tem-afm-science.webp)
 
-<p class="figure-credit">Source : Zhang et al. (2019), <a href="https://doi.org/10.3389/fchem.2019.00242" target="_blank" rel="noopener">Substrate-Assisted Visualization of Surfactant Micelles via Transmission Electron Microscopy</a>, figure 4, panneaux A1/B1 et A4/B4 — licence <a href="https://creativecommons.org/licenses/by/4.0/deed.fr" target="_blank" rel="noopener">CC BY 4.0</a>. Recadrage limité aux concentrations 1× et 50× CMC ; annotations, micrographies et barres d'échelle inchangées.</p>
+<p class="figure-credit">Source : Zhang et al. (2019), <a href="https://doi.org/10.3389/fchem.2019.00242" target="_blank" rel="noopener">Substrate-Assisted Visualization of Surfactant Micelles via Transmission Electron Microscopy</a>, figure 4, panneaux A1/B1 et A4/B4 — licence <a href="https://creativecommons.org/licenses/by/4.0/deed.fr" target="_blank" rel="noopener">CC BY 4.0</a>.</p>
 
 <div class="expert-block">
 

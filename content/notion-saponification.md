@@ -275,7 +275,7 @@ permet pas, à elle seule, de conclure qu'un procédé est « meilleur », plus 
 
 ![Micrographies électroniques de savons d'huiles d'olive et de coco : savon formulé à chaud HS1 en haut et savon formulé à froid CS1 en bas, avec barres d'échelle de 500 micromètres](/images/savon-microscopie-chaud-froid-science.webp)
 
-<p class="figure-credit">Source : Stănescu et al. (2025), <a href="https://doi.org/10.3390/app15073821" target="_blank" rel="noopener">Cleaner Processes for Making Laundry Soap from Vegetable Oils and an Essential Oil</a>, figure 4a, échantillons HS1 et CS1 — licence <a href="https://creativecommons.org/licenses/by/4.0/deed.fr" target="_blank" rel="noopener">CC BY 4.0</a>. Les deux panneaux ont été recadrés puis disposés verticalement pour la lecture mobile ; micrographies et échelles inchangées.</p>
+<p class="figure-credit">Source : Stănescu et al. (2025), <a href="https://doi.org/10.3390/app15073821" target="_blank" rel="noopener">Cleaner Processes for Making Laundry Soap from Vegetable Oils and an Essential Oil</a>, figure 4a, panneaux HS1 et CS1 — licence <a href="https://creativecommons.org/licenses/by/4.0/deed.fr" target="_blank" rel="noopener">CC BY 4.0</a>.</p>
 
 **À froid**, les huiles et la base sont mélangées à basse température ; la réaction se poursuit lentement dans le moule (24–48 h), puis le savon **mûrit** 4 à 6 semaines. Ce procédé **conserve le glycérol**, préserve les composés thermosensibles, mais demande une cure longue.
 
