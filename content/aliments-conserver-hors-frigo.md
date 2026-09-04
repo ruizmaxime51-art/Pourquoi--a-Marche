@@ -25,6 +25,7 @@ takeaways:
   - "Les fruits climactériques mûrissent dehors puis se conservent plus lentement au frais une fois mûrs"
   - "Une peau rayée ou meurtrie perd une partie de sa barrière contre l’eau et les microorganismes"
 related:
+  - "confiture-sans-cuisson-crufiture"
   - "lacto-fermentation-guide-legumes"
   - "notion-fermentation-maison"
   - "lacto-fermentation-legumes-securite"
@@ -423,6 +424,7 @@ chaleur. On ne choisit plus seulement un emplacement : on applique une méthode 
 <tbody>
 <tr><td>Séchage</td><td>Moins d’eau disponible</td><td>Herbes, fruits et légumes adaptés</td></tr>
 <tr><td>Confiture</td><td>Sucre, acidité et traitement thermique</td><td>Fruits selon une recette validée</td></tr>
+<tr><td>« Crufiture »</td><td>Sucre et évaporation à basse température</td><td>Méthode particulière à distinguer d’une simple confiture crue</td></tr>
 <tr><td>Pickles</td><td>Acidité</td><td>Légumes avec proportions validées</td></tr>
 <tr><td>Lacto-fermentation</td><td>Sel, acidification et compétition microbienne</td><td>Légumes maintenus sous saumure</td></tr>
 <tr><td>Conserve appertisée</td><td>Traitement thermique et fermeture</td><td>Procédé adapté à l’acidité du produit</td></tr>
@@ -430,6 +432,7 @@ chaleur. On ne choisit plus seulement un emplacement : on applique une méthode 
 </table>
 
 Pour comprendre le mécanisme, consultez la
+[mise au point scientifique sur la crufiture](/articles/confiture-sans-cuisson-crufiture), puis la
 [notion sur la fermentation maison](/articles/notion-fermentation-maison). Pour la pratique,
 utilisez le [guide de lacto-fermentation des légumes](/articles/lacto-fermentation-guide-legumes)
 et une recette documentée.
@@ -464,6 +467,7 @@ cet aliment précis, dans son état actuel ?**
 <div class="article-links-block">
 <h4>Approfondir la conservation</h4>
 <ul>
+<li><a href="/articles/confiture-sans-cuisson-crufiture">Comprendre Brix, activité de l’eau et crufiture</a></li>
 <li><a href="/articles/notion-fermentation-maison">Comprendre pH, sel et sélection microbienne</a></li>
 <li><a href="/articles/lacto-fermentation-guide-legumes">Choisir les légumes et la méthode de salage</a></li>
 <li><a href="/articles/lacto-fermentation-legumes-securite">Suivre une recette de carottes lacto-fermentées</a></li>

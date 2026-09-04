@@ -8,6 +8,7 @@ import Breadcrumbs from '@/app/_components/Breadcrumbs';
 import RelatedArticles from '@/app/_components/RelatedArticles';
 import TakeawayBox from '@/app/_components/TakeawayBox';
 import PrintRecipeButton from '@/app/_components/PrintRecipeButton';
+import ArticleFaq from '@/app/_components/ArticleFaq';
 import Link from 'next/link';
 
 export const dynamicParams = false;
@@ -90,6 +91,7 @@ export default async function ArticlePage({ params }) {
             <PrintRecipeButton label={article.printLabel} />
           )}
           <div className="post-body" dangerouslySetInnerHTML={{ __html: article.contentHtml }} />
+          <ArticleFaq items={article.faq} />
           <aside className="article-feedback-callout" aria-labelledby="article-feedback-title">
             <div>
               <strong id="article-feedback-title">Une information vous semble incorrecte&nbsp;?</strong>
@@ -225,6 +227,26 @@ function buildStructuredData(article, url, image) {
     ],
   };
 
+  const faqItems = Array.isArray(article.faq)
+    ? article.faq.filter((item) => item && item.question && item.answer)
+    : [];
+
+  const faqEntity =
+    faqItems.length > 0
+      ? {
+          '@type': 'FAQPage',
+          '@id': `${url}#faq`,
+          mainEntity: faqItems.map((item) => ({
+            '@type': 'Question',
+            name: item.question,
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: item.answer,
+            },
+          })),
+        }
+      : null;
+
   return {
     '@context': 'https://schema.org',
     '@graph': [
@@ -232,6 +254,7 @@ function buildStructuredData(article, url, image) {
       breadcrumbEntity,
       ...(recipeEntity ? [recipeEntity] : []),
       ...howToEntities,
+      ...(faqEntity ? [faqEntity] : []),
     ],
   };
 }

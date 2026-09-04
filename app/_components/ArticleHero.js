@@ -41,6 +41,27 @@ export default function ArticleHero({ article }) {
             priority
             sizes="(max-width: 780px) 100vw, 38vw"
           />
+          {article.imageCredit && (
+            <p className="article-hero-credit">
+              Photo :{' '}
+              <a href={article.imageCredit.authorUrl} target="_blank" rel="noopener noreferrer">
+                {article.imageCredit.author}
+              </a>
+              {' / '}
+              <a href={article.imageCredit.sourceUrl} target="_blank" rel="noopener noreferrer">
+                {article.imageCredit.source}
+              </a>
+              {article.imageCredit.license && (
+                <>
+                  {' · '}
+                  <a href={article.imageCredit.licenseUrl} target="_blank" rel="noopener noreferrer">
+                    {article.imageCredit.license}
+                  </a>
+                </>
+              )}
+              {article.imageCredit.changes ? ` · ${article.imageCredit.changes}` : ''}
+            </p>
+          )}
         </div>
       )}
     </header>
