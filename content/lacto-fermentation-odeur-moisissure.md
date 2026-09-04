@@ -17,7 +17,7 @@ sommaire: true
 takeaways:
 - Un voile plat, lisse et blanc est généralement une levure de surface, pas une moisissure
 - Un duvet en relief ou coloré impose de jeter le bocal entier, sans écrémer
-- La cause commune est presque toujours la même : des légumes qui dépassent de la saumure
+- "La cause commune est presque toujours la même : des légumes qui dépassent de la saumure"
 related:
 - lacto-fermentation-legumes-securite
 - notion-fermentation-maison

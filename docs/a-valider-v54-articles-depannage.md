@@ -90,3 +90,28 @@ devient utile.
    l'absence de photo de produit, qui ne peut être résolue sans visuels.
 3. **Suffixe de titre** — le template `%s — Chimie Maison` ajoute 16 caractères et tronque
    15 titres sur 25 en SERP. Non modifié dans cette version (décision à prendre).
+
+---
+
+## Correctif v54.1 — échec de build Vercel
+
+**Erreur :** `Objects are not valid as a React child (found: object with keys {...})`
+sur `/articles/lacto-fermentation-odeur-moisissure`.
+
+**Cause :** deux `takeaways` contenaient un deux-points suivi d'un espace dans une valeur
+de liste non guillemetée. YAML interprète alors la ligne comme une paire clé-valeur, et
+renvoie un objet là où React attend une chaîne.
+
+```yaml
+# cassait le build
+- La température est la première cause : en dessous de 20 °C, l'activité chute fortement
+
+# corrigé
+- "La température est la première cause : en dessous de 20 °C, l'activité chute fortement"
+```
+
+**Fichiers corrigés :** `levain-ne-monte-pas.md`, `lacto-fermentation-odeur-moisissure.md`.
+Le texte affiché est identique — seule l'interprétation YAML change.
+
+**Règle à retenir :** toute valeur de liste du frontmatter contenant ` : ` doit être
+entourée de guillemets. Cela concerne `takeaways`, mais aussi tout futur champ en liste.

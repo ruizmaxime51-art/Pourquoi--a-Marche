@@ -15,7 +15,7 @@ date: '2026-07-16'
 updated: '2026-09-04'
 sommaire: true
 takeaways:
-- La température est la première cause : en dessous de 20 °C, l'activité chute fortement
+- "La température est la première cause : en dessous de 20 °C, l'activité chute fortement"
 - Distinguer la production de gaz de la capacité du mélange à le retenir
 - Un levain jeune de moins de deux semaines est normalement irrégulier
 related:
