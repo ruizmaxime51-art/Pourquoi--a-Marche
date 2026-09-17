@@ -5,24 +5,28 @@ category: comprendre
 type: notion
 materialHref: /articles/materiel-savon-maison#materiel
 materialLabel: Matériel pour le savon
-excerpt: 'La réaction qui transforme une huile en savon, expliquée à deux niveaux : le principe accessible à tous,
-  et le mécanisme détaillé pour les curieux de chimie.'
+excerpt: >-
+  La réaction qui transforme une huile en savon, expliquée à deux niveaux : le principe accessible à tous, et
+  le mécanisme détaillé pour les curieux de chimie.
 formula: triglycéride + 3 base → 3 savons + glycérol
 image: /images/notion-sapo-1-reaction.webp
-imageAlt: "Équation de saponification d’un triglycéride par trois molécules de soude donnant du glycérol et trois savons"
+imageAlt: >-
+  Équation de saponification d’un triglycéride par trois molécules de soude donnant du glycérol et trois
+  savons
 date: '2026-07-09'
 sommaire: true
 takeaways:
-- Le bilan chimique qui transforme une huile en savon
-- Le rôle du mécanisme, du surgras, de NaOH/KOH et du glycérol
-- Pourquoi température, émulsion et cure changent le résultat
+  - Le bilan chimique qui transforme une huile en savon
+  - 'Le rôle du mécanisme, du surgras, de NaOH/KOH et du glycérol'
+  - 'Pourquoi température, émulsion et cure changent le résultat'
 related:
-- notion-tensioactifs
-- savon-surgras-saponification
-- nettoyant-ph-melanges-dangereux
-- savon-maison-trop-mou
-- materiel-savon-maison
-- levain-naturel-fermentation
+  - notion-tensioactifs
+  - savon-surgras-saponification
+  - nettoyant-ph-melanges-dangereux
+  - savon-maison-trop-mou
+  - materiel-savon-maison
+  - levain-naturel-fermentation
+updated: '2026-09-10'
 ---
 
 Derrière chaque savon — de toilette, de Marseille, d'Alep, liquide ou solide — se cache une seule et même réaction chimique : la **saponification**. La comprendre, c'est comprendre pourquoi un savon lave, pourquoi certains sont doux et d'autres asséchants, et comment fabriquer le sien sans se tromper.
@@ -69,7 +73,7 @@ La saponification est, formellement, une **hydrolyse basique des fonctions ester
 
 ## Le mécanisme détaillé de la réaction
 
-Ce qui se passe réellement à l'échelle moléculaire mérite qu'on s'y arrête, car c'est ce mécanisme qui explique une propriété essentielle : **la saponification est une réaction totale et irréversible**. Autrement dit, une fois lancée, elle va jusqu'au bout et ne revient pas en arrière — toute la base introduite finit consommée. Cette caractéristique aura une conséquence directe et très concrète sur la fabrication du savon (le surgraissage).
+Ce qui se passe réellement à l'échelle moléculaire mérite qu'on s'y arrête, car c'est ce mécanisme qui explique une propriété essentielle : **la saponification est une réaction totale et irréversible**. Autrement dit, une fois lancée, elle est fortement favorisée vers les produits. La base n’est consommée entièrement que si les autres réactifs sont en quantité suffisante et si les conditions permettent à la réaction de se poursuivre ; un excès de soude peut rester présent. Cette caractéristique aura une conséquence directe et très concrète sur la fabrication du savon (le surgraissage).
 
 En termes simples, la base vient « attaquer » le point d'accroche entre une chaîne d'acide gras et le glycérol, le rompt, et récupère la chaîne sous forme de savon. Cette opération se répète **trois fois**, une pour chaque chaîne, jusqu'à libérer complètement le glycérol.
 
@@ -95,11 +99,11 @@ Ce mécanisme se déroule **trois fois** sur un même triglycéride, hydrolysant
 
 ## Le surgraissage : garder du gras pour la douceur
 
-On vient de l'établir : la saponification est une réaction **totale**, qui consomme entièrement la base. Cette propriété a une conséquence pratique directe et fondamentale pour qui fabrique du savon — c'est le principe du **surgraissage**.
+On vient de l'établir : la saponification est une réaction **totale**, qui consomme la base en tant que réactif, dans la limite des quantités et des conditions de réaction. Cette propriété a une conséquence pratique directe et fondamentale pour qui fabrique du savon — c'est le principe du **surgraissage**.
 
 Un savon dont on aurait calculé la dose de soude à l'exactitude serait entièrement « lavant » : chaque molécule de gras aurait été transformée en savon, sans aucun corps gras résiduel. Or un savon est, par nature, un agent qui capte les graisses pour les rincer. Un savon 100 % saponifié rince donc parfaitement… y compris le film lipidique naturel de la peau, ce qui la laisse tiraillée et sèche.
 
-Le surgraissage consiste à laisser volontairement une petite fraction de corps gras **non saponifié** dans le savon fini — généralement **3 à 8 %** du poids des huiles. Ce gras libre forme, à l'usage, une fine couche adoucissante qui compense l'effet asséchant du lavage.
+Le surgraissage consiste à prévoir un excès théorique de corps gras par rapport à la base. Une réduction de soude de 5 % signifie que l’on emploie 95 % de la quantité stœchiométrique calculée ; elle ne garantit pas que 5 % de la masse des huiles restera intacte. Le confort d’usage dépend de l’ensemble de la formule et ne peut pas être déduit de ce seul pourcentage.
 
 **Deux écritures de calcul** décrivent le même excès stœchiométrique de corps gras : la
 **réduction de soude** (on retire un pourcentage de la quantité théorique) ou l’**ajout d’un excès

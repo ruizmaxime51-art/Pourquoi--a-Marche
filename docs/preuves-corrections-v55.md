@@ -1,0 +1,20 @@
+# Revue des affirmations modifiées — V55
+
+10–11 septembre 2026. Cette table porte sur les corrections ciblées de la V54, pas sur
+une nouvelle validation expérimentale de toutes les recettes du site.
+
+| Affirmation examinée | Source et nature | Conditions et limite | Décision |
+|---|---|---|---|
+| Une pellicule blanche serait forcément une levure sans danger | [University of Minnesota — fermentation](https://extension.umn.edu/food/preparing/cooking-at-home/food-preservation/fermentation), recommandations domestiques ; [NCHFP — dill pickles](https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/), recette institutionnelle | L’aspect seul ne valide pas un aliment. Le retrait de dépôts prévu dans la recette précise de cornichons ne s’étend pas automatiquement à tous les légumes fermentés. | Retrait de l’identification certaine ; distinction explicite entre recette source et choix éditorial conservateur en cas de doute. |
+| Un taux de sel d’environ 2 % conviendrait à toute fermentation | Même source UMN et [NCHFP — contenants](https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/suitable-containers-covers-and-weights-for-fermenting-food) | Recette testée, ingrédients, base de calcul, immersion et espace libre cohérents avec le protocole. | Pas de taux universel ; renvoi à la recette et à sa base de calcul. |
+| Un levain doit doubler dans un nombre d’heures déduit seulement de la température | Référence existante [revue du levain, DOI 10.7717/peerj.11389](https://doi.org/10.7717/peerj.11389) ; [protocole King Arthur](https://www.kingarthurbaking.com/recipes/sourdough-starter-recipe) consulté | La farine, le rafraîchi, la température et l’âge de la culture varient ensemble. La recette King Arthur est un protocole particulier, pas un essai prouvant tous les tableaux de délais. Le texte intégral de la revue n’a pas pu être reconsulté dans cette session. | Tableau de délais, pourcentage correctif de farine et âge garanti retirés. Observation reproductible et protocole connu privilégiés. |
+| Un savon mou serait seulement jeune et utilisable après une durée fixe | [ISO 456](https://www.iso.org/standard/4478.html), méthode analytique de dosage de l’alcali caustique libre | Une texture ou un pH ne remplace pas l’analyse de l’alcali libre ; la norme décrit une méthode de laboratoire. | Séparation texture/sécurité ; retrait des délais universels et du test sur peau ou langue. |
+| Dureté sèche et faible solubilité seraient équivalentes | Références existantes [Friedman, chimie des savons](https://doi.org/10.1016/0738-081X(95)00102-L), revue ; [solubilité et point de Krafft](https://doi.org/10.1007/BF02645899), publication spécialisée | Les propriétés dépendent de la composition et des conditions d’usage. Les références héritées ne constituent pas un test du lot domestique. | Retrait des seuils universels d’indice d’iode ou de proportion saturée comme garantie de réussite. |
+| Un rinçage suffit à identifier la composition d’un dépôt de lessive | [Soap and hard water, LibreTexts](https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Organic_Chemistry_III_%28Morsch_et_al.%29/27%3A_Lipids/27.02%3A_Soap), support pédagogique pour le mécanisme | Le mécanisme de précipitation n’est pas une validation de ce test diagnostique. Plusieurs dépôts peuvent être éliminés partiellement au rinçage. | Interprétation catégorique retirée ; dosage et température adaptés au produit et au textile. |
+| Réduire la soude de x % garantirait x % d’huile libre dans le produit fini | Notion de saponification et bilan de formulation | Réduction théorique de base, indices de saponification et pureté ne mesurent pas directement l’huile libre du savon fini. | Distinction explicite et suppression de la garantie d’un film émollient. |
+
+La portée des guides de dépannage a été réduite lorsque la justification d’une valeur
+universelle manquait. Aucun tableau chiffré extrapolé n’a été ajouté pour atteindre un
+nombre de sources. Les références héritées qui n’ont pas été relues intégralement ne
+sont pas présentées comme nouvellement validées. Une accessibilité HTTP ne constitue
+pas une vérification du contenu scientifique.

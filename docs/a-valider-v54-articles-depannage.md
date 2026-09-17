@@ -1,7 +1,15 @@
-# v54 — À VALIDER avant publication
+# Archive V54 — remplacée par la revue V55
+
+Ce document décrit l’état de la V54 reçue. Les affirmations et consignes ci-dessous
+ne constituent plus les recommandations de livraison : voir `strategie-et-audit-v55.md`
+et `preuves-corrections-v55.md`. Les généralisations sur les films blancs, les délais de
+levain et la sécurité du savon ont été corrigées ou retirées. La FAQ supplémentaire a
+été supprimée. Les éléments historiques sont conservés pour comprendre les changements.
+
+## Ancienne liste de validation
 
 Les quatre articles de dépannage ont été réécrits avec des valeurs chiffrées.
-**Chaque valeur ci-dessous doit être vérifiée par Maxime avant mise en ligne.**
+**Cette ancienne liste demandait une vérification éditoriale de chaque valeur.**
 Elles sont issues de sources convergentes mais n'ont pas été validées par un chimiste.
 
 ---

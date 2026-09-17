@@ -1,0 +1,1301 @@
+{
+  "checkedAt": "2026-09-11T05:46:18.252Z",
+  "note": "HTTP accessible ne garantit ni pertinence scientifique ni disponibilité produit. 403/429/délais restent non concluants.",
+  "results": [
+    {
+      "url": "https://agriculture.gouv.fr/securite-sanitaire-des-aliments-tout-sur-la-chaine-du-froid",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://agriculture.gouv.fr/securite-sanitaire-des-aliments-tout-sur-la-chaine-du-froid",
+      "articles": [
+        "aliments-conserver-hors-frigo"
+      ]
+    },
+    {
+      "url": "https://agriculture.gouv.fr/sites/default/files/gbph-conso-26082014_1_0.pdf",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://agriculture.gouv.fr/sites/default/files/gbph-conso-26082014_1_0.pdf",
+      "articles": [
+        "aliments-conserver-hors-frigo"
+      ]
+    },
+    {
+      "url": "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Organic_Chemistry_%28Morsch_et_al.%29/21%3A_Carboxylic_Acid_Derivatives-_Nucleophilic_Acyl_Substitution_Reactions/21.06%3A_Chemistry_of_Esters",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Organic_Chemistry_%28Morsch_et_al.%29/21%3A_Carboxylic_Acid_Derivatives-_Nucleophilic_Acyl_Substitution_Reactions/21.06%3A_Chemistry_of_Esters",
+      "articles": [
+        "notion-saponification"
+      ]
+    },
+    {
+      "url": "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Organic_Chemistry_III_%28Morsch_et_al.%29/27%3A_Lipids/27.02%3A_Soap",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Organic_Chemistry_III_%28Morsch_et_al.%29/27%3A_Lipids/27.02%3A_Soap",
+      "articles": [
+        "lessive-maison-traces-blanches"
+      ]
+    },
+    {
+      "url": "https://chemicalsafety.ilo.org/dyn/icsc/showcard.display?p_card_id=1744&p_lang=fr&p_version=2",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://chemicalsafety.ilo.org/dyn/icsc/showcard.display?p_card_id=1744&p_lang=fr&p_version=2",
+      "articles": [
+        "percarbonate-de-soude-linge"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Drying_food_using_solar.jpg",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://commons.wikimedia.org/wiki/File:Drying_food_using_solar.jpg",
+      "articles": [
+        "confiture-sans-cuisson-crufiture"
+      ]
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:WinzerMitRefraktometer.jpg",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://commons.wikimedia.org/wiki/File:WinzerMitRefraktometer.jpg",
+      "articles": [
+        "confiture-sans-cuisson-crufiture"
+      ]
+    },
+    {
+      "url": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.fr",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://creativecommons.org/licenses/by-sa/2.0/de/deed.fr",
+      "articles": [
+        "confiture-sans-cuisson-crufiture"
+      ]
+    },
+    {
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/deed.fr",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.fr",
+      "articles": [
+        "confiture-sans-cuisson-crufiture"
+      ]
+    },
+    {
+      "url": "https://creativecommons.org/licenses/by/4.0/deed.fr",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://creativecommons.org/licenses/by/4.0/deed.fr",
+      "articles": [
+        "aliments-conserver-hors-frigo",
+        "notion-fermentation-maison",
+        "notion-ph-nettoyants",
+        "notion-saponification",
+        "notion-tensioactifs"
+      ]
+    },
+    {
+      "url": "https://discovery.ucl.ac.uk/id/eprint/1535272/",
+      "status": "a-revoir",
+      "http": 403,
+      "finalUrl": "https://discovery.ucl.ac.uk/id/eprint/1535272/",
+      "articles": [
+        "enlever-tache-sang-vetement",
+        "percarbonate-de-soude-linge"
+      ]
+    },
+    {
+      "url": "https://doh.wa.gov/community-and-environment/contaminants/bleach-mixing-dangers",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://doh.wa.gov/community-and-environment/contaminants/bleach-mixing-dangers",
+      "articles": [
+        "flacon-nettoyant-maison",
+        "notion-ph-nettoyants"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1007/BF02645899",
+      "status": "non-verifiable",
+      "articles": [
+        "notion-saponification",
+        "notion-tensioactifs",
+        "savon-maison-trop-mou"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1007/s13197-011-0311-6",
+      "status": "non-verifiable",
+      "articles": [
+        "aliments-conserver-hors-frigo"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1007/s42452-024-05760-1",
+      "status": "non-verifiable",
+      "articles": [
+        "aliments-conserver-hors-frigo"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1016/0304-4238(91)90041-V",
+      "status": "non-verifiable",
+      "articles": [
+        "aliments-conserver-hors-frigo"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1016/0738-081X(95)00102-L",
+      "status": "non-verifiable",
+      "articles": [
+        "savon-maison-trop-mou",
+        "savon-surgras-saponification"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1016/j.heliyon.2024.e38055",
+      "status": "non-verifiable",
+      "articles": [
+        "aliments-conserver-hors-frigo"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1016/j.jspr.2024.102426",
+      "status": "non-verifiable",
+      "articles": [
+        "aliments-conserver-hors-frigo"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1038/s41598-023-46366-8",
+      "status": "non-verifiable",
+      "articles": [
+        "aliments-conserver-hors-frigo"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1039/D3FB00037K",
+      "status": "a-revoir",
+      "http": 403,
+      "finalUrl": "https://pubs.rsc.org/fb/article/1/6/803-826/808824",
+      "articles": [
+        "aliments-conserver-hors-frigo"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1051/matecconf/20166706048",
+      "status": "non-verifiable",
+      "articles": [
+        "percarbonate-de-soude-linge"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1104/pp.108.127183",
+      "status": "non-verifiable",
+      "articles": [
+        "aliments-conserver-hors-frigo"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1111/aab.12634",
+      "status": "a-revoir",
+      "http": 403,
+      "finalUrl": "https://onlinelibrary.wiley.com/doi/10.1111/aab.12634",
+      "articles": [
+        "aliments-conserver-hors-frigo"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1111/j.1365-2621.2000.tb10270.x",
+      "status": "a-revoir",
+      "http": 403,
+      "finalUrl": "https://ift.onlinelibrary.wiley.com/doi/10.1111/j.1365-2621.2000.tb10270.x",
+      "articles": [
+        "aliments-conserver-hors-frigo"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.1111/jipb.13739",
+      "status": "a-revoir",
+      "http": 403,
+      "finalUrl": "https://onlinelibrary.wiley.com/doi/10.1111/jipb.13739",
+      "articles": [
+        "aliments-conserver-hors-frigo"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.2903/j.efsa.2014.3782",
+      "status": "non-verifiable",
+      "articles": [
+        "aliments-conserver-hors-frigo"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.3389/fchem.2019.00242",
+      "status": "non-verifiable",
+      "articles": [
+        "notion-tensioactifs"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.3389/fmicb.2022.929738",
+      "status": "non-verifiable",
+      "articles": [
+        "notion-fermentation-maison"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.3389/fonc.2022.887220",
+      "status": "non-verifiable",
+      "articles": [
+        "notion-ph-nettoyants"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.3389/fpls.2019.00770",
+      "status": "non-verifiable",
+      "articles": [
+        "aliments-conserver-hors-frigo"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.3389/fpls.2020.543958",
+      "status": "non-verifiable",
+      "articles": [
+        "aliments-conserver-hors-frigo"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.3389/fpubh.2021.629142",
+      "status": "non-verifiable",
+      "articles": [
+        "notion-ph-nettoyants"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.3390/app15073821",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://www.mdpi.com/2076-3417/15/7/3821",
+      "articles": [
+        "notion-saponification"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.3390/textiles5040050",
+      "status": "non-verifiable",
+      "articles": [
+        "enlever-tache-sang-vetement",
+        "percarbonate-de-soude-linge"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.36899/JAPS.2024.2.0717",
+      "status": "non-verifiable",
+      "articles": [
+        "aliments-conserver-hors-frigo"
+      ]
+    },
+    {
+      "url": "https://doi.org/10.4315/0362-028X.JFP-14-047",
+      "status": "non-verifiable",
+      "articles": [
+        "aliments-conserver-hors-frigo"
+      ]
+    },
+    {
+      "url": "https://extension.colostate.edu/resource/understanding-and-making-kimchi/",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://extension.colostate.edu/resource/understanding-and-making-kimchi/",
+      "articles": [
+        "kimchi-classique-maison",
+        "kimchi-vegetarien-maison",
+        "lacto-fermentation-legumes-securite"
+      ]
+    },
+    {
+      "url": "https://extension.oregonstate.edu/catalog/sp50-1007-kimchi-basics",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://extension.oregonstate.edu/catalog/sp50-1007-kimchi-basics",
+      "articles": [
+        "kimchi-classique-maison",
+        "kimchi-vegetarien-maison",
+        "lacto-fermentation-legumes-securite"
+      ]
+    },
+    {
+      "url": "https://extension.psu.edu/preserving-late-season-fall-vegetables/",
+      "status": "non-verifiable",
+      "articles": [
+        "aliments-conserver-hors-frigo"
+      ]
+    },
+    {
+      "url": "https://extension.umaine.edu/food-health/2026/05/21/butter/",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://extension.umaine.edu/food-health/2026/05/21/butter/",
+      "articles": [
+        "aliments-conserver-hors-frigo"
+      ]
+    },
+    {
+      "url": "https://extension.umn.edu/cottage-food/using-ph-meter-test-cottage-foods",
+      "status": "a-revoir",
+      "http": 403,
+      "finalUrl": "https://extension.umn.edu/cottage-food/using-ph-meter-test-cottage-foods",
+      "articles": [
+        "kimchi-classique-maison",
+        "kimchi-vegetarien-maison",
+        "lacto-fermentation-legumes-securite"
+      ]
+    },
+    {
+      "url": "https://extension.umn.edu/food/preparing/cooking-at-home/food-preservation/fermentation",
+      "status": "a-revoir",
+      "http": 403,
+      "finalUrl": "https://extension.umn.edu/food/preparing/cooking-at-home/food-preservation/fermentation",
+      "articles": [
+        "bocal-lacto-fermentation",
+        "lacto-fermentation-legumes-securite",
+        "lacto-fermentation-odeur-moisissure"
+      ]
+    },
+    {
+      "url": "https://goldbook.iupac.org/terms/view/C01395",
+      "status": "a-revoir",
+      "http": 403,
+      "finalUrl": "https://goldbook.iupac.org/terms/view/C01395",
+      "articles": [
+        "notion-tensioactifs"
+      ]
+    },
+    {
+      "url": "https://goldbook.iupac.org/terms/view/S06194",
+      "status": "a-revoir",
+      "http": 403,
+      "finalUrl": "https://goldbook.iupac.org/terms/view/S06194",
+      "articles": [
+        "notion-tensioactifs"
+      ]
+    },
+    {
+      "url": "https://media.neliti.com/media/publications/360693-comparative-studies-of-the-curing-and-ha-56c431c5.pdf",
+      "status": "a-revoir",
+      "http": 403,
+      "finalUrl": "https://www.neliti.com/publications/360693/",
+      "articles": [
+        "savon-maison-trop-mou",
+        "savon-surgras-saponification"
+      ]
+    },
+    {
+      "url": "https://medlineplus.gov/lab-tests/hemoglobin-test/",
+      "status": "non-verifiable",
+      "articles": [
+        "enlever-tache-sang-vetement"
+      ]
+    },
+    {
+      "url": "https://multimedia.3m.com/mws/media/1748213O/3m-2890-series-safety-goggles-technical-datasheet-english.pdf",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://multimedia.3m.com/mws/media/1748213O/3m-2890-series-safety-goggles-technical-datasheet-english.pdf",
+      "articles": [
+        "gants-lunettes-risque-chimique"
+      ]
+    },
+    {
+      "url": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/suitable-containers-covers-and-weights-for-fermenting-food",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/suitable-containers-covers-and-weights-for-fermenting-food",
+      "articles": [
+        "bocal-lacto-fermentation",
+        "kimchi-classique-maison",
+        "kimchi-vegetarien-maison",
+        "lacto-fermentation-legumes-securite",
+        "lacto-fermentation-odeur-moisissure"
+      ]
+    },
+    {
+      "url": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://nchfp.uga.edu/how/ferment/recipes/dill-pickles/",
+      "articles": [
+        "lacto-fermentation-odeur-moisissure"
+      ]
+    },
+    {
+      "url": "https://nchfp.uga.edu/how/make-jam-jelly/jams/berry-jam-uncooked/",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://nchfp.uga.edu/how/make-jam-jelly/jams/berry-jam-uncooked/",
+      "articles": [
+        "confiture-sans-cuisson-crufiture"
+      ]
+    },
+    {
+      "url": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication260-53.pdf",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nbsspecialpublication260-53.pdf",
+      "articles": [
+        "bandelettes-ph-ou-phmetre"
+      ]
+    },
+    {
+      "url": "https://patents.google.com/patent/FR3022118A1/fr",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://patents.google.com/patent/FR3022118A1/fr",
+      "articles": [
+        "confiture-sans-cuisson-crufiture"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10606808/",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10606808/",
+      "articles": [
+        "kimchi-classique-maison",
+        "kimchi-vegetarien-maison",
+        "lacto-fermentation-guide-legumes",
+        "lacto-fermentation-legumes-securite",
+        "notion-fermentation-maison"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2168044/",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2168044/",
+      "articles": [
+        "notion-fermentation-maison"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4425136/",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4425136/",
+      "articles": [
+        "levain-naturel-fermentation"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6225244/",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6225244/",
+      "articles": [
+        "notion-saponification",
+        "savon-surgras-saponification"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6600116/",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6600116/",
+      "articles": [
+        "percarbonate-de-soude-linge"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8117929/",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8117929/",
+      "articles": [
+        "levain-naturel-fermentation",
+        "levain-ne-monte-pas",
+        "notion-fermentation-maison"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8595448/",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8595448/",
+      "articles": [
+        "kimchi-classique-maison",
+        "kimchi-vegetarien-maison",
+        "lacto-fermentation-guide-legumes",
+        "notion-fermentation-maison"
+      ]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9099756/",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9099756/",
+      "articles": [
+        "lacto-fermentation-legumes-securite",
+        "notion-fermentation-maison"
+      ]
+    },
+    {
+      "url": "https://postharvest.ucdavis.edu/disorders/cherry-surface-pitting-bruising",
+      "status": "a-revoir",
+      "http": 403,
+      "finalUrl": "https://postharvest.ucdavis.edu/disorders/cherry-surface-pitting-bruising",
+      "articles": [
+        "aliments-conserver-hors-frigo"
+      ]
+    },
+    {
+      "url": "https://postharvest.ucdavis.edu/sites/g/files/dgvnsk12711/files/inline-files/230110.pdf",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://postharvest.ucdavis.edu/sites/g/files/dgvnsk12711/files/inline-files/230110.pdf",
+      "articles": [
+        "aliments-conserver-hors-frigo"
+      ]
+    },
+    {
+      "url": "https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-Carbonate",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://pubchem.ncbi.nlm.nih.gov/compound/Sodium-Carbonate",
+      "articles": [
+        "nettoyant-ph-melanges-dangereux"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15296930/",
+      "status": "accessible",
+      "http": 203,
+      "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/15296930/",
+      "articles": [
+        "enlever-tache-sang-vetement"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23402671/",
+      "status": "accessible",
+      "http": 203,
+      "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/23402671/",
+      "articles": [
+        "percarbonate-de-soude-linge"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24678620/",
+      "status": "accessible",
+      "http": 203,
+      "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/24678620/",
+      "articles": [
+        "enlever-tache-sang-vetement"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25306299/",
+      "status": "accessible",
+      "http": 203,
+      "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/25306299/",
+      "articles": [
+        "confiture-sans-cuisson-crufiture"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33401832/",
+      "status": "accessible",
+      "http": 203,
+      "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/33401832/",
+      "articles": [
+        "confiture-sans-cuisson-crufiture"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36079230/",
+      "status": "accessible",
+      "http": 203,
+      "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/36079230/",
+      "articles": [
+        "percarbonate-de-soude-linge"
+      ]
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40732785/",
+      "status": "accessible",
+      "http": 203,
+      "finalUrl": "https://pubmed.ncbi.nlm.nih.gov/40732785/",
+      "articles": [
+        "percarbonate-de-soude-linge"
+      ]
+    },
+    {
+      "url": "https://saraya.world/professional/professional-products/hand-hygiene-professional/saraya-nitrile-glove-extend",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://saraya.world/professional/professional-products/hand-hygiene-professional/saraya-nitrile-glove-extend",
+      "articles": [
+        "kimchi-classique-maison",
+        "kimchi-vegetarien-maison"
+      ]
+    },
+    {
+      "url": "https://soapcalc.net/calc/SoapCalcWP.asp",
+      "status": "non-verifiable",
+      "articles": [
+        "notion-saponification"
+      ]
+    },
+    {
+      "url": "https://unsplash.com/license",
+      "status": "a-revoir",
+      "http": 401,
+      "finalUrl": "https://unsplash.com/.within.website?redir=%2Flicense",
+      "articles": [
+        "confiture-sans-cuisson-crufiture"
+      ]
+    },
+    {
+      "url": "https://unsplash.com/photos/apricot-halves-covered-in-white-sugar-N4pLrxmsigk",
+      "status": "a-revoir",
+      "http": 401,
+      "finalUrl": "https://unsplash.com/.within.website?redir=%2Fphotos%2Fapricot-halves-covered-in-white-sugar-N4pLrxmsigk",
+      "articles": [
+        "confiture-sans-cuisson-crufiture"
+      ]
+    },
+    {
+      "url": "https://unsplash.com/photos/bZI3GdFBM34",
+      "status": "a-revoir",
+      "http": 401,
+      "finalUrl": "https://unsplash.com/.within.website?redir=%2Fphotos%2FbZI3GdFBM34",
+      "articles": [
+        "confiture-sans-cuisson-crufiture"
+      ]
+    },
+    {
+      "url": "https://vigilanses.anses.fr/sites/default/files/VigilAnses_N25.pdf",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://vigilanses.anses.fr/sites/default/files/VigilAnses_N25.pdf",
+      "articles": [
+        "materiel-savon-maison",
+        "savon-surgras-saponification"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/-/en/SOLUP-Caustic-Hydroxide-Cleaning-Degreasing/dp/B0DM1YZ1K6?linkCode=ll2&tag=maxscience06-21&linkId=d4123ea4095081d557b94ed82468cbd1&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "materiel-savon-maison",
+        "savon-surgras-saponification"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/-/en/ThermoPro-Instant-Digital-Thermometer-Beverages/dp/B01LXI5HYH?linkCode=ll2&tag=maxscience06-21&linkId=3e12615d5c9fd288808ae727c12bef03&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "levain-ne-monte-pas",
+        "materiel-savon-maison",
+        "savon-surgras-saponification"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/-/en/Waterproof-Precision-Washable-Stainless-Rechargeable/dp/B0CMH96FTJ?linkCode=ll2&tag=maxscience06-21&linkId=9d90d060797e8abe82176de2c7369a67&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "levain-ne-monte-pas",
+        "savon-maison-trop-mou"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/%C3%89tiquettes-Autocollantes-Autocollants-Rectangulaires-Imprimantes/dp/B08XWJ1JPR?crid=5STGVAO7PBKE&dib=eyJ2IjoiMSJ9.nP2uiSjZNTjoXRMlZumOg3zihTjR6ffp7mG-zsKtRo9FwoPkblQgiqy0rP0LMrwIENoZqcbgOU-sO7OAYpZNPx3xzClGWrP_7bONJD-3A8EnaFWaNbN4Tlttgp8JUt1UOlYKoAZgWn3arwHZR2XWobdyU48bJFC_SPISHfCvBmWG92_MY3wslbPXkdgwSgSZ2J3bXWWERBF62a0X01HP279eUrndqy-IpgwDMVUL5NsN6mlvtJOyxkUjpQVpVX2xFNqgoWxfnxv-O3wJg_QOzUEg2kwRBwNVYS4SnWbOOCs.zJk5vFUBn2fs6dcOUjNcTfsZZkZcNQ1-tUP8Pg3df0M&dib_tag=se&keywords=etiquettes%2Bautocollantes&qid=1784204006&sprefix=etiquette%2Caps%2C298&sr=8-1-spons&aref=buuXl4KQat&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=maxscience06-21&linkId=9f56d8c514b8cbbeea78ad0ecd11842e&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "flacon-nettoyant-maison"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/%E3%82%B5%E3%83%A9%E3%83%A4-SARAYA-Gants-Nitrile-Anti-D%C3%A9rapants/dp/B0D8NS182Y?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=38KBBBIGN9HKZ&dib=eyJ2IjoiMSJ9.WsXA0XoSHnydytroCblm_7bNCCfXEVpoWbPhf3xSf4-aS3lgHF2PymnND4qT1Ni69bQL0bvf7wr3AU1ZspdbV4_7GkahT0lSBPG0J0SxAxQkwiSeSNwzVxPH7CUyPioyYH_tHgOM6IEHT7e3a2lo0VvkC4c5a9EhzcJFJjNFXRVIhtZ3F1WeieJ32zsxH5s7eXrDSVgkhsUBTQb8UgfSgmZ-JeuhKDfgXIF1eym17_gpucfd9CQOlXv5MsSrtyOTxi_8pcfa0JBRFFUKsK9kL0abIhMxTMnRulCSg07ZYDU.TEodX9kRRAEoa6D6zI-BwKGrgQJErORMzbeYbhuuHZc&dib_tag=se&keywords=gant%2Bsoude%2Bcaustique%2Bjetable&qid=1784204255&sprefix=gant%2Bsoude%2Bcaustique%2Bjetabl%2Caps%2C196&sr=8-6&th=1&linkCode=ll2&tag=maxscience06-21&linkId=dfad3f11bcad6e3c7156df011a6c7738&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "gants-lunettes-risque-chimique",
+        "kimchi-classique-maison",
+        "kimchi-vegetarien-maison"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/ACCT-pr%C3%A9cision-alimentaire-num%C3%A9rique-conversion/dp/B09N35L591?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3RRD1F5BB7GX3&dib=eyJ2IjoiMSJ9.q7RRe_tHu9NP0qhDtUzVyvuQwHvDOMpaSgWNNpQAzY4AED5SY8uYRDkBrKTilWGxSvYb23nPHpUvyCAyF9Se4wlbwqIAzzsb-R0T9LQvUCImAZdwQaHVYG6Z0A-P7mXlXqrtrfnIm63MdJ8urRp0oms68ark3cpD6qylZ72FSIKfKbWLI6SSdnBsepF9x4hqW83H7UCL-A0uyEVacwzy786dtCoiOqmOgZgN8yIIBH8URWEMGsZDV_kV2n3Dt9XlOVX3_vK2WfSCqBDkYjqAxzrBKZziz8jvvvE8Rmh-qcE._gGPFw8_21EC7uMgi8rVNBP7nGlY6MnWMkC5hFeIT1g&dib_tag=se&keywords=Balance%2Bde%2Bpoche%2C%2Bpr%C3%A9cision%2B0%2C01%2Bg%2C%2Bcapacit%C3%A9%2B200%2B%C3%A0%2B500%2Bg&qid=1784205463&sprefix=balance%2Bde%2Bpoche%2C%2Bpr%C3%A9cision%2B0%2C01%2Bg%2C%2Bcapacit%C3%A9%2B200%2B%C3%A0%2B500%2Bg%2Caps%2C259&sr=8-3-spons&aref=kiAExsgmEN&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=maxscience06-21&linkId=9cd760f0b852d896e8610cf00ea888a4&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "quelle-balance-recettes-maison"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/Alimentaire-Num%C3%A9rique-Fabrication-pH-M%C3%A8tre-Cosm%C3%A9tique/dp/B0C7GGMYZL?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1HANO9MJPI09K&dib=eyJ2IjoiMSJ9.3CRnmaDlfPRLGZ27viCiq8J_FPuw-J-XN9ZIEuXZNpy6ktua0avi8Jv5IRfj3vOaOcqWk3WNvS773mFYU9pbS3sPlVuhQOEIKUDtIenMyql129--U9lnjFKcJyoh4WR6k3s8zhEz6GbMWXbV4M_xeeNQSQiHBIukUJruoa-36SWCeAwGs2AeYN1yii0tki3LpbJ_nexERyBS8XEoqldlBurHS4ru7e9LHtXYAMBYHwI50cS954gFv_yZlAvjscUGMLHvpPWoXT7_Tl4vAgl1zNlSNW3Nc2VcueZJwpnfqxY.4pJCueVr7vdIkUmjdi_DdcnSxi91GILa4WQj-qjzJJE&dib_tag=se&keywords=ph%2Bmetre%2Balimentaire&qid=1784203821&sprefix=ph%2Bmetre%2Balimentaire%2Caps%2C332&sr=8-1-spons&aref=Qh7xzplPYO&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=maxscience06-21&linkId=0db637b171d62d0dab4e3d686c1a9883&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "bandelettes-ph-ou-phmetre"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/Amazon-Basics-Multispeed-Blender-Included/dp/B0DBTCKLKX?linkCode=ll2&tag=maxscience06-21&linkId=7c8f8dedac636e88a2cf75591bbea113&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "materiel-savon-maison",
+        "savon-surgras-saponification"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/BOMATA-boulangerie-pourcentage-rechargeable-r%C3%A9tro%C3%A9clairage/dp/B0CP74BLCZ?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1UTW68JN66Y8X&dib=eyJ2IjoiMSJ9.jVGWKM4VryawgYC9lc3uVjpdd4XWMjMfbGhcmY-TnFILm1HmeI2hbMChaFFsO7rNzDVOVt4sFqs0_UzX-gysRB31UnSsryhIsSthSd9dg9-By1el-Zo-C387e9jSEi0EUd2oeiZSI_MJNJmkq4MvnP4E5KwrlRzLP4B8kXcGtQAKS4Nmy1ZtwAbOKbKk0z4e5vov2Gh1A0Mh3ZTpJh2R_LZQ2sVBS7A3CLxsOtC-srMejqs63oI9lcjvSZc4HR79Fa5QV4Rntsm3-gbXCI9RgFCs5IDMGHHKc99tWdyreB0.WdGTIY4POb6v5L78tTImONDdHAi-BC7ApdoA5b3B_1M&dib_tag=se&keywords=Balance%2Bpremium%2B0%2C1%2Bg%2C%2Bcapacit%C3%A9%2B5%2Bkg&qid=1784205524&sprefix=balance%2Bpremium%2B0%2C1%2Bg%2C%2Bcapacit%C3%A9%2B5%2Bkg%2Caps%2C170&sr=8-1-spons&aref=GVPL3ROG2o&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=maxscience06-21&linkId=01d325f88d318ae92be52077264f063b&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "bocal-lacto-fermentation",
+        "confiture-sans-cuisson-crufiture",
+        "kimchi-classique-maison",
+        "kimchi-vegetarien-maison",
+        "lacto-fermentation-guide-legumes",
+        "lacto-fermentation-legumes-securite",
+        "levain-naturel-fermentation",
+        "materiel-savon-maison",
+        "nettoyant-ph-melanges-dangereux",
+        "quelle-balance-recettes-maison",
+        "savon-surgras-saponification"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/caoutchouc-imperm%C3%A9able-r%C3%A9sistant-chimiques-vaisselle/dp/B0894MJLL6?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2D7QZ6C5FEHVL&dib=eyJ2IjoiMSJ9.RcEPKxEe6PjEt7-ZmCNjE-pm2fxYs24oC-SwuvcIpUs-utYFcvE0dVeoX6Xg9AhSh50lc3fvLU9xPjOfAVF-V3rneL7dWSdIa8aJfgH2JJr5JORP9oufyVvkDz9fNbmLi5HdikXhCTulJC-GbKpQr6oylR_LlNhkxkHyBkv6Djx3rmCjFnT68pfOj3VYFTsnttoKTxhx4HnLaIWRW157Z49zzw4CtyxhqKVpIbebai1G2eS-sBMYrROPNOpLocNOqPogcwWN4EcHgR4oL2LX46ffI7NQ60QOwVIBcdZ7zto.Ds0-b2DuYdaxm_vxS9a8VQj-9Ga0gCiXZrAmdh5dNho&dib_tag=se&keywords=Tablier+chimique+ou+imperm%C3%A9able&qid=1784206069&sprefix=tablier+chimique+ou+imperm%C3%A9able%2Caps%2C195&sr=8-8&linkCode=ll2&tag=maxscience06-21&linkId=327f881381221d104f839ad62bcc2fc0&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "gants-lunettes-risque-chimique"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/cozydiscount-Vaporisateur-Nettoyage-Lot-Economique/dp/B0H4RMNV6L?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3FIX3XEDB6N8L&dib=eyJ2IjoiMSJ9.dgp85YHvovj09bfwDE5TUHVLzY7YD1iAr6T_Z8fDd6vGmuTT5gkzwk-w8PA9Haa4nmD0X4u48TibVOxSjseJ4bmjoiUv9imSPGWCGLZDav2ghLaVujeqc6tmm2hzvTYm11nh9aNCcz3VkQ3DmjuyILLbaXsVhlo66nL-ph_eaJdcxaaz5u1_kvnf8bkUAgnd09stnNvpohF-4bLGDs5rDJEpGM-K6bmANY2Zdxjld-qYQtwLJx6l_AlaJXDQAjeUWk_Dm_dWls4zkioMPc0VtJw54UiGrzzEwWoYWu32l3M.3hCOKVNQ3a0pi43Qk15w2ZbersCCgARcSzEL4yuNi5A&dib_tag=se&keywords=flacon+spray+PET+transparent+500+ml&qid=1784294352&sprefix=flacon+spray+pet+transparent+500+ml%2Caps%2C206&sr=8-1&linkCode=ll2&tag=maxscience06-21&linkId=9b8177dc7f6f8e78698a29fbb43d66dd&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "flacon-nettoyant-maison"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/Delta-Clean-Pulv%C3%A9risateur-Vaporisateur-Rechargeable/dp/B08DHYZW93?linkCode=ll2&tag=maxscience06-21&linkId=911b1dc17c018b0fc9f6dd04c7d1f83d&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "nettoyant-ph-melanges-dangereux"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/Diesisa-Borosilicat%C3%A9-Bocal-Fermentation-A%C3%A9rations/dp/B0H158V3C4?linkCode=ll2&tag=maxscience06-21&linkId=1e8f018d1187e889a0ce712844a8104c&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "aliments-conserver-hors-frigo",
+        "bocal-lacto-fermentation",
+        "lacto-fermentation-guide-legumes",
+        "lacto-fermentation-legumes-securite",
+        "lacto-fermentation-odeur-moisissure"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/Distributeur-Lessive-Herm%C3%A9tique-lessive-Liquide/dp/B0CYPC4TPJ?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1EUC78G0DPYJL&dib=eyJ2IjoiMSJ9.5s2UGlcgQtdU6GPFnazDPVvuW4e_d_r2XzODioWIigoFBQU3CzciNo-z1OS_g3m7KaKf3bbxMboJjDf5lmCguSH0XtLjZJ4fPXZ1cnUG6jCjOrrSiOTwz2eiCJ1muMsU_qyyU3HcOccZb9nz9bdp-adXiEywJai3RBkFPZYfhs6OmmtapwaBwuUuFmLNQUroSROTC-tDvjWuLpJARskpXh9GJtt9kKfcXHGKiPAXdxicoUgHK5pUjz3cCxY11-r3_KFP8D2ooeqzU-k-FTXuyUiakd-JgiKySCOE8vBZGcw.k8-ncMOhxKplXAgSUxiSdER23WLTCTcVIVX0nwU6Q_c&dib_tag=se&keywords=bidon+PEHD+2+litres+bouchon+lessive&qid=1784294519&sprefix=bidon+pehd+2+litres+bouchon+lessive%2Caps%2C209&sr=8-8&linkCode=ll2&tag=maxscience06-21&linkId=233a2ca8ef5e32e6b653ba95d3392b30&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "flacon-nettoyant-maison"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/dp/B084K3W27H?linkCode=ll2&tag=maxscience06-21&linkId=760aab3b7f0e881f80a8f5bab54a5771&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "enlever-tache-sang-vetement"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/dp/B08S3G5RVH?linkCode=ll2&tag=maxscience06-21&linkId=50f426f5b45cec57dc827514741579d1&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "materiel-savon-maison",
+        "savon-surgras-saponification"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/dp/B099PVNJ8Q?tag=maxscience06-21",
+      "status": "manuel-marchand",
+      "articles": [
+        "enlever-tache-sang-vetement",
+        "percarbonate-de-soude-linge"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/dp/B09R4RZYTM?linkCode=ll2&tag=maxscience06-21&linkId=5be3a2ecbe975c73ea1a895d21def171&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "materiel-savon-maison",
+        "savon-surgras-saponification"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/dp/B0B1MGN82Q?tag=maxscience06-21",
+      "status": "manuel-marchand",
+      "articles": [
+        "gants-lunettes-risque-chimique",
+        "materiel-savon-maison",
+        "savon-surgras-saponification"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/dp/B0CJ9QQ2M2?tag=maxscience06-21",
+      "status": "manuel-marchand",
+      "articles": [
+        "lessive-maison-traces-blanches"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/Dr%C3%A4ger-X-pect-8120-Surlunettes-lagriculture/dp/B00RJT61ZI?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=SBGL72BFA0EB&dib=eyJ2IjoiMSJ9.9Y5GizNXYhxOHIgdh5aRGRHbpLDXyb2PZg4Rinpzlc7KXMB4yFv_krV3OqNtnVBfHhm0DiaeKozMZHDiEXjXVk9TDervKwmZYA5yCAEeJoyT5lUllfFqCK5eAlnRlr2tXYvoEU40nYSPZJaAVi-0TZyKjcwSuvaNbKMLfKTBeKl9C8HnzkWcdOl6XVwYspqNv_K3CjM6Wa1OGdfoY0sbOj7QSux87Y9Mbwy1dOM0MIOxZitfpbs0tOPnq4oDBklD5PfVJbYxi1uBtiWqry9eRzIbPIO5Nkm80Hzqzr64ipg.wwUTJmUSshOqPaZgfzt57Zay3Mp0I9DS9EUb3qQt10Y&dib_tag=se&keywords=lunette+s%C3%A9curit%C3%A9&qid=1784204132&sprefix=lunette+s%C3%A9curit%C3%A9+%2Caps%2C266&sr=8-5-spons&aref=nEtNT7mBBZ&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=ll2&tag=maxscience06-21&linkId=5758ac29a899bca8f1e9d073f49c5776&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "gants-lunettes-risque-chimique"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/fermentation-alimentaire-compensation-automatique-temp%C3%A9rature/dp/B0FXWXSR6P?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1HKIDJ097BL0E&dib=eyJ2IjoiMSJ9.t9E7nKgOZiJK9DKh4l9M8whR3bFe_3ag2Ju2Pg4MKA4bNTS6YBsn-76UPJbxzbKGQKuBU9BR05PAE328Yel6obCuZee0QOlghforpjrCoKHH955jseXN8wp9XeSKGfWZ-IxNAL_WZtnr3HR42hT8z6BYaLeiPgXmMFgkslUBArFlSqwInuGR4yICpZcWgyXwNmzmemQbwkTE2wbFFN69KHVOM6b54v2xWPvsdNp1LUsWLcKYT1yjuhZSQUczyQFLgSYs4MtiRb7OB4s8ohMdmtdoeJZZcYqCBef5Re3Tna0.NPArzCTG2k-PRCrsQnp4nMNUQIf22D7auHI_l__K638&dib_tag=se&keywords=pH-m%C3%A8tre+d%E2%80%99entr%C3%A9e+de+gamme&qid=1784205585&sprefix=ph-m%C3%A8tre+d+entr%C3%A9e+de+gamme%2Caps%2C311&sr=8-8&linkCode=ll2&tag=maxscience06-21&linkId=37cef6c6a0cf1c07fd3e31fb6ccd961a&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "aliments-conserver-hors-frigo",
+        "bandelettes-ph-ou-phmetre",
+        "kimchi-classique-maison",
+        "kimchi-vegetarien-maison",
+        "lacto-fermentation-legumes-securite"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/flacons-vides-verre-ambr%C3%A9-bouchon/dp/B0747QNLKB?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2D0PC1HZQY7NH&dib=eyJ2IjoiMSJ9.ZW0LRqYSoFtrnkmhNtRt3P1SW53G9ABuFhrr3evqezJuFaw1imaY3JkrTLOdi50XF0i6nqBwsntoBbLIo_YUB7XVATYRra-UOHvGd2z_oByfelu4cglA586rJbIRIr2c7HsAtHCfnLnl8pWjAyMsebRqIbnYRoRgdUkyPdaV4zSUhi4SlbD3cGH-fQLoxfNiyuujH9EFRq4UH1upo8hQC5iwBDcrtbVjXx8_UrtlQvqW1_x3XAR3fkTJh5PTzaQwOc3Ekm-csZt7p6X9Gu4qDW7_defgJIVAu8E_-QUyafw.HvKWnCok2GNBKDliBRA2ufl0ixW36aDeiQ4fAFls6Fg&dib_tag=se&keywords=flacon+verre+ambr%C3%A9+bouchon+250+ml&qid=1784294595&sprefix=flacon+verre+ambr%C3%A9+bouchon+250+ml%2Caps%2C209&sr=8-1&linkCode=ll2&tag=maxscience06-21&linkId=2dc66160c827ac135465a79b89450b54&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "flacon-nettoyant-maison"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/Gebol-caoutchouc-chimiques-imperm%C3%A9ables-antid%C3%A9rapants/dp/B0BT6XCXY4?crid=18DLX9WNNJPSG&dib=eyJ2IjoiMSJ9.4WS8uYTU7EDbH2iz9pBHUxqnH2Q6WXhbTszKaZu1I7ox3A91Wa9FtEq9y76CK84UZhkTPjgqVGj14nRuvRACdtsLwUIq67HrsYhnWgBdN8Q6rLywv1tYAGFzKdRu4nIGBTSWaWFu9ogyFk-E1wsLlkzmNDtiAPPm_IBcwEs_gLJpRFZsm2qXZq-ENhsNAI72FpltpDcpkpnRc-dzTEg_oZ2UA3W6lQQQjVsjL7JmOyWN9hAFlg-95S-1IvREr5z37M1E3ZZU4lbFzq5bZB_4wXTEfZYwNlB4zF-Hq4p8sDM.96oTpHEiGg9wRBsOtyH-fmvmGblXAoOAvsViriO9oOE&dib_tag=se&keywords=gant%2Bsoude%2Bcaustique&qid=1784204195&rdc=1&sprefix=gant%2Bsoude%2Bcaus%2Caps%2C196&sr=8-1&th=1&linkCode=ll2&tag=maxscience06-21&linkId=952a05c316ae3a49c421d69ab9c06426&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "gants-lunettes-risque-chimique"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/HEFTMAN-Lot-bocaux-fermentation-avec/dp/B0DJTBY69F?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=17DGGC1EE7OGQ&dib=eyJ2IjoiMSJ9.SrQM-IEe1u7lc9VSlw3Hen6yg4C1pYKiwyYvILfAFkNDCLzxJtgRy5qi0LNoUf4fC7aMsqgulZfz8yELI4aQ_j8V9VOXb2OxpUkfxrTAZVg_eKlsSrFl4x7m-pCK_SjY81URAVAwg-RbMGqfE9MfTWQyM9dHGxGqZvk5fELOnYciqn8jyiNuQQA2aRppdJ2SXIx_XN83nJkSSeoBiw5CLmYVO1m7CXW6BdBFh9-LgtCR_7R84anMP9pNKG9nLCUyIhwDs1i7Hjg7PsD1Zga526LkdOR_o-Ujhq6ROGtPUFA.Rz1Sj_T-hPBEBl4I_n512v5CtWJiCq9jmlNg9ggZlhk&dib_tag=se&keywords=kit+de+2+%C3%A0+4+bocaux+avec+valve+et+poids+inclus&qid=1784292970&sprefix=kit+de+2+%C3%A0+4+bocaux+avec+valves+et+poids+inclus%2Caps%2C239&sr=8-4&linkCode=ll2&tag=maxscience06-21&linkId=a80d93a94481f66d0733835d3c27f92c&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "bocal-lacto-fermentation",
+        "kimchi-classique-maison",
+        "kimchi-vegetarien-maison"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/HR-Hogar-Pulverisateur-Spray-Couleurs/dp/B0GFGH3T7Z?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=35FNFVUQLXP12&dib=eyJ2IjoiMSJ9.GVBhDhbohR-_jFq51XRZe80KTj_JKRlGTS8b3CKoUj80sWi8sB_ulxDdMihroyo_whl7OnbipG22mA_D5G5dTaR_RyquBPXia6lCwQPcLHRphec3PtF-pagmTct6ZQXJ4sQbqO0CY9-MSe3m6jpcB_NxRljGt3WszG8o_i1HK_NjvjP_5WnpshYCAMVYYBOvzHg9CV4BKI25Yt4-McU6LUEW-QiLs8S57KZP8FXWzAfXifmYoUpWzdfOFkpTkVBXCD6lOMh90dpsyvMYx_2Xdpw54UiGrzzEwWoYWu32l3M.P9Y6oXqB-UpsiCI1Ms4GQCQWAOEGLW1UifLltGH_JG0&dib_tag=se&keywords=flacon%2Bspray%2BPEHD%2B500%2Bml%2Br%C3%A9sistant%2Bproduits%2Bchimiques&qid=1784294240&sprefix=flacon%2Bspray%2Bpehd%2B500%2Bml%2Br%C3%A9sistant%2Bproduits%2Bchimiques%2Caps%2C468&sr=8-3&th=1&linkCode=ll2&tag=maxscience06-21&linkId=bfc8f12c85001d35125f714dc0fe2321&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "flacon-nettoyant-maison"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/JACQUES-BRIOCHIN-Citrique-Naturelle-Economique/dp/B0D3HQKPXS?linkCode=ll2&tag=maxscience06-21&linkId=244d0237491b3651901e13f868c2c0ed&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "nettoyant-ph-melanges-dangereux"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/LANON-Protection-U100-Industrial-Mechanical/dp/B07KQ7FNJJ?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.Fen6Lv6liFBjFkKh3jU9UY8Jke_M_NYKqi6GX5OIi7PtaiiPmi9Sc_fm8pod7qdJUIGTyMRYhiEGfwxZ_u9McggeHaz_1xdq658i5WnVL5EuQ9v6jHHVY1yWS76rwPajJOKULI2zz3FRCO99aVu4c4PM1WwyIvIFFGwhOOk4PNB2HwaQLLRr4tdR74VgjJbbCE6eW9hxgemHSv7QAEL0w-Ns-VBDZv5m1IG2RYHuKuiklDj4AvFz7LOctTTLLBQ4jcIyCtCNPxR00xqzGhs7NKtXAzY3OmA0nWLatUtOhLk.xYGXLwRLUFTEdShZ0brZ_k-sAF6HKMIVbbNE7CUELK8&dib_tag=se&keywords=gant%2Bchimique%2BEN%2BISO%2B374&qid=1784205950&sr=8-5-spons&aref=UH45Sga1SH&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1&linkCode=ll2&tag=maxscience06-21&linkId=e0f1daed10d695baf94928b257c3ccfe&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "gants-lunettes-risque-chimique",
+        "materiel-savon-maison",
+        "savon-surgras-saponification"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/Okllen-fermentation-ouverture-ramassage-lave-vaisselle/dp/B0BLTKGTPH?linkCode=ll2&tag=maxscience06-21&linkId=00ed55f78e9da4cb3823fc9f6d9e08d7&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "aliments-conserver-hors-frigo",
+        "bocal-lacto-fermentation",
+        "lacto-fermentation-guide-legumes",
+        "lacto-fermentation-legumes-securite",
+        "lacto-fermentation-odeur-moisissure"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/Oregon-Visi%C3%A8re-Polycarbonate-Q515063-combinaison/dp/B001P15NGO?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=PFNXESHB6ZO5&dib=eyJ2IjoiMSJ9.fqK2-yat1yvuhafFR1rlA1jPCykmsC0RWBUPm8FDgpZTpNVP3Mta5dXlUmkpr1Pflt_0Enjv8Nefpf35bYXhynItX2O255Ra5QoawgBzEj9SmfQqULzaFyJ9mbCoeRyB1Ir7H__unNUePHBHY6BiW8QEHL8kHtxAquuAEJDyldH9M1DG7AUPFQonvZTfkySsRiVYnhpROFQzzifKEFqcBXMtq3zoNGWl_BNOJTPERMG_qGEzXH9qG3cyhCcGy8J1RNsbV1oLABVgo8enMs_WYSEfF6ZP2neeQKDbdtMg3fI.m1xf0UJKKnQ7hoTndDLcxZQsogL5dHe3d1_uVGdJfbg&dib_tag=se&keywords=Visi%C3%A8re%2Bde%2Bprotection%2Bfaciale&qid=1784206008&sprefix=visi%C3%A8re%2Bde%2Bprotection%2Bfaciale%2Caps%2C185&sr=8-6&th=1&linkCode=ll2&tag=maxscience06-21&linkId=bc9812ec588563bc460d012578ce0824&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "gants-lunettes-risque-chimique"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/Parfait-Bocaux-Supercapacite-Diametre-85cm-6585002/dp/B0001IW56S?crid=1LEY72K97V41U&dib=eyJ2IjoiMSJ9.Y4Lf2hr0oNvx9hZgPvgI1_4f6lww6hfPk8kFezwSpIa8R1kFeBDskvTV_7vp1qQgjjTX48Lc_1NZ6Z2UG653UW46MgryIgeDk1lcIUav2h5wyOvDR0zNYJ6nhHaMPVEFdHQEliVoLheRkw7yZGoGbHWsm3q3An4ExKzpx9eB7P8SWsL8GqVSmYXhTgI1MWqwCxiBqs_Sk6x-y3E52U2OS5WHU3WCUe4j389nRqy66BESdzv-QG3t16QnOx86c1GsI5QJ9DlOjRkD_xlCsB8-OmZvh582UgdUJemUUCsGIwQ.DdoK-uc-j38ifP8rWpaTjX7f4T3TToo6TPEP5aBAkFc&dib_tag=se&keywords=bocal%2Ble%2Bparfait%2B1l&qid=1784292916&sprefix=bocal%2Ble%2Bparf%2Caps%2C209&sr=8-5&th=1&linkCode=ll2&tag=maxscience06-21&linkId=f3f670510f260931dcc8cc39b801b61f&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "bocal-lacto-fermentation"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/Praknu-Kit-d%C3%A9marrage-Complet-d%C3%A9butants/dp/B0FBX1C13Z?linkCode=ll2&tag=maxscience06-21&linkId=0617d432b0592b417f012fe54efd8eeb&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "levain-naturel-fermentation"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/Protection-Certifi%C3%A9es-Anti-rayures-Ajustement-Enveloppantes/dp/B0BTYWKZHK?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3RUET4QDTMR2D&dib=eyJ2IjoiMSJ9.ShCp6YaJEbUo53mrs1pmDf0EIYk2QsIB3FRJ9iHvT5KaPq1RcCzs-JdlqTOE8mpwvuSJRdQF2yYf0uIyu-pjsR9C8F8mW-obrXBU1d20Iot4RbcP_shH6BB2sL3an4XZjY7RijIUO2YaaIQaqkBTZqk-Z6QEMrtk_kxdU8vObZhpvI0lzcfdouiAVSLq4uSm3U81v2uFw0CU3zGFTigJ1TGhoZPXamCt4Az-CU2G0l9CApyKmh-0k4Dml1baSekyKbZED4qZJGXsBQKWSp27rmLByE8opOE-xcmHkedWItY.i9keXE4-oi0eJzxdLtI_JHFViJDZPqe3mMPDFYM-Q3w&dib_tag=se&keywords=lunette+EN166%2C&qid=1784205851&sprefix=lunette+en166%2C%2Caps%2C222&sr=8-1-spons&aref=oX1A5Kgchk&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=ll2&tag=maxscience06-21&linkId=dd45cd1a16564d2daff28015ccc9471d&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "gants-lunettes-risque-chimique"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/rechargeables-plastique-r%C3%A9utilisables-%C3%A9tiquettes-shampooing/dp/B098NVDY4T?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2HUD44GYBT21E&dib=eyJ2IjoiMSJ9.IeF7ZYR4SPXBPkHjuZGrCvnE9InByd5y9EB9WjBxz9mxVRX8fBM4L9_8C9NRTJ2twjk4KMhvX4t6Y94Cmy1JvlAWj73kF264ehmgZ9TezczEISydUu2nea5VradMz_sAEl4BrS5lHnqPwg1XBGy536ybMCngS8l-H1B6g-phf1CBJyJQHqRm8HHQ6JUZkA_cw9GfZdzgWghb-QqJFAzMoNWJbMoTsKrsPPs5V_vck_N99AeEzSR3uNW6C6am3nY6gaB5joj3sXOW5FxTjG6Fg0-Y9uj7QX9FzMhlKHkZ5zA.jfBw7IvarceNY1A3Cd4_jzrGPW7eMrLsG5l12RGfgk4&dib_tag=se&keywords=Flacon+pompe+%E2%80%94+500+ml&qid=1784294460&sprefix=flacon+pompe+500+ml%2Caps%2C185&sr=8-9&linkCode=ll2&tag=maxscience06-21&linkId=e46be8576d85cde81410ca93a905e4ed&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "flacon-nettoyant-maison"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/St-Marc-Nettoyant-Multi-Usage-Naturelle/dp/B0D3DXLC2X?linkCode=ll2&tag=maxscience06-21&linkId=cd6411ddc7c8e31f5041af1f2c449bc4&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "lessive-maison-traces-blanches",
+        "nettoyant-ph-melanges-dangereux"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/UIUZMAR-Solution-D%C3%A9talonnage-Stockage-Tampon/dp/B0DFTQJGZZ?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=13HLYZ8GJQ1Z3&dib=eyJ2IjoiMSJ9.WyZIRX3DaQ0GX0LzClE_F0Hj9BU0XysXK6BM3FmG0DFiYxxWGvImT4jwwULKUVHAHnQyOelqOoT40StvYa7nst27zQiLVM9q3kH8LUasKQYvxQeupWGRS8eMtEfHNsjgyIYbhLh31HeY9HOEvpXtG0JaE8e920EfeuoGJeG1p2SrXO9EuqUmnlrQTTC4pUrmWQmaEHbndRsNssamBAVmn53iF2NtYtV_YKIhazhXIaRxwOfgS6m52i5Yx7eROD4mUkoTi8QW-pzjlb68l7M4ofQzYdit25tGkl_hk2QpJyk.Wx0zseGH7Aox8DobjG6lkiLV9VnVB7iGLhX8B4Kzn_A&dib_tag=se&keywords=kit%2Bde%2Bsolutions%2Btampon%2Bph%2B4.com%2B7%2Bet%2B10&qid=1784205781&sprefix=kit%2Bde%2Bsolutions%2Btampons%2Bph%2B4%2C%2B7%2Bet%2B10%2Caps%2C156&sr=8-3&th=1&linkCode=ll2&tag=maxscience06-21&linkId=1fe9238fa9c9481d91b809bf3892ce71&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "bandelettes-ph-ou-phmetre"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/Universal-pH-Test-Strips-Roll/dp/B079K71HJM?linkCode=ll2&tag=maxscience06-21&linkId=9e985d19e995714722739527a0691d9b&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "bandelettes-ph-ou-phmetre"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/USHOP-Kit-de-Fermentation-compos%C3%A9/dp/B0DTPD13TN?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2X4KFRUYP24N0&dib=eyJ2IjoiMSJ9.hlT0UOjR2cWKnn7q_p2pUXZh5-ClJkC7eAoC6-WpwORZhiVX2mIOx6JpM3-0BoNJRcMWKN9r44ejBfeyhclrcQZTZeF6XnhWTTBG73K1QAIc3K3fhqJaLdJkvYU4Av9lg2xRQOkrV6-DpfFu9XpH1I7TW1cjcydRkwjJIPRBmCMEB5-lDT723LR-L8AZNu-3pD-cPzaGnhwpp1cJ4jzOv7vzWq0M7oiHBU2VDZAkRffSsocTA32oZQBNeSyorYuYEaY3WkC4z_vmkBjTHhMyXjH8RcoeQQtfsb6ndfYulX8.-QtPUxqGFGeZmNknQiGvVzFxDCETgsCdFJl_xzhMyvQ&dib_tag=se&keywords=bocaux+fermentation+avec+valve+et+poids+inclus&qid=1784293117&sprefix=bocaux+fermentati+avec+valve+et+poids+inclus%2Caps%2C310&sr=8-44&linkCode=ll2&tag=maxscience06-21&linkId=6869b22b8dbbcd7a6f052b69af61cf08&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "bocal-lacto-fermentation"
+      ]
+    },
+    {
+      "url": "https://www.amazon.fr/Zivacate-Alimentaire-R%C3%A9tro%C3%A9clair%C3%A9-Inoxydable-P%C3%A2tisserie/dp/B0G4VP1WMR?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1PTAEYQ2QKPA7&dib=eyJ2IjoiMSJ9._fibGFWvPis6QpZR_TR5R-E0OgYy2GCUqViiyLkEd8UFEIobmELuFtYKbclAQC-gyKQjRt7xfuf4hhraCqFi58CMXJMqOThptL0N-N9pLzMMZVGCgQKfbrZxsoTGm3Lg-KrgVIHarObsIJV0zLXfCbIWVAk1L9AgSlN0V1MUzYRchdzzYGF2AmPz7JE4EqlH5vov2Gh1A0Mh3ZTpJh2R_Im43Dh1iuOQTMSrRX8I4HH96vsHtDy8_NV7aJwGL-rishfYbtU3SVj5tAgB-YltsCzwEHKYdfdv1453PVeK71I.NXU0tOrjGtCjyiK_MFZQNBKDzjz310Gm626I0rO4HZI&dib_tag=se&keywords=Balance+de+cuisine+%C3%A9conomique%2C+pr%C3%A9cision+1+g%2C+capacit%C3%A9+5+kg&qid=1784205396&sprefix=balance+de+cuisine+%C3%A9conomique%2C+pr%C3%A9cision+1+g%2C+capacit%C3%A9+5+kg%2Caps%2C279&sr=8-1-spons&aref=imTSHPNq5e&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1&linkCode=ll2&tag=maxscience06-21&linkId=fb88d6c113371065ffafdb923f2f0684&ref_=as_li_ss_tl",
+      "status": "manuel-marchand",
+      "articles": [
+        "quelle-balance-recettes-maison"
+      ]
+    },
+    {
+      "url": "https://www.anses.fr/fr/content/produits-menagers-les-laisser-dans-leur-contenant-dorigine",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://www.anses.fr/fr/content/produits-menagers-les-laisser-dans-leur-contenant-dorigine",
+      "articles": [
+        "flacon-nettoyant-maison"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/healthcare-associated-infections/hcp/cleaning-global/appendix-d.html",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://www.cdc.gov/healthcare-associated-infections/hcp/cleaning-global/appendix-d.html",
+      "articles": [
+        "enlever-tache-sang-vetement"
+      ]
+    },
+    {
+      "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00015111.htm",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00015111.htm",
+      "articles": [
+        "notion-ph-nettoyants"
+      ]
+    },
+    {
+      "url": "https://www.cleaninginstitute.org/cleaning-tips/clothes/stain-removal-guide",
+      "status": "a-revoir",
+      "http": 403,
+      "finalUrl": "https://www.cleaninginstitute.org/cleaning-tips/clothes/stain-removal-guide",
+      "articles": [
+        "enlever-tache-sang-vetement"
+      ]
+    },
+    {
+      "url": "https://www.compagnie-bicarbonate.com/percarbonate-de-sodium-sac-1kg.html",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://www.compagnie-bicarbonate.com/percarbonate-de-sodium-sac-1kg.html",
+      "articles": [
+        "percarbonate-de-soude-linge"
+      ]
+    },
+    {
+      "url": "https://www.dr-beckmann.com/fr-fr/entretien-du-linge/detachant-linge/diable-detacheurs/diable-detacheur-sang-proteines-32797-fr/",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://www.dr-beckmann.com/fr-fr/entretien-du-linge/detachant-linge/diable-detacheurs/diable-detacheur-sang-proteines-32797-fr/",
+      "articles": [
+        "enlever-tache-sang-vetement"
+      ]
+    },
+    {
+      "url": "https://www.dwk.com/laboratory/markets-and-applications/lab-essentials",
+      "status": "a-revoir",
+      "http": 403,
+      "finalUrl": "https://www.dwk.com/laboratory/markets-and-applications/lab-essentials",
+      "articles": [
+        "flacon-nettoyant-maison"
+      ]
+    },
+    {
+      "url": "https://www.dwk.com/technical/glass-types-properties",
+      "status": "a-revoir",
+      "http": 403,
+      "finalUrl": "https://www.dwk.com/technical/glass-types-properties",
+      "articles": [
+        "materiel-savon-maison"
+      ]
+    },
+    {
+      "url": "https://www.eufic.org/en/food-safety/article/how-to-store-onions-and-garlic-to-keep-them-fresh-longer-and-minimise-sprouting",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://www.eufic.org/en/food-safety/article/how-to-store-onions-and-garlic-to-keep-them-fresh-longer-and-minimise-sprouting",
+      "articles": [
+        "aliments-conserver-hors-frigo"
+      ]
+    },
+    {
+      "url": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/all-standards/en/",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/all-standards/en/",
+      "articles": [
+        "notion-saponification"
+      ]
+    },
+    {
+      "url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/hu/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B211-1999%252FCXS_211e.pdf",
+      "status": "a-revoir",
+      "http": 403,
+      "finalUrl": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/hu/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B211-1999%252FCXS_211e.pdf",
+      "articles": [
+        "notion-saponification"
+      ]
+    },
+    {
+      "url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/tr/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B210-1999%252FCXS_210e.pdf",
+      "status": "a-revoir",
+      "http": 403,
+      "finalUrl": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/tr/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B210-1999%252FCXS_210e.pdf",
+      "articles": [
+        "notion-saponification",
+        "savon-surgras-saponification"
+      ]
+    },
+    {
+      "url": "https://www.fao.org/input/download/standards/88/CXS_033e_2015.pdf",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://www.fao.org/input/download/standards/88/CXS_033e_2015.pdf",
+      "articles": [
+        "savon-surgras-saponification"
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/guide-inspections-low-acid-canned-food-2",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://www.fda.gov/guide-inspections-low-acid-canned-food-2",
+      "articles": [
+        "kimchi-classique-maison",
+        "kimchi-vegetarien-maison"
+      ]
+    },
+    {
+      "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-technical-guides/water-activity-aw-foods",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-technical-guides/water-activity-aw-foods",
+      "articles": [
+        "confiture-sans-cuisson-crufiture"
+      ]
+    },
+    {
+      "url": "https://www.fromnaturewithlove.com/resources/sapon.asp",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://www.fromnaturewithlove.com/resources/sapon.asp",
+      "articles": [
+        "notion-saponification"
+      ]
+    },
+    {
+      "url": "https://www.fsis.usda.gov/food-safety/foodborne-illness-and-disease/illnesses-and-pathogens/botulism",
+      "status": "a-revoir",
+      "http": 403,
+      "finalUrl": "https://www.fsis.usda.gov/food-safety/foodborne-illness-and-disease/illnesses-and-pathogens/botulism",
+      "articles": [
+        "notion-fermentation-maison"
+      ]
+    },
+    {
+      "url": "https://www.inrs.fr/dam/ficheTox/FicheFicheTox/FICHETOX_20-1.pdf",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://www.inrs.fr/dam/ficheTox/FicheFicheTox/FICHETOX_20-1.pdf",
+      "articles": [
+        "gants-lunettes-risque-chimique",
+        "materiel-savon-maison",
+        "savon-surgras-saponification"
+      ]
+    },
+    {
+      "url": "https://www.inrs.fr/dam/inrs/CataloguePapier/ED/TI-ED-152.pdf",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://www.inrs.fr/dam/inrs/CataloguePapier/ED/TI-ED-152.pdf",
+      "articles": [
+        "nettoyant-ph-melanges-dangereux"
+      ]
+    },
+    {
+      "url": "https://www.inrs.fr/risques/classification-etiquetage-produits-chimiques/explication-reglementation",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://www.inrs.fr/risques/classification-etiquetage-produits-chimiques/explication-reglementation",
+      "articles": [
+        "flacon-nettoyant-maison"
+      ]
+    },
+    {
+      "url": "https://www.iso.org/standard/35851.html",
+      "status": "a-revoir",
+      "http": 403,
+      "finalUrl": "https://www.iso.org/standard/35851.html",
+      "articles": [
+        "confiture-sans-cuisson-crufiture"
+      ]
+    },
+    {
+      "url": "https://www.iso.org/standard/4478.html",
+      "status": "a-revoir",
+      "http": 403,
+      "finalUrl": "https://www.iso.org/standard/4478.html",
+      "articles": [
+        "bandelettes-ph-ou-phmetre",
+        "savon-maison-trop-mou",
+        "savon-surgras-saponification"
+      ]
+    },
+    {
+      "url": "https://www.kingarthurbaking.com/recipes/sourdough-starter-recipe",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://www.kingarthurbaking.com/recipes/sourdough-starter-recipe",
+      "articles": [
+        "levain-ne-monte-pas"
+      ]
+    },
+    {
+      "url": "https://www.lanonpro.com/products/u100",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://www.lanonpro.com/products/u100",
+      "articles": [
+        "gants-lunettes-risque-chimique"
+      ]
+    },
+    {
+      "url": "https://www.masterorganicchemistry.com/2022/10/27/saponification-of-esters/",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://www.masterorganicchemistry.com/2022/10/27/saponification-of-esters/",
+      "articles": [
+        "notion-saponification"
+      ]
+    },
+    {
+      "url": "https://www.monbicarbonate.fr/5-choses-a-savoir-sur-le-percarbonate-de-soude-et-10-facons-de-lutiliser/",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://www.monbicarbonate.fr/5-choses-a-savoir-sur-le-percarbonate-de-soude-et-10-facons-de-lutiliser/",
+      "articles": [
+        "percarbonate-de-soude-linge"
+      ]
+    },
+    {
+      "url": "https://www.nist.gov/news-events/news/2023/09/what-true-meaning-scale-division-d-versus-verification-scale-division-e",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://www.nist.gov/news-events/news/2023/09/what-true-meaning-scale-division-d-versus-verification-scale-division-e",
+      "articles": [
+        "quelle-balance-recettes-maison",
+        "savon-maison-trop-mou"
+      ]
+    },
+    {
+      "url": "https://www.pharmacopeia.cn/v29240/usp29nf24s0_m1510.html",
+      "status": "a-revoir",
+      "http": 502,
+      "finalUrl": "https://www.pharmacopeia.cn/v29240/usp29nf24s0_m1510.html",
+      "articles": [
+        "savon-surgras-saponification"
+      ]
+    },
+    {
+      "url": "https://www.reidl.de/huenersdorff-messkanne-geschl-griff-2000ml-p885263",
+      "status": "a-revoir",
+      "http": 403,
+      "finalUrl": "https://www.reidl.de/huenersdorff-messkanne-geschl-griff-2000ml-p885263",
+      "articles": [
+        "materiel-savon-maison",
+        "savon-surgras-saponification"
+      ]
+    },
+    {
+      "url": "https://www.teachengineering.org/activities/view/rice2-2535-removing-scaling-sources-citric-acid",
+      "status": "non-verifiable",
+      "articles": [
+        "notion-ph-nettoyants"
+      ]
+    },
+    {
+      "url": "https://www.thermofisher.com/de/en/home/life-science/lab-plasticware-supplies/plastic-material-selection/polypropylene-pp-labware.html",
+      "status": "non-verifiable",
+      "articles": [
+        "materiel-savon-maison",
+        "savon-surgras-saponification"
+      ]
+    },
+    {
+      "url": "https://www.thermofisher.com/fr/en/home/life-science/lab-plasticware-supplies/plastic-material-selection/high-density-polyethylene-hdpe-labware.html",
+      "status": "non-verifiable",
+      "articles": [
+        "flacon-nettoyant-maison"
+      ]
+    },
+    {
+      "url": "https://www.thermofisher.com/us/en/home/life-science/lab-plasticware-supplies/nalgene-bottle-carboy-vial-selection-guide.html",
+      "status": "accessible",
+      "http": 200,
+      "finalUrl": "https://www.thermofisher.com/fr/fr/home/life-science/lab-plasticware-supplies/nalgene-bottle-carboy-vial-selection-guide.html",
+      "articles": [
+        "flacon-nettoyant-maison"
+      ]
+    }
+  ]
+}
