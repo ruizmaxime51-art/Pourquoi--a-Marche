@@ -10,7 +10,14 @@
     "audit": "node scripts/audit-content-links.mjs",
     "test:security": "node --test scripts/test-proposal-security.mjs",
     "test:tools": "node scripts/test-tools.mjs",
-    "check": "npm run test:tools && npm run test:security && npm run audit && npm run build"
+    "check": "npm run test:tools && npm run test:security && npm run test:editorial && npm run test:gsc && npm run audit && npm run audit:site && npm run build && npm run audit:built",
+    "audit:site": "node scripts/audit-site.mjs",
+    "audit:built": "python3 scripts/audit-built.py",
+    "test:editorial": "node --test scripts/test-editorial.mjs",
+    "audit:external": "node scripts/check-external-links.mjs",
+    "report:gsc": "python3 scripts/analyse-search-console.py",
+    "test:browser": "playwright test",
+    "test:gsc": "python3 scripts/test-search-console.py"
   },
   "dependencies": {
     "@fontsource/roboto": "5.3.0",
@@ -18,19 +25,24 @@
     "@upstash/redis": "1.38.0",
     "@vercel/analytics": "^1.3.1",
     "gray-matter": "4.0.3",
-    "next": "15.5.22",
+    "next": "15.5.25",
     "react": "19.2.8",
     "react-dom": "19.2.8",
-    "resend": "6.18.1",
     "remark": "15.0.1",
     "remark-gfm": "4.0.0",
-    "remark-html": "16.0.1"
+    "remark-html": "16.0.1",
+    "resend": "6.18.1"
   },
   "overrides": {
     "postcss": "8.5.24",
-    "sharp": "0.35.3"
+    "sharp": "0.35.4",
+    "js-yaml": "3.15.2",
+    "nanoid": "3.3.18"
   },
   "engines": {
     "node": "22.x"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0"
   }
 }

@@ -2,9 +2,17 @@
 
 Site d'affiliation éditorial autour des recettes maison expliquées par la chimie.
 
+## Livraison V55 — 11 septembre 2026
+
+Commencer par [le guide de démarrage](docs/demarrage-v55.md) et
+[la stratégie et l’audit](docs/strategie-et-audit-v55.md). Le projet comprend les
+parcours notion → méthode → matériel, les contrôles GitHub, l’analyse des exports
+Search Console et les instructions pour les prochaines interventions dans `AGENTS.md`.
+Les vérifications effectuées et leurs limites figurent dans `docs/validation-v55.md`.
+
 ## Stack
 
-- Next.js 15.5.22 / App Router
+- Next.js 15.5.25 / App Router, Node.js 22
 - Articles en Markdown dans `content/`
 - Affiliations centralisées dans `lib/affiliations.js`
 - Sources scientifiques centralisées dans `lib/references.js`
@@ -27,7 +35,7 @@ Cette version ajoute :
 ## Développement
 
 ```bash
-npm install
+npm ci
 npm run dev
 ```
 
