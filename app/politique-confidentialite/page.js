@@ -26,9 +26,13 @@ export default function Confidentialite() {
           pages consultées, provenance du trafic). Cet outil fonctionne <strong>sans cookies</strong>
           {' '}et sans collecter de données permettant de vous identifier personnellement&nbsp;: les
           informations sont agrégées et anonymes. Aucun profil individuel n&apos;est constitué.
-          C&apos;est la raison pour laquelle ce site n&apos;affiche pas de bannière de consentement
-          aux cookies&nbsp;: il n&apos;en dépose pas à des fins de suivi.
+          Le site ne dépose pas de cookie publicitaire propre pour ce suivi.
         </p>
+        {process.env.NEXT_PUBLIC_CONVERSION_EVENTS === 'true' && <p>
+          Nous comptons également certains clics vers les méthodes, guides de matériel et marchands.
+          Les informations transmises sont le chemin de la page et la catégorie ou référence du lien.
+          Le texte saisi dans un formulaire et les paramètres de l’adresse ne sont pas transmis dans ces événements.
+        </p>}
 
         <h2>Liens affiliés</h2>
         <p>

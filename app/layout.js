@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import MobileNavigation from './components/MobileNavigation';
+import ConversionEvents from './_components/ConversionEvents';
 import { Analytics } from '@vercel/analytics/next';
 import '@fontsource/roboto/latin-300.css';
 import '@fontsource/roboto/latin-400.css';
@@ -19,7 +20,7 @@ export const viewport = {
 export const metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: `${SITE_NAME} — recettes maison fiables, expliquées par la chimie`,
+    default: `${SITE_NAME} — comprendre, faire et mieux choisir`,
     template: `%s — ${SITE_NAME}`,
   },
   description: SITE_DESCRIPTION,
@@ -52,6 +53,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="fr">
       <body>
+        <a href="#contenu" className="skip-link">Aller au contenu</a>
         <div className="reading-progress" aria-hidden="true" />
         <header className="site-header">
           <div className="wrap-inner">
@@ -80,7 +82,7 @@ export default function RootLayout({ children }) {
           </div>
         </header>
 
-        {children}
+        <div id="contenu" tabIndex={-1}>{children}</div>
 
         <section className="trust-footer">
           <div className="wrap-wide trust-footer-grid">
@@ -120,6 +122,7 @@ export default function RootLayout({ children }) {
         </p>
 
         <Analytics />
+        {process.env.NEXT_PUBLIC_CONVERSION_EVENTS === 'true' && <ConversionEvents />}
       </body>
     </html>
   );

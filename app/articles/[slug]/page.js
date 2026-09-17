@@ -8,7 +8,7 @@ import Breadcrumbs from '@/app/_components/Breadcrumbs';
 import RelatedArticles from '@/app/_components/RelatedArticles';
 import TakeawayBox from '@/app/_components/TakeawayBox';
 import PrintRecipeButton from '@/app/_components/PrintRecipeButton';
-import ArticleFaq from '@/app/_components/ArticleFaq';
+import ArticleNextSteps from '@/app/_components/ArticleNextSteps';
 import Link from 'next/link';
 
 export const dynamicParams = false;
@@ -79,6 +79,7 @@ export default async function ArticlePage({ params }) {
       <div className="article-shell" id="lecture">
         <article className="post">
           <TakeawayBox items={article.takeaways} />
+          <ArticleNextSteps article={article} />
           {article.type === 'comparatif' && (
             <aside className="review-method-note" aria-label="Méthode du comparatif">
               <strong>Méthode du comparatif :</strong> sélection documentaire fondée sur les
@@ -91,7 +92,6 @@ export default async function ArticlePage({ params }) {
             <PrintRecipeButton label={article.printLabel} />
           )}
           <div className="post-body" dangerouslySetInnerHTML={{ __html: article.contentHtml }} />
-          <ArticleFaq items={article.faq} />
           <aside className="article-feedback-callout" aria-labelledby="article-feedback-title">
             <div>
               <strong id="article-feedback-title">Une information vous semble incorrecte&nbsp;?</strong>
@@ -128,7 +128,7 @@ function buildStructuredData(article, url, image) {
   const articleEntity = {
     '@type': 'Article',
     '@id': `${url}#article`,
-    headline: article.title,
+    headline: article.h1 || article.title,
     name: article.title,
     description: article.excerpt,
     image: [
@@ -227,26 +227,6 @@ function buildStructuredData(article, url, image) {
     ],
   };
 
-  const faqItems = Array.isArray(article.faq)
-    ? article.faq.filter((item) => item && item.question && item.answer)
-    : [];
-
-  const faqEntity =
-    faqItems.length > 0
-      ? {
-          '@type': 'FAQPage',
-          '@id': `${url}#faq`,
-          mainEntity: faqItems.map((item) => ({
-            '@type': 'Question',
-            name: item.question,
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: item.answer,
-            },
-          })),
-        }
-      : null;
-
   return {
     '@context': 'https://schema.org',
     '@graph': [
@@ -254,7 +234,6 @@ function buildStructuredData(article, url, image) {
       breadcrumbEntity,
       ...(recipeEntity ? [recipeEntity] : []),
       ...howToEntities,
-      ...(faqEntity ? [faqEntity] : []),
     ],
   };
 }

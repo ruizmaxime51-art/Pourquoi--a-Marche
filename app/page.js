@@ -1,142 +1,55 @@
 import Link from 'next/link';
-import { usageCategories, transversalCategories } from '@/lib/categories';
-import { getFeaturedArticles } from '@/lib/articles';
+import Image from 'next/image';
+import { getFeaturedArticles, getArticleMeta } from '@/lib/articles';
+import { journeys, problemSlugs } from '@/lib/journeys';
 import { buildPageMetadata } from '@/lib/metadata';
-import { DEFAULT_OG_IMAGE, SITE_DESCRIPTION, SITE_NAME, SITE_URL } from '@/lib/site';
+import { SITE_DESCRIPTION, SITE_NAME, SITE_URL } from '@/lib/site';
 import ArticleCard from './_components/ArticleCard';
 
-export const metadata = buildPageMetadata({
-  title: `${SITE_NAME} — recettes maison fiables, expliquées par la chimie`,
-  description: SITE_DESCRIPTION,
-  path: '/',
-  image: DEFAULT_OG_IMAGE,
-});
+export const metadata = buildPageMetadata({ title: 'Recettes, méthodes et matériel pour le fait maison', description: SITE_DESCRIPTION, path: '/' });
 
 export default function Home() {
   const featured = getFeaturedArticles(4);
-  const jsonLd = {
-    '@context': 'https://schema.org',
-    '@graph': [
-      {
-        '@type': 'Organization',
-        '@id': `${SITE_URL}/#organization`,
-        name: SITE_NAME,
-        url: `${SITE_URL}/`,
-        logo: `${SITE_URL}/icon.svg`,
-      },
-      {
-        '@type': 'WebSite',
-        '@id': `${SITE_URL}/#website`,
-        name: SITE_NAME,
-        url: `${SITE_URL}/`,
-        description: SITE_DESCRIPTION,
-        inLanguage: 'fr-FR',
-        publisher: { '@id': `${SITE_URL}/#organization` },
-      },
-    ],
-  };
+  const problems = problemSlugs.map(getArticleMeta);
+  const jsonLd = { '@context': 'https://schema.org', '@graph': [
+    { '@type': 'Organization', '@id': `${SITE_URL}/#organization`, name: SITE_NAME, url: `${SITE_URL}/`, logo: `${SITE_URL}/icon.svg` },
+    { '@type': 'WebSite', '@id': `${SITE_URL}/#website`, name: SITE_NAME, url: `${SITE_URL}/`, description: SITE_DESCRIPTION, inLanguage: 'fr-FR', publisher: { '@id': `${SITE_URL}/#organization` } },
+  ] };
   return (
     <main>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }}
-      />
-      <section className="home-hero">
-        <div className="home-hero-copy">
-          <div className="kicker">Chimie appliquée au fait maison</div>
-          <h1>Des recettes maison fiables, expliquées par la chimie.</h1>
-          <p className="lede">
-            Savon, lessive, nettoyants, fermentation : chaque formule est expliquée,
-            dosée et sécurisée pour comprendre ce que vous faites — pas seulement suivre
-            une recette copiée ailleurs.
-          </p>
-          <div className="hero-actions">
-            <Link href="/recettes" className="primary-pill">Voir les recettes</Link>
-            <Link href="/comprendre" className="secondary-pill">Comprendre la chimie</Link>
-          </div>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }} />
+      <section className="home-intro wrap-wide">
+        <div className="home-intro-copy">
+          <p className="section-kicker">Le fait maison, avec méthode</p>
+          <h1>Comprendre.<br />Faire.<br /><em>Mieux choisir.</em></h1>
+          <p className="lede">Un savon à formuler, une tache à enlever, un bocal à préparer ? La chimie vous aide à choisir le bon geste et le matériel qui sert vraiment.</p>
+          <div className="hero-actions"><Link href="/recettes" className="primary-pill">Trouver une recette ou une méthode</Link><Link href="#depannage" className="secondary-pill">Résoudre un problème</Link></div>
+          <p className="home-proof">Explications sourcées · Limites explicites · Matériel choisi selon l’usage</p>
         </div>
-        <div className="home-hero-panel" aria-label="Promesse éditoriale">
-          <div className="panel-formula">pH · CMC · NaOH · Ca²⁺</div>
-          <h2>Carnet de formulation domestique</h2>
-          <p>Chaque recette relie un geste concret à une réaction, une limite et une précaution.</p>
-          <ul>
-            <li>Dosages argumentés</li>
-            <li>Erreurs fréquentes corrigées</li>
-            <li>Matériel utile, pas gadget</li>
-          </ul>
-        </div>
-      </section>
-
-      <section className="start-here wrap-wide">
-        <div className="section-kicker">Commencer ici</div>
-        <div className="path-grid">
-          <Link href="/recettes" className="path-card">
-            <span>01</span>
-            <h3>Je veux fabriquer un produit</h3>
-            <p>Lessive, nettoyant, savon, fermentation : aller directement aux recettes expliquées.</p>
+        <div className="home-story">
+          <Link href="/articles/confiture-sans-cuisson-crufiture" className="home-story-link">
+            <div className="home-story-image"><Image src="/images/crufiture-hero-photo.webp" alt="Pots de confiture d’abricots et fruits frais, photographie d’illustration" fill priority sizes="(max-width: 760px) 100vw, 42vw" /></div>
+            <div className="home-story-caption"><span className="section-kicker">Une idée à examiner</span><h2>Une confiture sans cuisson qui se conserve ?</h2><p>Comprendre ce que le sucre change — et ce que le Brix ne prouve pas.</p><span className="text-link">Lire l’enquête →</span></div>
           </Link>
-          <Link href="/comprendre" className="path-card">
-            <span>02</span>
-            <h3>Je veux comprendre la chimie</h3>
-            <p>Saponification, tensioactifs, pH, fermentation : les notions qui rendent les recettes fiables.</p>
-          </Link>
-          <Link href="/bien-sequiper" className="path-card">
-            <span>03</span>
-            <h3>Je veux bien m'équiper</h3>
-            <p>Balances, bocaux, flacons, pH, sécurité : choisir le matériel selon l'usage réel.</p>
-          </Link>
+          <p className="photo-source">Photo : <a href="https://unsplash.com/photos/two-jars-of-apricot-jam-with-fresh-apricots-halxQItaUrE">Elena Leya / Unsplash</a> · illustration de confiture</p>
         </div>
       </section>
-
-      <section className="featured-section wrap-wide">
-        <div className="section-headline">
-          <div>
-            <div className="section-kicker">Guides essentiels</div>
-            <h2>À lire pour ne pas bricoler à l'aveugle</h2>
-          </div>
-          <Link href="/comprendre" className="text-link">Toutes les notions →</Link>
-        </div>
-        <div className="featured-grid">
-          {featured.map((article) => <ArticleCard key={article.slug} article={article} />)}
-        </div>
+      <section className="featured-section wrap-wide" aria-labelledby="home-recipes">
+        <div className="section-headline"><div><div className="section-kicker">Passer à la pratique</div><h2 id="home-recipes">Un projet à faire chez vous</h2></div><Link href="/recettes" className="text-link">Toutes les recettes et méthodes →</Link></div>
+        <div className="featured-grid">{featured.map((article) => <ArticleCard key={article.slug} article={article} />)}</div>
       </section>
-
-      <section className="home-categories wrap-wide">
-        <div className="section-kicker">Explorer par usage</div>
-        <div className="category-grid upgraded">
-          {usageCategories.map((cat) => (
-            <Link key={cat.slug} href={`/${cat.slug}`} className="category-card">
-              <span className="formula-eyebrow">{cat.formula}</span>
-              <h3>{cat.title} <span className="arr">→</span></h3>
-              <p>{cat.tagline}</p>
-            </Link>
-          ))}
-        </div>
+      <section id="depannage" className="problem-section wrap-wide" aria-labelledby="home-problems">
+        <div className="section-headline"><div><div className="section-kicker">Avant de recommencer</div><h2 id="home-problems">Qu’est-ce qui ne marche pas ?</h2></div></div>
+        <div className="problem-grid">{problems.map((article, index) => <Link className="problem-card" href={`/articles/${article.slug}`} key={article.slug}><span className="problem-number">0{index + 1}</span><h3>{article.title}</h3><span className="text-link">Comprendre le problème →</span></Link>)}</div>
       </section>
-
+      <section className="project-section wrap-wide" aria-labelledby="home-projects">
+        <div className="section-headline"><div><div className="section-kicker">Du mécanisme au bon outil</div><h2 id="home-projects">Choisissez votre point de départ</h2></div><Link href="/bien-sequiper" className="text-link">Tous les guides de matériel →</Link></div>
+        <div className="project-grid">{['savon', 'entretien', 'fermentation'].map((id) => <div className="project-card" key={id}><h3>{journeys[id].title}</h3><p>{journeys[id].description}</p><ul>{journeys[id].steps.filter((step) => step.role !== 'depannage').slice(0, 3).map((step) => <li key={step.href}><Link href={step.href} data-cm-event="journey_click" data-cm-target={step.role}>{step.label} <span aria-hidden="true">→</span></Link></li>)}</ul></div>)}</div>
+      </section>
       <section className="science-method wrap-wide">
-        <div className="method-copy">
-          <div className="section-kicker">Méthode Chimie Maison</div>
-          <h2>Chaque article doit répondre à trois questions.</h2>
-        </div>
-        <div className="method-grid">
-          <div><strong>Pourquoi ça marche ?</strong><p>Réaction, pH, solubilité, interface ou fermentation : le mécanisme est explicité.</p></div>
-          <div><strong>Où sont les limites ?</strong><p>Eau dure, température, dosage, sécurité, conservation : les cas d'échec sont traités.</p></div>
-          <div><strong>Quoi acheter utilement ?</strong><p>Le matériel est relié à une fonction réelle : peser, mesurer, protéger, conserver.</p></div>
-        </div>
+        <div className="method-copy"><div className="section-kicker">La différence Chimie Maison</div><h2>Le « pourquoi » aide à faire le bon choix.</h2></div>
+        <div className="method-grid"><div><strong>Comprendre le mécanisme</strong><p>pH, saponification ou fermentation : des notions pour expliquer ce que vous observez.</p><Link href="/comprendre" className="text-link">Explorer les notions →</Link></div><div><strong>Vérifier les limites</strong><p>Les conditions d’emploi et les incertitudes font partie de chaque méthode.</p><Link href="/a-propos#methodologie" className="text-link">Notre méthode éditoriale →</Link></div><div><strong>Acheter avec une raison</strong><p>Des critères techniques et des alternatives pour éviter les accessoires superflus.</p><Link href="/bien-sequiper" className="text-link">Choisir le matériel →</Link></div></div>
       </section>
-
-      <div className="transversal-band">
-        <div className="tb-label">Deux entrées transversales</div>
-        <div className="transversal-grid">
-          {transversalCategories.map((cat) => (
-            <Link key={cat.slug} href={`/${cat.slug}`} className="transversal-card">
-              <h3>{cat.title} <span className="arr">→</span></h3>
-              <p>{cat.tagline}</p>
-            </Link>
-          ))}
-        </div>
-      </div>
     </main>
   );
 }

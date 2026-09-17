@@ -4,6 +4,7 @@ import { SITE_URL } from '@/lib/site';
 
 export default function sitemap() {
   const siteUpdate = new Date('2026-07-27');
+  const updatedPaths = new Set(['', '/recettes', '/bien-sequiper', '/cosmetique', '/conservation', '/politique-confidentialite']);
 
   const staticPaths = [
     '',
@@ -18,7 +19,7 @@ export default function sitemap() {
 
   const staticEntries = [...staticPaths, ...categoryPaths].map((path) => ({
     url: `${SITE_URL}${path}`,
-    lastModified: siteUpdate,
+    lastModified: updatedPaths.has(path) ? new Date('2026-09-10') : siteUpdate,
     changeFrequency: path === '' ? 'weekly' : 'monthly',
     priority: path === '' ? 1 : 0.6,
   }));

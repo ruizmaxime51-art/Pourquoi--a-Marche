@@ -1,80 +1,24 @@
 import Link from 'next/link';
-import { usageCategories } from '@/lib/categories';
-import { getArticlesByCategory } from '@/lib/articles';
+import { getAllArticlesMeta } from '@/lib/articles';
+import { problemSlugs } from '@/lib/journeys';
 import { buildPageMetadata } from '@/lib/metadata';
 import ArticleCard from '../_components/ArticleCard';
 
-export const metadata = buildPageMetadata({
-  title: 'Recettes maison',
-  description: 'Toutes les recettes maison classées par usage : cosmétique, entretien, conservation et fermentation.',
-  path: '/recettes',
-});
+export const metadata = buildPageMetadata({ title: 'Recettes et méthodes maison', description: 'Savon, kimchi, levain, entretien : choisissez une recette, une méthode pratique ou un guide pour comprendre un problème.', path: '/recettes' });
 
 export default function RecettesPage() {
-  const recipes = Array.from(
-    new Map(
-      usageCategories
-        .flatMap((cat) => getArticlesByCategory(cat.slug))
-        .filter((article) => article.type !== 'notion')
-        .map((article) => [article.slug, article])
-    ).values()
-  );
-
-  return (
-    <main>
-      <section className="category-hero wrap-wide">
-        <div>
-          <span className="formula-eyebrow">recettes expliquées</span>
-          <h1>Fabriquer un produit maison</h1>
-          <p className="lede">
-            Choisissez d'abord l'usage : cosmétique, entretien, conservation ou fermentation.
-            Chaque recette renvoie vers les notions scientifiques utiles pour comprendre le
-            mécanisme, les limites et les précautions.
-          </p>
-        </div>
-        <div className="category-hero-card">
-          <strong>Parcours conseillé</strong>
-          <p>
-            Recette pour agir vite, notion pour comprendre, matériel pour s'équiper sans acheter
-            d'accessoires inutiles.
-          </p>
-        </div>
-      </section>
-
-      <section className="home-categories wrap-wide">
-        <div className="section-kicker">Les 4 familles de recettes</div>
-        <div className="category-grid upgraded">
-          {usageCategories.map((cat) => (
-            <Link key={cat.slug} href={`/${cat.slug}`} className="category-card">
-              <span className="formula-eyebrow">{cat.formula}</span>
-              <h3>{cat.title} <span className="arr">→</span></h3>
-              <p>{cat.tagline}</p>
-            </Link>
-          ))}
-        </div>
-      </section>
-
-      <section className="featured-section wrap-wide">
-        <div className="section-headline compact">
-          <div>
-            <div className="section-kicker">Toutes les recettes publiées</div>
-            <h2>Passer à la pratique</h2>
-          </div>
-          <Link href="/comprendre" className="text-link">Voir les notions →</Link>
-        </div>
-
-        {recipes.length > 0 ? (
-          <div className="featured-grid listing-grid">
-            {recipes.map((article) => <ArticleCard key={article.slug} article={article} />)}
-          </div>
-        ) : (
-          <div className="empty-state">
-            <h3>Les recettes arrivent.</h3>
-            <p>Les catégories sont prêtes ; les premiers contenus pratiques seront ajoutés ici.</p>
-            <Link href="/comprendre" className="secondary-pill">Comprendre les bases</Link>
-          </div>
-        )}
-      </section>
-    </main>
-  );
+  const all = getAllArticlesMeta();
+  const recipes = all.filter((article) => article.type === 'recette');
+  const problems = problemSlugs.map((slug) => all.find((article) => article.slug === slug));
+  const guides = all.filter((article) => article.type === 'guide' && article.category !== 'bien-sequiper' && !problemSlugs.includes(article.slug));
+  return <main>
+    <section className="category-hero wrap-wide"><div><span className="section-kicker">Choisir une action</span><h1>Recettes et méthodes maison</h1><p className="lede">Commencez par ce que vous voulez faire. Les recettes détaillent les étapes ; les guides aident à choisir une méthode ou à comprendre un résultat inattendu.</p></div><div className="category-hero-card"><strong>Avant de commencer</strong><p>Lisez les conditions d’emploi et les précautions, puis vérifiez le matériel déjà disponible chez vous.</p><Link href="/bien-sequiper" className="text-link">Choisir le matériel utile →</Link></div></section>
+    <nav className="section-tabs wrap-wide" aria-label="Contenus pratiques"><a href="#recettes">Recettes pas à pas</a><a href="#methodes">Méthodes et conservation</a><a href="#depannage">Dépannage</a></nav>
+    <Listing id="recettes" title="Les recettes pas à pas" intro="Des préparations avec des ingrédients et un déroulé. Consultez les précautions propres à chaque recette." articles={recipes} />
+    <Listing id="methodes" title="Choisir et appliquer une méthode" intro="Enquêtes, entretien du linge et conservation : des réponses pratiques dont les limites sont expliquées." articles={guides} />
+    <Listing id="depannage" title="Comprendre ce qui ne fonctionne pas" intro="Observez le problème avant de modifier une formule ou d’acheter un produit." articles={problems} />
+  </main>;
+}
+function Listing({ id, title, intro, articles }) {
+  return <section id={id} className="featured-section wrap-wide"><div className="section-headline"><div><h2>{title}</h2><p>{intro}</p></div></div><div className="featured-grid listing-grid">{articles.map((article) => <ArticleCard key={article.slug} article={article} />)}</div></section>;
 }
