@@ -1,0 +1,50 @@
+{
+  "checkedAt": "2026-09-20T15:42:27.154Z",
+  "originals": [
+    {
+      "path": "/images/crufiture-abricots-frais-photo.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/crufiture-hero-photo.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/crufiture-refractometre-photo.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/crufiture-sechage-solaire-photo.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/crufiture-sucre-abricots-photo.webp",
+      "status": 200,
+      "type": "image/webp"
+    },
+    {
+      "path": "/images/diagrams/crufiture-bilan-masse.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/images/diagrams/crufiture-brix-aw.svg",
+      "status": 200,
+      "type": "image/svg+xml"
+    },
+    {
+      "path": "/images/pinterest/crufiture-science-pinterest.png",
+      "status": 200,
+      "type": "image/png"
+    }
+  ],
+  "optimizedHero": {
+    "status": 200,
+    "width": 640,
+    "height": 427
+  }
+}

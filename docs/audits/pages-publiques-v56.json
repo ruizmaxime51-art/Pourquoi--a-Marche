@@ -1,0 +1,208 @@
+[
+  {
+    "path": "/",
+    "http": 200,
+    "contentType": "text/html; charset=utf-8",
+    "title": [
+      "Recettes, méthodes et matériel pour le fait maison — Chimie Maison"
+    ],
+    "metadata": [
+      {
+        "name": "robots",
+        "content": "index, follow"
+      },
+      {
+        "rel": "canonical",
+        "href": "https://www.chimiemaison.fr"
+      }
+    ],
+    "internalLinks": [
+      "/articles/bandelettes-ph-ou-phmetre",
+      "/articles/bocal-lacto-fermentation",
+      "/articles/confiture-sans-cuisson-crufiture",
+      "/articles/flacon-nettoyant-maison",
+      "/articles/kimchi-classique-maison",
+      "/articles/lacto-fermentation-odeur-moisissure",
+      "/articles/lessive-maison-traces-blanches",
+      "/articles/levain-naturel-fermentation",
+      "/articles/levain-ne-monte-pas",
+      "/articles/materiel-savon-maison",
+      "/articles/nettoyant-ph-melanges-dangereux",
+      "/articles/savon-maison-trop-mou",
+      "/articles/savon-surgras-saponification",
+      "/bien-sequiper",
+      "/outils/calculateur-surgraissage",
+      "/outils/choisir-acide-ou-base"
+    ],
+    "imageCount": 5
+  },
+  {
+    "path": "/recettes",
+    "http": 200,
+    "contentType": "text/html; charset=utf-8",
+    "title": [
+      "Recettes et méthodes maison — Chimie Maison"
+    ],
+    "metadata": [
+      {
+        "name": "robots",
+        "content": "index, follow"
+      },
+      {
+        "rel": "canonical",
+        "href": "https://www.chimiemaison.fr/recettes"
+      }
+    ],
+    "internalLinks": [
+      "/articles/aliments-conserver-hors-frigo",
+      "/articles/confiture-sans-cuisson-crufiture",
+      "/articles/enlever-tache-sang-vetement",
+      "/articles/kimchi-classique-maison",
+      "/articles/kimchi-vegetarien-maison",
+      "/articles/lacto-fermentation-guide-legumes",
+      "/articles/lacto-fermentation-legumes-securite",
+      "/articles/lacto-fermentation-odeur-moisissure",
+      "/articles/lessive-maison-traces-blanches",
+      "/articles/levain-naturel-fermentation",
+      "/articles/levain-ne-monte-pas",
+      "/articles/nettoyant-ph-melanges-dangereux",
+      "/articles/percarbonate-de-soude-linge",
+      "/articles/savon-maison-trop-mou",
+      "/articles/savon-surgras-saponification",
+      "/bien-sequiper"
+    ],
+    "imageCount": 15
+  },
+  {
+    "path": "/bien-sequiper",
+    "http": 200,
+    "contentType": "text/html; charset=utf-8",
+    "title": [
+      "Bien s&#x27;équiper — Chimie Maison"
+    ],
+    "metadata": [
+      {
+        "name": "robots",
+        "content": "index, follow"
+      },
+      {
+        "rel": "canonical",
+        "href": "https://www.chimiemaison.fr/bien-sequiper"
+      }
+    ],
+    "internalLinks": [
+      "/articles/bandelettes-ph-ou-phmetre",
+      "/articles/bocal-lacto-fermentation",
+      "/articles/flacon-nettoyant-maison",
+      "/articles/gants-lunettes-risque-chimique",
+      "/articles/materiel-savon-maison",
+      "/articles/quelle-balance-recettes-maison",
+      "/bien-sequiper"
+    ],
+    "imageCount": 0
+  },
+  {
+    "path": "/articles/notion-saponification",
+    "http": 200,
+    "contentType": "text/html; charset=utf-8",
+    "title": [
+      "Saponification : comment une huile devient savon — Chimie Maison"
+    ],
+    "metadata": [
+      {
+        "name": "robots",
+        "content": "index, follow"
+      },
+      {
+        "rel": "canonical",
+        "href": "https://www.chimiemaison.fr/articles/notion-saponification"
+      }
+    ],
+    "internalLinks": [
+      "/articles/materiel-savon-maison",
+      "/articles/materiel-savon-maison#materiel",
+      "/articles/notion-tensioactifs",
+      "/articles/savon-maison-trop-mou",
+      "/articles/savon-surgras-saponification",
+      "/bien-sequiper",
+      "/outils/calculateur-surgraissage"
+    ],
+    "imageCount": 12
+  },
+  {
+    "path": "/articles/savon-surgras-saponification",
+    "http": 200,
+    "contentType": "text/html; charset=utf-8",
+    "title": [
+      "Savon surgras : recette olive, coco et amande — Chimie Maison"
+    ],
+    "metadata": [
+      {
+        "name": "robots",
+        "content": "index, follow"
+      },
+      {
+        "rel": "canonical",
+        "href": "https://www.chimiemaison.fr/articles/savon-surgras-saponification"
+      }
+    ],
+    "internalLinks": [
+      "/articles/materiel-savon-maison",
+      "/articles/nettoyant-ph-melanges-dangereux",
+      "/articles/notion-saponification",
+      "/articles/notion-tensioactifs",
+      "/articles/savon-maison-trop-mou",
+      "/bien-sequiper",
+      "/outils/calculateur-surgraissage"
+    ],
+    "imageCount": 10
+  },
+  {
+    "path": "/articles/confiture-sans-cuisson-crufiture",
+    "http": 200,
+    "contentType": "text/html; charset=utf-8",
+    "title": [
+      "Confiture sans cuisson : calculs, Brix et sécurité — Chimie Maison"
+    ],
+    "metadata": [
+      {
+        "name": "robots",
+        "content": "index, follow"
+      },
+      {
+        "rel": "canonical",
+        "href": "https://www.chimiemaison.fr/articles/confiture-sans-cuisson-crufiture"
+      }
+    ],
+    "internalLinks": [
+      "/articles/aliments-conserver-hors-frigo",
+      "/articles/bandelettes-ph-ou-phmetre",
+      "/articles/notion-fermentation-maison",
+      "/articles/quelle-balance-recettes-maison",
+      "/bien-sequiper"
+    ],
+    "imageCount": 10
+  },
+  {
+    "path": "/robots.txt",
+    "http": 200,
+    "contentType": "text/plain",
+    "body": "User-Agent: *\nAllow: /\n\nUser-Agent: GPTBot\nAllow: /\n\nUser-Agent: OAI-SearchBot\nAllow: /\n\nUser-Agent: ChatGPT-User\nAllow: /\n\nUser-Agent: ClaudeBot\nAllow: /\n\nUser-Agent: Claude-Web\nAllow: /\n\nUser-Agent: anthropic-ai\nAllow: /\n\nUser-Agent: PerplexityBot\nAllow: /\n\nUser-Agent: Google-Extended\nAllow: /\n\nUser-Agent: Applebot-Extended\nAllow: /\n\nUser-Agent: CCBot\nAllow: /\n\nUser-Agent: Bytespider\nAllow: /\n\nUser-Agent: Amazonbot\nAllow: /\n\nHost: https://www.chimiemaison.fr\nSitemap: https://www.chimiemaison.fr/sitemap.xml\n"
+  },
+  {
+    "path": "/sitemap.xml",
+    "http": 200,
+    "contentType": "application/xml",
+    "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n<url>\n<loc>https://www.chimiemaison.fr</loc>\n<lastmod>2026-09-10T00:00:00.000Z</lastmod>\n<changefreq>weekly</changefreq>\n<priority>1</priority>\n</url>\n<url>\n<loc>https://www.chimiemaison.fr/recettes</loc>\n<lastmod>2026-09-10T00:00:00.000Z</lastmod>\n<changefreq>monthly</changefreq>\n<priority>0.6</priority>\n</url>\n<url>\n<loc>https://www.chimiemaison.fr/a-propos</loc>\n<lastmod>2026-07-27T00:00:00.000Z</lastmod>\n<changefreq>monthly</changefreq>\n<priority>0.6</priority>\n</url>\n<url>\n<loc>https://www.chimiemaison.fr/outils</loc>\n<lastmod>2026-07-27T00:00:00.000Z</lastmod>\n<changefreq>monthly</change"
+  },
+  {
+    "path": "/images/savon-etape6-decoupe.webp",
+    "http": 200,
+    "contentType": "image/webp"
+  },
+  {
+    "path": "/images/og-chimie-maison.webp",
+    "http": 200,
+    "contentType": "image/webp"
+  }
+]
