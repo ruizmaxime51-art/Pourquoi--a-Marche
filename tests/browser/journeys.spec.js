@@ -28,6 +28,19 @@ test('une seule FAQ, utilisable au clavier', async ({ page }) => {
   await expect(page.locator('.faq-item').first()).toHaveAttribute('open', '');
 });
 
+test('la crufiture charge ses photos et propose la suite après le contenu', async ({ page }) => {
+  await page.goto('/articles/confiture-sans-cuisson-crufiture');
+  const hero = page.locator('.article-hero-visual img');
+  await expect(hero).toBeVisible();
+  await expect.poll(() => hero.evaluate(img => img.complete && img.naturalWidth > 0)).toBe(true);
+  const pictures = page.locator('.post-body img');
+  for (const picture of await pictures.all()) {
+    await picture.scrollIntoViewIfNeeded();
+    await expect.poll(() => picture.evaluate(img => img.complete && img.naturalWidth > 0)).toBe(true);
+  }
+  await expect(page.locator('.post-body + .next-steps')).toHaveCount(1);
+});
+
 for (const route of ['/', '/recettes', '/bien-sequiper', '/articles/notion-saponification', '/articles/confiture-sans-cuisson-crufiture']) {
   test(`rendu et largeur : ${route}`, async ({ page }, testInfo) => {
     const errors=[]; page.on('pageerror', e=>errors.push(e.message));

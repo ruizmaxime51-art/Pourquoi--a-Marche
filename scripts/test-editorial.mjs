@@ -4,6 +4,7 @@ import matter from 'gray-matter';
 import { validateArticleData, escapeHtml } from '../lib/contentValidation.js';
 import { getArticle } from '../lib/articles.js';
 import { getNextSteps } from '../lib/journeys.js';
+import { getReadAction } from '../lib/articleActions.js';
 
 const valid = { title: 'Exemple', excerpt: 'Description', type: 'guide', category: 'entretien', date: '2026-09-10', takeaways: ['Une phrase'] };
 test('une liste YAML avec un deux-points ne peut plus casser React sans diagnostic', () => {
@@ -26,4 +27,24 @@ test('le guide de dépannage affiche sa FAQ une seule fois', async () => {
 test('la saponification mène à la recette, au calcul et au matériel', () => {
   assert.deepEqual(getNextSteps('notion-saponification').map((item) => item.role), ['pratique', 'outil', 'materiel']);
   assert.ok(getNextSteps('savon-surgras-saponification').every((item) => !item.href.endsWith('/savon-surgras-saponification')));
+});
+
+test('les raccourcis commencent par les précautions des recettes chimiques', async () => {
+  for (const slug of ['savon-surgras-saponification', 'nettoyant-ph-melanges-dangereux']) {
+    const article = await getArticle(slug);
+    const action = getReadAction(article);
+    assert.match(action.label, /précautions/);
+    assert.ok(article.contentHtml.includes(`id="${action.href.slice(1)}"`));
+    assert.ok(article.contentHtml.indexOf(`id="${action.href.slice(1)}"`) < article.contentHtml.indexOf('class="recipe-card"'));
+  }
+});
+
+test('les recettes alimentaires ont un raccourci existant, la crufiture reste un guide', async () => {
+  for (const slug of ['kimchi-classique-maison', 'kimchi-vegetarien-maison', 'levain-naturel-fermentation', 'lacto-fermentation-legumes-securite']) {
+    const article = await getArticle(slug);
+    const action = getReadAction(article);
+    assert.notEqual(action.href, '#lecture');
+    assert.ok(article.contentHtml.includes(`id="${action.href.slice(1)}"`));
+  }
+  assert.equal(getReadAction(await getArticle('confiture-sans-cuisson-crufiture')).label, 'Lire le guide pratique');
 });
