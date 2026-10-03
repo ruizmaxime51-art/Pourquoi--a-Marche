@@ -31,6 +31,11 @@ Réutiliser les shortcodes `{{affil:clé}}` et `{{affil-inline:clé}}`. Garder l
 Le suivi `NEXT_PUBLIC_CONVERSION_EVENTS=true` est une option Vercel Pro/Enterprise, désactivée par défaut. Ne pas l’activer sans vérifier le plan. Ne jamais transmettre les formulaires ou paramètres d’URL dans les événements.
 
 ## Vérifications
+
+Depuis V56, `npm run build` contrôle aussi les médias via `prebuild`. Lire
+`docs/demarrage-v56.md` et `docs/revue-skills-v56.md` pour le diagnostic des médias et
+les choix de parcours. Après un déploiement, vérifier les médias publics avec
+`npm run audit:media:public -- --article <slug>` ; un résultat local ne suffit pas.
 1. `npm ci` avec Node 22.
 2. `npm run check` : calculs, formulaire, régressions éditoriales, liens, parcours, build, HTML final.
 3. `npm audit --omit=dev --audit-level=high`.

@@ -1,3 +1,5 @@
+> Livraison V56 : commencer par [le guide d’import et de correction des images](docs/demarrage-v56.md). Voir aussi [la revue des skills](docs/revue-skills-v56.md) et [la proposition de publication quotidienne](docs/automatisation-proposee-v56.md).
+
 # Chimie Maison — Next.js
 
 Site d'affiliation éditorial autour des recettes maison expliquées par la chimie.

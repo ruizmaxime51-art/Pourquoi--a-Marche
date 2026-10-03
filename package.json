@@ -5,19 +5,23 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
+    "prebuild": "npm run audit:media",
     "build": "next build",
     "start": "next start",
     "audit": "node scripts/audit-content-links.mjs",
     "test:security": "node --test scripts/test-proposal-security.mjs",
     "test:tools": "node scripts/test-tools.mjs",
-    "check": "npm run test:tools && npm run test:security && npm run test:editorial && npm run test:gsc && npm run audit && npm run audit:site && npm run build && npm run audit:built",
+    "check": "npm run test:tools && npm run test:security && npm run test:editorial && npm run test:gsc && npm run test:media && npm run audit && npm run audit:site && npm run build && npm run audit:built",
     "audit:site": "node scripts/audit-site.mjs",
     "audit:built": "python3 scripts/audit-built.py",
     "test:editorial": "node --test scripts/test-editorial.mjs",
     "audit:external": "node scripts/check-external-links.mjs",
     "report:gsc": "python3 scripts/analyse-search-console.py",
     "test:browser": "playwright test",
-    "test:gsc": "python3 scripts/test-search-console.py"
+    "test:gsc": "python3 scripts/test-search-console.py",
+    "audit:media": "node scripts/audit-media.mjs",
+    "test:media": "node --test scripts/test-media.mjs",
+    "audit:media:public": "node scripts/check-public-media.mjs"
   },
   "dependencies": {
     "@fontsource/roboto": "5.3.0",
@@ -31,7 +35,8 @@
     "remark": "15.0.1",
     "remark-gfm": "4.0.0",
     "remark-html": "16.0.1",
-    "resend": "6.18.1"
+    "resend": "6.18.1",
+    "sharp": "0.35.4"
   },
   "overrides": {
     "postcss": "8.5.24",
