@@ -79,7 +79,7 @@ export default async function ArticlePage({ params }) {
       <div className="article-shell" id="lecture">
         <article className="post">
           <TakeawayBox items={article.takeaways} />
-          <ArticleNextSteps article={article} />
+          {['notion', 'repere'].includes(article.type) && <ArticleNextSteps article={article} />}
           {article.type === 'comparatif' && (
             <aside className="review-method-note" aria-label="Méthode du comparatif">
               <strong>Méthode du comparatif :</strong> sélection documentaire fondée sur les
@@ -92,6 +92,7 @@ export default async function ArticlePage({ params }) {
             <PrintRecipeButton label={article.printLabel} />
           )}
           <div className="post-body" dangerouslySetInnerHTML={{ __html: article.contentHtml }} />
+          {!['notion', 'repere'].includes(article.type) && <ArticleNextSteps article={article} />}
           <aside className="article-feedback-callout" aria-labelledby="article-feedback-title">
             <div>
               <strong id="article-feedback-title">Une information vous semble incorrecte&nbsp;?</strong>

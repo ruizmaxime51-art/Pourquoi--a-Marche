@@ -1358,23 +1358,19 @@ nav.main-nav { align-items: center; flex-wrap: nowrap; }
   object-fit: cover;
   aspect-ratio: auto !important;
 }
-.article-hero-credit {
-  position: absolute;
-  right: 10px;
-  bottom: 10px;
-  left: 10px;
-  z-index: 2;
+.article-hero-figure {
+  min-width: 0;
   margin: 0;
-  padding: 7px 9px;
-  border-radius: 7px;
-  background: rgba(18, 31, 26, .78);
-  color: rgba(255, 255, 255, .92);
-  font-size: .68rem;
-  line-height: 1.35;
-  backdrop-filter: blur(4px);
+}
+.article-hero-credit {
+  margin: 10px 4px 0;
+  color: var(--ink-soft);
+  font-size: .8rem;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
 }
 .article-hero-credit a {
-  color: #fff;
+  color: var(--green-deep);
   text-decoration-thickness: 1px;
   text-underline-offset: 2px;
 }

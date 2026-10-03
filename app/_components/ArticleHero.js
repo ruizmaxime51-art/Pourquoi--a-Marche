@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { getReadAction } from '@/lib/articleActions';
 
 export default function ArticleHero({ article }) {
   const visualMode = article.heroFit || (article.type === 'notion' || article.type === 'repere' ? 'contain' : 'cover');
@@ -7,6 +8,7 @@ export default function ArticleHero({ article }) {
     article.materialHref ||
     (article.contentHtml?.includes('id="materiel"') ? '#materiel' : null);
   const materialLabel = article.materialLabel || 'Matériel utile';
+  const readAction = getReadAction(article);
   return (
     <header className="article-hero">
       <div className="article-hero-copy">
@@ -26,14 +28,15 @@ export default function ArticleHero({ article }) {
           Rédaction et vérification : <Link href="/a-propos">Chimie Maison</Link>
         </p>
         <div className="article-hero-actions">
-          <a href="#lecture" className="primary-pill">Lire l'article</a>
+          <a href={readAction.href} className="primary-pill">{readAction.label}</a>
           {materialHref && (
             <a href={materialHref} className="secondary-pill">{materialLabel}</a>
           )}
         </div>
       </div>
       {article.image && (
-        <div className={`article-hero-visual ${visualMode === 'contain' ? 'is-contain' : 'is-cover'}`}>
+        <figure className="article-hero-figure">
+          <div className={`article-hero-visual ${visualMode === 'contain' ? 'is-contain' : 'is-cover'}`}>
           <Image
             src={article.image}
             alt={article.imageAlt || article.title}
@@ -41,8 +44,9 @@ export default function ArticleHero({ article }) {
             priority
             sizes="(max-width: 780px) 100vw, 38vw"
           />
+          </div>
           {article.imageCredit && (
-            <p className="article-hero-credit">
+            <figcaption className="article-hero-credit">
               Photo :{' '}
               <a href={article.imageCredit.authorUrl} target="_blank" rel="noopener noreferrer">
                 {article.imageCredit.author}
@@ -60,9 +64,9 @@ export default function ArticleHero({ article }) {
                 </>
               )}
               {article.imageCredit.changes ? ` · ${article.imageCredit.changes}` : ''}
-            </p>
+            </figcaption>
           )}
-        </div>
+        </figure>
       )}
     </header>
   );
