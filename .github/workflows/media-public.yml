@@ -1,0 +1,31 @@
+name: Images du site publié
+on:
+  workflow_dispatch:
+    inputs:
+      article:
+        description: Slug de l’article à contrôler
+        required: true
+        default: confiture-sans-cuisson-crufiture
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Vérifier les images et le visuel Pinterest, sans publier
+        env:
+          ARTICLE_SLUG: ${{ inputs.article }}
+        run: npm run audit:media:public -- --article "$ARTICLE_SLUG"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: images-publiees
+          path: reports/media-public.json
+          retention-days: 14

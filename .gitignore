@@ -1,0 +1,13 @@
+node_modules
+.next
+.env*.local
+.DS_Store
+
+# Analyses locales, exports privés et artefacts techniques
+reports/
+private-data/
+playwright-report/
+test-results/
+.lighthouseci/
+__pycache__/
+*.pyc

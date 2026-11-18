@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Différence entre le degré Brix et l’activité de l’eau</title>
+  <desc id="desc">Le degré Brix mesure les matières solubles par réfractométrie tandis que l’activité de l’eau mesure l’eau disponible à partir de la pression de vapeur. Les deux mesures sont liées mais non interchangeables.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffaf0"/>
+      <stop offset="1" stop-color="#eff8f3"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 Z" fill="#2f6f62"/>
+    </marker>
+  </defs>
+  <rect width="1600" height="900" rx="42" fill="url(#bg)"/>
+  <text x="800" y="78" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#173d34">Deux mesures, deux questions</text>
+  <text x="800" y="124" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" fill="#49655e">Le °Brix aide au calcul. L’aw documente l’eau disponible.</text>
+
+  <rect x="80" y="180" width="650" height="570" rx="34" fill="#ffffff" stroke="#d5b45f" stroke-width="4"/>
+  <rect x="870" y="180" width="650" height="570" rx="34" fill="#ffffff" stroke="#70a992" stroke-width="4"/>
+
+  <circle cx="405" cy="320" r="95" fill="#fff2ce" stroke="#d5b45f" stroke-width="5"/>
+  <path d="M347 336h116M365 306h80M384 276h42" stroke="#9c6c08" stroke-width="17" stroke-linecap="round"/>
+  <path d="M475 245l55 55-55 55" fill="none" stroke="#9c6c08" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <circle cx="1195" cy="320" r="95" fill="#ddf2e7" stroke="#70a992" stroke-width="5"/>
+  <path d="M1195 248c-39 54-62 86-62 119a62 62 0 0 0 124 0c0-33-23-65-62-119z" fill="#4a9b82"/>
+  <path d="M1167 374c8 18 25 29 45 29" fill="none" stroke="#dff4ec" stroke-width="10" stroke-linecap="round"/>
+
+  <text x="405" y="463" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#65490f">Degré Brix</text>
+  <text x="405" y="510" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" fill="#344d46">Matières solubles estimées</text>
+  <text x="405" y="547" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" fill="#344d46">par l’indice de réfraction</text>
+  <rect x="185" y="590" width="440" height="94" rx="20" fill="#fff8e6"/>
+  <text x="405" y="628" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#65490f">Exemple : 12 °Brix</text>
+  <text x="405" y="660" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#344d46">≈ 12 g de solubles pour 100 g</text>
+
+  <text x="1195" y="463" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" font-weight="700" fill="#205f50">Activité de l’eau</text>
+  <text x="1195" y="510" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" fill="#344d46">Rapport de pression de vapeur</text>
+  <text x="1195" y="547" text-anchor="middle" font-family="Arial, sans-serif" font-size="25" fill="#344d46">à la même température</text>
+  <rect x="975" y="590" width="440" height="94" rx="20" fill="#edf8f3"/>
+  <text x="1195" y="628" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="700" fill="#205f50">Exemple : aw = 0,80</text>
+  <text x="1195" y="660" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#344d46">eau moins disponible, pas stérile</text>
+
+  <path d="M754 420h88" stroke="#2f6f62" stroke-width="8" stroke-dasharray="12 13" marker-end="url(#arrow)"/>
+
+  <rect x="250" y="770" width="1100" height="100" rx="22" fill="#173d34"/>
+  <text x="800" y="813" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#ffffff">Même °Brix ≠ nécessairement même activité de l’eau</text>
+  <text x="800" y="848" text-anchor="middle" font-family="Arial, sans-serif" font-size="19" fill="#d8ebe3">La relation dépend des sucres, des acides, du fruit et de la température.</text>
+</svg>

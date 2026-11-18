@@ -1,0 +1,36 @@
+name: Maintenance hebdomadaire
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 6 * * 1'
+permissions:
+  contents: read
+jobs:
+  maintenance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Auditer les dépendances
+        id: dependencies
+        continue-on-error: true
+        run: npm audit --omit=dev --audit-level=high
+      - name: Contrôler les sources et liens externes
+        id: links
+        continue-on-error: true
+        run: npm run audit:external
+      - name: Conserver le rapport
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: maintenance-links
+          path: reports/
+          retention-days: 30
+      - name: Signaler un point à corriger
+        if: steps.dependencies.outcome == 'failure' || steps.links.outcome == 'failure'
+        run: exit 1
