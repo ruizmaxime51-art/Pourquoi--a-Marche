@@ -2,18 +2,17 @@ import Link from 'next/link';
 import MobileNavigation from './components/MobileNavigation';
 import ConversionEvents from './_components/ConversionEvents';
 import { Analytics } from '@vercel/analytics/next';
-import '@fontsource/roboto/latin-300.css';
-import '@fontsource/roboto/latin-400.css';
-import '@fontsource/roboto/latin-500.css';
-import '@fontsource/roboto/latin-700.css';
-import '@fontsource/roboto/latin-900.css';
+import { Archivo_Black, Source_Sans_3 } from 'next/font/google';
 import './globals.css';
 import { SITE_URL, SITE_NAME, SITE_DESCRIPTION, DEFAULT_OG_IMAGE } from '@/lib/site';
+
+const archivoBlack = Archivo_Black({ weight: '400', subsets: ['latin'], display: 'swap', variable: '--font-archivo-black' });
+const sourceSans = Source_Sans_3({ subsets: ['latin'], display: 'swap', variable: '--font-source-sans' });
 
 export const viewport = {
   width: 'device-width',
   initialScale: 1,
-  themeColor: '#07543B',
+  themeColor: '#ffffff',
   viewportFit: 'cover',
 };
 
@@ -51,7 +50,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="fr">
+    <html lang="fr" className={`${archivoBlack.variable} ${sourceSans.variable}`}>
       <body>
         <a href="#contenu" className="skip-link">Aller au contenu</a>
         <div className="reading-progress" aria-hidden="true" />

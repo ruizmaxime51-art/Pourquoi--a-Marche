@@ -47,7 +47,7 @@ export default function Home() {
         <div className="project-grid">{['savon', 'entretien', 'fermentation'].map((id) => <div className="project-card" key={id}><h3>{journeys[id].title}</h3><p>{journeys[id].description}</p><ul>{journeys[id].steps.filter((step) => step.role !== 'depannage').slice(0, 3).map((step) => <li key={step.href}><Link href={step.href} data-cm-event="journey_click" data-cm-target={step.role}>{step.label} <span aria-hidden="true">→</span></Link></li>)}</ul></div>)}</div>
       </section>
       <section className="science-method wrap-wide">
-        <div className="method-copy"><div className="section-kicker">La différence Chimie Maison</div><h2>Le « pourquoi » aide à faire le bon choix.</h2></div>
+        <div className="method-copy"><div className="section-kicker">La différence Chimie Maison</div><h2>Le «&nbsp;pourquoi&nbsp;» aide à faire le bon choix.</h2></div>
         <div className="method-grid"><div><strong>Comprendre le mécanisme</strong><p>pH, saponification ou fermentation : des notions pour expliquer ce que vous observez.</p><Link href="/comprendre" className="text-link">Explorer les notions →</Link></div><div><strong>Vérifier les limites</strong><p>Les conditions d’emploi et les incertitudes font partie de chaque méthode.</p><Link href="/a-propos#methodologie" className="text-link">Notre méthode éditoriale →</Link></div><div><strong>Acheter avec une raison</strong><p>Des critères techniques et des alternatives pour éviter les accessoires superflus.</p><Link href="/bien-sequiper" className="text-link">Choisir le matériel →</Link></div></div>
       </section>
     </main>
