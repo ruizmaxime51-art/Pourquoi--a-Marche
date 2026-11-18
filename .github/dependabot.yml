@@ -9,6 +9,8 @@ updates:
       timezone: Europe/Paris
     open-pull-requests-limit: 5
     groups:
+      react:
+        patterns: ['react', 'react-dom']
       patches:
         update-types: [patch]
     ignore:
