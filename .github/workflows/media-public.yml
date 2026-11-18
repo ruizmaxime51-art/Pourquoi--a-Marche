@@ -23,7 +23,7 @@ jobs:
         env:
           ARTICLE_SLUG: ${{ inputs.article }}
         run: npm run audit:media:public -- --article "$ARTICLE_SLUG"
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: images-publiees
