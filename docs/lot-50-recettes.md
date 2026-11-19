@@ -32,8 +32,22 @@ Fichiers de travail (générateur + specs) : préparés hors dépôt puis écrit
 | choucroute-maison | fermentation | ✅ |
 | citrons-confits-sel | fermentation | ✅ |
 
+## Lot 3 — fermentation (publié le 19/11/2026)
+| Recette | Catégorie | Statut |
+|---|---|---|
+| yaourt-maison | fermentation | ✅ |
+| kombucha-maison | fermentation | ✅ |
+| kefir-de-fruits | fermentation | ✅ |
+| vinaigre-de-cidre-maison | fermentation | ✅ |
+| beurre-de-culture | fermentation | ✅ |
+| chou-rouge-lacto-fermente | fermentation | ✅ |
+| radis-noir-lacto-fermente | fermentation | ✅ |
+| chou-fleur-lacto-fermente | fermentation | ✅ |
+| sauce-piquante-fermentee | fermentation | ✅ |
+| pain-au-levain | fermentation | ✅ |
+
 ## À venir
-Conservation : marmelade d'oranges, confiture de clémentines, gelée de coings, pâte de coings, écorces d'orange confites, confiture de lait, poires au sirop, compote de pommes en bocal, sauce aux canneberges, pickles d'oignons rouges, betteraves au vinaigre, sirop d'agrumes, sel aromatisé, huile aromatisée.
-Fermentation : choucroute, chou rouge lacto-fermenté, citrons confits au sel, kombucha, kéfir de fruits, ginger beer, yaourt, kvass de betterave, radis noir lacto-fermenté, sauce piquante fermentée, vinaigre de cidre, beurre de culture.
+Conservation : sirop d'agrumes, sel aromatisé, huile aromatisée (réfrigérateur).
 Cosmétique : savon orange-cannelle, sels de bain, gommage au sucre, beurre corporel fouetté, shampoing solide, déodorant, baume pour les mains.
 Entretien : nettoyer le four, liquide vaisselle, pastilles lave-vaisselle, vitres, pot-pourri mijoté, bougie à la cire de soja, lessive au savon de Marseille.
+Écartés faute de source solide : ginger beer, kvass de betterave, confiture de clémentines, poires au sirop, gelée de coings.

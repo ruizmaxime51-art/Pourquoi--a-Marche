@@ -21,3 +21,14 @@ cohérentes avec la chimie et les usages, mais méritent ton contrôle.
 - **Pâte de coings** : purée + même poids de sucre + 50 ml de citron (la source ne donne qu'un ratio en volume).
 - **Choucroute** : 35 g de sel pour 1,5 kg (2,3 %) ; saumure d'appoint 27 g/L ; la mention « choucroute rose = écarter » est prudente.
 - **Citrons confits** : ½ tasse de sel convertie en 145 g.
+
+## Lot 3
+- **Yaourt** : ¼ de tasse par quart converti en 60 ml pour 1 L ; « environ 8 pots » est une estimation (pots de 125 ml).
+- **Kombucha** : 1,4 L d'eau, 8 g de thé, 100 g de sucre (≈ 7 %) : proportions courantes, la source Virginia Tech ne donne que les 10 % de liquide de départ et le pH.
+- **Kéfir de fruits** : 50 g de grains, 60 g de sucre par litre, 24-48 h : proportions d'usage, la revue scientifique ne donne pas de recette.
+- **Vinaigre de cidre** : 200 ml de vinaigre non pasteurisé pour 1 L de cidre (la source Penn State dit « une petite quantité »).
+- **Beurre de culture** : rendement ≈ 350 g pour 1 L de crème à 30-35 % de matière grasse ; « 1 à 2 semaines » au réfrigérateur.
+- **Chou rouge** : 2,3 % de sel (Clemson pour la choucroute) appliqué au chou + pomme ; la pomme n'est pas dans la source.
+- **Radis noir, chou-fleur, sauce piquante** : saumure 24 g pour 500 ml (≈ 5 %, Illinois : 45 g par quart pour les légumes en morceaux). Durées de fermentation : estimations, la source n'en donne pas.
+- **Sauce piquante** : 60 ml de vinaigre au mixage ; le pH ≤ 4,6 est à vérifier à chaque lot.
+- **Pain au levain** : recette King Arthur reprise telle quelle en grammes ; farines françaises T55/T65 et T110/T150 proposées comme équivalents.
