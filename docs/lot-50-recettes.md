@@ -46,8 +46,20 @@ Fichiers de travail (générateur + specs) : préparés hors dépôt puis écrit
 | sauce-piquante-fermentee | fermentation | ✅ |
 | pain-au-levain | fermentation | ✅ |
 
-## À venir
-Conservation : sirop d'agrumes, sel aromatisé, huile aromatisée (réfrigérateur).
-Cosmétique : savon orange-cannelle, sels de bain, gommage au sucre, beurre corporel fouetté, shampoing solide, déodorant, baume pour les mains.
-Entretien : nettoyer le four, liquide vaisselle, pastilles lave-vaisselle, vitres, pot-pourri mijoté, bougie à la cire de soja, lessive au savon de Marseille.
-Écartés faute de source solide : ginger beer, kvass de betterave, confiture de clémentines, poires au sirop, gelée de coings.
+## Lot 4 — cosmétiques et cadeaux (publié le 19/11/2026)
+| Recette | Catégorie | Statut |
+|---|---|---|
+| gommage-sucre | cosmetique | ✅ |
+| sel-agrumes | conservation | ✅ |
+| huile-ail-romarin | conservation | ✅ |
+| sirop-framboises | conservation | ✅ |
+| sels-de-bain | cosmetique | ✅ |
+| beurre-corporel-fouette | cosmetique | ✅ |
+| baume-mains | cosmetique | ✅ |
+| savon-orange-cannelle | cosmetique | ✅ |
+| deodorant-maison | cosmetique | ✅ |
+| bain-avoine-colloidale | cosmetique | ✅ |
+
+## À venir (lot 5)
+Entretien : nettoyer le four, liquide vaisselle, pastilles lave-vaisselle, vitres, pot-pourri mijoté, bougie à la cire de soja, lessive au savon de Marseille, détartrer la bouilloire, désodoriser le réfrigérateur, nettoyer les joints.
+Écartés faute de source solide : ginger beer, kvass de betterave, confiture de clémentines, poires au sirop, gelée de coings, shampoing solide.
