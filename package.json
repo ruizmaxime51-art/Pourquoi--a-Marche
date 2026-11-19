@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "prebuild": "npm run audit:media",
+    "prebuild": "npm run audit:media && node scripts/check-remote-images.mjs",
     "build": "next build",
     "start": "next start",
     "audit": "node scripts/audit-content-links.mjs",

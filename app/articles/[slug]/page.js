@@ -1,5 +1,5 @@
 import { getAllSlugs, getArticle, getRelatedArticles } from '@/lib/articles';
-import { SITE_URL, SITE_NAME, DEFAULT_OG_IMAGE } from '@/lib/site';
+import { SITE_URL, SITE_NAME, DEFAULT_OG_IMAGE, absoluteUrl } from '@/lib/site';
 import { categories } from '@/lib/categories';
 import { imageDimensions } from '@/lib/imageDimensions';
 import { notFound } from 'next/navigation';
@@ -171,8 +171,8 @@ function buildStructuredData(article, url, image) {
     name: article.title,
     description: article.excerpt,
     image: [
-      `${SITE_URL}${image}`,
-      ...(article.pinterestImage ? [`${SITE_URL}${article.pinterestImage}`] : []),
+      absoluteUrl(image),
+      ...(article.pinterestImage ? [absoluteUrl(article.pinterestImage)] : []),
     ],
     datePublished: article.date || undefined,
     dateModified: article.updated || article.date || undefined,
@@ -191,7 +191,7 @@ function buildStructuredData(article, url, image) {
     '@id': howToIds[index],
     name: howto.name,
     description: howto.description || article.excerpt,
-    image: [`${SITE_URL}${howto.image || image}`],
+    image: [absoluteUrl(howto.image || image)],
     totalTime: howto.totalTime,
     yield: howto.yield,
     inLanguage: 'fr-FR',
@@ -202,7 +202,7 @@ function buildStructuredData(article, url, image) {
       position: stepIndex + 1,
       name: step.name,
       text: step.text,
-      image: step.image ? `${SITE_URL}${step.image}` : undefined,
+      image: step.image ? absoluteUrl(step.image) : undefined,
     })),
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
   }));
@@ -214,8 +214,8 @@ function buildStructuredData(article, url, image) {
         name: article.recipe.name || article.title,
         description: article.recipe.description || article.excerpt,
         image: [
-          `${SITE_URL}${article.recipe.image || image}`,
-          ...(article.pinterestImage ? [`${SITE_URL}${article.pinterestImage}`] : []),
+          absoluteUrl(article.recipe.image || image),
+          ...(article.pinterestImage ? [absoluteUrl(article.pinterestImage)] : []),
         ],
         author: { '@type': 'Organization', name: SITE_NAME },
         datePublished: article.date || undefined,
@@ -233,7 +233,7 @@ function buildStructuredData(article, url, image) {
           position: index + 1,
           name: step.name,
           text: step.text,
-          image: step.image ? `${SITE_URL}${step.image}` : undefined,
+          image: step.image ? absoluteUrl(step.image) : undefined,
         })),
         mainEntityOfPage: { '@type': 'WebPage', '@id': url },
       }
