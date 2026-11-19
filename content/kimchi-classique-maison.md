@@ -51,51 +51,136 @@ faq:
   answer: 'Jetez la préparation en présence de moisissure duveteuse ou colorée, d’une texture franchement visqueuse et anormale, d’une odeur putride ou si le contenant a été souillé. Ne goûtez pas pour vérifier un produit suspect.'
 - question: 'La sauce de poisson est-elle indispensable ?'
   answer: 'Non. Elle apporte surtout du sel et de l’umami. Pour une recette sans produit de la mer, utilisez la recette végétarienne dédiée plutôt que de la supprimer sans rééquilibrer la pâte.'
-recipe:
-  name: 'Kimchi classique maison au chou chinois'
-  description: 'Kimchi au chou chinois en morceaux, assaisonné au gochugaru, à l’ail, au gingembre et à la sauce de poisson.'
-  prepTime: 'PT50M'
-  totalTime: 'P2D'
-  yield: '1 bocal de 2 litres, soit environ 1,3 kg'
-  category: 'Accompagnement fermenté'
-  cuisine: 'Coréenne'
+materiel:
+  titre: Matériel recommandé
+  elements:
+  - nom: Un bocal alimentaire de 2 L avec valve ou couvercle posé sans serrage excessif
+    produit: bocaux-heftman-2l
+  - nom: Une balance lisible à 0,1 g ou 1 g
+    produit: balance-bomata-01g
+  - nom: Une grande bassine alimentaire, une passoire et des ustensiles propres
+  - nom: Un pilon alimentaire propre pour tasser sans introduire la main dans le bocal
+  - nom: Des gants nitrile jetables sans poudre, adaptés au contact alimentaire
+    produit: gants-nitrile-jetables
+    usage: pour éviter l’irritation par le piment
+  - nom: Un pH-mètre alimentaire étalonné pour suivre l’acidification ; une bandelette universelle ne suffit pas pour décider précisément autour de pH 4,6
+    produit: ph-metre-gidigi-sonde
+fiches:
+- id: fiche
+  titre: Kimchi classique au chou chinois
+  etiquette: Fiche recette imprimable
+  resume: Version en morceaux, moyennement pimentée, pour un bocal de 2 litres.
+  ajustable: true
+  reperes:
+  - label: Préparation
+    valeur: 50 min
+  - label: Salage
+    valeur: 2 à 3 h
+  - label: Fermentation
+    valeur: 24 à 48 h
+  - label: Rendement
+    valeur: ≈ 1,3 kg
+  colonne_nom: Élément
   ingredients:
-  - '1 kg de chou chinois paré'
-  - '2 litres d’eau froide potable'
-  - '120 g de sel non iodé pour la saumure de salage'
-  - '150 g de radis daikon en fins bâtonnets'
-  - '60 g de carotte en fins bâtonnets'
-  - '50 g d’oignons nouveaux émincés'
-  - '150 ml d’eau pour la pâte'
-  - '15 g de farine de riz gluant'
-  - '12 g de sucre'
-  - '30 g de gochugaru'
-  - '20 g d’ail pelé'
-  - '10 g de gingembre frais pelé'
-  - '20 g de sauce de poisson'
-  steps:
-  - name: 'Préparer la saumure'
-    text: 'Dissoudre 120 g de sel non iodé dans 2 litres d’eau froide potable.'
-    image: '/images/kimchi-etape2-salage-pov.webp'
-  - name: 'Saler le chou'
-    text: 'Couper le chou en morceaux de 4 à 5 cm, l’immerger dans la saumure pendant 2 à 3 heures et le retourner toutes les 30 minutes.'
-    image: '/images/kimchi-etape1-chou-pov.webp'
-  - name: 'Rincer et égoutter'
-    text: 'Rincer le chou trois fois à l’eau froide puis le laisser égoutter au moins 30 minutes.'
-    image: '/images/kimchi-etape3-rincage-pov.webp'
-  - name: 'Préparer la base de pâte'
-    text: 'Cuire 15 g de farine de riz avec 150 ml d’eau jusqu’à léger épaississement, ajouter le sucre puis laisser refroidir.'
-  - name: 'Préparer l’assaisonnement'
-    text: 'Mélanger la base refroidie avec le gochugaru, l’ail, le gingembre et la sauce de poisson, puis incorporer le radis, la carotte et les oignons nouveaux.'
-    image: '/images/kimchi-classique-etape4-pate-pov.webp'
-  - name: 'Enrober et mettre en bocal'
-    text: 'Mélanger soigneusement le chou avec la pâte, tasser avec un pilon alimentaire propre dans un bocal propre et laisser environ 5 cm d’espace libre.'
-    image: '/images/kimchi-classique-etape6-bocal-pov.webp'
-  - name: 'Fermenter'
-    text: 'Fermer avec un système laissant évacuer le gaz et laisser 24 à 48 heures autour de 20 °C, sur une assiette, en contrôlant quotidiennement le pH.'
-  - name: 'Réfrigérer'
-    text: 'Lorsque le pH est inférieur ou égal à 4,6 et que le goût convient, placer immédiatement le kimchi au réfrigérateur.'
-    image: '/images/kimchi-classique-etape7-ph-pov.webp'
+  - nom: Chou chinois paré
+    quantite: 1000
+    unite: g
+    role: Base végétale
+  - nom: Eau froide potable
+    quantite: 2000
+    unite: g
+    role: Saumure de salage
+  - nom: Sel non iodé
+    quantite: 120
+    unite: g
+    role: Saumure à 6 % avant rinçage
+  - nom: Radis daikon
+    quantite: 150
+    unite: g
+    role: Croquant et sucres fermentescibles
+  - nom: Carotte
+    quantite: 60
+    unite: g
+    role: Texture et douceur
+  - nom: Oignons nouveaux
+    quantite: 50
+    unite: g
+    role: Arôme
+  - nom: Eau pour la pâte
+    quantite: 150
+    unite: g
+    role: Dispersion des épices
+  - nom: Farine de riz gluant
+    quantite: 15
+    unite: g
+    role: Texture de la pâte
+  - nom: Sucre
+    quantite: 12
+    unite: g
+    role: Équilibre gustatif
+  - nom: Gochugaru
+    quantite: 30
+    unite: g
+    role: Couleur et piquant modéré
+  - nom: Ail
+    quantite: 20
+    unite: g
+    role: Arôme
+  - nom: Gingembre
+    quantite: 10
+    unite: g
+    role: Arôme
+  - nom: Sauce de poisson
+    quantite: 20
+    unite: g
+    role: Sel et umami
+  etapes:
+  - titre: Nettoyer le matériel
+    texte: Laver le bocal, le couvercle, la bassine, la passoire et les ustensiles à l’eau chaude savonneuse, puis rincer soigneusement.
+  - titre: Préparer le chou
+    texte: Retirer les parties abîmées, rincer le chou, enlever le cœur dur et couper les feuilles en morceaux de 4 à 5 cm.
+    image: /images/kimchi-etape1-chou-pov.webp
+    alt: Découpe du chou chinois en morceaux de 4 à 5 cm, vue à la première personne
+  - titre: Saler
+    texte: Dissoudre 120 g de sel dans 2 L d’eau. Immerger le chou 2 à 3 heures et le retourner toutes les 30 minutes. Les côtes doivent devenir souples sans se désagréger.
+    image: /images/kimchi-etape2-salage-pov.webp
+    alt: Chou chinois immergé dans une saumure de salage, vue à la première personne
+  - titre: Rincer
+    texte: Rincer le chou trois fois à l’eau froide, puis le laisser égoutter au moins 30 minutes sans l’essorer brutalement.
+    image: /images/kimchi-etape3-rincage-pov.webp
+    alt: Rinçage du chou salé dans une passoire, vue à la première personne
+  - titre: Faire la base de pâte
+    texte: Chauffer 150 g d’eau avec 15 g de farine de riz en remuant. Dès que le mélange épaissit légèrement, retirer du feu, ajouter le sucre et laisser refroidir complètement.
+  - titre: Préparer l’assaisonnement
+    texte: Mélanger la base froide, le gochugaru, l’ail, le gingembre et la sauce de poisson. Ajouter le daikon, la carotte et les oignons nouveaux.
+    image: /images/kimchi-classique-etape4-pate-pov.webp
+    alt: Préparation de la pâte rouge du kimchi classique avec les légumes émincés
+  - titre: Enrober
+    texte: Avec des gants alimentaires propres réservés à cette étape pimentée, répartir la pâte sur tous les morceaux de chou.
+    image: /images/kimchi-classique-etape5-enrobage-pov.webp
+    alt: Enrobage du chou avec la pâte pimentée, mains gantées vues à la première personne
+  - titre: Mettre en bocal
+    texte: Tasser progressivement avec un pilon alimentaire propre pour réduire les poches d’air. Laisser environ 5 cm d’espace libre. Nettoyer le bord du bocal.
+    image: /images/kimchi-classique-etape6-bocal-pov.webp
+    alt: Tassage du kimchi classique avec un pilon en bois dans un bocal tenu par l’extérieur
+  - titre: Fermenter
+    texte: Fermer avec une valve ou un couvercle non serré à bloc. Poser le bocal sur une assiette et laisser 24 à 48 heures autour de 20 °C, à l’abri du soleil.
+  - titre: Contrôler et réfrigérer
+    texte: Mesurer le pH chaque jour avec une sonde alimentaire étalonnée. Ne goûter qu’après avoir vérifié un pH inférieur ou égal à 4,60 ; si l’aspect et l’odeur restent normaux, ajuster alors la durée au goût, fermer correctement et placer au réfrigérateur.
+    image: /images/kimchi-classique-etape7-ph-pov.webp
+    alt: Mesure du pH final du kimchi classique avec une sonde alimentaire étalonnée
+  note:
+    titre: Ne remplissez pas le bocal jusqu’au bord.
+    texte: Le chou relâche du jus et le CO₂ peut soulever la préparation. Un bocal rempli aux deux tiers ou aux trois quarts est plus facile à gérer.
+  schema:
+    type: Recipe
+    nom: Kimchi classique maison au chou chinois
+    description: Kimchi au chou chinois en morceaux, assaisonné au gochugaru, à l’ail, au gingembre et à la sauce de poisson.
+    prepTime: PT50M
+    totalTime: P2D
+    rendement: 1 bocal de 2 litres, soit environ 1,3 kg
+    categorie: Accompagnement fermenté
+    cuisine: Coréenne
 ---
 
 Ce kimchi est une version **classique au chou chinois, en morceaux**, inspirée du baechu kimchi.
@@ -122,17 +207,7 @@ plutôt que des cuillères approximatives.
 
 <a href="#la-recette-du-kimchi-classique" class="jump-to-recipe">Aller directement à la recette →</a>
 
-<div class="materials-early" id="materiel">
-<h4>Matériel recommandé</h4>
-<ul>
-<li>Un bocal alimentaire de 2 L avec valve ou couvercle posé sans serrage excessif</li>
-<li>Une balance lisible à 0,1 g ou 1 g</li>
-<li>Une grande bassine alimentaire, une passoire et des ustensiles propres</li>
-<li>Un pilon alimentaire propre pour tasser sans introduire la main dans le bocal</li>
-<li><a href="#mat-gants">Des gants nitrile jetables sans poudre, adaptés au contact alimentaire</a>, pour éviter l’irritation par le piment</li>
-<li>Un pH-mètre alimentaire étalonné pour suivre l’acidification ; une bandelette universelle ne suffit pas pour décider précisément autour de pH 4,6</li>
-</ul>
-</div>
+{{materiel}}
 
 <div class="notice-box">
 <h4>Point de sécurité</h4>
@@ -167,59 +242,7 @@ composés aromatiques et de l’umami. Elle constitue aussi un **allergène pois
 
 ## La recette du kimchi classique
 
-<div class="recipe-card">
-<div class="recipe-card-head">
-<div>
-<span class="recipe-card-kicker">Fiche recette imprimable</span>
-<h3>Kimchi classique au chou chinois</h3>
-<p class="recipe-card-summary">Version en morceaux, moyennement pimentée, pour un bocal de 2 litres.</p>
-</div>
-<div class="recipe-facts">
-<div class="recipe-fact"><strong>Préparation</strong><span>50 min</span></div>
-<div class="recipe-fact"><strong>Salage</strong><span>2 à 3 h</span></div>
-<div class="recipe-fact"><strong>Fermentation</strong><span>24 à 48 h</span></div>
-<div class="recipe-fact"><strong>Rendement</strong><span>≈ 1,3 kg</span></div>
-</div>
-</div>
-
-<h4>Ingrédients</h4>
-<div class="recipe-table-scroll" role="region" aria-label="Tableau des ingrédients" tabindex="0">
-<table class="compare">
-<thead><tr><th>Élément</th><th>Quantité</th><th>Rôle</th></tr></thead>
-<tbody>
-<tr><td>Chou chinois paré</td><td>1 000 g</td><td>Base végétale</td></tr>
-<tr><td>Eau froide potable</td><td>2 000 g</td><td>Saumure de salage</td></tr>
-<tr><td>Sel non iodé</td><td>120 g</td><td>Saumure à 6 % avant rinçage</td></tr>
-<tr><td>Radis daikon</td><td>150 g</td><td>Croquant et sucres fermentescibles</td></tr>
-<tr><td>Carotte</td><td>60 g</td><td>Texture et douceur</td></tr>
-<tr><td>Oignons nouveaux</td><td>50 g</td><td>Arôme</td></tr>
-<tr><td>Eau pour la pâte</td><td>150 g</td><td>Dispersion des épices</td></tr>
-<tr><td>Farine de riz gluant</td><td>15 g</td><td>Texture de la pâte</td></tr>
-<tr><td>Sucre</td><td>12 g</td><td>Équilibre gustatif</td></tr>
-<tr><td>Gochugaru</td><td>30 g</td><td>Couleur et piquant modéré</td></tr>
-<tr><td>Ail</td><td>20 g</td><td>Arôme</td></tr>
-<tr><td>Gingembre</td><td>10 g</td><td>Arôme</td></tr>
-<tr><td>Sauce de poisson</td><td>20 g</td><td>Sel et umami</td></tr>
-</tbody>
-</table>
-</div>
-
-<h4>Étapes</h4>
-<ol>
-<li><strong>Nettoyer le matériel.</strong> Laver le bocal, le couvercle, la bassine, la passoire et les ustensiles à l’eau chaude savonneuse, puis rincer soigneusement.</li>
-<li><strong>Préparer le chou.</strong> Retirer les parties abîmées, rincer le chou, enlever le cœur dur et couper les feuilles en morceaux de 4 à 5 cm.<img src="/images/kimchi-etape1-chou-pov.webp" alt="Découpe du chou chinois en morceaux de 4 à 5 cm, vue à la première personne" /></li>
-<li><strong>Saler.</strong> Dissoudre 120 g de sel dans 2 L d’eau. Immerger le chou 2 à 3 heures et le retourner toutes les 30 minutes. Les côtes doivent devenir souples sans se désagréger.<img src="/images/kimchi-etape2-salage-pov.webp" alt="Chou chinois immergé dans une saumure de salage, vue à la première personne" /></li>
-<li><strong>Rincer.</strong> Rincer le chou trois fois à l’eau froide, puis le laisser égoutter au moins 30 minutes sans l’essorer brutalement.<img src="/images/kimchi-etape3-rincage-pov.webp" alt="Rinçage du chou salé dans une passoire, vue à la première personne" /></li>
-<li><strong>Faire la base de pâte.</strong> Chauffer 150 g d’eau avec 15 g de farine de riz en remuant. Dès que le mélange épaissit légèrement, retirer du feu, ajouter le sucre et laisser refroidir complètement.</li>
-<li><strong>Préparer l’assaisonnement.</strong> Mélanger la base froide, le gochugaru, l’ail, le gingembre et la sauce de poisson. Ajouter le daikon, la carotte et les oignons nouveaux.<img src="/images/kimchi-classique-etape4-pate-pov.webp" alt="Préparation de la pâte rouge du kimchi classique avec les légumes émincés" /></li>
-<li><strong>Enrober.</strong> Avec des gants alimentaires propres réservés à cette étape pimentée, répartir la pâte sur tous les morceaux de chou.<img src="/images/kimchi-classique-etape5-enrobage-pov.webp" alt="Enrobage du chou avec la pâte pimentée, mains gantées vues à la première personne" /></li>
-<li><strong>Mettre en bocal.</strong> Tasser progressivement avec un pilon alimentaire propre pour réduire les poches d’air. Laisser environ 5 cm d’espace libre. Nettoyer le bord du bocal.<img src="/images/kimchi-classique-etape6-bocal-pov.webp" alt="Tassage du kimchi classique avec un pilon en bois dans un bocal tenu par l’extérieur" /></li>
-<li><strong>Fermenter.</strong> Fermer avec une valve ou un couvercle non serré à bloc. Poser le bocal sur une assiette et laisser 24 à 48 heures autour de 20 °C, à l’abri du soleil.</li>
-<li><strong>Contrôler et réfrigérer.</strong> Mesurer le pH chaque jour avec une sonde alimentaire étalonnée. Ne goûter qu’après avoir vérifié un pH inférieur ou égal à 4,60 ; si l’aspect et l’odeur restent normaux, ajuster alors la durée au goût, fermer correctement et placer au réfrigérateur.<img src="/images/kimchi-classique-etape7-ph-pov.webp" alt="Mesure du pH final du kimchi classique avec une sonde alimentaire étalonnée" /></li>
-</ol>
-
-<p class="recipe-note"><strong>Ne remplissez pas le bocal jusqu’au bord.</strong> Le chou relâche du jus et le CO₂ peut soulever la préparation. Un bocal rempli aux deux tiers ou aux trois quarts est plus facile à gérer.</p>
-</div>
+{{fiche:fiche}}
 
 ## Pourquoi utiliser une saumure à 6 % puis rincer ?
 

@@ -51,57 +51,147 @@ faq:
   answer: 'Le plus souvent, la pâte manque d’umami ou d’équilibre entre sel, sucre et piment. N’ajoutez pas une grande quantité de sauce soja après fermentation ; ajustez plutôt la prochaine fournée avec miso, kombu ou champignon séché.'
 - question: 'Quand faut-il jeter la préparation ?'
   answer: 'Jetez-la en cas de moisissure duveteuse ou colorée, de texture franchement visqueuse, d’odeur putride ou de contamination du contenant. Ne goûtez jamais un ferment suspect pour décider.'
-recipe:
-  name: 'Kimchi végétarien et vegan au miso'
-  description: 'Kimchi au chou chinois sans sauce de poisson, avec miso, tamari et infusion de kombu.'
-  prepTime: 'PT55M'
-  totalTime: 'P2D'
-  yield: '1 bocal de 2 litres, soit environ 1,3 kg'
-  category: 'Accompagnement fermenté'
-  cuisine: 'Coréenne, adaptation végétale'
-  suitableForDiet: 'https://schema.org/VeganDiet'
+materiel:
+  titre: Matériel recommandé
+  elements:
+  - nom: Bocal alimentaire de 2 L avec valve ou couvercle gérant l’évacuation du gaz
+    produit: bocaux-heftman-2l
+  - nom: Balance de cuisine
+    produit: balance-bomata-01g
+  - nom: Casserole, bassine, passoire et ustensiles propres
+  - nom: Pilon alimentaire propre pour tasser sans introduire la main dans le bocal
+  - nom: Gants nitrile jetables sans poudre, adaptés au contact alimentaire
+    produit: gants-nitrile-jetables
+    usage: pour manipuler la pâte pimentée
+  - nom: pH-mètre alimentaire correctement étalonné ; une bandelette universelle ne suffit pas pour décider précisément autour de pH 4,6
+    produit: ph-metre-gidigi-sonde
+fiches:
+- id: fiche
+  titre: Kimchi végétarien au miso et kombu
+  etiquette: Fiche recette imprimable
+  resume: Recette entièrement végétale, moyennement pimentée, pour un bocal de 2 litres.
+  ajustable: true
+  reperes:
+  - label: Préparation
+    valeur: 55 min
+  - label: Salage
+    valeur: 2 à 3 h
+  - label: Fermentation
+    valeur: 24 à 48 h
+  - label: Rendement
+    valeur: ≈ 1,3 kg
+  colonne_nom: Élément
   ingredients:
-  - '1 kg de chou chinois paré'
-  - '2 litres d’eau froide potable'
-  - '120 g de sel non iodé pour la saumure de salage'
-  - '150 g de radis daikon en fins bâtonnets'
-  - '60 g de carotte en fins bâtonnets'
-  - '50 g d’oignons nouveaux émincés'
-  - '180 ml d’eau pour l’infusion et la pâte'
-  - '3 g de kombu séché'
-  - '15 g de farine de riz gluant'
-  - '12 g de sucre'
-  - '30 g de gochugaru'
-  - '20 g d’ail pelé'
-  - '10 g de gingembre frais pelé'
-  - '20 g de miso blanc'
-  - '15 g de tamari ou sauce soja'
-  steps:
-  - name: 'Préparer la saumure'
-    text: 'Dissoudre 120 g de sel non iodé dans 2 litres d’eau froide potable.'
-    image: '/images/kimchi-etape2-salage-pov.webp'
-  - name: 'Saler le chou'
-    text: 'Couper le chou en morceaux, l’immerger 2 à 3 heures et le retourner régulièrement.'
-    image: '/images/kimchi-etape1-chou-pov.webp'
-  - name: 'Rincer et égoutter'
-    text: 'Rincer trois fois à l’eau froide puis égoutter au moins 30 minutes.'
-    image: '/images/kimchi-etape3-rincage-pov.webp'
-  - name: 'Faire l’infusion de kombu'
-    text: 'Faire tremper 3 g de kombu dans 180 ml d’eau pendant 20 minutes, chauffer doucement sans bouillir puis retirer l’algue.'
-    image: '/images/kimchi-vegan-etape4-kombu-pov.webp'
-  - name: 'Préparer la pâte végétale'
-    text: 'Cuire 15 g de farine de riz dans 150 ml d’infusion, ajouter le sucre, refroidir puis incorporer gochugaru, ail, gingembre, miso et tamari.'
-    image: '/images/kimchi-vegan-etape5-pate-pov.webp'
-  - name: 'Ajouter les légumes'
-    text: 'Incorporer le daikon, la carotte et les oignons nouveaux à la pâte.'
-  - name: 'Enrober et mettre en bocal'
-    text: 'Mélanger avec le chou, tasser avec un pilon alimentaire propre dans un bocal propre et laisser environ 5 cm d’espace libre.'
-    image: '/images/kimchi-vegan-etape7-bocal-pov.webp'
-  - name: 'Fermenter'
-    text: 'Fermer avec un système laissant évacuer le gaz et laisser 24 à 48 heures autour de 20 °C en contrôlant quotidiennement le pH.'
-  - name: 'Réfrigérer'
-    text: 'Quand le pH est inférieur ou égal à 4,6 et que le goût convient, placer le bocal au réfrigérateur.'
-    image: '/images/kimchi-vegan-etape8-ph-pov.webp'
+  - nom: Chou chinois paré
+    quantite: 1000
+    unite: g
+    role: Base végétale
+  - nom: Eau froide potable
+    quantite: 2000
+    unite: g
+    role: Saumure de salage
+  - nom: Sel non iodé
+    quantite: 120
+    unite: g
+    role: Saumure à 6 % avant rinçage
+  - nom: Radis daikon
+    quantite: 150
+    unite: g
+    role: Croquant
+  - nom: Carotte
+    quantite: 60
+    unite: g
+    role: Texture et douceur
+  - nom: Oignons nouveaux
+    quantite: 50
+    unite: g
+    role: Arôme
+  - nom: Eau
+    quantite: 180
+    unite: g
+    role: Infusion de kombu et pâte
+  - nom: Kombu séché
+    quantite: 3
+    unite: g
+    role: Umami, retiré avant mise en bocal
+  - nom: Farine de riz gluant
+    quantite: 15
+    unite: g
+    role: Texture
+  - nom: Sucre
+    quantite: 12
+    unite: g
+    role: Équilibre gustatif
+  - nom: Gochugaru
+    quantite: 30
+    unite: g
+    role: Couleur et piquant
+  - nom: Ail
+    quantite: 20
+    unite: g
+    role: Arôme
+  - nom: Gingembre
+    quantite: 10
+    unite: g
+    role: Arôme
+  - nom: Miso blanc
+    quantite: 20
+    unite: g
+    role: Corps, sel et umami
+  - nom: Tamari ou sauce soja
+    quantite: 15
+    unite: g
+    role: Umami et salinité
+  etapes:
+  - titre: Nettoyer
+    texte: Laver le bocal, le couvercle, la casserole, la bassine, la passoire et les ustensiles, puis rincer soigneusement.
+  - titre: Préparer le chou
+    texte: Retirer les parties abîmées, rincer, enlever le cœur et couper en morceaux de 4 à 5 cm.
+    image: /images/kimchi-etape1-chou-pov.webp
+    alt: Découpe du chou chinois en morceaux, vue à la première personne
+  - titre: Saler
+    texte: Dissoudre 120 g de sel dans 2 L d’eau, immerger le chou 2 à 3 heures et le retourner toutes les 30 minutes.
+    image: /images/kimchi-etape2-salage-pov.webp
+    alt: Chou chinois immergé dans la saumure de salage, vue à la première personne
+  - titre: Rincer et égoutter
+    texte: Effectuer trois rinçages à l’eau froide puis laisser égoutter au moins 30 minutes.
+    image: /images/kimchi-etape3-rincage-pov.webp
+    alt: Rinçage du chou salé dans une passoire, vue à la première personne
+  - titre: Préparer l’infusion
+    texte: Faire tremper 3 g de kombu dans 180 g d’eau pendant 20 minutes. Chauffer doucement sans bouillir pendant environ 5 minutes, retirer le kombu et conserver 150 g de liquide.
+    image: /images/kimchi-vegan-etape4-kombu-pov.webp
+    alt: Infusion légère de kombu retirée avant la recette, vue à la première personne
+  - titre: Faire la base
+    texte: Cuire l’infusion avec 15 g de farine de riz en remuant. Retirer du feu dès léger épaississement, ajouter le sucre et laisser refroidir complètement.
+  - titre: Construire la pâte
+    texte: Mélanger la base froide avec le gochugaru, l’ail, le gingembre, le miso et le tamari. Ajouter daikon, carotte et oignons nouveaux.
+    image: /images/kimchi-vegan-etape5-pate-pov.webp
+    alt: Pâte végétale au miso, tamari et gochugaru avec les légumes émincés
+  - titre: Enrober
+    texte: Avec des gants alimentaires propres réservés à cette étape pimentée, répartir la pâte sur tout le chou.
+    image: /images/kimchi-vegan-etape6-enrobage-pov.webp
+    alt: Enrobage du chou avec la pâte végétale pimentée, mains gantées vues à la première personne
+  - titre: Mettre en bocal
+    texte: Tasser avec un pilon alimentaire propre pour réduire les poches d’air, laisser environ 5 cm d’espace libre et nettoyer le bord.
+    image: /images/kimchi-vegan-etape7-bocal-pov.webp
+    alt: Tassage du kimchi végétarien avec un pilon en bois dans un bocal tenu par l’extérieur
+  - titre: Fermenter et réfrigérer
+    texte: Laisser 24 à 48 heures autour de 20 °C et contrôler le pH chaque jour. Ne goûter qu’après avoir vérifié un pH inférieur ou égal à 4,60 ; si l’aspect et l’odeur restent normaux, ajuster alors la durée au goût et placer au réfrigérateur.
+    image: /images/kimchi-vegan-etape8-ph-pov.webp
+    alt: Mesure du pH final du kimchi végétarien avec une sonde alimentaire étalonnée
+  note:
+    titre: Retirez le kombu après l’infusion.
+    texte: Le laisser dans le bocal peut créer une texture glissante qui rend l’observation de la préparation moins lisible.
+  schema:
+    type: Recipe
+    nom: Kimchi végétarien et vegan au miso
+    description: Kimchi au chou chinois sans sauce de poisson, avec miso, tamari et infusion de kombu.
+    prepTime: PT55M
+    totalTime: P2D
+    rendement: 1 bocal de 2 litres, soit environ 1,3 kg
+    categorie: Accompagnement fermenté
+    cuisine: Coréenne, adaptation végétale
+    regime: 'https://schema.org/VeganDiet'
 ---
 
 Cette recette produit un kimchi **végétarien et vegan**, sans sauce de poisson ni crevettes
@@ -128,17 +218,7 @@ chou.
 
 <a href="#la-recette-du-kimchi-vegetarien" class="jump-to-recipe">Aller directement à la recette →</a>
 
-<div class="materials-early" id="materiel">
-<h4>Matériel recommandé</h4>
-<ul>
-<li>Bocal alimentaire de 2 L avec valve ou couvercle gérant l’évacuation du gaz</li>
-<li>Balance de cuisine</li>
-<li>Casserole, bassine, passoire et ustensiles propres</li>
-<li>Pilon alimentaire propre pour tasser sans introduire la main dans le bocal</li>
-<li><a href="#mat-gants">Gants nitrile jetables sans poudre, adaptés au contact alimentaire</a>, pour manipuler la pâte pimentée</li>
-<li>pH-mètre alimentaire correctement étalonné ; une bandelette universelle ne suffit pas pour décider précisément autour de pH 4,6</li>
-</ul>
-</div>
+{{materiel}}
 
 <div class="notice-box">
 <h4>Allergènes et sécurité</h4>
@@ -172,61 +252,7 @@ alimentaire indiquent qu’un starter n’est pas nécessaire pour le kimchi.{{r
 
 ## La recette du kimchi végétarien
 
-<div class="recipe-card">
-<div class="recipe-card-head">
-<div>
-<span class="recipe-card-kicker">Fiche recette imprimable</span>
-<h3>Kimchi végétarien au miso et kombu</h3>
-<p class="recipe-card-summary">Recette entièrement végétale, moyennement pimentée, pour un bocal de 2 litres.</p>
-</div>
-<div class="recipe-facts">
-<div class="recipe-fact"><strong>Préparation</strong><span>55 min</span></div>
-<div class="recipe-fact"><strong>Salage</strong><span>2 à 3 h</span></div>
-<div class="recipe-fact"><strong>Fermentation</strong><span>24 à 48 h</span></div>
-<div class="recipe-fact"><strong>Rendement</strong><span>≈ 1,3 kg</span></div>
-</div>
-</div>
-
-<h4>Ingrédients</h4>
-<div class="recipe-table-scroll" role="region" aria-label="Tableau des ingrédients" tabindex="0">
-<table class="compare">
-<thead><tr><th>Élément</th><th>Quantité</th><th>Rôle</th></tr></thead>
-<tbody>
-<tr><td>Chou chinois paré</td><td>1 000 g</td><td>Base végétale</td></tr>
-<tr><td>Eau froide potable</td><td>2 000 g</td><td>Saumure de salage</td></tr>
-<tr><td>Sel non iodé</td><td>120 g</td><td>Saumure à 6 % avant rinçage</td></tr>
-<tr><td>Radis daikon</td><td>150 g</td><td>Croquant</td></tr>
-<tr><td>Carotte</td><td>60 g</td><td>Texture et douceur</td></tr>
-<tr><td>Oignons nouveaux</td><td>50 g</td><td>Arôme</td></tr>
-<tr><td>Eau</td><td>180 g</td><td>Infusion de kombu et pâte</td></tr>
-<tr><td>Kombu séché</td><td>3 g</td><td>Umami, retiré avant mise en bocal</td></tr>
-<tr><td>Farine de riz gluant</td><td>15 g</td><td>Texture</td></tr>
-<tr><td>Sucre</td><td>12 g</td><td>Équilibre gustatif</td></tr>
-<tr><td>Gochugaru</td><td>30 g</td><td>Couleur et piquant</td></tr>
-<tr><td>Ail</td><td>20 g</td><td>Arôme</td></tr>
-<tr><td>Gingembre</td><td>10 g</td><td>Arôme</td></tr>
-<tr><td>Miso blanc</td><td>20 g</td><td>Corps, sel et umami</td></tr>
-<tr><td>Tamari ou sauce soja</td><td>15 g</td><td>Umami et salinité</td></tr>
-</tbody>
-</table>
-</div>
-
-<h4>Étapes</h4>
-<ol>
-<li><strong>Nettoyer.</strong> Laver le bocal, le couvercle, la casserole, la bassine, la passoire et les ustensiles, puis rincer soigneusement.</li>
-<li><strong>Préparer le chou.</strong> Retirer les parties abîmées, rincer, enlever le cœur et couper en morceaux de 4 à 5 cm.<img src="/images/kimchi-etape1-chou-pov.webp" alt="Découpe du chou chinois en morceaux, vue à la première personne" /></li>
-<li><strong>Saler.</strong> Dissoudre 120 g de sel dans 2 L d’eau, immerger le chou 2 à 3 heures et le retourner toutes les 30 minutes.<img src="/images/kimchi-etape2-salage-pov.webp" alt="Chou chinois immergé dans la saumure de salage, vue à la première personne" /></li>
-<li><strong>Rincer et égoutter.</strong> Effectuer trois rinçages à l’eau froide puis laisser égoutter au moins 30 minutes.<img src="/images/kimchi-etape3-rincage-pov.webp" alt="Rinçage du chou salé dans une passoire, vue à la première personne" /></li>
-<li><strong>Préparer l’infusion.</strong> Faire tremper 3 g de kombu dans 180 g d’eau pendant 20 minutes. Chauffer doucement sans bouillir pendant environ 5 minutes, retirer le kombu et conserver 150 g de liquide.<img src="/images/kimchi-vegan-etape4-kombu-pov.webp" alt="Infusion légère de kombu retirée avant la recette, vue à la première personne" /></li>
-<li><strong>Faire la base.</strong> Cuire l’infusion avec 15 g de farine de riz en remuant. Retirer du feu dès léger épaississement, ajouter le sucre et laisser refroidir complètement.</li>
-<li><strong>Construire la pâte.</strong> Mélanger la base froide avec le gochugaru, l’ail, le gingembre, le miso et le tamari. Ajouter daikon, carotte et oignons nouveaux.<img src="/images/kimchi-vegan-etape5-pate-pov.webp" alt="Pâte végétale au miso, tamari et gochugaru avec les légumes émincés" /></li>
-<li><strong>Enrober.</strong> Avec des gants alimentaires propres réservés à cette étape pimentée, répartir la pâte sur tout le chou.<img src="/images/kimchi-vegan-etape6-enrobage-pov.webp" alt="Enrobage du chou avec la pâte végétale pimentée, mains gantées vues à la première personne" /></li>
-<li><strong>Mettre en bocal.</strong> Tasser avec un pilon alimentaire propre pour réduire les poches d’air, laisser environ 5 cm d’espace libre et nettoyer le bord.<img src="/images/kimchi-vegan-etape7-bocal-pov.webp" alt="Tassage du kimchi végétarien avec un pilon en bois dans un bocal tenu par l’extérieur" /></li>
-<li><strong>Fermenter et réfrigérer.</strong> Laisser 24 à 48 heures autour de 20 °C et contrôler le pH chaque jour. Ne goûter qu’après avoir vérifié un pH inférieur ou égal à 4,60 ; si l’aspect et l’odeur restent normaux, ajuster alors la durée au goût et placer au réfrigérateur.<img src="/images/kimchi-vegan-etape8-ph-pov.webp" alt="Mesure du pH final du kimchi végétarien avec une sonde alimentaire étalonnée" /></li>
-</ol>
-
-<p class="recipe-note"><strong>Retirez le kombu après l’infusion.</strong> Le laisser dans le bocal peut créer une texture glissante qui rend l’observation de la préparation moins lisible.</p>
-</div>
+{{fiche:fiche}}
 
 ## Le salage reste identique à la version classique
 

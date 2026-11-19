@@ -28,7 +28,6 @@ related:
 - notion-ph-nettoyants
 - bandelettes-ph-ou-phmetre
 - gants-lunettes-risque-chimique
-howtos:
 - name: Fabriquer un savon surgras à l’huile d’olive
   description: Préparer environ 6 à 8 pains de savon surgras par saponification à froid.
   totalTime: P28D
@@ -68,6 +67,110 @@ howtos:
     image: /images/savon-etape6-decoupe.webp
   - name: Laisser curer
     text: Espacer les pains et les laisser sécher au minimum quatre semaines dans un endroit ventilé.
+materiel:
+  titre: Le matériel de cette recette, en un coup d'œil
+  elements:
+  - nom: Soude caustique en poudre, pureté >99%
+    produit: soude
+    usage: l'ingrédient de base de la réaction
+  - nom: Lunettes-masque 3M 2890A
+    produit: lunettes-masque-3m-2890a
+    usage: protection des yeux contre les projections liquides
+  - nom: Gants chimiques EN ISO 374
+    produit: gants-lanon-en374
+    usage: protection des mains et des poignets
+  - nom: Balance de précision 0,1g
+    produit: balance-bomata-01g
+    usage: pour un dosage fiable, non négociable
+  - nom: Pichet Hünersdorff 2 L en polypropylène
+    produit: pichet-pp-hunersdorff-2l
+    usage: récipient dédié à la solution de soude
+  - nom: Thermomètre à sonde digital
+    produit: thermometre
+    usage: suivre le refroidissement de la soude
+  - nom: Mixeur plongeant
+    produit: mixeur
+    usage: atteindre la trace en quelques minutes
+  - nom: Moule à savon + outils de découpe
+    produit: moule
+    usage: mise en forme et démoulage
+fiches:
+- id: fiche
+  titre: Savon surgras olive, coco et amande douce
+  etiquette: Fiche recette imprimable
+  resume: Une formule à froid calculée pour 500 g d’huiles et un surgras théorique d’environ 8 %.
+  ajustable: false
+  reperes:
+  - label: Préparation
+    valeur: ≈ 45 min
+  - label: Démoulage
+    valeur: 24 à 48 h
+  - label: Cure
+    valeur: 4 sem. minimum
+  - label: Rendement
+    valeur: ≈ 700 g
+  colonne_nom: Ingrédient
+  ingredients:
+  - nom: Huile d'olive
+    quantite: 300
+    unite: g
+    detail: (60 %)
+    role: Douceur, savon dur à moyen terme
+  - nom: Huile de coco
+    quantite: 150
+    unite: g
+    detail: (30 %)
+    role: Mousse abondante, dureté rapide
+  - nom: Huile d'amande douce
+    quantite: 50
+    unite: g
+    detail: (10 %)
+    role: Complète le profil d’acides gras de la formule
+  - nom: Soude caustique (NaOH), poudre >99%
+    quantite: 69.0
+    unite: g
+    decimales: 1
+    role: Surgras théorique d’environ 8 % avec les valeurs SAP médianes
+  - nom: Eau déminéralisée
+    quantite: 174
+    unite: g
+    role: Dissolution de la soude
+  etapes:
+  - titre: Préparer et peser
+    texte: Mettre les protections, sécuriser le poste, puis peser séparément 69,0 g de soude, 174 g d’eau et les trois huiles. Une balance au gramme près n’est pas assez précise pour la soude.
+    image: /images/savon-etape1-pesee-soude-v2.webp
+    alt: Pesée précise de 69,0 g de soude caustique sur une balance graduée à 0,1 g
+  - titre: Préparer la solution de soude
+    texte: Poser le pichet en polypropylène dédié dans un bac de rétention stable. Verser lentement la soude solide dans l’eau à température ambiante — jamais l’inverse — avec des gants chimiques EN ISO 374 et des lunettes-masque, dans une zone très aérée. Ne pas fermer le récipient. Laisser la solution redescendre à 40–45 °C sans bain froid ni risque de renversement.
+    image: /images/savon-etape2-dissolution-soude.webp
+    alt: Dissolution exothermique de la soude dans l’eau avec protection contre les projections
+  - titre: Préparer les huiles
+    texte: Faire fondre doucement l’huile de coco, ajouter l’huile d’olive et l’huile d’amande douce, puis amener le mélange autour de 40–45 °C.
+    image: /images/savon-etape3-melange-huiles.webp
+    alt: Mélange de l’huile d’olive avec les huiles de coco et d’amande douce
+  - titre: Atteindre la trace
+    texte: Verser la solution de soude dans les huiles. Mixer par impulsions de 10 à 15 secondes, en alternant avec la spatule, jusqu’à obtenir une trace légère et homogène.
+    image: /images/savon-etape4-trace.webp
+    alt: Pâte à savon épaissie laissant une trace visible
+  - titre: Couler dans le moule
+    texte: Verser la pâte, tapoter le moule pour chasser les bulles, couvrir et laisser reposer 24 à 48 heures à température stable.
+    image: /images/savon-etape5-versement-moule.webp
+    alt: Versement de la pâte à savon dans un moule en silicone
+  - titre: Démouler et découper
+    texte: Lorsque le savon est ferme, le démouler puis le découper en 6 à 8 pains.
+    image: /images/savon-etape6-decoupe.webp
+    alt: Démoulage et découpe des pains de savon
+  - titre: Laisser curer
+    texte: Espacer les pains et les laisser sécher au minimum quatre semaines dans un endroit sec et ventilé.
+  note:
+    titre: Formule non interchangeable.
+    texte: Ne remplacez aucune huile, ne changez aucune masse et n’utilisez pas une lessive de soude liquide sans refaire tout le calcul. En cas de séparation, de poche liquide, de cristaux suspects ou de sensation de brûlure, n’utilisez pas le lot.
+  schema:
+    type: HowTo
+    nom: Fabriquer un savon surgras à l’huile d’olive
+    description: Préparer environ 6 à 8 pains de savon surgras par saponification à froid.
+    totalTime: P28D
+    rendement: 6 à 8 pains de savon
 ---
 
 Cette page est la version **recette** : quantités, ordre des étapes, sécurité et points de
@@ -93,19 +196,7 @@ dans la notion dédiée, pour ne pas alourdir le protocole.
 
 <a href="#recette" class="jump-to-recipe">Aller directement à la recette →</a>
 
-<div class="materials-early">
-<h4>Le matériel de cette recette, en un coup d'œil</h4>
-<ul>
-<li><a href="#mat-soude">Soude caustique en poudre, pureté &gt;99%</a> — l'ingrédient de base de la réaction</li>
-<li><a href="#mat-lunettes">Lunettes-masque 3M 2890A</a> — protection des yeux contre les projections liquides</li>
-<li><a href="#mat-gants">Gants chimiques EN ISO 374</a> — protection des mains et des poignets</li>
-<li><a href="#mat-balance">Balance de précision 0,1g</a> — pour un dosage fiable, non négociable</li>
-<li><a href="#mat-pichet">Pichet Hünersdorff 2 L en polypropylène</a> — récipient dédié à la solution de soude</li>
-<li><a href="#mat-thermo">Thermomètre à sonde digital</a> — suivre le refroidissement de la soude</li>
-<li><a href="#mat-mixeur">Mixeur plongeant</a> — atteindre la trace en quelques minutes</li>
-<li><a href="#mat-moule">Moule à savon + outils de découpe</a> — mise en forme et démoulage</li>
-</ul>
-</div>
+{{materiel}}
 
 ## Avant de commencer : les trois choix de cette recette
 
@@ -155,48 +246,7 @@ ou le taux de surgras, il faut refaire le calcul de NaOH. La méthode est expliq
 <a id="recette"></a>
 ## La recette : savon surgras à l'huile d'olive (500 g d'huiles)
 
-<div class="recipe-card">
-<div class="recipe-card-head">
-<div>
-<span class="recipe-card-kicker">Fiche recette imprimable</span>
-<h3>Savon surgras olive, coco et amande douce</h3>
-<p class="recipe-card-summary">Une formule à froid calculée pour 500 g d’huiles et un surgras théorique d’environ 8 %.</p>
-</div>
-<div class="recipe-facts">
-<div class="recipe-fact"><strong>Préparation</strong><span>≈ 45 min</span></div>
-<div class="recipe-fact"><strong>Démoulage</strong><span>24 à 48 h</span></div>
-<div class="recipe-fact"><strong>Cure</strong><span>4 sem. minimum</span></div>
-<div class="recipe-fact"><strong>Rendement</strong><span>≈ 700 g</span></div>
-</div>
-</div>
-
-<h4>Ingrédients</h4>
-<div class="recipe-table-scroll" role="region" aria-label="Tableau des ingrédients du savon surgras" tabindex="0">
-<table class="compare">
-<thead><tr><th>Ingrédient</th><th>Quantité</th><th>Rôle</th></tr></thead>
-<tbody>
-<tr><td>Huile d'olive</td><td>300 g (60 %)</td><td>Douceur, savon dur à moyen terme</td></tr>
-<tr><td>Huile de coco</td><td>150 g (30 %)</td><td>Mousse abondante, dureté rapide</td></tr>
-<tr><td>Huile d'amande douce</td><td>50 g (10 %)</td><td>Complète le profil d’acides gras de la formule</td></tr>
-<tr><td>Soude caustique (NaOH), poudre &gt;99%</td><td>69,0 g</td><td>Surgras théorique d’environ 8 % avec les valeurs SAP médianes</td></tr>
-<tr><td>Eau déminéralisée</td><td>174 g</td><td>Dissolution de la soude</td></tr>
-</tbody>
-</table>
-</div>
-
-<h4>Étapes</h4>
-<ol>
-<li><strong>Préparer et peser.</strong> Mettre les protections, sécuriser le poste, puis peser séparément 69,0 g de soude, 174 g d’eau et les trois huiles. Une balance au gramme près n’est pas assez précise pour la soude.<img src="/images/savon-etape1-pesee-soude-v2.webp" alt="Pesée précise de 69,0 g de soude caustique sur une balance graduée à 0,1 g" /></li>
-<li><strong>Préparer la solution de soude.</strong> Poser le pichet en polypropylène dédié dans un bac de rétention stable. Verser lentement la soude solide dans l’eau à température ambiante — jamais l’inverse — avec des gants chimiques EN ISO 374 et des lunettes-masque, dans une zone très aérée. Ne pas fermer le récipient. Laisser la solution redescendre à 40–45 °C sans bain froid ni risque de renversement.<img src="/images/savon-etape2-dissolution-soude.webp" alt="Dissolution exothermique de la soude dans l’eau avec protection contre les projections" /></li>
-<li><strong>Préparer les huiles.</strong> Faire fondre doucement l’huile de coco, ajouter l’huile d’olive et l’huile d’amande douce, puis amener le mélange autour de 40–45 °C.<img src="/images/savon-etape3-melange-huiles.webp" alt="Mélange de l’huile d’olive avec les huiles de coco et d’amande douce" /></li>
-<li><strong>Atteindre la trace.</strong> Verser la solution de soude dans les huiles. Mixer par impulsions de 10 à 15 secondes, en alternant avec la spatule, jusqu’à obtenir une trace légère et homogène.<img src="/images/savon-etape4-trace.webp" alt="Pâte à savon épaissie laissant une trace visible" /></li>
-<li><strong>Couler dans le moule.</strong> Verser la pâte, tapoter le moule pour chasser les bulles, couvrir et laisser reposer 24 à 48 heures à température stable.<img src="/images/savon-etape5-versement-moule.webp" alt="Versement de la pâte à savon dans un moule en silicone" /></li>
-<li><strong>Démouler et découper.</strong> Lorsque le savon est ferme, le démouler puis le découper en 6 à 8 pains.<img src="/images/savon-etape6-decoupe.webp" alt="Démoulage et découpe des pains de savon" /></li>
-<li><strong>Laisser curer.</strong> Espacer les pains et les laisser sécher au minimum quatre semaines dans un endroit sec et ventilé.</li>
-</ol>
-
-<p class="recipe-note"><strong>Formule non interchangeable.</strong> Ne remplacez aucune huile, ne changez aucune masse et n’utilisez pas une lessive de soude liquide sans refaire tout le calcul. En cas de séparation, de poche liquide, de cristaux suspects ou de sensation de brûlure, n’utilisez pas le lot.</p>
-</div>
+{{fiche:fiche}}
 
 ## D’où vient la valeur de 69,0 g de soude ?
 

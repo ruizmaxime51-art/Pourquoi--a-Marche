@@ -560,6 +560,50 @@ main > .post { padding-block: clamp(32px, 5vw, 64px); }
 .related-section { border-top: var(--border); margin-top: clamp(32px, 5vw, 56px); }
 .related-section h2 { margin-bottom: 1.2rem; }
 
+/* Fiche recette structurée : outils, ajusteur, étapes à cocher */
+.post-part { display: contents; }
+.recipe-card-tools { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
+.recipe-scaler { display: inline-flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.recipe-scaler > span { font-size: .9rem; font-weight: 600; color: var(--ink-3); margin-right: 4px; }
+.recipe-scaler button { min-width: 48px; min-height: 40px; padding: .3rem .6rem; border: var(--border); border-radius: var(--radius); background: var(--paper); font: inherit; font-weight: 700; cursor: pointer; font-variant-numeric: tabular-nums; }
+.recipe-scaler button:hover { background: var(--hi); }
+.recipe-scaler button[aria-pressed="true"] { background: var(--ink); color: var(--paper); }
+.recipe-scale-note { margin: 0 0 .6rem; padding: .5rem .75rem; background: var(--hi-soft); border-radius: 4px; font-size: .95rem; }
+.recipe-qty { white-space: nowrap; font-weight: 700; }
+.recipe-tools { list-style: none; margin: 0; padding: 0; border-top: var(--border); }
+.recipe-tools li { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: .55rem 0; border-bottom: 1px solid var(--line); font-size: 1rem; }
+.recipe-tools a, .materiel-link { flex: none; padding: .3rem .65rem; border: var(--border); border-radius: var(--radius); background: var(--hi); font-size: .9rem; font-weight: 700; text-decoration: none; white-space: nowrap; }
+.recipe-tools a:hover, .materiel-link:hover { background: var(--ink); color: var(--paper); }
+.recipe-steps-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; margin-top: 1.4em; }
+.recipe-steps-head h4 { margin: 0; }
+.recipe-progress { display: inline-flex; align-items: center; gap: 8px; font-size: .9rem; font-weight: 600; color: var(--ink-3); }
+.recipe-progress .tool-text-button { min-height: 32px; padding: .1rem .3rem; font-size: .9rem; }
+.post-body .recipe-steps { list-style: none; counter-reset: etape; margin: .8rem 0 0; padding: 0; }
+.recipe-steps li { counter-increment: etape; display: grid; grid-template-columns: 44px minmax(0, 1fr); gap: 12px; padding: .9rem 0; border-top: 1px solid var(--line); margin: 0; }
+.recipe-step-check { position: relative; width: 40px; height: 40px; border: var(--border); border-radius: 50%; background: var(--paper); font-family: var(--font-display); font-size: 1rem; cursor: pointer; }
+.recipe-step-check::before { content: counter(etape); }
+.recipe-step-check:hover { background: var(--hi); }
+.recipe-steps li.is-done .recipe-step-check { background: var(--ink); color: var(--paper); }
+.recipe-steps li.is-done .recipe-step-check::before { content: "✓"; font-family: var(--font-text); font-weight: 700; }
+.recipe-steps li.is-done .recipe-step-body { opacity: .55; }
+.recipe-step-body p { margin: 0; }
+.recipe-step-body img { width: 100%; max-width: 520px; aspect-ratio: 3 / 2; object-fit: cover; margin-top: .7rem; border: 1.5px solid var(--line); border-radius: var(--radius); }
+
+/* Encadré « Ce qu'il vous faut » */
+.materiel-box { margin: 1.6em 0; padding: 18px 22px; background: var(--stone-2); border: var(--border); border-radius: var(--radius); }
+.materiel-box h4 { margin: 0 0 .7rem; font-family: var(--font-display); font-weight: 400; font-size: 1.15rem; }
+.materiel-box ul { list-style: none; margin: 0; padding: 0; }
+.materiel-box li { display: flex; align-items: center; justify-content: space-between; gap: 14px; padding: .6rem 0; border-top: 1px solid var(--line); margin: 0; }
+.materiel-box li > div { display: grid; gap: .1rem; font-size: 1rem; line-height: 1.4; }
+.materiel-box li span { color: var(--ink-2); font-size: .95rem; }
+.materiel-foot { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 16px; margin: .8rem 0 0; padding-top: .7rem; border-top: var(--border); font-size: .92rem; }
+.materiel-foot a { font-weight: 700; }
+.materiel-foot span { color: var(--ink-3); }
+@media (max-width: 600px) {
+  .materiel-box li, .recipe-tools li { flex-direction: column; align-items: flex-start; gap: 6px; }
+  .recipe-steps li { grid-template-columns: 40px minmax(0, 1fr); gap: 10px; }
+}
+
 /* --------------------------------------------------------------------------
    Outils et calculateurs
    -------------------------------------------------------------------------- */
@@ -749,4 +793,8 @@ input[type="range"] { width: 100%; accent-color: var(--ink); }
   .post-body > .recipe-card { border: 2px solid #000 !important; padding: 8mm !important; }
   .recipe-card table { width: 100% !important; }
   .recipe-card a { color: #000 !important; text-decoration: none !important; }
+  .recipe-card-tools, .recipe-progress, .recipe-scale-note, .recipe-tools a { display: none !important; }
+  .recipe-steps li { break-inside: avoid; }
+  .recipe-step-check { width: 28px; height: 28px; font-size: .8rem; }
+  .recipe-step-body img { max-width: 60mm; }
 }

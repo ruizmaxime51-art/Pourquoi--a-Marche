@@ -48,3 +48,14 @@ test('les recettes alimentaires ont un raccourci existant, la crufiture reste un
   }
   assert.equal(getReadAction(await getArticle('confiture-sans-cuisson-crufiture')).label, 'Lire le guide pratique');
 });
+
+test('les recettes structurées produisent fiche, matériel et données Google cohérents', async () => {
+  for (const slug of ['savon-surgras-saponification', 'kimchi-classique-maison', 'nettoyant-ph-melanges-dangereux']) {
+    const article = await getArticle(slug);
+    assert.ok(Array.isArray(article.fiches) && article.fiches.length > 0);
+    for (const fiche of article.fiches) assert.ok(article.contentHtml.includes(`id="${fiche.id}" data-slot="fiche"`));
+    assert.ok(article.contentHtml.includes('data-slot="materiel"'));
+    const steps = article.recipe ? article.recipe.steps.length : article.howtos.reduce((n, h) => n + h.steps.length, 0);
+    assert.equal(steps, article.fiches.reduce((n, f) => n + f.etapes.length, 0));
+  }
+});

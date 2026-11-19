@@ -9,6 +9,9 @@ import RelatedArticles from '@/app/_components/RelatedArticles';
 import TakeawayBox from '@/app/_components/TakeawayBox';
 import PrintRecipeButton from '@/app/_components/PrintRecipeButton';
 import ArticleNextSteps from '@/app/_components/ArticleNextSteps';
+import RecipeCard from '@/app/_components/RecipeCard';
+import MaterielBox from '@/app/_components/MaterielBox';
+import { SLOT_PATTERN, resolveProduct } from '@/lib/fiches';
 import Link from 'next/link';
 
 export const dynamicParams = false;
@@ -88,10 +91,14 @@ export default async function ArticlePage({ params }) {
               et le marquage du modèle exact avant l’achat.
             </aside>
           )}
-          {(article.recipe || article.howtos?.length > 0) && (
+          {!article.fiches && (article.recipe || article.howtos?.length > 0) && (
             <PrintRecipeButton label={article.printLabel} />
           )}
-          <div className="post-body" dangerouslySetInnerHTML={{ __html: article.contentHtml }} />
+          {article.fiches ? (
+            <ArticleBodyWithFiches article={article} />
+          ) : (
+            <div className="post-body" dangerouslySetInnerHTML={{ __html: article.contentHtml }} />
+          )}
           {!['notion', 'repere'].includes(article.type) && <ArticleNextSteps article={article} />}
           <aside className="article-feedback-callout" aria-labelledby="article-feedback-title">
             <div>
@@ -118,6 +125,37 @@ export default async function ArticlePage({ params }) {
       </div>
     </main>
   );
+}
+
+// Le texte de l'article est découpé aux emplacements {{materiel}} et
+// {{fiche:id}} pour y insérer les composants interactifs.
+function ArticleBodyWithFiches({ article }) {
+  const withProducts = (article.materiel?.elements || []).map((item) => ({
+    ...item,
+    product: resolveProduct(item.produit),
+  }));
+  const fichesById = Object.fromEntries(article.fiches.map((fiche) => [fiche.id, fiche]));
+  const parts = [];
+  let last = 0;
+  let index = 0;
+  for (const match of article.contentHtml.matchAll(SLOT_PATTERN)) {
+    const html = article.contentHtml.slice(last, match.index);
+    if (html.trim()) parts.push(<div key={`t${index}`} className="post-part" dangerouslySetInnerHTML={{ __html: html }} />);
+    if (match[1] && fichesById[match[1]]) {
+      const fiche = fichesById[match[1]];
+      const ficheMateriel = Array.isArray(fiche.materiel)
+        ? withProducts.filter((item) => fiche.materiel.includes(item.nom))
+        : withProducts;
+      parts.push(<RecipeCard key={`f${index}`} fiche={fiche} slug={article.slug} materiel={ficheMateriel} />);
+    } else if (!match[1]) {
+      parts.push(<MaterielBox key={`m${index}`} materiel={{ ...article.materiel, elements: withProducts }} ficheId={article.fiches[0]?.id} />);
+    }
+    last = match.index + match[0].length;
+    index += 1;
+  }
+  const tail = article.contentHtml.slice(last);
+  if (tail.trim()) parts.push(<div key="tail" className="post-part" dangerouslySetInnerHTML={{ __html: tail }} />);
+  return <div className="post-body">{parts}</div>;
 }
 
 function buildStructuredData(article, url, image) {
