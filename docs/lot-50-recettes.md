@@ -18,6 +18,20 @@ Fichiers de travail (générateur + specs) : préparés hors dépôt puis écrit
 | baume-levres-maison | cosmetique | ✅ |
 | extrait-vanille-maison | conservation | ✅ |
 
+## Lot 2 — conserves d'hiver et premières fermentations
+| Recette | Catégorie | Statut |
+|---|---|---|
+| marmelade-oranges | conservation | ✅ |
+| betteraves-vinaigre | conservation | ✅ |
+| compote-pommes-bocal | conservation | ✅ |
+| sauce-canneberges | conservation | ✅ |
+| pickles-oignons-rouges | conservation | ✅ |
+| ecorces-orange-confites | conservation | ✅ |
+| confiture-de-lait | conservation | ✅ |
+| pate-de-coings | conservation | ✅ |
+| choucroute-maison | fermentation | ✅ |
+| citrons-confits-sel | fermentation | ✅ |
+
 ## À venir
 Conservation : marmelade d'oranges, confiture de clémentines, gelée de coings, pâte de coings, écorces d'orange confites, confiture de lait, poires au sirop, compote de pommes en bocal, sauce aux canneberges, pickles d'oignons rouges, betteraves au vinaigre, sirop d'agrumes, sel aromatisé, huile aromatisée.
 Fermentation : choucroute, chou rouge lacto-fermenté, citrons confits au sel, kombucha, kéfir de fruits, ginger beer, yaourt, kvass de betterave, radis noir lacto-fermenté, sauce piquante fermentée, vinaigre de cidre, beurre de culture.
