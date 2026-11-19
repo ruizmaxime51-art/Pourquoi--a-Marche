@@ -25,6 +25,7 @@ related:
 - enlever-tache-vin-rouge
 - tache-graisse-nappe
 - notion-tensioactifs
+- bougie-cire-soja
 materiel:
   titre: Ce qu'il vous faut
   elements:

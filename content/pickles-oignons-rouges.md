@@ -23,7 +23,7 @@ takeaways:
 - Combien de temps ils se gardent au réfrigérateur
 related:
 - betteraves-vinaigre
-- enlever-tache-vin-rouge
+- vinaigre-de-cidre-maison
 - chutney-figues
 - lacto-fermentation-guide-legumes
 materiel:

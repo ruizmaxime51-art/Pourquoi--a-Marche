@@ -60,6 +60,19 @@ Fichiers de travail (générateur + specs) : préparés hors dépôt puis écrit
 | deodorant-maison | cosmetique | ✅ |
 | bain-avoine-colloidale | cosmetique | ✅ |
 
-## À venir (lot 5)
-Entretien : nettoyer le four, liquide vaisselle, pastilles lave-vaisselle, vitres, pot-pourri mijoté, bougie à la cire de soja, lessive au savon de Marseille, détartrer la bouilloire, désodoriser le réfrigérateur, nettoyer les joints.
-Écartés faute de source solide : ginger beer, kvass de betterave, confiture de clémentines, poires au sirop, gelée de coings, shampoing solide.
+## Lot 5 — entretien de fêtes (publié le 19/11/2026)
+| Recette | Catégorie | Statut |
+|---|---|---|
+| nettoyant-vitres | entretien | ✅ |
+| nettoyer-four | entretien | ✅ |
+| detartrer-bouilloire | entretien | ✅ |
+| deboucher-evier | entretien | ✅ |
+| nettoyer-refrigerateur | entretien | ✅ |
+| bougie-cire-soja | entretien | ✅ |
+| pot-pourri-mijote | entretien | ✅ |
+| cire-meubles | entretien | ✅ |
+| nettoyer-cuivre-laiton | entretien | ✅ |
+| joints-salle-de-bain-percarbonate | entretien | ✅ |
+
+## Bilan
+50 recettes publiées. Écartés faute de source solide : ginger beer, kvass de betterave, confiture de clémentines, poires au sirop, gelée de coings, shampoing solide, pastilles lave-vaisselle.

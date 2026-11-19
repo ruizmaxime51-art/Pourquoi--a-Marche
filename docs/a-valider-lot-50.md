@@ -44,3 +44,15 @@ cohérentes avec la chimie et les usages, mais méritent ton contrôle.
 - **Savon orange-cannelle** : soude calculée par moi avec des indices NaOH de 0,1355 (olive), 0,184 (coco), 0,128 (karité), surgras 5 % → 139 g. **À recontrôler dans le calculateur avant toute communication.** Eau 300 g (30 % des huiles), huile essentielle 2 %.
 - **Déodorant** : 25/15/20/2 g d'usage ; pH du bicarbonate « ≈ 8 » non sourcé dans la page.
 - **Bain d'avoine** : 80 g par bain (d'usage) ; calcul 0,05 % pour 150 L fait par moi.
+
+## Lot 5
+- **Nettoyant vitres** : ¼ tasse = 60 ml, 1 c. à soupe de fécule ≈ 8 g, 1 quart ≈ 1 L.
+- **Four** : pâte 150 g de bicarbonate + 60 ml d'eau ; cristaux de soude 2 c. à soupe pour 500 ml (non sourcé) ; pH ≈ 8 et ≈ 11 donnés de mémoire.
+- **Bouilloire** : 15 g d'acide citrique pour 500 ml, 30 min (dose d'usage, non sourcée).
+- **Évier** : quantités UGA converties (½ tasse de bicarbonate ≈ 110 g, 1 gallon ≈ 4 L).
+- **Réfrigérateur** : 2 c. à soupe de bicarbonate par quart ≈ 30 g/L ; l'explication sur les odeurs acides est mon raisonnement chimique.
+- **Bougie soja** : 170 g de cire pour 200 ml, parfum 6 %, fonte 75 °C, coulage 55 °C, 25 h de combustion : valeurs d'usage, non sourcées. À comparer avec la fiche de ta cire.
+- **Pot-pourri** : recette d'usage ; seule la règle de surveillance est sourcée (NFPA).
+- **Cire meubles** : ¼ tasse de cire fondue ≈ 50 g (conversion à vérifier).
+- **Cuivre-laiton** : 1 c. à soupe de sel et de fécule ; explication chlorure non sourcée.
+- **Joints percarbonate** : 30 g + 20 ml d'eau chaude, 20-30 min (d'usage).

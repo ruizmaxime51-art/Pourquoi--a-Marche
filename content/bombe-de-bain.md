@@ -25,6 +25,7 @@ related:
 - baume-levres-maison
 - notion-ph-nettoyants
 - savon-surgras-saponification
+- sels-de-bain
 materiel:
   titre: Ce qu'il vous faut
   elements:

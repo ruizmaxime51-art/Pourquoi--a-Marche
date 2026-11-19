@@ -25,6 +25,7 @@ related:
 - chutney-figues
 - confit-oignons
 - aliments-conserver-hors-frigo
+- sirop-framboises
 materiel:
   titre: Ce qu'il vous faut
   elements:

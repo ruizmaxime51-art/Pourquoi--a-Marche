@@ -25,6 +25,7 @@ related:
 - bombe-de-bain
 - savon-surgras-saponification
 - notion-tensioactifs
+- baume-mains
 materiel:
   titre: Ce qu'il vous faut
   elements:

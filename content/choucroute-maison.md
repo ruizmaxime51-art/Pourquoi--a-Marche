@@ -22,7 +22,7 @@ takeaways:
 - 'Pourquoi 2,25 à 2,5 % de sel, pas plus, pas moins'
 - Température, durée et signes d’alerte
 related:
-- kimchi-classique-maison
+- chou-rouge-lacto-fermente
 - lacto-fermentation-legumes-securite
 - notion-fermentation-maison
 - lacto-fermentation-odeur-moisissure
