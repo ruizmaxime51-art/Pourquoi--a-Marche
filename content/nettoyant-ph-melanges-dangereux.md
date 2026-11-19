@@ -141,6 +141,17 @@ fiches:
     description: Préparer un litre de solution alcaline pour surfaces grasses compatibles.
     totalTime: PT15M
     rendement: 1 litre
+'faq':
+- 'question': 'Peut-on mélanger les deux recettes pour avoir un produit tout-en-un ?'
+  'answer': 'Non. Le détartrant est acide, le dégraissant est basique : mélangés, ils se neutralisent et chacun perd son efficacité. Utilisez-les l''un après l''autre, avec un rinçage entre les deux.'
+- 'question': 'Les cristaux de soude, c''est la même chose que la soude caustique ?'
+  'answer': 'Non, malgré le nom. Les cristaux de soude sont du carbonate de sodium, irritant mais beaucoup moins agressif. La soude caustique, utilisée pour le savon, est de l''hydroxyde de sodium : elle est corrosive et demande des protections renforcées.'
+- 'question': 'Peut-on remplacer l''acide citrique par du vinaigre ?'
+  'answer': 'Ce ne sont pas les mêmes acides et la dose n''est pas la même : la recette ne se transpose pas telle quelle. Et dans tous les cas, jamais de vinaigre ni d''acide avec de l''eau de Javel.'
+- 'question': 'Combien de temps se garde le détartrant ?'
+  'answer': 'Aucune durée n''est promise : préparez de petites quantités, étiquetez le flacon avec la date et jetez-le dès qu''il devient trouble, forme un dépôt ou change d''odeur.'
+- 'question': 'Peut-on utiliser le détartrant sur l''inox ?'
+  'answer': 'Seulement si la notice de la surface l''autorise, et après un essai sur une zone discrète. Les finitions et les revêtements ne réagissent pas tous de la même façon.'
 ---
 
 Cette page est la version **recette** : deux produits séparés, simples et efficaces. Le
@@ -226,7 +237,46 @@ caustique, elle, est corrosive et impose en plus lunettes, ventilation et protec
 
 {{fiche:fiche-2}}
 
-<a id="materiel"></a>
+## Comment savoir si c'est réussi ?
+
+Pour le détartrant, la solution doit être parfaitement limpide une fois l'acide citrique dissous.
+Sur la surface, le calcaire s'efface à l'éponge après le temps de pose, sans frotter fort. Une
+robinetterie retrouve son aspect, sans tache mate.
+
+Pour le dégraissant, la graisse se détache à l'éponge sans insister, et la surface rincée ne colle
+plus sous le doigt. Si elle reste grasse après rinçage, recommencez l'application plutôt que de
+doubler la dose de cristaux.
+
+## Problèmes fréquents
+
+### Le calcaire ne part pas
+
+Sur un dépôt épais, une seule application ne suffit pas toujours. Renouvelez-la et frottez avec une
+éponge non abrasive. Évitez d'ajouter du vinaigre ou un autre produit : c'est le mélange qui crée
+les mauvaises surprises, pas la patience.
+
+### Des traces blanches restent après séchage
+
+C'est souvent un reste de produit séché sur la surface. Rincez à l'eau claire, puis essuyez avec un
+chiffon sec. Si les traces reviennent à chaque fois, c'est peut-être l'eau du robinet elle-même qui
+laisse du calcaire en séchant.
+
+### La surface est devenue terne ou marquée
+
+Arrêtez tout de suite et rincez abondamment. Le matériau n'était probablement pas compatible :
+pierre calcaire avec l'acide, aluminium avec le carbonate. Reprenez le tableau des surfaces plus
+haut et la notice du fabricant avant de continuer ailleurs.
+
+### Le détartrant devient trouble ou forme un dépôt
+
+On ne le garde pas. Jetez-le et refaites un flacon propre, étiqueté et daté.
+
+### Ça pique la peau ou les yeux
+
+Rincez abondamment à l'eau claire. En cas de projection dans les yeux, rincez plusieurs minutes et
+demandez un avis médical si la gêne persiste. Pour la suite : gants pendant la préparation et
+l'application, et pas de pulvérisation à hauteur du visage.
+
 ## Le matériel, en détail
 
 <a id="mat-acide"></a>
@@ -261,5 +311,7 @@ un produit étiqueté « carbonate de sodium décahydraté (Na₂CO₃·10H₂O)
 
 Le pH n'est pas un détail théorique : c'est ce qui détermine si votre nettoyant fait réellement
 le travail, et ce qui rend certains mélanges dangereux plutôt que juste inefficaces.
+
+{{faq}}
 
 {{references}}

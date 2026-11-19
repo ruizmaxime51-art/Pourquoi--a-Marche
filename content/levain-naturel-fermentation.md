@@ -103,6 +103,17 @@ fiches:
     totalTime: P7D
     rendement: 1 levain actif
     categorie: Ferment pour boulangerie
+'faq':
+- 'question': 'Pourquoi faut-il retirer la moitié du levain à chaque rafraîchi ?'
+  'answer': 'Pour qu''il reste bien nourri. Sans retrait, le volume grossit à chaque repas et la même quantité de farine nourrit de plus en plus de levain. En retirant la moitié, on garde un rapport stable entre le levain, l''eau et la farine.'
+- 'question': 'Au bout de combien de temps peut-on faire du pain ?'
+  'answer': 'Quand il double régulièrement en moins de huit heures après un rafraîchi. Selon la farine et la température, cela prend souvent 5 à 7 jours, mais certains levains demandent 10 à 14 jours. Ne vous fiez pas au calendrier, fiez-vous au bocal.'
+- 'question': 'Peut-on garder son levain au réfrigérateur ?'
+  'answer': 'Oui, le froid ralentit son activité. Avant de l''utiliser, sortez-le, observez-le et rafraîchissez-le jusqu''à ce qu''il retrouve sa montée habituelle.'
+- 'question': 'Le test du verre d''eau suffit-il ?'
+  'answer': 'C''est un repère approximatif. Suivre la montée dans un bocal gradué, cycle après cycle, est beaucoup plus fiable.'
+- 'question': 'Peut-on démarrer avec de la farine blanche ?'
+  'answer': 'C''est possible, mais le seigle ou une farine de blé plus complète démarrent plus facilement. Une option courante : farine complète pour le démarrage, puis farine blanche pour l''entretien.'
 ---
 
 Le levain naturel se réussit mieux quand on arrête de deviner : on pèse, on observe le volume,
@@ -173,7 +184,36 @@ panification ; un levain réfrigéré doit être observé et rafraîchi avant us
 selon une promesse universelle.
 
 
-<a id="materiel"></a>
+## Problèmes fréquents
+
+### Il fait des bulles, mais il ne double pas
+
+Les bulles montrent que ça fermente. Le doublement, lui, dépend aussi de la capacité du mélange à
+retenir le gaz. Marquez le niveau au feutre juste après le rafraîchi et regardez le bocal plusieurs
+fois dans la journée : un levain peut très bien monter puis retomber pendant que vous dormez. Si le
+mélange est très liquide, revérifiez vos pesées d'eau et de farine. Tout le diagnostic est dans
+[pourquoi mon levain ne monte pas](/articles/levain-ne-monte-pas).
+
+### Il était très actif au début, puis plus rien
+
+C'est classique, et ce n'est pas un échec. Pendant les premiers jours, les populations de
+microorganismes changent. Une activité forte au départ peut retomber avant que le levain ne
+s'installe vraiment. Continuez les rafraîchis sans rien changer.
+
+### Un liquide grisâtre apparaît en surface
+
+Votre levain a faim. Ce liquide apparaît souvent quand il attend trop longtemps son repas. S'il n'y
+a ni tache colorée ni duvet, rafraîchissez-le et observez l'odeur au cycle suivant.
+
+### Il sent le dissolvant
+
+Même message : il est affamé. Rafraîchissez-le avant de l'utiliser, et rapprochez un peu les repas
+s'il fait chaud chez vous.
+
+### Des taches roses, orange, vertes, noires ou un duvet
+
+Là, on ne discute pas : on jette sans goûter et on recommence dans un bocal propre.
+
 ## Le matériel, en détail
 
 <a id="mat-bocal"></a>
@@ -236,5 +276,7 @@ que d’ajouter du miel ou de changer plusieurs paramètres à la fois{{ref:sour
 Un levain peu actif se diagnostique par son historique de rafraîchis, sa température, son volume,
 son odeur et son aspect. Un protocole pesé permet de corriger un manque d’activité ; toute
 moisissure ou coloration anormale impose en revanche de jeter et recommencer.
+
+{{faq}}
 
 {{references}}

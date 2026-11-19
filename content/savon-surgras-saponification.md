@@ -132,6 +132,15 @@ fiches:
     description: Préparer environ 6 à 8 pains de savon surgras par saponification à froid.
     totalTime: P28D
     rendement: 6 à 8 pains de savon
+'faq':
+- 'question': 'Peut-on remplacer l''huile d''amande douce par une autre huile ?'
+  'answer': 'Pas sans refaire le calcul. Chaque huile demande une quantité de soude différente pour devenir du savon. Changer une huile, même à poids égal, change le surgras et peut laisser de la soude en trop. Le calculateur de surgraissage du site refait ce calcul pour vous.'
+- 'question': 'Peut-on utiliser le savon avant les quatre semaines de cure ?'
+  'answer': 'Mieux vaut attendre. Avant la fin de la cure, il contient encore beaucoup d''eau : il est plus mou et fond vite sous la douche. Attention aussi à l''inverse : la cure fait sécher le savon, elle ne corrige pas une erreur de pesée.'
+- 'question': 'Peut-on prendre un déboucheur liquide à la place de la soude en poudre ?'
+  'answer': 'Non. La recette est calculée pour de la soude caustique solide, pure à plus de 99 %. Un déboucheur contient de l''eau et parfois des additifs, et sa concentration exacte n''est pas celle de la formule.'
+- 'question': 'Pourquoi une balance au dixième de gramme ?'
+  'answer': 'Parce que la soude se pèse à 69,0 g et qu''un écart de quelques grammes change le surgras. Une balance de cuisine au gramme près n''est pas assez précise pour cette pesée.'
 ---
 
 Cette page est la version **recette** : quantités, ordre des étapes, sécurité et points de
@@ -244,7 +253,57 @@ formulation et l’émulsion sont correctes, l’essentiel de la saponification 
 la fin de la cure. Pour la comparaison détaillée entre méthode à froid et méthode à chaud, voir :
 [la notion saponification](/articles/notion-saponification).
 
-<a id="materiel"></a>
+## Comment savoir si votre savon est réussi ?
+
+Le jour du démoulage, un savon réussi se tient. Il se coupe net, sans s'effriter, et le cœur du
+pain a la même couleur et la même texture que les bords. Pas de goutte de liquide, pas de poche
+huileuse, pas de grains durs qui accrochent la lame.
+
+Ensuite, pendant la cure, il durcit et s'allège parce qu'il perd de l'eau. Pour le suivre sans
+deviner, pesez un même pain chaque semaine, au même endroit de la maison : sa masse baisse, puis se
+stabilise. Ces pesées vous disent qu'il sèche. Elles ne disent rien de la soude.
+
+C'est le point à garder en tête : aucun test fait à la maison ne prouve qu'il ne reste plus de soude
+libre. Ni la bandelette de pH, ni le « test de la langue », à ne jamais faire. Ce qui vous protège,
+ce sont des pesées justes, une trace homogène et une formule calculée. Si l'un des trois a flanché,
+le lot reste de côté.
+
+## Problèmes fréquents
+
+### Le savon est encore mou au démoulage
+
+Pas de panique dans les premiers jours. Cette formule contient 60 % d'huile d'olive, qui donne un
+savon dur à moyen terme, pas tout de suite. Reprenez quand même vos pesées : si une masse ne
+correspond pas à la recette, attendre ne corrigera rien. Le diagnostic pas à pas est ici :
+[pourquoi mon savon maison reste mou](/articles/savon-maison-trop-mou).
+
+### La pâte n'arrive pas à la trace
+
+Mixez par courtes impulsions et alternez avec la spatule : la trace arrive souvent d'un coup, après
+un moment où il ne se passe rien. Si elle ne vient vraiment pas, vérifiez deux choses avant de
+continuer : la température des deux mélanges, autour de 40–45 °C dans cette recette, et la masse de
+soude réellement pesée.
+
+### Du liquide ou une couche huileuse apparaît dans le moule
+
+La pâte s'est séparée. Ne touchez pas à mains nues, n'essayez pas de remixer pour rattraper le coup,
+et mettez le lot de côté. Les deux pistes à vérifier pour la prochaine fois : une trace pas tout à
+fait atteinte au moment de couler, ou une erreur de pesée.
+
+### Un voile blanc et poudreux couvre le dessus
+
+C'est fréquent sur un savon à froid dont la surface fraîche est restée à l'air. La soude de la
+surface réagit avec le gaz carbonique de l'air et forme une fine couche de carbonate de sodium. C'est
+un défaut d'aspect : une fois le savon dur, vous pouvez retirer une fine tranche, avec des gants.
+Attention à ne pas confondre : des cristaux durs **à l'intérieur** du pain ou une zone qui pique ne
+sont pas ce voile. Dans ce cas, le lot est écarté.
+
+### La peau tiraille ou picote à l'usage
+
+Arrêtez de l'utiliser. Un savon bien formulé et bien curé ne doit pas brûler. Gardez le pain et votre
+feuille de pesée : c'est en les comparant qu'on retrouve l'erreur, et la
+[notion de saponification](/articles/notion-saponification) aide à refaire le calcul.
+
 ## Le matériel, en détail
 
 <a id="mat-soude"></a>
@@ -294,5 +353,7 @@ premier signe de blanchiment, rayure profonde, fissure ou déformation.
 Un savon surgras réussi repose sur un calcul de saponification correct, une pesée précise, une
 émulsion homogène et une cure suffisamment longue pour perdre de l’eau et durcir. Une bandelette
 de pH ne constitue pas, à elle seule, un certificat d’absence de soude libre.
+
+{{faq}}
 
 {{references}}

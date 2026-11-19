@@ -107,6 +107,15 @@ fiches:
     totalTime: P5D
     rendement: 1 bocal d’environ 1 litre
     categorie: Légumes fermentés
+'faq':
+- 'question': 'Faut-il obligatoirement un pH-mètre ?'
+  'answer': 'Pour cette recette, oui. C''est la mesure d''un pH inférieur ou égal à 4,60 qui indique que les carottes sont assez acides pour être consommées. L''odeur ou le goût ne donnent pas cette information, et une bandelette universelle manque de précision autour de ce seuil.'
+- 'question': 'Peut-on utiliser la même saumure pour d''autres légumes ?'
+  'answer': 'Ne transposez pas les proportions au hasard. Le sel se calcule différemment selon la méthode, saumure ou salage à sec, et selon le légume. Le guide général de la lacto-fermentation donne les repères légume par légume.'
+- 'question': 'Est-ce normal qu''il y ait des bulles ?'
+  'answer': 'Oui, la fermentation produit du gaz. Mais les bulles ne prouvent pas que tout se passe bien : c''est l''ensemble des signes, et surtout le pH, qui permet de décider.'
+- 'question': 'Peut-on ajouter de l''ail ou des herbes ?'
+  'answer': 'Oui, la recette prévoit des aromates facultatifs : une gousse d''ail, du poivre, de l''aneth. Ajoutez-les propres et gardez-les sous la saumure comme les carottes.'
 ---
 
 Cette page reste volontairement une **recette de carottes lacto-fermentées**. Les principes
@@ -179,7 +188,57 @@ fermentation. La différence est la méthode : les carottes baignent dans une sa
 3 %, tandis que le kimchi est d’abord salé puis rincé avant d’être mélangé à sa pâte
 d’assaisonnement{{ref:csu-kimchi}}{{ref:osu-kimchi-basics}}.
 
-<a id="materiel"></a>
+## Quand les carottes sont-elles prêtes à réfrigérer ?
+
+Pour cette recette, tout repose sur quatre contrôles : peser la saumure, garder les carottes
+immergées, vérifier un pH final inférieur ou égal à 4,60 et passer au froid. Pour varier les
+légumes, utilisez le guide général plutôt que de transposer les proportions au hasard.
+
+## Problèmes fréquents
+
+### Un voile blanc apparaît à la surface
+
+Ne goûtez pas pour savoir si « ça va ». Un film blanc lisse peut venir de levures de surface, mais
+l'œil ne permet pas de faire la différence avec une moisissure. Un duvet, des filaments ou des taches
+colorées : le bocal entier part à la poubelle. Le
+[guide odeur, voile blanc ou moisissure](/articles/lacto-fermentation-odeur-moisissure) détaille
+comment décider.
+
+### Les carottes remontent à la surface
+
+C'est le problème le plus courant, et le plus facile à éviter. Un bâtonnet qui dépasse de la saumure
+est exposé à l'air. Coupez les carottes un peu plus court que la hauteur du bocal, calez-les bien
+serrées et posez un poids en verre qui reste stable.
+
+### La saumure devient trouble
+
+Pendant la fermentation, un liquide trouble avec quelques bulles peut être normal. Ce signe seul ne
+dit ni que tout va bien, ni que c'est raté. Regardez l'ensemble : immersion, odeur, aspect des
+carottes, et surtout le pH.
+
+### Le bocal déborde
+
+Le gaz produit fait monter le liquide. Laissez l'espace libre prévu sous le couvercle, utilisez une
+fermeture qui laisse sortir le gaz, et posez le bocal sur une assiette les premiers jours.
+
+### Le pH ne descend pas sous 4,60
+
+Ne consommez pas les carottes tant que la mesure n'y est pas. Vérifiez d'abord l'étalonnage du
+pH-mètre avec les tampons 4 et 7, puis continuez à mesurer. Si le pH ne bouge plus, ou si l'aspect
+ou l'odeur deviennent anormaux, jetez le bocal plutôt que d'ajouter du vinaigre pour « corriger » :
+un ajout après coup ne rattrape pas une fermentation mal partie.
+
+### Les carottes sont molles ou visqueuses
+
+Des légumes devenus mous, visqueux ou à l'odeur putride sont écartés. Pour le prochain bocal,
+repesez le sel et vérifiez que tout reste bien immergé.
+
+## Conservation
+
+Une fois le bon pH atteint, le bocal passe au réfrigérateur. Gardez les carottes sous la saumure et
+servez-vous toujours avec un ustensile propre, jamais avec les doigts. Au moindre changement
+d'aspect ou d'odeur, on ne goûte pas : on jette.
+
 ## Le matériel, en détail
 
 <a id="mat-bocal"></a>
@@ -201,10 +260,6 @@ d’assaisonnement{{ref:csu-kimchi}}{{ref:osu-kimchi-basics}}.
 - **Saumure** — solution d'eau salée dans laquelle baignent les légumes
 - **Salage à sec** — méthode où le sel est massé directement sur un légume râpé/émincé, qui relâche sa propre eau
 
-## Quand les carottes sont-elles prêtes à réfrigérer ?
-
-Pour cette recette, tout repose sur quatre contrôles : peser la saumure, garder les carottes
-immergées, vérifier un pH final inférieur ou égal à 4,60 et passer au froid. Pour varier les
-légumes, utilisez le guide général plutôt que de transposer les proportions au hasard.
+{{faq}}
 
 {{references}}
