@@ -46,7 +46,7 @@ export async function GET(_req, { params }) {
 
   const cat = categories[meta.category]?.title || 'Fait maison';
   const photo = photoUrl(meta.image);
-  const allText = `${pin.accroche}${pin.promesse}${pin.badge}${cat}chimiemaison.frLa chimie du fait maison, expliquée et sourcée`;
+  const allText = `${pin.accroche}${pin.promesse}${pin.badge}${cat}chimiemaison.frRecettes expliquées et sourcées`;
   const [display, textBold] = await Promise.all([
     loadGoogleFont('Archivo Black', 400, allText),
     loadGoogleFont('Source Sans 3', 700, allText),
@@ -89,7 +89,7 @@ export async function GET(_req, { params }) {
         {/* Bas : la marque */}
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', background: INK, color: PAPER, padding: '0 64px', height: 110 }}>
           <div style={{ display: 'flex', fontFamily: 'Display', fontSize: 40 }}>chimiemaison.fr</div>
-          <div style={{ display: 'flex', fontSize: 26, color: HI }}>La chimie du fait maison, expliquée et sourcée</div>
+          <div style={{ display: 'flex', fontSize: 28, color: HI }}>Recettes expliquées et sourcées</div>
         </div>
       </div>
     ),
