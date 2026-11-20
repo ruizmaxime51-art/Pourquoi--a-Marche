@@ -55,6 +55,11 @@ const nextConfig = {
           },
         ],
       },
+      {
+        // Les épingles doivent pouvoir être lues par Pinterest.
+        source: '/pins/:path*',
+        headers: [{ key: 'Cross-Origin-Resource-Policy', value: 'cross-origin' }],
+      },
     ];
   },
 };
