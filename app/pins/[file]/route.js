@@ -1,7 +1,10 @@
 import { ImageResponse } from 'next/og';
 import { getAllArticlesMeta } from '@/lib/articles';
 import { categories } from '@/lib/categories';
-import { pins } from '@/lib/pins';
+import { pins, tableaux, tableauDe } from '@/lib/pins';
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import sharp from 'sharp';
 
 // Épingles Pinterest 1000 × 1500 (format 2:3 recommandé par Pinterest),
 // générées au build : /pins/<slug>.png
@@ -32,9 +35,20 @@ async function loadGoogleFont(family, weight, text) {
   }
 }
 
-function photoUrl(image) {
+// Photo distante (Unsplash) ou image locale (/images/*.webp, convertie en JPEG pour le moteur de rendu).
+async function photoSrc(image) {
   const m = /^(https:\/\/images\.unsplash\.com\/photo-[\w-]+)/.exec(image || '');
-  return m ? `${m[1]}?fm=jpg&fit=crop&w=${W}&h=980&q=80` : null;
+  if (m) return `${m[1]}?fm=jpg&fit=crop&w=${W}&h=980&q=80`;
+  if (image && image.startsWith('/')) {
+    try {
+      const buf = await fs.readFile(path.join(process.cwd(), 'public', image));
+      const jpg = await sharp(buf).resize(W, 980, { fit: 'cover' }).jpeg({ quality: 82 }).toBuffer();
+      return `data:image/jpeg;base64,${jpg.toString('base64')}`;
+    } catch {
+      return null;
+    }
+  }
+  return null;
 }
 
 export async function GET(_req, { params }) {
@@ -44,8 +58,9 @@ export async function GET(_req, { params }) {
   const meta = getAllArticlesMeta().find((a) => a.slug === slug);
   if (!pin || !meta) return new Response('Not found', { status: 404 });
 
-  const cat = categories[meta.category]?.title || 'Fait maison';
-  const photo = photoUrl(meta.image);
+  const t = tableauDe(slug, meta.category);
+  const cat = (t && tableaux[t].nom) || categories[meta.category]?.title || 'Fait maison';
+  const photo = await photoSrc(meta.image);
   const allText = `${pin.accroche}${pin.promesse}${pin.badge}${cat}chimiemaison.frRecettes expliquées et sourcées`;
   const [display, textBold] = await Promise.all([
     loadGoogleFont('Archivo Black', 400, allText),
