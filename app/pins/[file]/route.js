@@ -61,7 +61,7 @@ async function photoSrc(image) {
   if (m) buf = await fetchWithRetry(`${m[1]}?fm=jpg&fit=crop&w=${W}&h=980&q=80`);
   else if (image && image.startsWith('/')) buf = await fs.readFile(path.join(process.cwd(), 'public', image));
   else throw new Error(`Image non prise en charge : ${image}`);
-  const jpg = await sharp(buf).rotate().resize(W, 980, { fit: 'cover' }).toColorspace('srgb').jpeg({ quality: 82 }).toBuffer();
+  const jpg = await sharp(buf).rotate().resize(W, 980, { fit: 'cover', position: sharp.strategy.attention }).toColorspace('srgb').jpeg({ quality: 82 }).toBuffer();
   return `data:image/jpeg;base64,${jpg.toString('base64')}`;
 }
 
