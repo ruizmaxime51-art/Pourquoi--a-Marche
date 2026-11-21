@@ -35,20 +35,34 @@ async function loadGoogleFont(family, weight, text) {
   }
 }
 
-// Photo distante (Unsplash) ou image locale (/images/*.webp, convertie en JPEG pour le moteur de rendu).
-async function photoSrc(image) {
-  const m = /^(https:\/\/images\.unsplash\.com\/photo-[\w-]+)/.exec(image || '');
-  if (m) return `${m[1]}?fm=jpg&fit=crop&w=${W}&h=980&q=80`;
-  if (image && image.startsWith('/')) {
+// Photo distante (Unsplash) ou image locale (/images/*.webp).
+// Les deux sont téléchargées/lues ici, avec plusieurs essais, puis converties en JPEG
+// et passées en data URI : le rendu ne dépend plus d'un téléchargement fait par le moteur
+// d'image, qui échouait parfois au build et laissait une épingle grise.
+// Si la photo reste introuvable, le build échoue plutôt que de publier une épingle vide.
+async function fetchWithRetry(url, tries = 4) {
+  let lastErr;
+  for (let i = 0; i < tries; i++) {
     try {
-      const buf = await fs.readFile(path.join(process.cwd(), 'public', image));
-      const jpg = await sharp(buf).resize(W, 980, { fit: 'cover' }).jpeg({ quality: 82 }).toBuffer();
-      return `data:image/jpeg;base64,${jpg.toString('base64')}`;
-    } catch {
-      return null;
+      const res = await fetch(url, { headers: { Accept: 'image/jpeg,image/*' } });
+      if (res.ok) return Buffer.from(await res.arrayBuffer());
+      lastErr = new Error(`HTTP ${res.status}`);
+    } catch (e) {
+      lastErr = e;
     }
+    await new Promise((r) => setTimeout(r, 800 * (i + 1)));
   }
-  return null;
+  throw lastErr;
+}
+
+async function photoSrc(image) {
+  let buf;
+  const m = /^(https:\/\/images\.unsplash\.com\/photo-[\w-]+)/.exec(image || '');
+  if (m) buf = await fetchWithRetry(`${m[1]}?fm=jpg&fit=crop&w=${W}&h=980&q=80`);
+  else if (image && image.startsWith('/')) buf = await fs.readFile(path.join(process.cwd(), 'public', image));
+  else throw new Error(`Image non prise en charge : ${image}`);
+  const jpg = await sharp(buf).rotate().resize(W, 980, { fit: 'cover' }).toColorspace('srgb').jpeg({ quality: 82 }).toBuffer();
+  return `data:image/jpeg;base64,${jpg.toString('base64')}`;
 }
 
 export async function GET(_req, { params }) {
